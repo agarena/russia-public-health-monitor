@@ -78,3 +78,31 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+  notify-failure:
+    needs: collect-and-deploy
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: 打开维护提醒 Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              '定时流水线失败，需要维护者检查。',
+              '',
+              `- 运行记录：${runUrl}`,
+              '- 常见原因：某数据源长时间不可用（查看 source_health）、网络波动、合规门禁拦截（检查最近的数据修改）。',
+              '- 注意：流水线失败不影响线上已有数据（发布为原子替换）。',
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `维护提醒：定时采集/部署失败 (#${context.runId})`,
+              body,
+              labels: ['maintenance'],
+            });

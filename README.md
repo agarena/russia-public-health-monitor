@@ -71,6 +71,9 @@ skills/      AI-agent maintenance skill (CLI-equivalent, agent-optional)
 docs/        Self-hosting guide, data schema
 ```
 
+Data structures are documented in **[docs/data-schema.md](docs/data-schema.md)**;
+contribution guidelines in **[CONTRIBUTING.md](CONTRIBUTING.md)**.
+
 ## Local development
 
 Requirements: Node ≥ 20, Python ≥ 3.11 (with [uv](https://docs.astral.sh/uv/)).

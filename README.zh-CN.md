@@ -67,6 +67,9 @@ skills/      AI 代理维护技能（均有等价命令行，不依赖 AI）
 docs/        自搭建指南、数据结构说明
 ```
 
+数据结构说明见 **[docs/data-schema.md](docs/data-schema.md)**；
+贡献指南见 **[CONTRIBUTING.md](CONTRIBUTING.md)**。
+
 ## 本地开发
 
 环境要求：Node ≥ 20、Python ≥ 3.11（配合 [uv](https://docs.astral.sh/uv/)）。

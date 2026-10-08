@@ -35,3 +35,11 @@
   §72 系统提示词固化为代码常量，AI 建议状态强制不得为 confirmed；
   审核队列与 CLI（`processor.review list/show/approve/reject`，append-only 写入，
   S/A 级 + 人工才能 confirmed 的硬规则代码化）；证据页新增语言与来源等级筛选。
+- M4：评分引擎（attention score 六组件权重 + O/L/C/趋势建议值；否认/待核实语境不构成
+  阶段推进证据；死亡数/报道量/转发量不参与升级）；评级确认 CLI
+  （`processor.ratings suggest/apply/log`，apply 必填理由与依据来源）；
+  评级变更记录进入 public-data 并在方法论页展示。
+- M5：信息链路审计 CLI（`processor.audit --signal/--event`）与健康检查
+  （`processor.status`）；维护技能 `skills/russia-monitor`（六动作：collect/review/
+  update/publish/audit/status，均含等价命令行）；数据结构文档 `docs/data-schema.md`；
+  贡献指南；流水线失败自动开维护 Issue；README 双语定稿。

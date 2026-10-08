@@ -1,7 +1,7 @@
 # 统一命令入口。
 # Windows 本机若无 make，可使用各目标注释里的等价命令；CI 与 Linux/macOS 自托管环境直接使用 make。
 
-.PHONY: setup dev sync-data build typecheck test test-web test-py lint collect propose review process pipeline policy-check preview
+.PHONY: setup dev sync-data build typecheck test test-web test-py lint collect propose review process pipeline policy-check audit status preview
 
 PY = uv run --project .
 
@@ -49,6 +49,12 @@ pipeline: collect process build
 
 policy-check:     ## 合规门禁：禁词扫描 + 上限校验 + schema 校验
 	$(PY) python -m processor.policy_check
+
+audit:            ## 信息链路审计（--signal ID 或 --event）
+	$(PY) python -m processor.audit --event
+
+status:           ## 健康检查：队列/来源/信号分布/数据新鲜度
+	$(PY) python -m processor.status
 
 preview:          ## 预览已构建的站点
 	cd frontend && npm run preview
