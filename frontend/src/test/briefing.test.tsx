@@ -52,11 +52,10 @@ describe("单页简报结构", () => {
     expect(hero!.textContent).not.toMatch(/\b(L[0-3]|O[0-8]|C[0-4])\b/);
   });
 
-  it("第一屏：四维状态分开显示 + 一句话判断 + 更新时间", () => {
+  it("第一屏：统一状态牌三个维度 + 一句话判断 + 更新时间", () => {
     renderPage();
-    expect(screen.getByText("当前关注等级")).toBeInTheDocument();
-    // 首屏标签 + 阶段区块标题各出现一次
-    expect(screen.getAllByText("公开信息观察阶段").length).toBeGreaterThanOrEqual(2);
+    expect(screen.getByText("关注等级")).toBeInTheDocument();
+    expect(screen.getByText("观察阶段")).toBeInTheDocument();
     expect(screen.getByText("证据完整度")).toBeInTheDocument();
     expect(screen.getByText("一句话判断")).toBeInTheDocument();
     expect(screen.getByText(/最后更新/)).toBeInTheDocument();

@@ -1,4 +1,5 @@
-// 第一屏：当前状态。不滚动即可知道 关注等级 / 观察阶段 / 证据完整度（等级公示牌式）+ 一句话判断 + 更新时间。
+// 第一屏：当前状态。一张统一的「状态牌」承载三个维度（等级彩带滑块），
+// 不滚动即可知道 关注等级 / 观察阶段 / 证据完整度 + 一句话判断 + 更新时间。
 import { event, statusData } from "@/data";
 import {
   ATTENTION_LEVELS,
@@ -7,10 +8,68 @@ import {
   phaseMeta,
 } from "@/lib/constants";
 import { formatDate, formatDateTime, formatRelative } from "@/lib/format";
+import type { ReactNode } from "react";
 import Meter from "@/sections/Meter";
 
-export default function StatusHero() {
+function StatusPlate() {
   const phase = phaseMeta(event.observation_phase);
+  const rows: { label: string; caption: ReactNode; meter: ReactNode }[] = [
+    {
+      label: "关注等级",
+      caption: "信息值得关注程度，非疾病概率",
+      meter: (
+        <Meter
+          options={ATTENTION_LEVELS.map((l) => ({ key: l.code, label: l.label, emoji: l.emoji }))}
+          currentKey={event.attention_level}
+          tone="signal"
+        />
+      ),
+    },
+    {
+      label: "观察阶段",
+      caption: (
+        <>当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定</>
+      ),
+      meter: (
+        <Meter
+          options={OBSERVATION_PHASES.map((p) => ({ key: p.code, label: p.short }))}
+          currentKey={event.observation_phase}
+        />
+      ),
+    },
+    {
+      label: "证据完整度",
+      caption: "公开证据支持程度",
+      meter: (
+        <Meter
+          options={EVIDENCE_CONFIDENCE.map((c) => ({ key: c.code, label: c.label }))}
+          currentKey={event.confidence}
+        />
+      ),
+    },
+  ];
+
+  return (
+    <div className="rounded-xl border border-slate-200 bg-white shadow-[0_1px_2px_rgba(15,23,42,0.04)]">
+      {rows.map((row) => (
+        <div
+          key={row.label}
+          className="border-b border-slate-100 px-4 py-3.5 last:border-b-0 md:px-6"
+        >
+          <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-5">
+            <span className="w-20 shrink-0 text-xs font-medium text-slate-500">{row.label}</span>
+            <div className="min-w-0 flex-1">{row.meter}</div>
+          </div>
+          <p className="mt-1.5 text-[11px] text-slate-400 md:pl-[calc(5rem+1.25rem)]">
+            {row.caption}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default function StatusHero() {
   const abnormal = statusData.sources_total - statusData.sources_healthy;
 
   return (
@@ -24,46 +83,8 @@ export default function StatusHero() {
         {event.title}
       </h1>
 
-      <div className="mt-8 space-y-5 border-y border-slate-200 py-6">
-        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
-          <div className="text-xs text-slate-400">当前关注等级</div>
-          <div>
-            <Meter
-              options={ATTENTION_LEVELS.map((l) => ({
-                key: l.code,
-                label: l.label,
-                emoji: l.emoji,
-              }))}
-              currentKey={event.attention_level}
-              tone="signal"
-            />
-            <p className="mt-1.5 text-[11px] text-slate-400">信息值得关注程度，非疾病概率</p>
-          </div>
-        </div>
-
-        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
-          <div className="text-xs text-slate-400">公开信息观察阶段</div>
-          <div>
-            <Meter
-              options={OBSERVATION_PHASES.map((p) => ({ key: p.code, label: p.short }))}
-              currentKey={event.observation_phase}
-            />
-            <p className="mt-1.5 text-[11px] text-slate-400">
-              当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定
-            </p>
-          </div>
-        </div>
-
-        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
-          <div className="text-xs text-slate-400">证据完整度</div>
-          <div>
-            <Meter
-              options={EVIDENCE_CONFIDENCE.map((c) => ({ key: c.code, label: c.label }))}
-              currentKey={event.confidence}
-            />
-            <p className="mt-1.5 text-[11px] text-slate-400">公开证据支持程度</p>
-          </div>
-        </div>
+      <div className="mt-8">
+        <StatusPlate />
       </div>
 
       <div className="mt-8 border-l-2 border-slate-800 pl-5">
