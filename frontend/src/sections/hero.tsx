@@ -7,7 +7,7 @@ import {
   OBSERVATION_PHASES,
   phaseMeta,
 } from "@/lib/constants";
-import { formatDate, formatDateTime, formatRelative } from "@/lib/format";
+import { formatDateTime, formatRelative } from "@/lib/format";
 import type { ReactNode } from "react";
 import Meter from "@/sections/Meter";
 
@@ -98,8 +98,20 @@ export default function StatusHero() {
 
   return (
     <header id="overview" className="scroll-mt-20 pb-10 pt-10 md:pb-14 md:pt-16">
+      {/* 全站唯一的更新时间与数据源健康展示 */}
       <p className="text-xs leading-relaxed text-slate-400">
-        单一事件公开信息简报 · 首次公开报道 {formatDate(event.first_seen)} · 持续更新 ·
+        单一事件公开信息简报 · 最后更新{" "}
+        <span className="text-slate-600">
+          {formatDateTime(event.last_updated)}（{formatRelative(event.last_updated)}）
+        </span>{" "}
+        · 数据源 {statusData.sources_healthy}/{statusData.sources_total} 正常
+        {abnormal > 0 && (
+          <span className="text-amber-700">
+            （{abnormal} 个暂时不可用，当前数据可能存在延迟）
+          </span>
+        )}
+        {" · "}
+        {event.demo && <span className="text-sky-700">演示数据 · </span>}
         「俄罗斯鼠疫」为近期热搜关键词的简称，官方定名后本站将更新
       </p>
       <h1 className="mt-3 text-[26px] font-bold leading-snug tracking-tight text-slate-900 md:text-4xl md:leading-tight">
@@ -118,17 +130,6 @@ export default function StatusHero() {
         <p className="text-[11px] text-slate-400">一句话判断</p>
         <p className="mt-1.5 max-w-4xl text-lg leading-relaxed text-slate-800">{event.summary}</p>
       </div>
-
-      <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-slate-400">
-        <span>最后更新 {formatDateTime(event.last_updated)}（{formatRelative(event.last_updated)}）</span>
-        <span className="rounded border border-slate-200 bg-slate-50 px-1.5 py-0.5">
-          数据源 {statusData.sources_healthy}/{statusData.sources_total} 正常
-          {abnormal > 0 && <span className="text-amber-700">（{abnormal} 个降级）</span>}
-        </span>
-        {event.demo && (
-          <span className="rounded border border-sky-200 bg-sky-50 px-1.5 py-0.5 text-sky-700">演示数据</span>
-        )}
-      </p>
     </header>
   );
 }
