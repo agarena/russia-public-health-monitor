@@ -19,7 +19,7 @@
       "@/*": ["./src/*"],
       "@data/*": ["./src/generated-data/*"]
     },
-    "types": ["vite/client", "node"]
+    "types": ["vite/client", "node", "vitest/globals"]
   },
   "include": ["src", "vite.config.ts"]
 }

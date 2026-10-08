@@ -1,10 +1,26 @@
+import { Route, Routes } from "react-router-dom";
+import Layout from "@/components/Layout";
+import HomePage from "@/pages/HomePage";
+import TimelinePage from "@/pages/TimelinePage";
+import SourcesPage from "@/pages/SourcesPage";
+import EvidencePage from "@/pages/EvidencePage";
+import HistoryPage from "@/pages/HistoryPage";
+import MethodologyPage from "@/pages/MethodologyPage";
+import DisclaimerPage from "@/pages/DisclaimerPage";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <main className="mx-auto max-w-5xl px-4 py-16">
-        <h1 className="text-xl font-semibold">俄罗斯公共卫生事件公开信息观察站</h1>
-        <p className="mt-2 text-sm text-slate-500">骨架就绪 —— 界面在 M1 里程碑实现。</p>
-      </main>
-    </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="timeline" element={<TimelinePage />} />
+        <Route path="sources" element={<SourcesPage />} />
+        <Route path="evidence" element={<EvidencePage />} />
+        <Route path="history" element={<HistoryPage />} />
+        <Route path="methodology" element={<MethodologyPage />} />
+        <Route path="disclaimer" element={<DisclaimerPage />} />
+        <Route path="*" element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 }

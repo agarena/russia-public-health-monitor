@@ -7,7 +7,7 @@
     "sync-data": "node scripts/sync-data.mjs",
     "dev": "node scripts/sync-data.mjs && vite",
     "build": "node scripts/sync-data.mjs && tsc --noEmit && vite build && node scripts/post-build.mjs",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "node scripts/sync-data.mjs && tsc --noEmit",
     "test": "node scripts/sync-data.mjs && vitest run",
     "preview": "vite preview"
   },

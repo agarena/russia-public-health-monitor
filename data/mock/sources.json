@@ -1,0 +1,165 @@
+{
+  "updated_at": "2026-10-08T09:05:00Z",
+  "sources": [
+    {
+      "id": "src-who",
+      "name": "WHO",
+      "name_zh": "世界卫生组织",
+      "type": "official",
+      "tier": "S",
+      "language": "en",
+      "country_or_region": "全球",
+      "official": true,
+      "url": "https://www.who.int",
+      "description_zh": "联合国卫生机构，疫情暴发新闻（DON）与声明。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-rospotr",
+      "name": "Rospotrebnadzor",
+      "name_zh": "俄联邦消费者权益保护与公益监督局",
+      "type": "official",
+      "tier": "S",
+      "language": "ru",
+      "country_or_region": "俄罗斯",
+      "official": true,
+      "url": "https://www.rospotrebnadzor.ru",
+      "description_zh": "俄罗斯联邦卫生与流行病学监督主管部门。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-irk-gov",
+      "name": "Irkutsk Oblast Government",
+      "name_zh": "伊尔库茨克州政府",
+      "type": "official",
+      "tier": "S",
+      "language": "ru",
+      "country_or_region": "俄罗斯（伊尔库茨克州）",
+      "official": true,
+      "url": "https://www.irkobl.ru",
+      "description_zh": "事件发生地州政府官方公告页。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-reuters",
+      "name": "Reuters",
+      "name_zh": "路透社",
+      "type": "international_media",
+      "tier": "A",
+      "language": "en",
+      "country_or_region": "全球",
+      "official": false,
+      "url": "https://www.reuters.com",
+      "description_zh": "国际通讯社。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-ap",
+      "name": "AP News",
+      "name_zh": "美联社",
+      "type": "international_media",
+      "tier": "A",
+      "language": "en",
+      "country_or_region": "全球",
+      "official": false,
+      "url": "https://www.apnews.com",
+      "description_zh": "国际通讯社。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-tass",
+      "name": "TASS",
+      "name_zh": "俄通社-塔斯社",
+      "type": "local_media",
+      "tier": "B",
+      "language": "ru",
+      "country_or_region": "俄罗斯",
+      "official": false,
+      "url": "https://tass.com",
+      "description_zh": "俄罗斯大型通讯社（俄国内口径观察）。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-irk-media",
+      "name": "Irkutsk Local News",
+      "name_zh": "伊尔库茨克地方新闻社（演示）",
+      "type": "local_media",
+      "tier": "B",
+      "language": "ru",
+      "country_or_region": "俄罗斯（伊尔库茨克州）",
+      "official": false,
+      "url": "https://www.irk.ru",
+      "description_zh": "事件发生地本地媒体，用于发现本地最早变化。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-rbc",
+      "name": "RBC",
+      "name_zh": "俄商业日报（演示）",
+      "type": "local_media",
+      "tier": "B",
+      "language": "ru",
+      "country_or_region": "俄罗斯",
+      "official": false,
+      "url": "https://www.rbc.ru",
+      "description_zh": "俄罗斯全国性商业媒体。",
+      "collection_status": "degraded",
+      "last_collected_at": "2026-10-07T21:00:00Z"
+    },
+    {
+      "id": "src-expert-01",
+      "name": "Public epidemiologist account",
+      "name_zh": "流行病学专家公开账号（演示）",
+      "type": "expert",
+      "tier": "C",
+      "language": "ru",
+      "country_or_region": "俄罗斯",
+      "official": false,
+      "url": "https://example.com/demo/expert-01",
+      "description_zh": "专家/记者公开账号，仅用于发现潜在早期信号。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    },
+    {
+      "id": "src-tg-01",
+      "name": "Public Telegram channel",
+      "name_zh": "公开 Telegram 频道（演示）",
+      "type": "social",
+      "tier": "D",
+      "language": "ru",
+      "country_or_region": "俄罗斯",
+      "official": false,
+      "url": "https://example.com/demo/tg-01",
+      "description_zh": "公开社交平台，只用于发现信息，不用于确认事实。",
+      "collection_status": "healthy",
+      "last_collected_at": "2026-10-08T09:00:00Z"
+    }
+  ],
+  "relations": [
+    {
+      "from": "src-reuters",
+      "to": "src-irk-media",
+      "type": "cites",
+      "note_zh": "Reuters 2026-09-18 报道引用了本地媒体最早披露的信息"
+    },
+    {
+      "from": "src-tass",
+      "to": "src-rospotr",
+      "type": "cites",
+      "note_zh": "TASS 2026-10-08 报道基于 Rospotrebnadzor 通报转述"
+    },
+    {
+      "from": "src-rbc",
+      "to": "src-irk-media",
+      "type": "cites",
+      "note_zh": "RBC 的病例数报道引用了本地媒体口径"
+    }
+  ]
+}

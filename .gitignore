@@ -24,3 +24,6 @@ Thumbs.db/
 *.log
 .idea/
 .vscode/
+
+# ZCode 本地会话文件
+.zcode/

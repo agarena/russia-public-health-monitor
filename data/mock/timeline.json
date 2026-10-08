@@ -1,0 +1,109 @@
+{
+  "updated_at": "2026-10-08T09:05:00Z",
+  "entries": [
+    {
+      "id": "tl-001",
+      "date": "2026-09-12",
+      "date_precision": "day",
+      "title": "出现第一条相关报道",
+      "description": "伊尔库茨克本地媒体报道一名不明原因重症肺炎患者住院治疗，病因未确定。",
+      "status": "reported",
+      "source_ids": ["signal-001"]
+    },
+    {
+      "id": "tl-002",
+      "date": "2026-09-14",
+      "date_precision": "day",
+      "title": "官方发布声明，确认正在调查",
+      "description": "伊尔库茨克州卫生部门通报确认存在不明原因肺炎病例，已启动流行病学调查。",
+      "status": "confirmed",
+      "source_ids": ["signal-002"]
+    },
+    {
+      "id": "tl-003",
+      "date": "2026-09-16",
+      "date_precision": "day",
+      "title": "社交平台出现「鼠疫」传言",
+      "description": "公开 Telegram 频道出现「鼠疫」说法，无任何可靠来源支持，仅作为未确认信息线索记录。",
+      "status": "unconfirmed",
+      "source_ids": ["signal-003"]
+    },
+    {
+      "id": "tl-004",
+      "date": "2026-09-18",
+      "date_precision": "day",
+      "title": "国际媒体开始报道",
+      "description": "路透社报道该事件，信息源头与本地媒体最早报道同源（转载关系已标注，不重复计入独立来源）。",
+      "status": "reported",
+      "source_ids": ["signal-004"]
+    },
+    {
+      "id": "tl-005",
+      "date": "2026-09-20",
+      "date_precision": "day",
+      "title": "联邦监督部门声明已取样送检",
+      "description": "Rospotrebnadzor 西伯利亚分局声明已对患者样本取样并送实验室检测。",
+      "status": "reported",
+      "source_ids": ["signal-005"]
+    },
+    {
+      "id": "tl-006",
+      "date": "2026-09-20",
+      "date_precision": "day",
+      "title": "「第二例」报道出现后被撤回",
+      "description": "某俄媒报道出现第二例相关病例，次日因消息来源无法核实被原机构撤回。",
+      "status": "retracted",
+      "source_ids": ["signal-006"],
+      "correction": {
+        "previous_status": "reported",
+        "note": "原报道机构撤回该报道，原因：消息来源无法核实。历史记录保留，以呈现「当时人们知道什么」。",
+        "at": "2026-09-21"
+      }
+    },
+    {
+      "id": "tl-007",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "title": "媒体对病例数说法不一",
+      "description": "本地媒体与全国性媒体对已报告病例数给出不同数字，官方未公布具体数字，公开口径存在差异。",
+      "status": "contradicted",
+      "source_ids": ["signal-007"]
+    },
+    {
+      "id": "tl-008",
+      "date": "2026-10-02",
+      "date_precision": "day",
+      "title": "官方公布首批初步检测结果",
+      "description": "Rospotrebnadzor 通报：初步实验室结果排除流感病毒与新型冠状病毒，继续检测其他病原。",
+      "status": "confirmed",
+      "source_ids": ["signal-008"]
+    },
+    {
+      "id": "tl-009",
+      "date": "2026-10-05",
+      "date_precision": "day",
+      "title": "WHO 回应：已知悉并监测",
+      "description": "WHO 发言人表示已知悉相关公开报道，与俄方保持联系，处于监测状态。",
+      "status": "confirmed",
+      "source_ids": ["signal-009"]
+    },
+    {
+      "id": "tl-010",
+      "date": "2026-10-06",
+      "date_precision": "day",
+      "title": "单一来源提及医护人员接受观察",
+      "description": "本地媒体报道收治医院有医护人员接受医学观察，仅有单一来源，官方未确认。",
+      "status": "unconfirmed",
+      "source_ids": ["signal-010"]
+    },
+    {
+      "id": "tl-011",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "接触者医学观察范围扩大（报道）",
+      "description": "TASS 转述官方通报称接触者医学观察范围扩大，未公布具体人数。",
+      "status": "reported",
+      "source_ids": ["signal-011"]
+    }
+  ]
+}

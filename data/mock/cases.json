@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-10-08T09:05:00Z",
+  "cases": [
+    {
+      "id": "case-001",
+      "event_id": "russia-public-health-2026",
+      "age_group": "adult",
+      "location": "伊尔库茨克",
+      "occupation": "未公开",
+      "onset_date": "2026-09-10",
+      "exposure": "公开资料未提及明确暴露史",
+      "status": "reported",
+      "source_ids": ["signal-001", "signal-002"]
+    },
+    {
+      "id": "case-002",
+      "event_id": "russia-public-health-2026",
+      "age_group": null,
+      "location": "伊尔库茨克（报道口径）",
+      "occupation": null,
+      "onset_date": null,
+      "exposure": null,
+      "status": "unconfirmed",
+      "source_ids": ["signal-006"]
+    },
+    {
+      "id": "case-003",
+      "event_id": "russia-public-health-2026",
+      "age_group": "adult",
+      "location": "伊尔库茨克",
+      "occupation": "医护人员（报道口径）",
+      "onset_date": null,
+      "exposure": "与 case-001 存在可能接触（仅单一来源提及）",
+      "status": "unconfirmed",
+      "source_ids": ["signal-010"]
+    }
+  ]
+}

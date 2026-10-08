@@ -1,0 +1,54 @@
+# 全局设置：评分权重、首页上限、合规禁词。由 processor 读取。
+event_id: russia-public-health-2026
+
+# 首页信息密度上限（规格书 §24/§94）
+homepage_caps:
+  key_changes: 6
+  confirmed: 5
+  unconfirmed: 5
+  unknowns: 5
+  next_triggers: 5
+
+# 内部 attention score 权重（0-100，前端不显示数字；规格书 §32）
+attention_score_weights:
+  transmission_evidence: 35
+  geographic_spread: 20
+  information_velocity: 15
+  severity: 10
+  pathogen_relevance: 10
+  official_measure_change: 10
+
+# 合规禁词（正则）：命中即阻断。规格书 §7/§95。
+# 豁免：signal.is_quotation = true 的条目、title_original（原文归属来源）、name 等归属字段。
+# 注意：只扫描数据文件（mock/public-data/history），不扫描前端源码——
+# 免责声明/方法论页面包含对禁词的否定性陈述，属于合规内容。
+banned_patterns:
+  - "爆发概率"
+  - "感染概率"
+  - "患病概率"
+  - "中招概率"
+  - "预测准确率"
+  - "预测成功"
+  - "AI预测"
+  - "提前预测"
+  - "比官方提前"
+  - "预计.{0,8}爆发"
+  - "席卷全球"
+  - "席卷全国"
+  - "疫情失控"
+  - "全球灾难"
+  - "正在失控"
+
+# 采集设置
+collection:
+  cron_hint_hours: 2
+  timeout_seconds: 30
+  per_source_interval_seconds: 5
+  max_items_per_source: 50
+
+# AI 结构化（OpenAI 兼容）
+ai:
+  env_base_url: AI_BASE_URL
+  env_api_key: AI_API_KEY
+  env_model: AI_MODEL
+  max_tokens: 2000

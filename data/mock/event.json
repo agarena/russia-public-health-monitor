@@ -1,0 +1,149 @@
+{
+  "id": "russia-public-health-2026",
+  "title": "俄罗斯相关不明原因肺炎 / 疑似鼠疫事件（演示数据）",
+  "title_en": "Russia-related pneumonia of unknown cause / suspected plague event (DEMO)",
+  "status": "active",
+  "demo": true,
+  "first_seen": "2026-09-12",
+  "last_updated": "2026-10-08T09:05:00Z",
+  "observation_phase": "O1",
+  "attention_level": "L1",
+  "confidence": "C2",
+  "trend": "up",
+  "summary": "俄罗斯伊尔库茨克州出现不明原因重症肺炎病例的公开报道已近四周；官方确认正在调查并已排除部分病原，但最终病因与是否存在传播关系尚无公开定论，社交平台的「鼠疫」说法未获任何可靠来源证实。（本页当前为演示数据）",
+  "key_changes": [
+    {
+      "at": "2026-10-08",
+      "text": "官方通报接触者医学观察范围扩大（报道）",
+      "signal_ids": ["signal-011"]
+    },
+    {
+      "at": "2026-10-05",
+      "text": "WHO 表示已注意到相关公开报道，处于监测状态",
+      "signal_ids": ["signal-009"]
+    },
+    {
+      "at": "2026-10-02",
+      "text": "官方公布首批部分病原检测结果：排除流感病毒与新型冠状病毒",
+      "signal_ids": ["signal-008"]
+    },
+    {
+      "at": "2026-09-25",
+      "text": "两家媒体对已报告病例数说法不一（来源冲突）",
+      "signal_ids": ["signal-007"]
+    },
+    {
+      "at": "2026-09-20",
+      "text": "某俄媒撤回其「第二例相关病例」报道",
+      "signal_ids": ["signal-006"]
+    },
+    {
+      "at": "2026-09-18",
+      "text": "国际媒体（Reuters）开始报道该事件",
+      "signal_ids": ["signal-004"]
+    }
+  ],
+  "confirmed": [
+    {
+      "text": "伊尔库茨克州出现不明原因肺炎病例，官方确认正在调查",
+      "signal_ids": ["signal-002", "signal-008"]
+    },
+    {
+      "text": "首批部分病原检测结果排除流感病毒与新型冠状病毒",
+      "signal_ids": ["signal-008"]
+    },
+    {
+      "text": "WHO 已知悉相关公开报道并处于监测状态",
+      "signal_ids": ["signal-009"]
+    }
+  ],
+  "unconfirmed": [
+    {
+      "text": "社交平台流传的「鼠疫」说法——无任何可靠来源证实",
+      "signal_ids": ["signal-003"]
+    },
+    {
+      "text": "「已出现第二例相关病例」——唯一报道已被撤回",
+      "signal_ids": ["signal-006"]
+    },
+    {
+      "text": "病例总数——不同媒体口径存在差异",
+      "signal_ids": ["signal-007"]
+    },
+    {
+      "text": "是否存在人际传播——目前无公开证据支持或排除",
+      "signal_ids": ["signal-010"]
+    },
+    {
+      "text": "是否有医护人员出现类似症状——仅有单一来源提及",
+      "signal_ids": ["signal-010"]
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "u-001",
+      "question": "最终病因 / 病原体是什么？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "决定事件性质，是后续所有判断的基础"
+    },
+    {
+      "id": "u-002",
+      "question": "「第二例」是否真实存在？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "若被可靠来源确认，观察阶段将从 O1 推进"
+    },
+    {
+      "id": "u-003",
+      "question": "接触者的检测结果如何？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "直接关系传播关系是否存在"
+    },
+    {
+      "id": "u-004",
+      "question": "是否存在传播链？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "目前无公开证据支持或排除"
+    },
+    {
+      "id": "u-005",
+      "question": "是否出现其他地区相关病例？",
+      "importance": "medium",
+      "status": "unresolved",
+      "why_it_matters": "关系区域扩散信号（O6）的判断"
+    }
+  ],
+  "next_triggers": [
+    {
+      "id": "t-001",
+      "condition": "第二个相关病例被可靠来源确认",
+      "current_phase": "O1",
+      "potential_next_phase": "O2",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-002",
+      "condition": "接触者中出现类似病例",
+      "current_phase": "O1",
+      "potential_next_phase": "O2",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-003",
+      "condition": "官方实验室公布病原学检测结果（PCR / 培养 / 测序）",
+      "current_phase": "O1",
+      "potential_next_phase": "O3",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-004",
+      "condition": "出现明确的人际传播关系报道",
+      "current_phase": "O1",
+      "potential_next_phase": "O4",
+      "evidence_required": "high"
+    }
+  ]
+}
