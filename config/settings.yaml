@@ -46,6 +46,28 @@ collection:
   per_source_interval_seconds: 5
   max_items_per_source: 50
 
+# 事件关联关键词（第一层粗筛，命中任意一个即标记 event_relevant）
+event_keywords:
+  ru:
+    - "чума"
+    - "чумн"
+    - "пневмон"
+    - "карантин"
+    - "Иркутск"
+    - "Шелехов"
+    - "противочумн"
+    - "Роспотребнадзор"
+    - "эпидем"
+  en:
+    - "plague"
+    - "pneumonia"
+    - "Irkutsk"
+    - "Shelekhov"
+    - "quarantine"
+    - "Rospotrebnadzor"
+    - "Siberia"
+    - "anti-plague"
+
 # AI 结构化（OpenAI 兼容）
 ai:
   env_base_url: AI_BASE_URL

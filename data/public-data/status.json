@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-10-08T03:54:01Z",
+  "last_successful_collection": "2026-10-08T03:53:46Z",
+  "sources_healthy": 25,
+  "sources_total": 25,
+  "source_health": [
+    {
+      "id": "src-who",
+      "name": "世界卫生组织",
+      "status": "healthy"
+    },
+    {
+      "id": "src-rospotr",
+      "name": "俄联邦消费者权益保护与公益监督局",
+      "status": "healthy"
+    },
+    {
+      "id": "src-irk-gov",
+      "name": "伊尔库茨克州政府",
+      "status": "healthy"
+    },
+    {
+      "id": "src-reuters",
+      "name": "路透社",
+      "status": "healthy"
+    },
+    {
+      "id": "src-ap",
+      "name": "美联社",
+      "status": "healthy"
+    },
+    {
+      "id": "src-cnn",
+      "name": "美国有线电视新闻网",
+      "status": "healthy"
+    },
+    {
+      "id": "src-wsj",
+      "name": "华尔街日报",
+      "status": "healthy"
+    },
+    {
+      "id": "src-bbc",
+      "name": "英国广播公司",
+      "status": "healthy"
+    },
+    {
+      "id": "src-axios",
+      "name": "Axios",
+      "status": "healthy"
+    },
+    {
+      "id": "src-nbc",
+      "name": "美国全国广播公司新闻网",
+      "status": "healthy"
+    },
+    {
+      "id": "src-abc",
+      "name": "美国广播公司新闻网",
+      "status": "healthy"
+    },
+    {
+      "id": "src-cnbc",
+      "name": "美国消费者新闻与商业频道",
+      "status": "healthy"
+    },
+    {
+      "id": "src-aljazeera",
+      "name": "半岛电视台",
+      "status": "healthy"
+    },
+    {
+      "id": "src-euronews",
+      "name": "欧洲新闻台",
+      "status": "healthy"
+    },
+    {
+      "id": "src-cbc",
+      "name": "加拿大广播公司新闻网",
+      "status": "healthy"
+    },
+    {
+      "id": "src-wapo",
+      "name": "华盛顿邮报",
+      "status": "healthy"
+    },
+    {
+      "id": "src-forbes",
+      "name": "福布斯",
+      "status": "healthy"
+    },
+    {
+      "id": "src-indianexpress",
+      "name": "印度快报",
+      "status": "healthy"
+    },
+    {
+      "id": "src-meduza",
+      "name": "Meduza（俄独立媒体，流亡拉脱维亚）",
+      "status": "healthy"
+    },
+    {
+      "id": "src-tass-en",
+      "name": "俄通社-塔斯社（英文）",
+      "status": "healthy"
+    },
+    {
+      "id": "src-baikal",
+      "name": "贝加尔杂志（伊尔库茨克本地）",
+      "status": "healthy"
+    },
+    {
+      "id": "src-mailru-science",
+      "name": "Mail.ru 科学频道",
+      "status": "healthy"
+    },
+    {
+      "id": "src-onliner",
+      "name": "Onliner（白俄罗斯）",
+      "status": "healthy"
+    },
+    {
+      "id": "src-moscowtimes",
+      "name": "莫斯科时报（流亡俄媒，英文）",
+      "status": "healthy"
+    },
+    {
+      "id": "src-lshtm",
+      "name": "伦敦卫生与热带医学院",
+      "status": "healthy"
+    }
+  ],
+  "demo": false
+}

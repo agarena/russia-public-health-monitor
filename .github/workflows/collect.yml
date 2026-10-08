@@ -1,0 +1,77 @@
+name: Collect & Deploy
+
+on:
+  schedule:
+    # 每 2 小时采集一次（17 分避开整点高峰）。修改频率无需改代码，只改这里。
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: collect-deploy
+  cancel-in-progress: false
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pipeline
+        run: pip install -e .
+
+      - name: Collect（单源失败互相隔离，不影响整体）
+        run: python -m collector.cli collect
+
+      - name: Generate public-data（原子替换，失败不动上一版）
+        run: python -m processor.generate
+
+      - name: Compliance gate（禁词 / 上限 / schema 不通过则终止）
+        run: python -m processor.policy_check
+
+      - name: Commit data updates（审计线索随 git 历史保留）
+        run: |
+          git config user.name "monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "data: scheduled collection $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Build frontend
+        working-directory: frontend
+        env:
+          # 上线（真实数据 + 首轮人工审核完成）后改为 true 并配置 SITE_URL
+          SITE_INDEXABLE: "false"
+          SITE_URL: "https://example.github.io"
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

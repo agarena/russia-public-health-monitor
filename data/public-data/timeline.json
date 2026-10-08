@@ -1,0 +1,153 @@
+{
+  "updated_at": "2026-10-08T09:30:00Z",
+  "entries": [
+    {
+      "id": "tl-2026-09-25-a",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "title": "本地媒体称当日实验室发生「试管打碎」事件（无法核实）",
+      "description": "据贝加尔杂志此后报道中的一说法，死者当日曾在实验室打碎一支装有病原体的试管后感到不适。该说法为单一来源，本站无法核实。",
+      "status": "unconfirmed",
+      "source_ids": [
+        "r-sig-001"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-09-29-a",
+      "date": "2026-09-29",
+      "date_precision": "day",
+      "title": "死者入院治疗",
+      "description": "该研究所员工因病重入院；后续官方通报称其为「不明病因重症肺炎」。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-001",
+        "r-sig-002"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-02-a",
+      "date": "2026-10-02",
+      "date_precision": "day",
+      "title": "研究所员工病逝",
+      "description": "舍列霍夫一名鼠疫防治研究所员工病逝。俄官方此后称死因为「不明病因重症肺炎」；多家媒体报道怀疑为肺鼠疫。",
+      "status": "confirmed",
+      "source_ids": [
+        "r-sig-002",
+        "r-sig-004"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-03-a",
+      "date": "2026-10-03",
+      "date_precision": "day",
+      "title": "俄媒报道死者身份与工作单位",
+      "description": "俄语媒体确认死者为鼠疫防治研究所实验室技术人员，并有报道称其「死于鼠疫」。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-003"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-04-a",
+      "date": "2026-10-04",
+      "date_precision": "day",
+      "title": "伊尔库茨克多家医院实施隔离",
+      "description": "Meduza 等报道，当地医院实施隔离措施，约 150–200 名接触者接受医学观察。",
+      "status": "confirmed",
+      "source_ids": [
+        "r-sig-004"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-04-b",
+      "date": "2026-10-04",
+      "date_precision": "day",
+      "title": "出现「第二例」传言，官方称为不实信息",
+      "description": "网络出现「第二例」相关传言；俄官方称其为不实信息。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-005"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-05-a",
+      "date": "2026-10-05",
+      "date_precision": "day",
+      "title": "伊尔库茨克州州长否认「鼠疫死亡」",
+      "description": "州长科布泽夫公开表示死因是肺炎而非鼠疫，称已成立专门委员会调查。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-005"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-06-a",
+      "date": "2026-10-06",
+      "date_precision": "day",
+      "title": "WHO：知悉「不明原因肺炎」病例",
+      "description": "WHO 表示知悉相关病例，鼠疫怀疑未获证实。",
+      "status": "confirmed",
+      "source_ids": [
+        "r-sig-006"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-07-a",
+      "date": "2026-10-07",
+      "date_precision": "day",
+      "title": "白宫密切关注；美国 CDC 监测旅客并发布赴俄旅行提醒",
+      "description": "白宫表示正密切关注；美国 CDC 对旅客进行监测；美国发布赴俄旅行提醒。特朗普称俄方告诉他情况「完全可控」（原话引用）。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-007",
+        "r-sig-008",
+        "r-sig-009"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-08-a",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "WHO 总干事表态；俄方称无流行风险",
+      "description": "路透社报道：WHO 总干事表示已向俄方提供协助，并再次要求核实「第二名员工患病」的媒体报道；俄方表示死亡不构成流行风险，处置正在收尾。",
+      "status": "confirmed",
+      "source_ids": [
+        "r-sig-010"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-08-b",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "「第二名员工出现肺炎」：报道与官方口径冲突",
+      "description": "CBC/WSJ 等报道第二名研究所员工据报道出现肺炎症状、WHO 要求俄方说明；俄方此前称相关说法为不实信息。公开来源存在明显不同说法，本站无法判断原因。",
+      "status": "contradicted",
+      "source_ids": [
+        "r-sig-011"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-08-c",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "特朗普回应「生物武器」提问（原话引用）",
+      "description": "特朗普被问及该事件是否为生物武器时表示「我们不这么认为」（媒体报道原话引用，仅记录来源表态，本站不做任何推断）。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-012"
+      ],
+      "correction": null
+    }
+  ]
+}

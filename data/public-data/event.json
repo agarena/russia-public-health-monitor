@@ -1,0 +1,201 @@
+{
+  "id": "russia-public-health-2026",
+  "title": "俄罗斯伊尔库茨克州鼠疫防治研究所人员不明原因肺炎事件",
+  "title_en": "Pneumonia of unknown cause in an anti-plague institute worker, Irkutsk Oblast, Russia (2026)",
+  "status": "active",
+  "demo": false,
+  "first_seen": "2026-10-02",
+  "last_updated": "2026-10-08T09:30:00Z",
+  "observation_phase": "O1",
+  "attention_level": "L2",
+  "confidence": "C3",
+  "trend": "up",
+  "summary": "2026 年 10 月 2 日，俄罗斯伊尔库茨克州（舍列霍夫）鼠疫防治研究所一名实验室技术人员因「不明病因重症肺炎」病逝。当地随后实施隔离等防疫措施，约 150–200 名接触者接受医学观察。死因是否为肺鼠疫，媒体与官方口径存在明显差异：多家媒体报道疑似鼠疫，俄官方否认并称无流行风险。WHO 已向俄方提供协助并要求核实「第二名员工患病」的报道。本站持续整理各方公开信息及其核验状态。",
+  "key_changes": [
+    {
+      "text": "WHO 总干事：已向俄方提供协助，并再次要求核实「第二名员工患病」的媒体报道（路透社）",
+      "at": "2026-10-08",
+      "signal_ids": [
+        "r-sig-010"
+      ]
+    },
+    {
+      "text": "路透社：俄方表示该死亡不构成流行风险，相关处置正在收尾",
+      "at": "2026-10-08",
+      "signal_ids": [
+        "r-sig-010"
+      ]
+    },
+    {
+      "text": "多家媒体报道「第二名研究所员工出现肺炎」；俄方此前称相关说法为不实信息——来源冲突",
+      "at": "2026-10-08",
+      "signal_ids": [
+        "r-sig-011"
+      ]
+    },
+    {
+      "text": "白宫表示正密切关注；美国 CDC 对旅客进行监测；美国发布赴俄旅行提醒",
+      "at": "2026-10-07",
+      "signal_ids": [
+        "r-sig-007",
+        "r-sig-008",
+        "r-sig-009"
+      ]
+    },
+    {
+      "text": "WHO 表示知悉「不明原因肺炎」病例，鼠疫怀疑未获证实",
+      "at": "2026-10-06",
+      "signal_ids": [
+        "r-sig-006"
+      ]
+    },
+    {
+      "text": "伊尔库茨克多家医院实施隔离措施，约 150–200 名接触者接受医学观察",
+      "at": "2026-10-04",
+      "signal_ids": [
+        "r-sig-004"
+      ]
+    }
+  ],
+  "confirmed": [
+    {
+      "text": "伊尔库茨克州（舍列霍夫）鼠疫防治研究所一名员工于 10 月 2 日病逝，官方称死因为「不明病因重症肺炎」",
+      "signal_ids": [
+        "r-sig-002",
+        "r-sig-004"
+      ],
+      "note": null
+    },
+    {
+      "text": "当地已实施隔离等防疫措施，约 150–200 名接触者接受医学观察（多家独立媒体确认）",
+      "signal_ids": [
+        "r-sig-004"
+      ],
+      "note": null
+    },
+    {
+      "text": "WHO 已介入：提供协助并要求俄方核实相关报道（WHO 总干事公开表态）",
+      "signal_ids": [
+        "r-sig-010"
+      ],
+      "note": null
+    },
+    {
+      "text": "白宫正密切关注事件报道",
+      "signal_ids": [
+        "r-sig-007"
+      ],
+      "note": null
+    },
+    {
+      "text": "俄方公开立场：事件不构成流行风险、无证据显示与死者经手病原体有关（官方表态如实记录）",
+      "signal_ids": [
+        "r-sig-005",
+        "r-sig-010"
+      ],
+      "note": null
+    }
+  ],
+  "unconfirmed": [
+    {
+      "text": "死因是否为肺鼠疫——俄媒与本地报道怀疑，官方否认，无公开实验室确认",
+      "signal_ids": [
+        "r-sig-001",
+        "r-sig-003",
+        "r-sig-005"
+      ],
+      "note": null
+    },
+    {
+      "text": "「打碎装有病原体的试管」的暴露途径说法——单一本地来源",
+      "signal_ids": [
+        "r-sig-001"
+      ],
+      "note": null
+    },
+    {
+      "text": "「第二名员工出现肺炎」——有媒体报道，俄方称为不实信息（冲突中）",
+      "signal_ids": [
+        "r-sig-011"
+      ],
+      "note": null
+    },
+    {
+      "text": "接触者的检测结果——无公开信息",
+      "signal_ids": [],
+      "note": null
+    },
+    {
+      "text": "「第二例死亡」传闻——仅个别转引，无可靠来源确认",
+      "signal_ids": [],
+      "note": null
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "u-001",
+      "question": "最终病原体是什么？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "官方未公布病原学结果（PCR/培养/测序）；这是判断事件性质的基础"
+    },
+    {
+      "id": "u-002",
+      "question": "「第二名员工患病」是否真实存在？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "WHO 已要求俄方核实；若确认，观察阶段将从 O1 推进"
+    },
+    {
+      "id": "u-003",
+      "question": "约 200 名接触者的观察与检测结果如何？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "直接关系是否存在继发病例与传播关系"
+    },
+    {
+      "id": "u-004",
+      "question": "实际暴露途径是什么？",
+      "importance": "high",
+      "status": "unresolved",
+      "why_it_matters": "「试管打碎」说法仅单一来源；暴露途径关系职业暴露与实验室生物安全的判断"
+    },
+    {
+      "id": "u-005",
+      "question": "官方「无流行风险」表态与大规模预防性隔离措施之间的关系？",
+      "importance": "medium",
+      "status": "unresolved",
+      "why_it_matters": "两种公开口径并存，本站无法判断原因，如实记录差异"
+    }
+  ],
+  "next_triggers": [
+    {
+      "id": "t-001",
+      "condition": "病原学检测结果公布（PCR / 培养 / 测序）",
+      "current_phase": "O1",
+      "potential_next_phase": "O3",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-002",
+      "condition": "「第二名员工」病例被可靠来源确认",
+      "current_phase": "O1",
+      "potential_next_phase": "O2",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-003",
+      "condition": "接触者中出现类似病例",
+      "current_phase": "O1",
+      "potential_next_phase": "O2",
+      "evidence_required": "high"
+    },
+    {
+      "id": "t-004",
+      "condition": "出现伊尔库茨克州以外地区的相关病例",
+      "current_phase": "O1",
+      "potential_next_phase": "O6",
+      "evidence_required": "high"
+    }
+  ]
+}

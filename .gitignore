@@ -4,6 +4,10 @@ frontend/dist/
 frontend/src/generated-data/
 frontend/public/public-data/
 
+# 生成过程的临时/回滚目录（正式产物 data/public-data/ 入库）
+data/public-data.tmp/
+data/public-data.prev/
+
 # Python
 __pycache__/
 *.py[cod]

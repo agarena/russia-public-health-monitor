@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-08T09:30:00Z",
+  "cases": [
+    {
+      "id": "case-001",
+      "event_id": "russia-public-health-2026",
+      "age_group": "adult",
+      "location": "舍列霍夫（伊尔库茨克州）",
+      "occupation": "鼠疫防治研究所实验室技术人员",
+      "onset_date": "2026-09-29",
+      "exposure": "工作单位为鼠疫防治研究所；具体暴露途径未证实（「试管打碎」说法为单一来源）",
+      "status": "confirmed",
+      "source_ids": ["r-sig-001", "r-sig-002", "r-sig-003"]
+    },
+    {
+      "id": "case-002",
+      "event_id": "russia-public-health-2026",
+      "age_group": null,
+      "location": "伊尔库茨克（报道口径）",
+      "occupation": "同一研究所员工（据报道）",
+      "onset_date": null,
+      "exposure": null,
+      "status": "unconfirmed",
+      "source_ids": ["r-sig-011"]
+    }
+  ]
+}

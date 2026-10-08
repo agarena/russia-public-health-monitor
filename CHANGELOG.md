@@ -19,3 +19,13 @@
 ### Fixed
 
 - M1：BrowserRouter 设置 basename（GitHub Pages 子路径下 SPA 路由失效）。
+
+### Added
+
+- M2：真实采集框架 —— `config/sources.yaml` 来源注册表（25 个真实来源：WHO/Rospotrebnadzor/
+  州政府 + Reuters/AP/CNN/WSJ 等 + Meduza/TASS 直连 RSS + 本地媒体，含 Google News RSS
+  合规中转方案）；采集器（单源失败隔离、URL 去重、事件关键词粗筛、来源健康状态）；
+  `processor.generate` 原子发布（last-known-good 保护）；GitHub Actions 定时采集部署流水线；
+  自搭建指南 `docs/self-hosting.md`；真实事件种子数据（12 条人工审核信号，事件：
+  2026-10 伊尔库茨克鼠疫防治研究所人员不明原因肺炎事件，O1/L2/C3）。
+- 合规门禁新增引用完整性校验（signal→source、event/timeline→signal）。

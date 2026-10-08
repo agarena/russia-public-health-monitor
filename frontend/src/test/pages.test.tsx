@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import App from "@/App";
 import Layout from "@/components/Layout";
+import { event, signals, timeline } from "@/data";
 
 function renderAt(path: string) {
   return render(
@@ -13,9 +14,13 @@ function renderAt(path: string) {
 }
 
 describe("全局布局", () => {
-  it("显示演示数据横幅（演示模式下）", () => {
+  it("演示模式与真实模式横幅行为正确", () => {
     renderAt("/");
-    expect(screen.getByText(/演示数据模式/)).toBeInTheDocument();
+    if (event.demo) {
+      expect(screen.getByText(/演示数据模式/)).toBeInTheDocument();
+    } else {
+      expect(screen.queryByText(/演示数据模式/)).not.toBeInTheDocument();
+    }
   });
 
   it("页脚包含免责声明与数据源状态", () => {
@@ -46,10 +51,13 @@ describe("首页仪表盘", () => {
 });
 
 describe("时间线页", () => {
-  it("渲染时间线节点与纠错记录", () => {
+  it("渲染时间线节点；存在纠错条目时展示纠错记录", () => {
     renderAt("/timeline");
     expect(screen.getByText(/按时间倒序排列/)).toBeInTheDocument();
-    expect(screen.getByText(/纠错记录/)).toBeInTheDocument();
+    const hasCorrection = timeline.some((e) => e.correction != null);
+    if (hasCorrection) {
+      expect(screen.getByText(/纠错记录/)).toBeInTheDocument();
+    }
   });
 
   it("状态筛选器包含六态", () => {
@@ -69,9 +77,12 @@ describe("来源页", () => {
 });
 
 describe("证据页", () => {
-  it("五栏状态与撤回区并存", () => {
+  it("五栏状态；存在撤回条目时展示撤回区", () => {
     renderAt("/evidence");
-    expect(screen.getByText("已撤回 / 更正")).toBeInTheDocument();
+    const hasRetracted = signals.some((s) => s.status === "retracted");
+    if (hasRetracted) {
+      expect(screen.getByText("已撤回 / 更正")).toBeInTheDocument();
+    }
     expect(screen.getAllByText("公开报道").length).toBeGreaterThan(0);
     expect(screen.getByText("病例信息（公开资料整理）")).toBeInTheDocument();
   });

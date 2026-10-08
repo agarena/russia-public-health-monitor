@@ -1,0 +1,329 @@
+# 来源注册表：本站采集的全部公开来源。
+# 采集方式（collect.method）：
+#   google_news_rss —— 经 Google News RSS 中转的关键词监控（relay，条目会标注原始出版方；
+#                      用于无公开 RSS 的媒体，如 Reuters/AP/CNN 等付费墙媒体）
+#   rss             —— 出版方自己的公开 RSS/Atom 订阅
+# 合规红线：只用公开 RSS 与公开网页，不绕过登录、验证码、付费墙或平台访问限制。
+sources:
+  # ── S 级：官方 / 专业原始资料 ─────────────────────────────
+  - id: src-who
+    name: WHO
+    name_zh: 世界卫生组织
+    type: official
+    tier: S
+    language: en
+    country_or_region: 全球
+    official: true
+    url: https://www.who.int
+    description_zh: 联合国卫生机构；声明、疫情暴发新闻（DON）与记者会口径。
+    enabled: true
+    collect:
+      method: google_news_rss
+      query: "site:who.int (Russia OR Siberia) (plague OR pneumonia)"
+      hl: en-US
+
+  - id: src-rospotr
+    name: Rospotrebnadzor
+    name_zh: 俄联邦消费者权益保护与公益监督局
+    type: official
+    tier: S
+    language: ru
+    country_or_region: 俄罗斯
+    official: true
+    url: https://www.rospotrebnadzor.ru
+    description_zh: 俄罗斯联邦卫生与流行病学监督主管部门，事件的直接主管官方来源。
+    enabled: true
+    collect:
+      method: google_news_rss
+      query: "site:rospotrebnadzor.ru (чума OR пневмония OR Иркутск)"
+      hl: ru
+
+  - id: src-irk-gov
+    name: Irkutsk Oblast Government
+    name_zh: 伊尔库茨克州政府
+    type: official
+    tier: S
+    language: ru
+    country_or_region: 俄罗斯（伊尔库茨克州）
+    official: true
+    url: https://www.irkobl.ru
+    description_zh: 事件发生地州政府与州长公开表态。
+    enabled: true
+    collect:
+      method: google_news_rss
+      query: "site:irkobl.ru (пневмония OR чума OR карантин OR Шелехов)"
+      hl: ru
+
+  # ── A 级：国际专业媒体（经 Google News RSS 中转）────────────
+  - id: src-reuters
+    name: Reuters
+    name_zh: 路透社
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://www.reuters.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:reuters.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-ap
+    name: AP News
+    name_zh: 美联社
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://apnews.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:apnews.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-cnn
+    name: CNN
+    name_zh: 美国有线电视新闻网
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://www.cnn.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:cnn.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-wsj
+    name: The Wall Street Journal
+    name_zh: 华尔街日报
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://www.wsj.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:wsj.com Russia (plague OR pneumonia OR Siberia)", hl: en-US }
+
+  - id: src-bbc
+    name: BBC News
+    name_zh: 英国广播公司
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://www.bbc.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:bbc.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-axios
+    name: Axios
+    name_zh: Axios
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://www.axios.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:axios.com (Russia plague OR pneumonia)", hl: en-US }
+
+  - id: src-nbc
+    name: NBC News
+    name_zh: 美国全国广播公司新闻网
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://www.nbcnews.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:nbcnews.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-abc
+    name: ABC News
+    name_zh: 美国广播公司新闻网
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://abcnews.go.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:abcnews.go.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-cnbc
+    name: CNBC
+    name_zh: 美国消费者新闻与商业频道
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://www.cnbc.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:cnbc.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-aljazeera
+    name: Al Jazeera
+    name_zh: 半岛电视台
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 全球
+    official: false
+    url: https://www.aljazeera.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:aljazeera.com Russia (plague OR pneumonia OR quarantine)", hl: en-US }
+
+  - id: src-euronews
+    name: Euronews
+    name_zh: 欧洲新闻台
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 欧洲
+    official: false
+    url: https://www.euronews.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:euronews.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-cbc
+    name: CBC News
+    name_zh: 加拿大广播公司新闻网
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 加拿大
+    official: false
+    url: https://www.cbc.ca
+    enabled: true
+    collect: { method: google_news_rss, query: "site:cbc.ca Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-wapo
+    name: The Washington Post
+    name_zh: 华盛顿邮报
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://www.washingtonpost.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:washingtonpost.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-forbes
+    name: Forbes
+    name_zh: 福布斯
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 美国
+    official: false
+    url: https://www.forbes.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:forbes.com Russia (plague OR pneumonia)", hl: en-US }
+
+  - id: src-indianexpress
+    name: The Indian Express
+    name_zh: 印度快报
+    type: international_media
+    tier: A
+    language: en
+    country_or_region: 印度
+    official: false
+    url: https://indianexpress.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:indianexpress.com Russia (plague OR pneumonia)", hl: en-US }
+
+  # ── B 级：俄罗斯及本地媒体 ───────────────────────────────
+  - id: src-meduza
+    name: Meduza
+    name_zh: Meduza（俄独立媒体，流亡拉脱维亚）
+    type: local_media
+    tier: B
+    language: ru
+    country_or_region: 俄罗斯（编辑部位于拉脱维亚）
+    official: false
+    url: https://meduza.io
+    description_zh: 俄语独立媒体，公开 RSS。
+    enabled: true
+    collect: { method: rss, feed_url: "https://meduza.io/rss/all" }
+
+  - id: src-tass-en
+    name: TASS (English)
+    name_zh: 俄通社-塔斯社（英文）
+    type: local_media
+    tier: B
+    language: en
+    country_or_region: 俄罗斯
+    official: false
+    url: https://tass.com
+    description_zh: 俄罗斯官方通讯社英文版，公开 RSS；用于观察俄国内口径。
+    enabled: true
+    collect: { method: rss, feed_url: "https://tass.com/rss/v2.xml" }
+
+  - id: src-baikal
+    name: Baikal Journal
+    name_zh: 贝加尔杂志（伊尔库茨克本地）
+    type: local_media
+    tier: B
+    language: ru
+    country_or_region: 俄罗斯（伊尔库茨克州）
+    official: false
+    url: https://baikal-journal.ru
+    description_zh: 事件发生地本地媒体，最早披露细节。
+    enabled: true
+    collect: { method: google_news_rss, query: "site:baikal-journal.ru (чума OR пневмония OR Шелехов)", hl: ru }
+
+  - id: src-mailru-science
+    name: Nauka.Mail.ru
+    name_zh: Mail.ru 科学频道
+    type: local_media
+    tier: B
+    language: ru
+    country_or_region: 俄罗斯
+    official: false
+    url: https://science.mail.ru
+    enabled: true
+    collect: { method: google_news_rss, query: "site:science.mail.ru (чума OR Иркутск OR пневмония)", hl: ru }
+
+  - id: src-onliner
+    name: Onliner.by
+    name_zh: Onliner（白俄罗斯）
+    type: local_media
+    tier: B
+    language: ru
+    country_or_region: 白俄罗斯
+    official: false
+    url: https://people.onliner.by
+    enabled: true
+    collect: { method: google_news_rss, query: "site:people.onliner.by (чума OR Иркутск)", hl: ru }
+
+  - id: src-moscowtimes
+    name: The Moscow Times
+    name_zh: 莫斯科时报（流亡俄媒，英文）
+    type: local_media
+    tier: B
+    language: en
+    country_or_region: 俄罗斯（编辑部位于境外）
+    official: false
+    url: https://www.themoscowtimes.com
+    enabled: true
+    collect: { method: google_news_rss, query: "site:themoscowtimes.com (plague OR pneumonia OR Irkutsk)", hl: en-US }
+
+  # ── C 级：专家 / 学术机构 ─────────────────────────────────
+  - id: src-lshtm
+    name: LSHTM
+    name_zh: 伦敦卫生与热带医学院
+    type: expert
+    tier: C
+    language: en
+    country_or_region: 英国
+    official: false
+    url: https://www.lshtm.ac.uk
+    description_zh: 学术机构的快速分析（Rapid reaction）。
+    enabled: true
+    collect: { method: google_news_rss, query: "site:lshtm.ac.uk (plague OR Russia OR Siberia)", hl: en-US }
+
+  # ── D 级：公开社交平台 ───────────────────────────────────
+  # 暂未登记。社交平台接入仅通过官方 API / 公开页面预览，且仅作线索（不确认事实）。
