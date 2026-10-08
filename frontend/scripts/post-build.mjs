@@ -15,7 +15,7 @@ const notFoundHtml = `<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <title>俄罗斯公共卫生事件公开信息观察站</title>
+    <title>俄罗斯鼠疫公开信息监测</title>
     <script>
       sessionStorage.redirect = location.href;
     </script>

@@ -1,49 +1,70 @@
-// 第一屏：当前状态。不滚动即可知道 关注等级 / 观察阶段 / 证据完整度 / 一句话判断 / 更新时间。
+// 第一屏：当前状态。不滚动即可知道 关注等级 / 观察阶段 / 证据完整度（等级公示牌式）+ 一句话判断 + 更新时间。
 import { event, statusData } from "@/data";
-import { confidenceMeta, levelMeta, phaseMeta } from "@/lib/constants";
+import {
+  ATTENTION_LEVELS,
+  EVIDENCE_CONFIDENCE,
+  OBSERVATION_PHASES,
+  phaseMeta,
+} from "@/lib/constants";
 import { formatDate, formatDateTime, formatRelative } from "@/lib/format";
-
-function HeroChip({ label, value, hint }: { label: string; value: string; hint: string }) {
-  return (
-    <div className="min-w-[9rem]">
-      <div className="text-[11px] text-slate-400">{label}</div>
-      <div className="mt-0.5 text-base font-semibold text-slate-900">{value}</div>
-      <div className="text-[11px] text-slate-400">{hint}</div>
-    </div>
-  );
-}
+import Meter from "@/sections/Meter";
 
 export default function StatusHero() {
   const phase = phaseMeta(event.observation_phase);
-  const level = levelMeta(event.attention_level);
-  const confidence = confidenceMeta(event.confidence);
   const abnormal = statusData.sources_total - statusData.sources_healthy;
 
   return (
     <header id="overview" className="scroll-mt-20 pb-10 pt-10 md:pb-14 md:pt-16">
-      <p className="text-xs tracking-wide text-slate-400">
+      <p className="text-xs leading-relaxed text-slate-400">
         单一事件公开信息简报 · 首次公开报道 {formatDate(event.first_seen)} · 持续更新
+        <span className="mx-1">·</span>
+        「俄罗斯鼠疫」为近期热搜关键词的简称，官方定名后本站将更新
       </p>
       <h1 className="mt-3 max-w-3xl text-[26px] font-bold leading-snug tracking-tight text-slate-900 md:text-4xl md:leading-tight">
         {event.title}
       </h1>
 
-      <div className="mt-8 flex flex-wrap items-start gap-x-10 gap-y-5 border-y border-slate-200 py-5">
-        <HeroChip
-          label="当前关注等级"
-          value={`${level.emoji} ${level.code}｜${level.label}`}
-          hint="信息值得关注程度，非疾病概率"
-        />
-        <HeroChip
-          label="公开信息观察阶段"
-          value={`${phase.code}｜${phase.label}`}
-          hint="非官方疫情阶段认定"
-        />
-        <HeroChip
-          label="证据完整度"
-          value={`${confidence.code}｜${confidence.label}`}
-          hint="公开证据支持程度"
-        />
+      <div className="mt-8 space-y-5 border-y border-slate-200 py-6">
+        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
+          <div className="text-xs text-slate-400">当前关注等级</div>
+          <div>
+            <Meter
+              options={ATTENTION_LEVELS.map((l) => ({
+                key: l.code,
+                label: l.label,
+                emoji: l.emoji,
+              }))}
+              currentKey={event.attention_level}
+            />
+            <p className="mt-1.5 text-[11px] text-slate-400">信息值得关注程度，非疾病概率</p>
+          </div>
+        </div>
+
+        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
+          <div className="text-xs text-slate-400">公开信息观察阶段</div>
+          <div>
+            <Meter
+              options={OBSERVATION_PHASES.map((p) => ({ key: p.code, label: p.short }))}
+              currentKey={event.observation_phase}
+              sequential
+            />
+            <p className="mt-1.5 text-[11px] text-slate-400">
+              当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定
+            </p>
+          </div>
+        </div>
+
+        <div className="grid gap-2 md:grid-cols-[9rem_1fr] md:items-center md:gap-6">
+          <div className="text-xs text-slate-400">证据完整度</div>
+          <div>
+            <Meter
+              options={EVIDENCE_CONFIDENCE.map((c) => ({ key: c.code, label: c.label }))}
+              currentKey={event.confidence}
+              sequential
+            />
+            <p className="mt-1.5 text-[11px] text-slate-400">公开证据支持程度</p>
+          </div>
+        </div>
       </div>
 
       <div className="mt-8 border-l-2 border-slate-800 pl-5">

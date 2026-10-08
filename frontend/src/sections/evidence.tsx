@@ -1,6 +1,6 @@
 // 已确认 / 尚未确认（编辑部双栏）+ 当前未知 / 下一步观察（双栏）。
 import { event, signalById, sourceName } from "@/data";
-import { HOMEPAGE_CAPS } from "@/lib/constants";
+import { HOMEPAGE_CAPS, phaseMeta } from "@/lib/constants";
 import Section from "@/sections/Section";
 
 function SourceDots({ signalIds }: { signalIds?: string[] }) {
@@ -95,7 +95,8 @@ export function UnknownsNext() {
                 <div>
                   <p className="text-sm leading-snug text-slate-800">{t.condition}</p>
                   <p className="mt-0.5 text-xs text-slate-500">
-                    若发生，观察阶段可能从 {t.current_phase} 推进至 {t.potential_next_phase}
+                    若发生，观察阶段可能从「{phaseMeta(t.current_phase).label}」推进至「
+                    {phaseMeta(t.potential_next_phase).label}」
                   </p>
                 </div>
               </li>

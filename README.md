@@ -7,6 +7,11 @@ A public, open-source information-monitoring website focused on **one specific e
 The site is a single-page editorial briefing with anchor navigation — designed to be
 understood in seconds, not a news portal or a dashboard.
 
+Site display name: **俄罗斯鼠疫公开信息监测** (Russia Plague Public Information Monitor).
+"俄罗斯鼠疫" ("Russia plague") is a trending search keyword used only to help readers
+locate the event quickly; the name will be updated to the official designation once
+authorities characterize or name the event.
+
 The project collects and structures publicly available information — in Russian, English
 and Chinese — from official institutions (WHO, ECDC, Russian authorities), professional
 international media, Russian local media, and public social-media sources.

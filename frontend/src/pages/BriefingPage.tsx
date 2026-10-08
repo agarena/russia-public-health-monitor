@@ -13,6 +13,7 @@ import HistorySection from "@/sections/history";
 import ChinaSection from "@/sections/china";
 import MethodologySection from "@/sections/methodology";
 import SiteFooter from "@/sections/footer";
+import DisclaimerModal from "@/sections/DisclaimerModal";
 
 export default function BriefingPage() {
   usePageMeta(
@@ -37,6 +38,7 @@ export default function BriefingPage() {
 
   return (
     <div className="flex min-h-screen flex-col bg-white">
+      <DisclaimerModal />
       <TopBanners />
       <SiteNav />
       <main className="mx-auto w-full max-w-[1280px] flex-1 px-4 md:px-8">

@@ -14,19 +14,21 @@ import type {
 export interface PhaseMeta {
   code: ObservationPhase;
   label: string;
+  /** 等级公示牌上的短名 */
+  short: string;
   description: string;
 }
 
 export const OBSERVATION_PHASES: PhaseMeta[] = [
-  { code: "O0", label: "背景监测", description: "只有一般背景信息，无异常信号。" },
-  { code: "O1", label: "异常事件信号", description: "出现异常重症/死亡、不明原因肺炎、特殊职业暴露或异常医疗措施，但无充分聚集或传播证据。" },
-  { code: "O2", label: "相关病例/事件增加", description: "出现第二个相关病例、多个相关工作人员或接触者类似病例，但传播关系尚不清楚。" },
-  { code: "O3", label: "病原相关证据", description: "出现病原学检测、PCR、培养、测序或官方实验室信息。" },
-  { code: "O4", label: "传播关系信号", description: "出现家庭传播、医疗机构传播或明确病例间传播关系。" },
-  { code: "O5", label: "持续传播信号", description: "出现多个独立传播链。" },
-  { code: "O6", label: "区域扩散信号", description: "出现其他地区相关病例/事件。" },
-  { code: "O7", label: "跨境扩展信号", description: "出现俄罗斯境外与本事件存在关系的病例/传播信息。" },
-  { code: "O8", label: "中国相关公开信息增加", description: "出现与本事件相关的输入性病例、官方公开防控变化或其他中国境内相关信息。O8 不是「疫情在中国传播」的认定。" },
+  { code: "O0", label: "背景监测", short: "背景监测", description: "只有一般背景信息，无异常信号。" },
+  { code: "O1", label: "异常事件信号", short: "异常事件", description: "出现异常重症/死亡、不明原因肺炎、特殊职业暴露或异常医疗措施，但无充分聚集或传播证据。" },
+  { code: "O2", label: "相关病例/事件增加", short: "病例增加", description: "出现第二个相关病例、多个相关工作人员或接触者类似病例，但传播关系尚不清楚。" },
+  { code: "O3", label: "病原相关证据", short: "病原证据", description: "出现病原学检测、PCR、培养、测序或官方实验室信息。" },
+  { code: "O4", label: "传播关系信号", short: "传播关系", description: "出现家庭传播、医疗机构传播或明确病例间传播关系。" },
+  { code: "O5", label: "持续传播信号", short: "持续传播", description: "出现多个独立传播链。" },
+  { code: "O6", label: "区域扩散信号", short: "区域扩散", description: "出现其他地区相关病例/事件。" },
+  { code: "O7", label: "跨境扩展信号", short: "跨境扩展", description: "出现俄罗斯境外与本事件存在关系的病例/传播信息。" },
+  { code: "O8", label: "中国相关公开信息增加", short: "中国信息", description: "出现与本事件相关的输入性病例、官方公开防控变化或其他中国境内相关信息。O8 不是「疫情在中国传播」的认定。" },
 ];
 
 export const phaseMeta = (code: ObservationPhase): PhaseMeta =>
@@ -135,6 +137,24 @@ export const IMPORTANCE_LABELS: Record<Importance, string> = {
   low: "低",
 };
 
+/** 评级维度取值 → 中文（评级变更表等展示场景使用） */
+export function ratingValueLabel(dimension: string, code: string): string {
+  if (dimension === "observation_phase") {
+    const hit = OBSERVATION_PHASES.find((p) => p.code === code);
+    return hit ? hit.label : code;
+  }
+  if (dimension === "attention_level") {
+    const hit = ATTENTION_LEVELS.find((l) => l.code === code);
+    return hit ? `${hit.emoji} ${hit.label}` : code;
+  }
+  if (dimension === "confidence") {
+    const hit = EVIDENCE_CONFIDENCE.find((c) => c.code === code);
+    return hit ? hit.label : code;
+  }
+  if (dimension === "trend") return TREND_META[code as Trend]?.label ?? code;
+  return code;
+}
+
 export const LANGUAGE_LABELS: Record<string, string> = {
   ru: "俄语",
   en: "英语",
@@ -154,5 +174,12 @@ export const HOMEPAGE_CAPS = {
 /** 首页简版免责声明（规格书 §6） */
 export const SHORT_DISCLAIMER = "本站仅对公开互联网信息进行采集、整理、翻译、去重、来源标注和辅助性分析。本站不是医疗诊断系统、疫情预测系统、公共卫生决策系统或官方信息发布机构。页面中的「信息关注等级」「观察阶段」「趋势」均不是医学结论，不代表疾病发生概率。涉及现实中的医疗、健康、旅行等重大决定时，请以官方信息为准。";
 
-export const SITE_NAME = "俄罗斯公共卫生事件公开信息观察站";
-export const SITE_NAME_EN = "Russia Public Health Event Information Monitor";
+export const SITE_NAME = "俄罗斯鼠疫公开信息监测";
+export const SITE_NAME_EN = "Russia Plague Public Information Monitor";
+
+/** 关于站名与可信度的完整说明（弹窗与页底共用，统一维护） */
+export const ABOUT_SITE = {
+  name_note:
+    "关于网站名称：「俄罗斯鼠疫」是近期公开讨论与热搜中对本事件的习惯性关键词，仅用于帮助您快速理解本站描述的是什么事，不是对事件性质的认定。当官方对该事件作出定性或命名后，本站会尽快更新为官方名称。",
+  credibility_title: "关于本站的可信度",
+};

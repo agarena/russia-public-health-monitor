@@ -1,5 +1,5 @@
 // 单页简报渲染测试：12 个信息区块按认知顺序存在，四维状态分开显示。
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import App from "@/App";
 import { event } from "@/data";
@@ -16,6 +16,40 @@ describe("单页简报结构", () => {
   it("顶部有重要说明横幅", () => {
     renderPage();
     expect(screen.getAllByText(/重要说明/i).length).toBeGreaterThan(0);
+  });
+
+  it("每次进入弹出可信度说明，阅读后可关闭", () => {
+    renderPage();
+    const dialog = screen.getByRole("dialog");
+    expect(dialog).toBeInTheDocument();
+    // 站名说明（热搜关键词简称）出现在弹窗里（页底共用组件也会出现，取全部）
+    expect(screen.getAllByText(/热搜关键词/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/官方对该事件作出定性或命名后/).length).toBeGreaterThan(0);
+    fireEvent.click(screen.getByRole("button", { name: "我已阅读并了解" }));
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+  });
+
+  it("站名已改为「俄罗斯鼠疫公开信息监测」", () => {
+    renderPage();
+    fireEvent.click(screen.getByRole("button", { name: "我已阅读并了解" }));
+    expect(screen.getAllByText("俄罗斯鼠疫公开信息监测").length).toBeGreaterThan(0);
+  });
+
+  it("第一屏状态用等级公示牌（中文等级名，非代码）", () => {
+    renderPage();
+    fireEvent.click(screen.getByRole("button", { name: "我已阅读并了解" }));
+    // 关注等级四级全列出、当前高亮
+    for (const name of ["低关注", "持续关注", "高度关注", "重大关注"]) {
+      expect(screen.getAllByText(name).length).toBeGreaterThan(0);
+    }
+    // 证据完整度五级全列出
+    for (const name of ["纯传闻", "单一来源", "可靠机构确认", "较完整证据链"]) {
+      expect(screen.getAllByText(name).length).toBeGreaterThan(0);
+    }
+    // 首屏不出现 L2/O1/C3 这类代码标识
+    const hero = document.getElementById("overview");
+    expect(hero).not.toBeNull();
+    expect(hero!.textContent).not.toMatch(/\b(L[0-3]|O[0-8]|C[0-4])\b/);
   });
 
   it("第一屏：四维状态分开显示 + 一句话判断 + 更新时间", () => {
@@ -68,13 +102,13 @@ describe("单页简报结构", () => {
     expect(screen.getByText("→ 下一步值得观察")).toBeInTheDocument();
   });
 
-  it("观察阶段进度线包含 O0–O8 与当前标记", () => {
+  it("观察阶段公示牌列出全部等级短名并标注当前", () => {
     renderPage();
-    for (let i = 0; i <= 8; i++) {
-      expect(screen.getByText(`O${i}`)).toBeInTheDocument();
+    for (const name of ["背景监测", "异常事件", "病例增加", "病原证据", "传播关系", "持续传播", "区域扩散", "跨境扩展", "中国信息"]) {
+      expect(screen.getAllByText(name).length).toBeGreaterThan(0);
     }
-    expect(screen.getByText("当前")).toBeInTheDocument();
-    expect(screen.getByText(/不代表官方疫情阶段/)).toBeInTheDocument();
+    expect(screen.getAllByText(/当前：/).length).toBeGreaterThan(0);
+    expect(screen.getAllByText(/不代表官方疫情阶段/).length).toBeGreaterThan(0);
   });
 
   it("时间线含状态标签与纠错（如有）", () => {
@@ -103,8 +137,9 @@ describe("单页简报结构", () => {
   it("方法论与完整免责声明存在", () => {
     renderPage();
     expect(screen.getByText("方法论与免责声明")).toBeInTheDocument();
-    expect(screen.getByText("完整免责声明")).toBeInTheDocument();
-    expect(screen.getByText(/没有经过验证的公共卫生事件预测能力/)).toBeInTheDocument();
+    // 完整说明以共享组件呈现（弹窗 + 页底两处）
+    expect(screen.getAllByText("关于本站的可信度").length).toBeGreaterThanOrEqual(2);
+    expect(screen.getAllByText(/没有经过验证的公共卫生事件预测能力/).length).toBeGreaterThan(0);
   });
 
   it("演示模式横幅行为正确", () => {
