@@ -46,6 +46,11 @@ collection:
   per_source_interval_seconds: 5
   max_items_per_source: 50
 
+# 结构化设置
+structuring:
+  # 超过 N 天的原始条目不再生成信号提案（历史资料走 history 页人工整理）
+  max_item_age_days: 45
+
 # 事件关联关键词（第一层粗筛，命中任意一个即标记 event_relevant）
 event_keywords:
   ru:

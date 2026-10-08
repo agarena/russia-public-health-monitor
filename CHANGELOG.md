@@ -29,3 +29,9 @@
   自搭建指南 `docs/self-hosting.md`；真实事件种子数据（12 条人工审核信号，事件：
   2026-10 伊尔库茨克鼠疫防治研究所人员不明原因肺炎事件，O1/L2/C3）。
 - 合规门禁新增引用完整性校验（signal→source、event/timeline→signal）。
+- M3：三层去重（URL 规范化 / 标题相似 rapidfuzz / AI 语义判定）与批次内转载标记；
+  来源独立性计数（转载链归并到 origin，不重复计独立来源）；OpenAI 兼容 AI 客户端
+  （AI_BASE_URL/AI_API_KEY/AI_MODEL 环境变量，未配置自动降级人工模式）；
+  §72 系统提示词固化为代码常量，AI 建议状态强制不得为 confirmed；
+  审核队列与 CLI（`processor.review list/show/approve/reject`，append-only 写入，
+  S/A 级 + 人工才能 confirmed 的硬规则代码化）；证据页新增语言与来源等级筛选。

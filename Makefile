@@ -1,7 +1,7 @@
 # 统一命令入口。
 # Windows 本机若无 make，可使用各目标注释里的等价命令；CI 与 Linux/macOS 自托管环境直接使用 make。
 
-.PHONY: setup dev sync-data build typecheck test test-web test-py lint collect process pipeline policy-check preview
+.PHONY: setup dev sync-data build typecheck test test-web test-py lint collect propose review process pipeline policy-check preview
 
 PY = uv run --project .
 
@@ -35,6 +35,12 @@ lint:             ## ruff + tsc
 
 collect:          ## 运行采集器（全量到期来源）
 	$(PY) python -m collector.cli collect
+
+propose:          ## AI/规则结构化：原始条目 -> 审核队列（AI 可选）
+	$(PY) python -m processor.structuring
+
+review:           ## 查看待审核提案（approve/reject 见 processor.review -h）
+	$(PY) python -m processor.review list
 
 process:          ## 运行处理流水线，再生成 data/public-data
 	$(PY) python -m processor.generate

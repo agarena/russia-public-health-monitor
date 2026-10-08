@@ -32,6 +32,9 @@ jobs:
       - name: Collect（单源失败互相隔离，不影响整体）
         run: python -m collector.cli collect
 
+      - name: Structure（生成审核队列；AI 未配置时自动降级为人工模式）
+        run: python -m processor.structuring
+
       - name: Generate public-data（原子替换，失败不动上一版）
         run: python -m processor.generate
 

@@ -1,7 +1,8 @@
 // 证据页：已确认 / 公开报道 / 尚未确认 / 来源冲突 四栏 + Unknown 独立一栏（规格书 §83）；
 // 已撤回信息单独保留；并整理公开病例信息与传播关系（规格书 §41、§42）。
+import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { cases, signalById, signalsByStatus, sourceById, sourceName, transmissionLinks } from "@/data";
+import { cases, signalById, signals, sourceById, sourceName, transmissionLinks } from "@/data";
 import { LANGUAGE_LABELS, confidenceMeta } from "@/lib/constants";
 import { formatDate } from "@/lib/format";
 import { usePageMeta } from "@/lib/usePageMeta";
@@ -62,23 +63,6 @@ function SignalCard({ signal }: { signal: Signal }) {
   );
 }
 
-function StatusColumn({ status, title, hint }: { status: SignalStatus; title: string; hint: string }) {
-  const list = signalsByStatus(status);
-  return (
-    <div>
-      <h3 className="text-sm font-semibold text-slate-800">{title}</h3>
-      <p className="mb-2 mt-0.5 text-[11px] text-slate-400">{hint}</p>
-      <div className="space-y-2">
-        {list.length === 0 ? (
-          <p className="rounded border border-dashed border-slate-200 p-3 text-xs text-slate-400">暂无条目</p>
-        ) : (
-          list.map((s) => <SignalCard key={s.id} signal={s} />)
-        )}
-      </div>
-    </div>
-  );
-}
-
 function CaseSources({ sourceIds }: { sourceIds: string[] }) {
   const resolved = sourceIds
     .map((sid) => signalById.get(sid))
@@ -95,8 +79,47 @@ function CaseSources({ sourceIds }: { sourceIds: string[] }) {
   );
 }
 
+function StatusColumn({
+  status,
+  title,
+  hint,
+  signalsPool,
+}: {
+  status: SignalStatus;
+  title: string;
+  hint: string;
+  signalsPool: Signal[];
+}) {
+  const list = signalsPool
+    .filter((s) => s.status === status)
+    .sort((a, b) => b.published_at.localeCompare(a.published_at));
+  return (
+    <div>
+      <h3 className="text-sm font-semibold text-slate-800">{title}</h3>
+      <p className="mb-2 mt-0.5 text-[11px] text-slate-400">{hint}</p>
+      <div className="space-y-2">
+        {list.length === 0 ? (
+          <p className="rounded border border-dashed border-slate-200 p-3 text-xs text-slate-400">暂无条目</p>
+        ) : (
+          list.map((s) => <SignalCard key={s.id} signal={s} />)
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function EvidencePage() {
   usePageMeta("证据", "按核验状态分栏的全部信息：已确认、公开报道、尚未确认、来源冲突与未知。");
+  const [lang, setLang] = useState<string>("all");
+  const [tier, setTier] = useState<string>("all");
+
+  const filtered = useMemo(
+    () =>
+      signals.filter(
+        (s) => (lang === "all" || s.language === lang) && (tier === "all" || s.source_tier === tier),
+      ),
+    [lang, tier],
+  );
 
   return (
     <div className="space-y-4">
@@ -108,18 +131,66 @@ export default function EvidencePage() {
         ：公开报道不等于确认事实，多家媒体转载不等于多个独立来源。
       </PageIntro>
 
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
-        <StatusColumn status="confirmed" title="已确认" hint="可靠来源明确确认" />
-        <StatusColumn status="reported" title="公开报道" hint="有报道，未充分独立确认" />
-        <StatusColumn status="unconfirmed" title="尚未确认" hint="有说法，缺可靠证据" />
-        <StatusColumn status="contradicted" title="来源冲突" hint="不同来源说法不一" />
-        <StatusColumn status="unknown" title="未知" hint="公开资料不足，无法判断" />
+      <div className="flex flex-wrap items-center gap-3 text-xs text-slate-600">
+        <div className="flex items-center gap-1.5">
+          <span className="text-slate-400">语言</span>
+          {[
+            ["all", "全部"],
+            ["ru", "俄语"],
+            ["en", "英语"],
+            ["zh", "中文"],
+          ].map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => setLang(value)}
+              className={`rounded-full border px-2.5 py-0.5 ${
+                lang === value
+                  ? "border-slate-900 bg-slate-900 text-white"
+                  : "border-slate-200 bg-white hover:border-slate-400"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <div className="flex items-center gap-1.5">
+          <span className="text-slate-400">来源等级</span>
+          {["all", "S", "A", "B", "C", "D"].map((value) => (
+            <button
+              key={value}
+              type="button"
+              onClick={() => setTier(value)}
+              className={`rounded-full border px-2.5 py-0.5 ${
+                tier === value
+                  ? "border-slate-900 bg-slate-900 text-white"
+                  : "border-slate-200 bg-white hover:border-slate-400"
+              }`}
+            >
+              {value === "all" ? "全部" : `${value}级`}
+            </button>
+          ))}
+        </div>
+        <span className="text-slate-400">
+          {filtered.length}/{signals.length} 条
+        </span>
       </div>
 
-      {signalsByStatus("retracted").length > 0 && (
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-5">
+        <StatusColumn status="confirmed" title="已确认" hint="可靠来源明确确认" signalsPool={filtered} />
+        <StatusColumn status="reported" title="公开报道" hint="有报道，未充分独立确认" signalsPool={filtered} />
+        <StatusColumn status="unconfirmed" title="尚未确认" hint="有说法，缺可靠证据" signalsPool={filtered} />
+        <StatusColumn status="contradicted" title="来源冲突" hint="不同来源说法不一" signalsPool={filtered} />
+        <StatusColumn status="unknown" title="未知" hint="公开资料不足，无法判断" signalsPool={filtered} />
+      </div>
+
+      {signals.filter((s) => s.status === "retracted").length > 0 && (
         <SectionCard title="已撤回 / 更正" subtitle="历史记录保留，不删除（规格：让用户看到「当时人们知道什么」）">
           <div className="space-y-2">
-            {signalsByStatus("retracted").map((s) => (
+            {signals
+              .filter((s) => s.status === "retracted")
+              .sort((a, b) => b.published_at.localeCompare(a.published_at))
+              .map((s) => (
               <div key={s.id} className="rounded-lg border border-slate-200 bg-slate-50 p-3 opacity-80">
                 <div className="flex flex-wrap items-center gap-2">
                   <SignalStatusChip status={s.status} />
