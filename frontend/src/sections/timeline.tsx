@@ -39,7 +39,7 @@ export default function TimelineSection() {
                   <>
                     {" · "}
                     <ExternalLink href={signal.url}>
-                      <span className="text-[11px]">原始来源 ↗</span>
+                      <span className="text-[11px]">原文 ↗</span>
                     </ExternalLink>
                   </>
                 )}

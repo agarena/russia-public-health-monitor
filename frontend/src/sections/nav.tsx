@@ -35,13 +35,14 @@ export function SiteNav() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string>(NAV_ITEMS[0].href);
 
-  // 滚动高亮当前所在区块
+  // 滚动高亮当前所在区块（以视口上部 1/3 为判定线）
   useEffect(() => {
     const handler = () => {
+      const line = window.innerHeight * 0.35;
       let current = NAV_ITEMS[0].href;
       for (const item of NAV_ITEMS) {
         const el = document.getElementById(item.href.slice(1));
-        if (el && el.getBoundingClientRect().top <= 120) {
+        if (el && el.getBoundingClientRect().top <= line) {
           current = item.href;
         }
       }

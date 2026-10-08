@@ -21,7 +21,7 @@ export default function HistorySection() {
                 {c.name_zh}
                 <span className="ml-2 font-normal text-xs text-slate-400">{c.period}</span>
               </h3>
-              <span className="rounded-full border border-slate-300 bg-white px-2.5 py-0.5 text-[11px] text-slate-600">
+              <span className="text-xs text-slate-400">
                 结构相似度：{SIMILARITY_LABELS[c.similarity]}
               </span>
             </div>

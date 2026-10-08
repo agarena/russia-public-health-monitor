@@ -2,7 +2,6 @@
 import { event, signalById } from "@/data";
 import { formatDate } from "@/lib/format";
 import { HOMEPAGE_CAPS } from "@/lib/constants";
-import { signalStatusMeta } from "@/lib/constants";
 import Section from "@/sections/Section";
 import { ExternalLink, SignalStatusChip } from "@/components/Badges";
 
@@ -27,9 +26,7 @@ export default function ChangesSection() {
                   {signal && <SignalStatusChip status={signal.status} />}
                   {signal && (
                     <ExternalLink href={signal.url}>
-                      <span className="text-[11px]">
-                        {signalStatusMeta(signal.status).label} · 原始来源 ↗
-                      </span>
+                      <span className="text-[11px]">原文 ↗</span>
                     </ExternalLink>
                   )}
                 </div>

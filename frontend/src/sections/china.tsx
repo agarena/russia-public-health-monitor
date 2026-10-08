@@ -27,16 +27,16 @@ export default function ChinaSection() {
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600">{watch.summary_zh}</p>
 
           <div className="mt-6 grid gap-8 md:grid-cols-3">
-            {watch.observed.length > 0 && (
-              <div>
-                <p className="text-[11px] text-slate-400">已观察</p>
-                <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
-                  {watch.observed.map((s, i) => (
-                    <li key={i}>· {s}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
+            <div>
+              <p className="text-[11px] text-slate-400">已观察</p>
+              <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
+                {watch.observed.length === 0 ? (
+                  <li className="text-slate-400">· 暂无</li>
+                ) : (
+                  watch.observed.map((s, i) => <li key={i}>· {s}</li>)
+                )}
+              </ul>
+            </div>
             <div>
               <p className="text-[11px] text-slate-400">尚未观察到</p>
               <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">

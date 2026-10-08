@@ -1,6 +1,7 @@
 // 单页简报渲染测试：12 个信息区块按认知顺序存在，四维状态分开显示。
 import { fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
+import { beforeEach } from "vitest";
 import App from "@/App";
 import { event } from "@/data";
 
@@ -12,13 +13,17 @@ function renderPage() {
   );
 }
 
+beforeEach(() => {
+  sessionStorage.clear();
+});
+
 describe("单页简报结构", () => {
   it("顶部有重要说明横幅", () => {
     renderPage();
     expect(screen.getAllByText(/重要说明/i).length).toBeGreaterThan(0);
   });
 
-  it("每次进入弹出可信度说明，阅读后可关闭", () => {
+  it("每次进入弹出可信度说明，阅读后可关闭；同会话刷新不重复弹", () => {
     renderPage();
     const dialog = screen.getByRole("dialog");
     expect(dialog).toBeInTheDocument();
@@ -26,6 +31,9 @@ describe("单页简报结构", () => {
     expect(screen.getAllByText(/热搜关键词/).length).toBeGreaterThan(0);
     expect(screen.getAllByText(/官方对该事件作出定性或命名后/).length).toBeGreaterThan(0);
     fireEvent.click(screen.getByRole("button", { name: "我已阅读并了解" }));
+    expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+    // 同一会话内重新挂载（模拟刷新）不再弹
+    renderPage();
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
   });
 

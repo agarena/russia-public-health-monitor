@@ -74,7 +74,7 @@ export default function MethodologySection() {
 
         <details className="rounded-lg border border-slate-200 p-4">
           <summary className="cursor-pointer select-none text-sm font-medium text-slate-800">
-            观察阶段 O0–O8 / 关注等级 L0–L3 / 证据完整度 C0–C4
+            观察阶段 · 关注等级 · 证据完整度的分级含义
           </summary>
           <div className="mt-3 space-y-4">
             <DefList items={OBSERVATION_PHASES.map((p) => ({ code: p.code, label: p.label, description: p.description }))} />

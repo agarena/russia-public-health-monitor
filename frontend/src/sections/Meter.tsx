@@ -2,7 +2,7 @@
 // 悬浮名称气泡（始终可见、clamp 防溢出）+ 底部等宽刻度行；仿精密仪器量表的安静质感
 //（参考 iOS 健康量表 / Arc 仪表），动效克制并尊重 prefers-reduced-motion。
 import { animate, stagger } from "animejs";
-import { useLayoutEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 
 export interface MeterOption {
   key: string;
@@ -249,18 +249,32 @@ export default function Meter({
     }
   }, [pct, reduced, halfPx]);
 
+  // 窄屏兜底：彩带溢出容器时，自动把当前级滚到可视区中央（挂载与评级更新时各一次）
+  const scrollerRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const sc = scrollerRef.current;
+    if (!sc || sc.scrollWidth <= sc.clientWidth) return;
+    const target = Math.max(0, (sc.scrollWidth * pct) / 100 - sc.clientWidth / 2);
+    try {
+      sc.scrollTo({ left: target, behavior: reduced ? "auto" : "smooth" });
+    } catch {
+      sc.scrollLeft = target;
+    }
+  }, [pct, reduced]);
+
   const minWidth = Math.max(480, safeN * 64);
   const gradient = `linear-gradient(90deg, ${options
     .map((_, i) => `${ribbonColor(i)} ${((i + 0.5) / safeN) * 100}%`)
     .join(", ")})`;
 
   return (
-    <div
-      role="img"
-      aria-label={`当前等级：${label}`}
-      className="relative select-none pb-0.5 pt-[30px]"
-      style={{ minWidth }}
-    >
+    <div ref={scrollerRef} className="overflow-x-auto">
+      <div
+        role="img"
+        aria-label={`当前等级：${label}`}
+        className="relative select-none pb-0.5 pt-[30px]"
+        style={{ minWidth }}
+      >
       {/* 彩带区（气泡与圆钮绝对定位于此） */}
       <div ref={zoneRef} className="relative h-5 w-full">
         {/* 胶囊彩带：色标位于各级中心百分比，内高光 + 极浅外投影 */}
@@ -363,6 +377,7 @@ export default function Meter({
             </div>
           );
         })}
+      </div>
       </div>
     </div>
   );

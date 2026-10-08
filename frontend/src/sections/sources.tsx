@@ -31,10 +31,17 @@ export default function SourcesSection() {
                 <TierBadge tier={t as SourceTier} />
               </dt>
               <dd>
-                <p className="text-sm leading-relaxed text-slate-700">
-                  {byTier.get(t)!.map((s) => s.name_zh ?? s.name).join(" · ")}
-                </p>
-                <p className="mt-0.5 text-[11px] leading-relaxed text-slate-400">{tierDesc.get(t)}</p>
+                <div className="flex flex-wrap gap-1.5">
+                  {byTier.get(t)!.map((s) => (
+                    <span
+                      key={s.id}
+                      className="rounded border border-slate-200 bg-slate-50 px-2 py-0.5 text-xs text-slate-700"
+                    >
+                      {s.name_zh ?? s.name}
+                    </span>
+                  ))}
+                </div>
+                <p className="mt-1.5 text-[11px] leading-relaxed text-slate-400">{tierDesc.get(t)}</p>
               </dd>
             </div>
           ))}
@@ -44,7 +51,8 @@ export default function SourcesSection() {
       <div className="mt-10">
         <h3 className="text-sm font-semibold text-slate-800">信息链与来源独立性</h3>
         <p className="mt-1 text-xs leading-relaxed text-slate-500">
-          转载不重复计入独立来源：一条信息沿「地方媒体 → 国际媒体 → 其他媒体」传播时，只算 1 个原始信息 + 多个转载。
+          转载不重复计入独立来源：一条信息沿「地方媒体 → 国际媒体 → 其他媒体」传播时，只算 1 个原始信息 +
+          多个转载。下列引用对可能属于同一原始消息链。
         </p>
         <ul className="mt-4 space-y-4">
           {sourceRelations.map((r, i) => {
@@ -57,9 +65,6 @@ export default function SourcesSection() {
                   <span className="font-medium">{from.name_zh ?? from.name}</span>
                   <span className="text-slate-400">← 引用 ─</span>
                   <span className="font-medium">{to.name_zh ?? to.name}</span>
-                  <span className="rounded border border-slate-200 bg-slate-50 px-1.5 py-0.5 text-[11px] text-slate-500">
-                    可能属于同一原始消息链
-                  </span>
                 </div>
                 {r.note_zh && <p className="mt-1 text-xs text-slate-500">{r.note_zh}</p>}
               </li>
@@ -87,7 +92,7 @@ export default function SourcesSection() {
                 <p className="mt-1.5 text-[11px] text-slate-400">
                   独立来源 ×{s.independent_source_count} ·{" "}
                   <ExternalLink href={s.url}>
-                    <span className="text-[11px]">原始来源 ↗</span>
+                    <span className="text-[11px]">原文 ↗</span>
                   </ExternalLink>
                 </p>
               </li>

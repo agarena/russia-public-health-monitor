@@ -1,15 +1,33 @@
-// 每次进入网站的弹窗：展示完整可信度说明（与页底共用 FullDisclaimer，统一维护）。
+// 进入网站的弹窗：展示完整可信度说明（与页底共用 FullDisclaimer，统一维护）。
+// 每个浏览器会话（sessionStorage）首次进入弹一次；刷新/断线重连不再重复打扰。
 import { useEffect, useState } from "react";
 import { SITE_NAME } from "@/lib/constants";
 import FullDisclaimer from "@/sections/FullDisclaimer";
 
+const ACK_KEY = "rpm-disclaimer-ack";
+
 export default function DisclaimerModal() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(() => {
+    try {
+      return sessionStorage.getItem(ACK_KEY) !== "1";
+    } catch {
+      return true;
+    }
+  });
+
+  const close = () => {
+    try {
+      sessionStorage.setItem(ACK_KEY, "1");
+    } catch {
+      /* 存储不可用时仅本次关闭 */
+    }
+    setOpen(false);
+  };
 
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") close();
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -20,7 +38,7 @@ export default function DisclaimerModal() {
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4"
-      onClick={() => setOpen(false)}
+      onClick={close}
       role="presentation"
     >
       <div
@@ -41,7 +59,7 @@ export default function DisclaimerModal() {
           <button
             type="button"
             autoFocus
-            onClick={() => setOpen(false)}
+            onClick={close}
             className="rounded bg-slate-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-700"
           >
             我已阅读并了解
