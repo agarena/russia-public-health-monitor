@@ -11,3 +11,10 @@
     @apply bg-white text-slate-900 antialiased;
   }
 }
+
+@layer utilities {
+  /* 能效标签式锯齿箭头段：右端尖角，段间负边距咬合 */
+  .chevron-segment {
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+  }
+}

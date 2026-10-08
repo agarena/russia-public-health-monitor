@@ -18,7 +18,6 @@ export default function PhaseTrack() {
         <Meter
           options={OBSERVATION_PHASES.map((p) => ({ key: p.code, label: p.short }))}
           currentKey={event.observation_phase}
-          sequential
         />
       </div>
 

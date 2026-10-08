@@ -35,6 +35,7 @@ export default function StatusHero() {
                 emoji: l.emoji,
               }))}
               currentKey={event.attention_level}
+              tone="signal"
             />
             <p className="mt-1.5 text-[11px] text-slate-400">信息值得关注程度，非疾病概率</p>
           </div>
@@ -46,7 +47,6 @@ export default function StatusHero() {
             <Meter
               options={OBSERVATION_PHASES.map((p) => ({ key: p.code, label: p.short }))}
               currentKey={event.observation_phase}
-              sequential
             />
             <p className="mt-1.5 text-[11px] text-slate-400">
               当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定
@@ -60,7 +60,6 @@ export default function StatusHero() {
             <Meter
               options={EVIDENCE_CONFIDENCE.map((c) => ({ key: c.code, label: c.label }))}
               currentKey={event.confidence}
-              sequential
             />
             <p className="mt-1.5 text-[11px] text-slate-400">公开证据支持程度</p>
           </div>
