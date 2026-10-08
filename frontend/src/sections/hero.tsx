@@ -11,12 +11,28 @@ import { formatDate, formatDateTime, formatRelative } from "@/lib/format";
 import type { ReactNode } from "react";
 import Meter from "@/sections/Meter";
 
+// 状态牌钻取链接：每条彩带 → 它的证据所在区块
+function JumpLink({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <a
+      href={href}
+      className="text-slate-400 underline decoration-slate-300 underline-offset-2 transition-colors hover:text-slate-600"
+    >
+      {children}
+    </a>
+  );
+}
+
 function StatusPlate() {
   const phase = phaseMeta(event.observation_phase);
   const rows: { label: string; caption: ReactNode; meter: ReactNode }[] = [
     {
       label: "关注等级",
-      caption: "信息值得关注程度，非疾病概率",
+      caption: (
+        <>
+          信息值得关注程度，非疾病概率 · <JumpLink href="#changes">升降依据见 03</JumpLink>
+        </>
+      ),
       meter: (
         <Meter
           options={ATTENTION_LEVELS.map((l) => ({ key: l.code, label: l.label, emoji: l.emoji }))}
@@ -28,7 +44,10 @@ function StatusPlate() {
     {
       label: "观察阶段",
       caption: (
-        <>当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定</>
+        <>
+          当前：{phase.label} · 仅表示本站对公开信息的观察状态，非官方疫情阶段认定 ·{" "}
+          <JumpLink href="#next">推进条件见 06</JumpLink>
+        </>
       ),
       meter: (
         <Meter
@@ -39,7 +58,12 @@ function StatusPlate() {
     },
     {
       label: "证据完整度",
-      caption: "公开证据支持程度",
+      caption: (
+        <>
+          公开证据支持程度 · <JumpLink href="#evidence">证据明细见 04</JumpLink> ·{" "}
+          <JumpLink href="#sources">来源质量见 09</JumpLink>
+        </>
+      ),
       meter: (
         <Meter
           options={EVIDENCE_CONFIDENCE.map((c) => ({ key: c.code, label: c.label }))}
