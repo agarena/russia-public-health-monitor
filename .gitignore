@@ -31,3 +31,8 @@ Thumbs.db/
 
 # ZCode 本地会话文件
 .zcode/
+
+# skill-hub 分发挂载点（junction 链接，本机私有）
+.agents/
+.trae/
+.codex/
