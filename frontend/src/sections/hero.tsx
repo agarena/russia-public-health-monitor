@@ -99,11 +99,10 @@ export default function StatusHero() {
   return (
     <header id="overview" className="scroll-mt-20 pb-10 pt-10 md:pb-14 md:pt-16">
       <p className="text-xs leading-relaxed text-slate-400">
-        单一事件公开信息简报 · 首次公开报道 {formatDate(event.first_seen)} · 持续更新
-        <span className="mx-1">·</span>
+        单一事件公开信息简报 · 首次公开报道 {formatDate(event.first_seen)} · 持续更新 ·
         「俄罗斯鼠疫」为近期热搜关键词的简称，官方定名后本站将更新
       </p>
-      <h1 className="mt-3 max-w-3xl text-[26px] font-bold leading-snug tracking-tight text-slate-900 md:text-4xl md:leading-tight">
+      <h1 className="mt-3 text-[26px] font-bold leading-snug tracking-tight text-slate-900 md:text-4xl md:leading-tight">
         {event.title}
       </h1>
 
@@ -111,9 +110,13 @@ export default function StatusHero() {
         <StatusPlate />
       </div>
 
-      <div className="mt-8 border-l-2 border-slate-800 pl-5">
+      <div className="relative mt-8">
+        <span
+          aria-hidden
+          className="absolute -left-4 top-0 h-full w-0.5 bg-slate-800 md:-left-6"
+        />
         <p className="text-[11px] text-slate-400">一句话判断</p>
-        <p className="mt-1.5 max-w-3xl text-lg leading-relaxed text-slate-800">{event.summary}</p>
+        <p className="mt-1.5 max-w-4xl text-lg leading-relaxed text-slate-800">{event.summary}</p>
       </div>
 
       <p className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-slate-400">

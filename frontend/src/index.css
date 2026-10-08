@@ -13,8 +13,60 @@
 }
 
 @layer utilities {
-  /* 能效标签式锯齿箭头段：右端尖角，段间负边距咬合 */
-  .chevron-segment {
-    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%);
+  /* 隐藏横向滚动条（触控/滚轮仍可横向滚动）——用于彩带等「当前级自动居中」的容器 */
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Meter 等级彩带的时间基入场动画：CSS 按真实时间求值，
+   任何渲染环境（含节流/冻结帧）产生的帧都显示正确的已流逝状态。 */
+@keyframes meter-ribbon-in {
+  from {
+    opacity: 0;
+    transform: scaleY(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+@keyframes meter-bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes meter-knob-in {
+  from {
+    opacity: 0;
+    transform: scale(0.55);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes meter-tick-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .meter-anim {
+    animation: none !important;
   }
 }
