@@ -3,7 +3,8 @@
 **Russia Public Health Event Information Monitor**
 
 一个开源的公开信息观察网站，只围绕**一个事件**：2026 年俄罗斯相关
-「不明原因肺炎 / 疑似鼠疫」公共卫生事件。
+「不明原因肺炎 / 疑似鼠疫」公共卫生事件。本站是单页 editorial 简报（页面内锚点导航），
+目标是让人在数秒内理解事件状态，不是新闻门户，也不是数据大屏。
 
 项目采集并整理俄语、英语、中文的公开信息，来源包括官方机构（WHO、ECDC、
 俄罗斯主管部门）、国际专业媒体、俄罗斯本地媒体与公开社交平台。
@@ -58,7 +59,7 @@
 ## 目录结构
 
 ```
-frontend/    React 静态站点（7 个页面）
+frontend/    React 静态站点（单页 editorial 简报，锚点导航）
 collector/   Python 采集器
 processor/   归一化、去重、AI 结构化、评分与公开 JSON 生成
 data/        public-data（发布的 JSON）、state（只追加存储）、history（历史参照案例）

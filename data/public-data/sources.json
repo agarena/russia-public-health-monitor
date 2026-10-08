@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T04:08:02Z",
+  "updated_at": "2026-10-08T04:23:06Z",
   "sources": [
     {
       "id": "src-who",
@@ -354,25 +354,25 @@
   ],
   "relations": [
     {
-      "from_": "src-reuters",
+      "from": "src-reuters",
       "to": "src-rospotr",
       "type": "cites",
       "note_zh": "路透社报道转述 Rospotrebnadzor 与俄官方表态"
     },
     {
-      "from_": "src-tass-en",
+      "from": "src-tass-en",
       "to": "src-rospotr",
       "type": "cites",
       "note_zh": "TASS 英文版报道基于俄官方通报转述"
     },
     {
-      "from_": "src-onliner",
+      "from": "src-onliner",
       "to": "src-irk-gov",
       "type": "cites",
       "note_zh": "Onliner 关于「是肺炎非鼠疫」的报道基于伊尔库茨克州州长表态"
     },
     {
-      "from_": "src-meduza",
+      "from": "src-meduza",
       "to": "src-baikal",
       "type": "cites",
       "note_zh": "Meduza 综合了本地媒体（含贝加尔杂志）的现场细节"

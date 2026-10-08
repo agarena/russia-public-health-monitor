@@ -4,6 +4,8 @@
 
 A public, open-source information-monitoring website focused on **one specific event**: the
 2026 Russia-related "pneumonia of unknown cause / suspected plague" public-health event.
+The site is a single-page editorial briefing with anchor navigation — designed to be
+understood in seconds, not a news portal or a dashboard.
 
 The project collects and structures publicly available information — in Russian, English
 and Chinese — from official institutions (WHO, ECDC, Russian authorities), professional
@@ -62,7 +64,7 @@ Key auditability properties:
 ## Repository layout
 
 ```
-frontend/    React static site (7 pages)
+frontend/    React static site (single-page editorial briefing, anchor navigation)
 collector/   Python source collectors
 processor/   Normalization, dedup, AI structuring, scoring, public-JSON generation
 data/        public-data (published JSON), state (append-only stores), history (reference cases)

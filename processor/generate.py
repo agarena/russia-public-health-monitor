@@ -136,8 +136,9 @@ def build_outputs() -> dict[str, object]:
 def publish(outputs: dict[str, object]) -> None:
     TMP_DIR.mkdir(parents=True, exist_ok=True)
     for name, model in outputs.items():
+        # by_alias=True：带别名的字段（如 SourceRelation.from_ → from）按对外字段名输出
         (TMP_DIR / name).write_text(
-            model.model_dump_json(indent=2), encoding="utf-8"
+            model.model_dump_json(indent=2, by_alias=True), encoding="utf-8"
         )
     # 校验（能 build 出来即已通过 pydantic；再跑一遍文件级反序列化确认落盘无损）
     for name in outputs:

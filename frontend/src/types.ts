@@ -43,6 +43,15 @@ export interface NextTrigger {
   evidence_required: "high" | "medium" | "low";
 }
 
+/** 中国相关公开信息观察（O8 的展示区块；只陈述公开信息变化，不做风险判断） */
+export interface ChinaWatch {
+  status: "no_change" | "notable";
+  summary_zh: string;
+  observed: string[];
+  not_observed: string[];
+  next_watch: string[];
+}
+
 export interface EventData {
   id: string;
   title: string;
@@ -62,6 +71,7 @@ export interface EventData {
   unconfirmed: RefItem[];
   unknowns: UnknownItem[];
   next_triggers: NextTrigger[];
+  china_watch?: ChinaWatch;
 }
 
 export interface Signal {

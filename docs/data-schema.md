@@ -25,6 +25,7 @@
 | confirmed / unconfirmed | list | 首页两栏（各≤5；每条带可追溯 signal_ids） |
 | unknowns | list | 当前未知（question/importance/why_it_matters） |
 | next_triggers | list | 下一步观察点（condition → potential_next_phase） |
+| china_watch | object? | 中国相关公开信息观察：status（no_change/notable）、observed / not_observed / next_watch 列表。只记录公开信息变化，不做风险判断 |
 
 ### signals.json —— 信号库（核心可审计单元）
 

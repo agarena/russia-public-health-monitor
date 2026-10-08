@@ -43,3 +43,17 @@
   （`processor.status`）；维护技能 `skills/russia-monitor`（六动作：collect/review/
   update/publish/audit/status，均含等价命令行）；数据结构文档 `docs/data-schema.md`；
   贡献指南；流水线失败自动开维护 Issue；README 双语定稿。
+- 前端重构（按 UI 设计简报）：7 页路由结构改为**单页 editorial 简报**——页面内锚点导航
+  （桌面横排 + 手机汉堡菜单 + 滚动高亮）、12 个信息区块按认知顺序排列（重要说明 →
+  当前状态 → 关键变化 → 已确认/尚未确认 → 未知/下一步 → 观察阶段进度线 O0–O8 →
+  时间线 → 来源与信息差异 → 历史参照 → **中国相关公开信息（新增区块，含
+  china_watch 数据结构）** → 方法论与完整免责声明）；第一屏不滚动即呈现四维状态与
+  一句话判断；视觉全面 editorial 化（白底、细分隔线、编号章节标题、1200–1280px 栅格、
+  克制配色）。
+- 维护技能补充 `skills/russia-monitor/scripts/russia-monitor.mjs` 包装脚本（六动作
+  一键调用，支持 `uv run` 或裸 `python`，`RUSSIA_MONITOR_REPO` 指定仓库路径）。
+
+### Fixed
+
+- 修复 generate 序列化未开 by_alias 导致来源引用关系 `from` 字段输出为 `from_`、
+  前端「来源独立性链」自 M2 起静默不渲染的问题。

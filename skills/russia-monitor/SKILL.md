@@ -8,6 +8,10 @@ description: 俄罗斯公共卫生事件观察站的日常维护技能。六个�
 本技能驱动一个「采集 → 结构化 → 人工审核 → 生成 → 发布」的静态观察站。
 所有命令在仓库根目录运行；Python 命令用 `uv run python -m ...`（或已 `pip install -e .` 时直接 `python -m ...`）。
 
+快捷入口：`node scripts/russia-monitor.mjs <collect|propose|review|update|publish|audit|status>`
+（脚本自动定位仓库并选择 `uv run` 或裸 `python`；技能被分发到仓库外时用环境变量
+`RUSSIA_MONITOR_REPO` 指定仓库路径）。下文仍给出完整命令供理解与排障。
+
 ## 你是谁（角色边界）
 
 你是**公开信息整理助手**，不是医生、流行病学家、政府机构或预测模型。执行本技能时必须遵守以下硬性规则（代码门禁会拦截大部分违规，但判断责任在你）：

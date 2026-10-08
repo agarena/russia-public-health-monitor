@@ -1,26 +1,12 @@
-import { Route, Routes } from "react-router-dom";
-import Layout from "@/components/Layout";
-import HomePage from "@/pages/HomePage";
-import TimelinePage from "@/pages/TimelinePage";
-import SourcesPage from "@/pages/SourcesPage";
-import EvidencePage from "@/pages/EvidencePage";
-import HistoryPage from "@/pages/HistoryPage";
-import MethodologyPage from "@/pages/MethodologyPage";
-import DisclaimerPage from "@/pages/DisclaimerPage";
+import { Navigate, Route, Routes } from "react-router-dom";
+import BriefingPage from "@/pages/BriefingPage";
 
 export default function App() {
   return (
     <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<HomePage />} />
-        <Route path="timeline" element={<TimelinePage />} />
-        <Route path="sources" element={<SourcesPage />} />
-        <Route path="evidence" element={<EvidencePage />} />
-        <Route path="history" element={<HistoryPage />} />
-        <Route path="methodology" element={<MethodologyPage />} />
-        <Route path="disclaimer" element={<DisclaimerPage />} />
-        <Route path="*" element={<HomePage />} />
-      </Route>
+      <Route index element={<BriefingPage />} />
+      {/* 单页设计：其余路径一律回到首页（旧多页链接自动归位） */}
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }

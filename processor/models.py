@@ -57,6 +57,14 @@ class NextTrigger(StrictModel):
     evidence_required: Literal["high", "medium", "low"]
 
 
+class ChinaWatch(StrictModel):
+    status: Literal["no_change", "notable"]
+    summary_zh: str
+    observed: list[str] = []
+    not_observed: list[str] = []
+    next_watch: list[str] = []
+
+
 class Event(StrictModel):
     id: str
     title: str
@@ -75,6 +83,7 @@ class Event(StrictModel):
     unconfirmed: list[RefItem] = []
     unknowns: list[UnknownItem] = []
     next_triggers: list[NextTrigger] = []
+    china_watch: ChinaWatch | None = None
 
 
 class Signal(StrictModel):
