@@ -1,4 +1,6 @@
 // 方法论页：本站如何采集、如何去重、各状态维度如何定义、为什么不提供概率、系统有哪些局限（规格书 §85）。
+import { ratingChanges } from "@/data";
+import { formatDateTime } from "@/lib/format";
 import {
   ATTENTION_LEVELS,
   EVIDENCE_CONFIDENCE,
@@ -7,6 +9,13 @@ import {
 } from "@/lib/constants";
 import { usePageMeta } from "@/lib/usePageMeta";
 import { PageIntro, SectionCard } from "@/components/Cards";
+
+const DIMENSION_LABELS: Record<string, string> = {
+  observation_phase: "观察阶段",
+  attention_level: "关注等级",
+  confidence: "证据完整度",
+  trend: "趋势",
+};
 
 function DefinitionList({
   items,
@@ -155,6 +164,42 @@ export default function MethodologyPage() {
           页面保留全部历史变化。发现错误可通过仓库 Issue 反馈，附上公开来源。
         </p>
       </SectionCard>
+
+      {ratingChanges.length > 0 && (
+        <SectionCard
+          title="14. 评级变更记录"
+          subtitle="每次阶段 / 等级 / 证据 / 趋势变化都记录理由与依据来源（规格书 §100–§101）"
+        >
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[560px] text-left text-sm">
+              <thead>
+                <tr className="border-b border-slate-200 text-xs text-slate-400">
+                  <th className="py-2 pr-3 font-medium">时间</th>
+                  <th className="py-2 pr-3 font-medium">维度</th>
+                  <th className="py-2 pr-3 font-medium">变化</th>
+                  <th className="py-2 pr-3 font-medium">理由</th>
+                  <th className="py-2 font-medium">依据</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...ratingChanges].reverse().map((c, i) => (
+                  <tr key={i} className="border-b border-slate-100 align-top">
+                    <td className="whitespace-nowrap py-2 pr-3 text-xs tabular-nums text-slate-500">
+                      {formatDateTime(c.timestamp)}
+                    </td>
+                    <td className="py-2 pr-3 text-slate-700">{DIMENSION_LABELS[c.dimension] ?? c.dimension}</td>
+                    <td className="whitespace-nowrap py-2 pr-3 font-medium text-slate-900">
+                      {c.from} → {c.to}
+                    </td>
+                    <td className="py-2 pr-3 text-xs leading-relaxed text-slate-600">{c.reason}</td>
+                    <td className="py-2 text-xs text-slate-500">{c.source_ids.join("、") || "—"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </SectionCard>
+      )}
     </div>
   );
 }

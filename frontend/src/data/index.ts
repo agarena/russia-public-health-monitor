@@ -6,11 +6,13 @@ import timelineJson from "@data/timeline.json";
 import casesJson from "@data/cases.json";
 import transmissionJson from "@data/transmission.json";
 import statusJson from "@data/status.json";
+import ratingChangesJson from "@data/rating-changes.json";
 import historyJson from "../../../data/history/history-cases.json";
 import type {
   CasesFile,
   EventData,
   HistoryCase,
+  RatingChange,
   Signal,
   SignalStatus,
   SignalsFile,
@@ -37,6 +39,7 @@ export const cases = casesFile.cases;
 export const transmissionFile = transmissionJson as unknown as TransmissionFile;
 export const transmissionLinks = transmissionFile.links;
 export const statusData = statusJson as unknown as StatusFile;
+export const ratingChanges = (ratingChangesJson as unknown as { changes: RatingChange[] }).changes;
 
 const historyTyped = historyJson as unknown as { note_zh: string; cases: HistoryCase[] };
 export const historyNote = historyTyped.note_zh;

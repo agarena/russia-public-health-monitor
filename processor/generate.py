@@ -17,6 +17,7 @@ from collector.util import now_iso
 from processor.models import (
     CasesFile,
     Event,
+    RatingChangesFile,
     SignalsFile,
     SourcesFile,
     StatusFile,
@@ -110,6 +111,16 @@ def build_outputs() -> dict[str, object]:
         }
     )
 
+    # 评级变更记录（可审计：每次 O/L/C/趋势变化都带理由与来源）
+    changes_path = STATE_DIR / "rating_changes.json"
+    if changes_path.exists():
+        raw_changes = _read_json(changes_path)
+        changes_out = RatingChangesFile.model_validate(
+            {"updated_at": ts, "changes": raw_changes}
+        )
+    else:
+        changes_out = RatingChangesFile.model_validate({"updated_at": ts, "changes": []})
+
     return {
         "event.json": event,
         "signals.json": signals,
@@ -118,6 +129,7 @@ def build_outputs() -> dict[str, object]:
         "cases.json": cases,
         "transmission.json": transmission,
         "status.json": status,
+        "rating-changes.json": changes_out,
     }
 
 

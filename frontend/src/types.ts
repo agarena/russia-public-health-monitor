@@ -188,6 +188,20 @@ export interface StatusFile {
   demo: boolean;
 }
 
+export interface RatingChange {
+  timestamp: string;
+  dimension: "observation_phase" | "attention_level" | "confidence" | "trend";
+  from: string;
+  to: string;
+  reason: string;
+  source_ids: string[];
+}
+
+export interface RatingChangesFile {
+  updated_at: string;
+  changes: RatingChange[];
+}
+
 export interface HistoryTimelinePoint {
   date: string;
   text: string;

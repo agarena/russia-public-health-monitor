@@ -18,6 +18,7 @@ from processor.models import (
     CasesFile,
     Event,
     HistoryFile,
+    RatingChangesFile,
     SignalsFile,
     SourcesFile,
     StatusFile,
@@ -37,6 +38,7 @@ FILE_MODELS = {
     "transmission.json": TransmissionFile,
     "status.json": StatusFile,
     "history-cases.json": HistoryFile,
+    "rating-changes.json": RatingChangesFile,
 }
 
 # 归属原文、不参与禁词扫描的字段名

@@ -229,3 +229,19 @@ class HistoryFile(StrictModel):
     updated_at: str
     note_zh: str
     cases: list[HistoryCase]
+
+
+class RatingChange(StrictModel):
+    timestamp: str
+    dimension: Literal["observation_phase", "attention_level", "confidence", "trend"]
+    from_: str = Field(..., alias="from")
+    to: str
+    reason: str
+    source_ids: list[str] = []
+
+    model_config = ConfigDict(extra="forbid", populate_by_name=True)
+
+
+class RatingChangesFile(StrictModel):
+    updated_at: str
+    changes: list[RatingChange]
