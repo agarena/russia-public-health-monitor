@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>俄罗斯公共卫生事件公开信息观察站</title>
+    <meta
+      name="description"
+      content="针对 2026 年俄罗斯相关公共卫生事件的公开信息整理、核验状态展示与动态观察。仅整理公开信息，不提供疫情预测。"
+    />
+    <meta property="og:title" content="俄罗斯公共卫生事件公开信息观察站" />
+    <meta
+      property="og:description"
+      content="针对 2026 年俄罗斯相关公共卫生事件的公开信息整理、核验状态展示与动态观察。仅整理公开信息，不提供疫情预测。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // GitHub Pages 404 重定向恢复：配合 dist/404.html 使用。
+      (function () {
+        var r = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (r && r !== location.href) {
+          var path = r.replace(/^https?:\/\/[^/]+/, "");
+          if (path) history.replaceState(null, "", path);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
