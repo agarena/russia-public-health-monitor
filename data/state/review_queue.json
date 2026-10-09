@@ -5568,7 +5568,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T02:35:28Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T02:39:17Z",
+      "reject_reason": "一般科普/风险评述（CBC The Current），无独立新增事实"
     }
   ]
 }
