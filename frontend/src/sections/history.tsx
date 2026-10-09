@@ -9,7 +9,7 @@ export default function HistorySection() {
   return (
     <Section
       id="history"
-      no="09"
+      no="07"
       title="历史模式参照"
       subtitle="回答「当前事件有哪些信息结构，在过去某些公共卫生事件早期阶段曾出现过」，同时说明哪些关键特征目前并没有出现"
     >

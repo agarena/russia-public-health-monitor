@@ -1,4 +1,4 @@
-// 单页简报渲染测试：12 个信息区块按认知顺序存在，四维状态分开显示。
+// 单页简报渲染测试：信息区块按认知顺序存在，四维状态分开显示。
 import { fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import { beforeEach } from "vitest";
@@ -65,7 +65,7 @@ describe("单页简报结构", () => {
     expect(screen.getByText(/最后更新/)).toBeInTheDocument();
   });
 
-  it("十二个区块按认知顺序出现", () => {
+  it("各区块按认知顺序出现（变化与时间线合一，历史参照在来源之前）", () => {
     const { container } = renderPage();
     const ids = [
       "overview",
@@ -73,9 +73,8 @@ describe("单页简报结构", () => {
       "evidence",
       "next",
       "phase",
-      "timeline",
-      "sources",
       "history",
+      "sources",
       "china",
       "methodology",
     ].map((id) => container.querySelector(`#${id}`));

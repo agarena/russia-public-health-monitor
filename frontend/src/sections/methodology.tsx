@@ -37,7 +37,7 @@ export default function MethodologySection() {
   return (
     <Section
       id="methodology"
-      no="11"
+      no="10"
       title="方法论与免责声明"
       subtitle="本站帮用户把现在公开的信息整理清楚，而不是预测未来"
     >

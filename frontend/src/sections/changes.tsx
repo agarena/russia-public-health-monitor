@@ -1,8 +1,9 @@
-// 最近关键变化：不是新闻列表，最多 6 条；每条 时间 + 一句话 + 状态 + 来源（可点开原始来源）。
+// 关键变化与完整时间线：上块按重要性（最多 6 条），下块按时间倒序给完整过程（纠错保留历史）。
 import { event, signalById } from "@/data";
 import { formatDate } from "@/lib/format";
 import { HOMEPAGE_CAPS } from "@/lib/constants";
 import Section from "@/sections/Section";
+import { TimelineList } from "@/sections/timeline";
 import { ExternalLink, SignalStatusChip } from "@/components/Badges";
 
 export default function ChangesSection() {
@@ -11,9 +12,10 @@ export default function ChangesSection() {
     <Section
       id="changes"
       no="02"
-      title="最近关键变化"
-      subtitle="按重要性排序；完整过程见时间线"
+      title="关键变化与时间线"
+      subtitle="上块按重要性排序，下块给完整过程；每个节点标注信息状态与来源。后续发现有误的报道不删除，追加更正说明——可以看到「当时人们知道什么」"
     >
+      <h3 className="mb-1 text-sm font-semibold text-slate-700">最近关键变化</h3>
       <ol className="divide-y divide-slate-100">
         {changes.map((c, i) => {
           const signal = (c.signal_ids ?? []).map((id) => signalById.get(id)).find(Boolean);
@@ -38,6 +40,8 @@ export default function ChangesSection() {
       <p className="mt-4 text-xs text-slate-500">
         变化条目按重要性而非单纯时间排序；状态含义见<a href="#methodology" className="underline underline-offset-2 hover:text-slate-700">说明</a>。
       </p>
+      <h3 className="mt-10 mb-4 text-sm font-semibold text-slate-700">完整事件时间线（按时间倒序）</h3>
+      <TimelineList />
     </Section>
   );
 }

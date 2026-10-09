@@ -6,13 +6,12 @@ import { event } from "@/data";
 // 顺序与页面锚点的实际排列一致（滚动高亮逻辑依赖这一点）。
 export const NAV_ITEMS = [
   { href: "#overview", label: "总览" },
-  { href: "#changes", label: "变化" },
+  { href: "#changes", label: "变化与时间线" },
   { href: "#evidence", label: "证据" },
   { href: "#next", label: "下一步" },
   { href: "#phase", label: "阶段" },
-  { href: "#timeline", label: "时间线" },
-  { href: "#sources", label: "来源" },
   { href: "#history", label: "历史参照" },
+  { href: "#sources", label: "来源" },
   { href: "#china", label: "中国" },
   { href: "#methodology", label: "说明" },
 ];

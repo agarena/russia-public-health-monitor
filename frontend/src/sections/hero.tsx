@@ -28,7 +28,7 @@ function StatusPlate() {
         <>
           事件对中国读者的影响与相关程度（是否值得留意），非疾病概率 ·{" "}
           <JumpLink href="#changes">升降依据见 02</JumpLink> ·{" "}
-          <JumpLink href="#china">中国动态见 10</JumpLink>
+          <JumpLink href="#china">中国动态见 09</JumpLink>
         </>
       ),
       meter: (

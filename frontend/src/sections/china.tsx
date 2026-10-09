@@ -8,7 +8,7 @@ export default function ChinaSection() {
   return (
     <Section
       id="china"
-      no="10"
+      no="09"
       title="中国相关公开信息"
       subtitle="只记录与本事件直接相关的中国境内公开信息变化；该区块不代表任何风险判断"
     >

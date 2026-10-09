@@ -1,4 +1,4 @@
-// 单页简报：全部内容在一个长页面纵向展示（设计简报 §2–§3 的 12 区块认知顺序）。
+// 单页简报：全部内容在一个长页面纵向展示（设计简报 §2–§3 的区块认知顺序，变化与时间线合为一区）。
 import { useEffect } from "react";
 import { event } from "@/data";
 import { usePageMeta } from "@/lib/usePageMeta";
@@ -7,7 +7,6 @@ import StatusHero from "@/sections/hero";
 import ChangesSection from "@/sections/changes";
 import { EvidenceSplit, UnknownsNext } from "@/sections/evidence";
 import PhaseTrack from "@/sections/phase";
-import TimelineSection from "@/sections/timeline";
 import SourcesSection from "@/sections/sources";
 import HistorySection from "@/sections/history";
 import ChinaSection from "@/sections/china";
@@ -47,9 +46,8 @@ export default function BriefingPage() {
         <EvidenceSplit />
         <UnknownsNext />
         <PhaseTrack />
-        <TimelineSection />
-        <SourcesSection />
         <HistorySection />
+        <SourcesSection />
         <ChinaSection />
         <MethodologySection />
       </main>
