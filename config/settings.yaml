@@ -43,7 +43,8 @@ banned_patterns:
 collection:
   cron_hint_hours: 2
   timeout_seconds: 30
-  per_source_interval_seconds: 5
+  # 跨来源并发线程数（单来源每次运行仍只有一两个请求，不提高对单一站点的频率）
+  max_workers: 8
   max_items_per_source: 50
 
 # 结构化设置

@@ -1,5 +1,7 @@
 """采集入口：python -m collector.cli collect [--only ID ...] [--dry-run] [--limit N]
 
+- 跨来源并发抓取（线程池，settings.yaml 的 collection.max_workers 控制）；
+  单来源每次运行仍只有一两个请求，不提高对单一站点的请求频率；
 - 单源失败只记录健康状态，不影响其他来源；
 - URL 去重（已采集过的条目跳过）；
 - 事件关联关键词粗筛（event_relevant）；
@@ -7,7 +9,7 @@
 """
 import argparse
 import sys
-import time
+from concurrent.futures import ThreadPoolExecutor
 
 from collector.adapters import google_news, rss
 from collector.client import make_client
@@ -35,9 +37,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 def run_collect(only: list[str] | None, dry_run: bool, limit: int | None) -> int:
     settings = load_settings()
-    max_items = limit or settings.get("collection", {}).get("max_items_per_source", 50)
-    interval = settings.get("collection", {}).get("per_source_interval_seconds", 5)
-    timeout = settings.get("collection", {}).get("timeout_seconds", 30)
+    collection = settings.get("collection", {})
+    max_items = limit or collection.get("max_items_per_source", 50)
+    timeout = collection.get("timeout_seconds", 30)
+    workers = max(1, int(collection.get("max_workers", 8)))
 
     sources = [s for s in load_sources() if s.enabled and s.collect]
     if only:
@@ -47,19 +50,31 @@ def run_collect(only: list[str] | None, dry_run: bool, limit: int | None) -> int
     health = {} if dry_run else load_health()
     client = make_client(timeout=timeout)
 
-    total_new = 0
-    total_relevant = 0
-    for source in sources:
+    def fetch_one(source):
+        # 工作线程只做网络请求；去重与健康状态由主线程统一处理，避免并发写冲突
         try:
             if source.collect.method == "google_news_rss":
                 items = google_news.fetch(source, client)
             else:
                 items = rss.fetch(source, client)
+            return source, items, None
         except Exception as e:  # noqa: BLE001 —— 单源失败必须隔离
+            return source, [], e
+
+    executor = ThreadPoolExecutor(max_workers=min(workers, len(sources) or 1))
+    try:
+        results = list(executor.map(fetch_one, sources))
+    finally:
+        executor.shutdown()
+
+    total_new = 0
+    total_relevant = 0
+    for source, items, error in results:
+        if error is not None:
             if not dry_run:
-                err = f"{type(e).__name__}: {e}"
+                err = f"{type(error).__name__}: {error}"
                 update_health(health, source.id, ok=False, items=0, error=err)
-            print(f"  [{source.id}] 采集失败：{type(e).__name__}: {e}")
+            print(f"  [{source.id}] 采集失败：{type(error).__name__}: {error}")
             continue
 
         new_items = []
@@ -80,7 +95,6 @@ def run_collect(only: list[str] | None, dry_run: bool, limit: int | None) -> int
             f"  [{source.id}] 获取 {len(items)} 条，新增 {len(new_items)} 条"
             f"（疑似相关 {relevant_count}）"
         )
-        time.sleep(min(interval, 3) if interval else 0)
 
     if not dry_run:
         save_seen(seen)
