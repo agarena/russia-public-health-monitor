@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T04:26:59Z",
+  "updated_at": "2026-10-09T11:20:21Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -5602,6 +5602,93 @@
       "decision": "rejected",
       "decided_at": "2026-10-09T03:53:50Z",
       "reject_reason": "一般科普（数字盘点式），无独立新增事实"
+    },
+    {
+      "id": "p-1282300952",
+      "raw_item": {
+        "item_id": "12823009528474e30a803b01f93261b5334cc40e",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU290dHpDbllYbFN4OFZGelVTdHhwMk1ZbzB5Z0E4cG04bmppY0YzcTBxamgzenlnblN5OWdJSERCOUdGNE1NOGFnSlFSMGtCY2R4SjJERlpqYWNwVUQ1ZG9uMDF4bTdCbTRFWkNsLUI0ZEF5YVJwU0M5MWt1QzZlSkRQUTdRTENya3gzWGVIbUJXQnlURmhVeA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU290dHpDbllYbFN4OFZGelVTdHhwMk1ZbzB5Z0E4cG04bmppY0YzcTBxamgzenlnblN5OWdJSERCOUdGNE1NOGFnSlFSMGtCY2R4SjJERlpqYWNwVUQ1ZG9uMDF4bTdCbTRFWkNsLUI0ZEF5YVJwU0M5MWt1QzZlSkRQUTdRTENya3gzWGVIbUJXQnlURmhVeA?oc=5",
+        "title": "Researcher at Russian plague research lab dies - CNN",
+        "summary": "Researcher at Russian plague research lab dies  CNN",
+        "published_at": "2026-10-05T05:10:00+00:00",
+        "collected_at": "2026-10-09T11:20:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher at Russian plague research lab dies - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T11:20:21Z",
+      "decision": null
+    },
+    {
+      "id": "p-ee52d64aa3",
+      "raw_item": {
+        "item_id": "ee52d64aa3de9683f2b58fc3c9e472ddffa2855f",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdVlKbkZYZ1hyMHg3czNGb2d4UlFYM0RuTngxaWFVVzFYVS1OU3dBLVFvM0dUbHdlc2pXZkpwS0hNVzlWUnVRZFRoZVhVSnpfY0NhRjhRRllXUVNRV2Jrc29ES0djb2lwaFhSR3lsaDJwa0VxNTNSZzM2d003WVBmVHFPUDJua2NJTDNMalBMcDFnb3doM3ZGXzRadHpGQ05DNlBvTDFGek13X1R3Q1c4MVZQY0R2ODJVUzFfajllOW0zQdIBwgFBVV95cUxPdVlKbkZYZ1hyMHg3czNGb2d4UlFYM0RuTngxaWFVVzFYVS1OU3dBLVFvM0dUbHdlc2pXZkpwS0hNVzlWUnVRZFRoZVhVSnpfY0NhRjhRRllXUVNRV2Jrc29ES0djb2lwaFhSR3lsaDJwa0VxNTNSZzM2d003WVBmVHFPUDJua2NJTDNMalBMcDFnb3doM3ZGXzRadHpGQ05DNlBvTDFGek13X1R3Q1c4MVZQY0R2ODJVUzFfajllOW0zQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdVlKbkZYZ1hyMHg3czNGb2d4UlFYM0RuTngxaWFVVzFYVS1OU3dBLVFvM0dUbHdlc2pXZkpwS0hNVzlWUnVRZFRoZVhVSnpfY0NhRjhRRllXUVNRV2Jrc29ES0djb2lwaFhSR3lsaDJwa0VxNTNSZzM2d003WVBmVHFPUDJua2NJTDNMalBMcDFnb3doM3ZGXzRadHpGQ05DNlBvTDFGek13X1R3Q1c4MVZQY0R2ODJVUzFfajllOW0zQdIBwgFBVV95cUxPdVlKbkZYZ1hyMHg3czNGb2d4UlFYM0RuTngxaWFVVzFYVS1OU3dBLVFvM0dUbHdlc2pXZkpwS0hNVzlWUnVRZFRoZVhVSnpfY0NhRjhRRllXUVNRV2Jrc29ES0djb2lwaFhSR3lsaDJwa0VxNTNSZzM2d003WVBmVHFPUDJua2NJTDNMalBMcDFnb3doM3ZGXzRadHpGQ05DNlBvTDFGek13X1R3Q1c4MVZQY0R2ODJVUzFfajllOW0zQQ?oc=5",
+        "title": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+        "summary": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader  The Indian Express",
+        "published_at": "2026-10-07T15:57:29+00:00",
+        "collected_at": "2026-10-09T11:20:19Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T11:20:21Z",
+      "decision": null
+    },
+    {
+      "id": "p-1abedbd522",
+      "raw_item": {
+        "item_id": "1abedbd5227be6732297e381da8a38472c2a489a",
+        "source_id": "src-mailru-science",
+        "publisher": "Наука Mail",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lMjZRdUk1enBpN0Z6elRqYk9Oall3LWVUNTJIaXpCMnJUN0F3M1BJYnZNdzJZVWdNR1JjUlk2TWdqVjFqR0ZCUGtyb2dOTnFsdU83MmRVMHVacHRFWFM4eWVwWVBVNktFUlBhS3Nn?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lMjZRdUk1enBpN0Z6elRqYk9Oall3LWVUNTJIaXpCMnJUN0F3M1BJYnZNdzJZVWdNR1JjUlk2TWdqVjFqR0ZCUGtyb2dOTnFsdU83MmRVMHVacHRFWFM4eWVwWVBVNktFUlBhS3Nn?oc=5",
+        "title": "Как передается чума: что нужно знать - Наука Mail",
+        "summary": "Как передается чума: что нужно знать  Наука Mail",
+        "published_at": "2026-10-09T09:18:23+00:00",
+        "collected_at": "2026-10-09T11:20:20Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Как передается чума: что нужно знать - Наука Mail",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T11:20:21Z",
+      "decision": null
     }
   ]
 }
