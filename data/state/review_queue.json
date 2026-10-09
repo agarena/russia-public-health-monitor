@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T02:32:05Z",
+  "updated_at": "2026-10-09T02:35:28Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -5540,6 +5540,35 @@
       "decision": "rejected",
       "decided_at": "2026-10-09T02:33:17Z",
       "reject_reason": "转载，官方安抚/淡化口径已由 r-sig-005 覆盖"
+    },
+    {
+      "id": "p-eda834dace",
+      "raw_item": {
+        "item_id": "eda834dacef48fce822b41fd5ff4a8d5152a4242",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUXYzRExCNDl5NjJQS3VlelRzeDhZRFliT3BNM29adXNpbnctOEcxMmc3WmJsaEJJY01vNzRzZjBXaUx4UUtUdjNRWnlvYUM1QTJZaTBDa0ZrSEcyb05ZX1FnS2VHWlMtaEFEOVVlY2lSbENqMmRLc3UwaVlYOVZHdFJlM2VHenh1Qmh2NGVaZw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUXYzRExCNDl5NjJQS3VlelRzeDhZRFliT3BNM29adXNpbnctOEcxMmc3WmJsaEJJY01vNzRzZjBXaUx4UUtUdjNRWnlvYUM1QTJZaTBDa0ZrSEcyb05ZX1FnS2VHWlMtaEFEOVVlY2lSbENqMmRLc3UwaVlYOVZHdFJlM2VHenh1Qmh2NGVaZw?oc=5",
+        "title": "How worried should you be about the plague? | The Current | On Demand - CBC",
+        "summary": "How worried should you be about the plague? | The Current | On Demand  CBC",
+        "published_at": "2026-10-06T16:51:50+00:00",
+        "collected_at": "2026-10-09T02:34:47Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "How worried should you be about the plague? | The Current | On Demand - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T02:35:28Z",
+      "decision": null
     }
   ]
 }
