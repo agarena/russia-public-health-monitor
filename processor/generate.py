@@ -116,7 +116,7 @@ def build_outputs() -> dict[str, object]:
     if changes_path.exists():
         raw_changes = _read_json(changes_path)
         changes_out = RatingChangesFile.model_validate(
-            {"updated_at": ts, "changes": raw_changes}
+            {"updated_at": ts, "changes": raw_changes.get("changes", [])}
         )
     else:
         changes_out = RatingChangesFile.model_validate({"updated_at": ts, "changes": []})

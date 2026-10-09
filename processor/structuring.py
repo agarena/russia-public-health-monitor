@@ -93,7 +93,9 @@ def propose(client: AIClient | None, relevant_only: bool = True) -> dict:
     existing = load_existing_signals()
     queue = load_queue()
     known_keys = {
-        p.get("url_canonical") for p in queue["proposals"] if p.get("decision") is None
+        (p.get("raw_item") or {}).get("url_canonical")
+        for p in queue["proposals"]
+        if p.get("decision") is None
     }
 
     # 三层去重（第一层 URL / 第二层标题；第三层语义在有 AI 时对疑似项判定）
