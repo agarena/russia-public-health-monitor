@@ -92,10 +92,9 @@ def propose(client: AIClient | None, relevant_only: bool = True) -> dict:
 
     existing = load_existing_signals()
     queue = load_queue()
+    # 已提议过（无论批准/拒绝/待审）的条目一律不再重复入队，避免定时任务反复重提
     known_keys = {
-        (p.get("raw_item") or {}).get("url_canonical")
-        for p in queue["proposals"]
-        if p.get("decision") is None
+        (p.get("raw_item") or {}).get("url_canonical") for p in queue["proposals"]
     }
 
     # 三层去重（第一层 URL / 第二层标题；第三层语义在有 AI 时对疑似项判定）
