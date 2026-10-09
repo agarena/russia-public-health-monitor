@@ -37,16 +37,6 @@
     transform: scaleY(1);
   }
 }
-@keyframes meter-bubble-in {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 @keyframes meter-knob-in {
   from {
     opacity: 0;

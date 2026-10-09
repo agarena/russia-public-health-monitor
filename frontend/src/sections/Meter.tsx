@@ -1,6 +1,6 @@
 // Meter —— 等级滑轨（全站统一状态组件）：整条轨道铺满色阶（颜色铺设全条、代表整个
-// 量程）+ 白色滑块标记当前级（滑块环色 = 当前级色）+ 悬浮名称气泡（始终可见、
-// clamp 防溢出）+ 底部等宽刻度行。
+// 量程）+ 白色滑块标记当前级（滑块环色 = 当前级色）+ 底部等宽刻度行（当前级刻度
+// 加高为当前级色、文字加粗变深）。
 //
 // 两套色阶，语义分工（结构完全一致，仅色相家族不同）：
 // - signal 暖色谱（绿→黄→橙→红）：关注等级专用，越往后越严重；
@@ -17,9 +17,7 @@ export interface MeterOption {
   emoji?: string;
 }
 
-/* ---------- 设计令牌 ---------- */
-const BUBBLE = "#1C1917"; // 名称气泡：深暖灰（中性，不抢色阶语义）
-const MARKER_SIZE = 16; // 白色滑块直径 px
+const MARKER_SIZE = 18; // 白色滑块直径 px
 
 /** signal 暖色谱锚点：绿→黄→橙→红（越来越严重） */
 const SIGNAL_ANCHORS = ["#10b981", "#f59e0b", "#f97316", "#ef4444"];
@@ -77,11 +75,8 @@ export default function Meter({
   const rawIdx = options.findIndex((o) => o.key === currentKey);
   const idx = rawIdx >= 0 ? rawIdx : 0;
   const pct = ((idx + 0.5) / safeN) * 100;
-  const current = options[idx];
-  const label = current?.label ?? currentKey;
-  const emoji = current?.emoji;
 
-  // 色阶：整条量程各级颜色 + 当前级颜色（滑块环 / 中心点）
+  // 色阶：整条量程各级颜色 + 当前级颜色（滑块环 / 刻度线）
   const anchors = tone === "signal" ? SIGNAL_ANCHORS : COOL_ANCHORS;
   const ramp = options.map((_, i) => rampColor(anchors, i, safeN));
   const currentColor = ramp[idx];
@@ -89,13 +84,6 @@ export default function Meter({
   const rampGradient = `linear-gradient(90deg, ${ramp
     .map((c, i) => `${c} ${((i + 0.5) / safeN) * 100}%`)
     .join(", ")})`;
-
-  // 气泡半宽估算（CJK ≈11px、西文 ≈6.5px @11px 字号），用于把气泡 clamp 在容器内不溢出
-  let textW = 0;
-  for (const ch of label) textW += (ch.codePointAt(0) ?? 0) > 0x2e80 ? 11 : 6.5;
-  const halfPx = Math.round((textW + (emoji ? 16 : 0) + 22) / 2 + 8);
-  const clampLeft = (p: number) =>
-    `clamp(${halfPx}px, ${p}%, calc(100% - ${halfPx}px))`;
 
   // 窄屏兜底：滑轨溢出容器时，自动把当前级滚到可视区中央，并在边缘显示渐隐提示「还可滑动」。
   // 监听容器尺寸变化（旋转屏幕/缩放窗口也会重新居中）。
@@ -125,14 +113,14 @@ export default function Meter({
       <div ref={scrollerRef} className="no-scrollbar overflow-x-auto md:overflow-x-visible">
         <div
           role="img"
-          aria-label={`当前等级：${label}`}
-          className="relative select-none pb-0.5 pt-[30px]"
+          aria-label={`当前等级：${options[idx]?.label ?? currentKey}`}
+          className="relative select-none"
           style={{ minWidth }}
         >
-          {/* 滑轨区（整条轨道铺满色阶，气泡与滑块绝对定位于此） */}
+          {/* 滑轨区（整条轨道铺满色阶，滑块绝对定位于此） */}
           <div className="relative h-3 w-full">
             {/* 全色谱轨道：色阶铺满整条——颜色铺设全条不代表「已到达」，
-                当前状态由滑块位置表达 */}
+                当前状态由滑块位置与刻度高亮表达 */}
             <div
               className="meter-anim absolute inset-0 rounded-full"
               style={{
@@ -142,33 +130,6 @@ export default function Meter({
                   "inset 0 1px 1px rgba(255,255,255,0.4), inset 0 -1px 1.5px rgba(28,25,23,0.12), inset 0 0 0 1px rgba(28,25,23,0.05), 0 1px 2px rgba(28,25,23,0.10), 0 3px 8px -2px rgba(28,25,23,0.14)",
               }}
             />
-            {/* 名称气泡：始终可见；clamp 保证不溢出容器；left 随 currentKey 平滑过渡 */}
-            <div
-              className="meter-anim absolute z-30"
-              style={{
-                left: clampLeft(pct),
-                animation: "meter-bubble-in .38s ease-out .2s both",
-                transition: "left .68s cubic-bezier(0.22, 1, 0.36, 1)",
-              }}
-            >
-              <div className="relative inline-flex -translate-x-1/2 flex-col items-center">
-                <div
-                  className="flex items-center gap-1 whitespace-nowrap rounded-[6px] px-2 py-[4px] text-[10.5px] font-semibold leading-none text-white"
-                  style={{
-                    backgroundColor: BUBBLE,
-                    boxShadow: "0 3px 8px -2px rgba(28,25,23,0.45)",
-                  }}
-                >
-                  {emoji && <span aria-hidden>{emoji}</span>}
-                  {label}
-                </div>
-                <span
-                  aria-hidden
-                  className="h-2 w-2 -translate-y-1 rotate-45 rounded-[2px]"
-                  style={{ backgroundColor: BUBBLE }}
-                />
-              </div>
-            </div>
             {/* 白色滑块：标记当前级；环色 = 当前级色阶色；left 随 currentKey 平滑过渡 */}
             <div
               className="absolute top-1/2 z-20"
@@ -201,7 +162,8 @@ export default function Meter({
               </div>
             </div>
           </div>
-          {/* 刻度行：每级占 flex-1 等宽单元，文字中心即 (i+0.5)/n，天然互不重叠 */}
+          {/* 刻度行：每级占 flex-1 等宽单元，文字中心即 (i+0.5)/n，天然互不重叠。
+              当前级：刻度线加高为当前级色、文字加粗变深——当前值在此直接可读 */}
           <div className="mt-[10px] flex w-full items-start">
             {options.map((o, i) => {
               const isCur = i === idx;
@@ -215,12 +177,13 @@ export default function Meter({
                   style={{ animation: `meter-tick-in .36s ease-out ${i * 24}ms both` }}
                 >
                   <span
-                    className={`mx-auto block w-px ${isCur ? "h-[7px] bg-stone-800" : "h-1 bg-stone-300"}`}
+                    className={`mx-auto block w-[2px] rounded-full ${isCur ? "h-[9px]" : "h-1 bg-stone-300"}`}
+                    style={isCur ? { backgroundColor: currentColor } : undefined}
                     aria-hidden
                   />
                   <span
                     className={`mt-1 block whitespace-nowrap px-0.5 text-[10.5px] leading-none ${
-                      isCur ? "font-semibold text-stone-900" : "text-stone-500"
+                      isCur ? "font-bold text-stone-900" : "text-stone-500"
                     }`}
                   >
                     {o.label}
@@ -231,16 +194,16 @@ export default function Meter({
           </div>
         </div>
       </div>
-      {/* 窄屏溢出时，左右边缘渐隐提示滑轨可横向滑动查看全部等级（不遮挡顶部气泡区） */}
+      {/* 窄屏溢出时，左右边缘渐隐提示滑轨可横向滑动查看全部等级 */}
       {overflowing && (
         <>
           <div
             aria-hidden
-            className="pointer-events-none absolute bottom-0 left-0 top-[30px] w-6 bg-gradient-to-r from-white to-transparent md:hidden"
+            className="pointer-events-none absolute bottom-0 left-0 top-0 w-6 bg-gradient-to-r from-white to-transparent md:hidden"
           />
           <div
             aria-hidden
-            className="pointer-events-none absolute bottom-0 right-0 top-[30px] w-6 bg-gradient-to-l from-white to-transparent md:hidden"
+            className="pointer-events-none absolute bottom-0 right-0 top-0 w-6 bg-gradient-to-l from-white to-transparent md:hidden"
           />
         </>
       )}
