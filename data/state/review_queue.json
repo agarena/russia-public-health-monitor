@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T04:00:31Z",
+  "updated_at": "2026-10-09T01:33:21Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -28,7 +28,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "抓取残片，无实质内容"
     },
     {
       "id": "p-c2a49deb78",
@@ -57,7 +59,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-eec522b7b4",
@@ -86,7 +90,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-5082b40a6b",
@@ -117,7 +123,9 @@
         "r-sig-010"
       ],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-b2b292afd8",
@@ -138,15 +146,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Russia says it properly informed WHO of plague institute worker's death, blasts media coverage - Reuters",
-      "summary_zh": "",
+      "title_zh": "俄方称已就研究所员工死亡恰当通报世卫组织，并批评媒体报道",
+      "summary_zh": "俄方表态称已按规则向世卫组织通报研究所员工死亡一事，并指责媒体夸大炒作。（路透社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:36Z",
+      "decided_signal_id": "r-sig-013"
     },
     {
       "id": "p-00b6ca64e2",
@@ -175,7 +185,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-68664ae74d",
@@ -204,7 +216,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
     },
     {
       "id": "p-9b5f451b7f",
@@ -225,15 +239,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Russia tells WHO there are no plague cases in Siberian city - Reuters",
-      "summary_zh": "",
+      "title_zh": "俄方向世卫组织通报：西伯利亚涉事城市无鼠疫病例",
+      "summary_zh": "俄官方告知世卫组织，舍列霍夫未检出鼠疫病例。（路透社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:36Z",
+      "decided_signal_id": "r-sig-014"
     },
     {
       "id": "p-cf89c7f9cf",
@@ -254,15 +270,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Rubio tells Russia to share more information about plague death - Reuters",
-      "summary_zh": "",
+      "title_zh": "美国国务卿鲁比奥要求俄方就实验室员工死亡共享更多信息",
+      "summary_zh": "美国国务卿鲁比奥公开要求俄方就实验室员工死亡事件提供更多信息。（路透社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:36Z",
+      "decided_signal_id": "r-sig-015"
     },
     {
       "id": "p-d580954b7d",
@@ -283,15 +301,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "CDC sees low plague risk, monitors Siberia arrivals after worker death, director says - Reuters",
-      "summary_zh": "",
+      "title_zh": "美国疾控中心主任：鼠疫风险低，正监测从西伯利亚抵达的旅客",
+      "summary_zh": "美国疾控中心（CDC）主任表示，据现有信息评估鼠疫风险低，已对从西伯利亚抵达的旅客实施监测。（路透社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:36Z",
+      "decided_signal_id": "r-sig-016"
     },
     {
       "id": "p-7859596358",
@@ -320,7 +340,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-a742cac321",
@@ -341,15 +363,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Trump says US will help Russia after Siberia plague institute death - Reuters",
-      "summary_zh": "",
+      "title_zh": "特朗普称美国愿就西伯利亚研究所员工死亡事件向俄提供帮助",
+      "summary_zh": "美国总统特朗普表示，愿就研究所员工死亡事件向俄罗斯提供帮助。（路透社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-017"
     },
     {
       "id": "p-5647450edc",
@@ -378,7 +402,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-c99f420b52",
@@ -407,7 +433,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-9ff260c8db",
@@ -428,15 +456,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia - AP News",
-      "summary_zh": "",
+      "title_zh": "特朗普称已安排与普京通话，讨论俄罗斯疑似肺鼠疫病例",
+      "summary_zh": "美国总统特朗普表示，已安排与俄罗斯总统普京通话，议题包括俄罗斯疑似肺鼠疫病例。（美联社）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-018"
     },
     {
       "id": "p-62857ab27a",
@@ -465,7 +495,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-b62313f1e1",
@@ -494,7 +526,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
     },
     {
       "id": "p-5d192bc054",
@@ -523,7 +557,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-42af01008c",
@@ -544,15 +580,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Facing Russian stonewalling, Trump admin ramps up pressure for info as it struggles to plan for potential plague fallout - CNN",
-      "summary_zh": "",
+      "title_zh": "美媒：俄方未提供关键信息，特朗普政府加大交涉力度",
+      "summary_zh": "美媒报道，因俄方未提供关键流行病学信息，美方难以制定应对预案，特朗普政府加大了对俄交涉力度。（CNN）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-019"
     },
     {
       "id": "p-9ca09900f8",
@@ -581,7 +619,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-c63b3b64e7",
@@ -610,7 +650,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-aff296da17",
@@ -639,7 +681,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
     },
     {
       "id": "p-c1d6199a3f",
@@ -668,7 +712,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-5f8e4daa80",
@@ -697,8 +743,10 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null,
-      "duplicate_of_proposal": "p-c1d6199a3f"
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-c1d6199a3f",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
     },
     {
       "id": "p-6a34544e3f",
@@ -727,7 +775,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，CDC/专家低风险评估已由本次批准信号覆盖"
     },
     {
       "id": "p-69ea8ee75b",
@@ -756,7 +806,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-e777e12d2c",
@@ -785,7 +837,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-c2854298b2",
@@ -814,7 +868,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-2933d54b52",
@@ -843,7 +899,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
     },
     {
       "id": "p-6e58a55929",
@@ -872,7 +930,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
     },
     {
       "id": "p-e4a747257a",
@@ -901,7 +961,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-6f66498512",
@@ -930,7 +992,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-280f62449f",
@@ -951,15 +1015,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Russia responds to US help offer after death of plague researcher - BBC",
-      "summary_zh": "",
+      "title_zh": "俄方回应美方援助提议",
+      "summary_zh": "俄罗斯就美国提出的援助提议作出回应。（BBC）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-031"
     },
     {
       "id": "p-e7a9eb8f2a",
@@ -988,7 +1054,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，鲁比奥要求共享信息已由本次批准信号覆盖"
     },
     {
       "id": "p-53f5721242",
@@ -1017,7 +1085,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，白宫密切关注已由 r-sig-007 覆盖"
     },
     {
       "id": "p-568893d0d8",
@@ -1046,7 +1116,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-645d1523ef",
@@ -1075,7 +1147,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，CDC 监测旅客已由 r-sig-008 覆盖"
     },
     {
       "id": "p-5c7b568b47",
@@ -1104,7 +1178,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-e3b8a28ed0",
@@ -1133,7 +1209,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-1e46158c14",
@@ -1162,7 +1240,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，白宫密切关注已由 r-sig-007 覆盖"
     },
     {
       "id": "p-14551cd93a",
@@ -1191,7 +1271,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普愿提供帮助已由本次批准信号覆盖"
     },
     {
       "id": "p-9bc4c35b1c",
@@ -1220,7 +1302,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-cb7c9c25d7",
@@ -1249,7 +1333,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-1f17b16e2a",
@@ -1278,7 +1364,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，CDC 监测旅客已由 r-sig-008 覆盖"
     },
     {
       "id": "p-7a1929c889",
@@ -1307,7 +1395,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-fc773cde17",
@@ -1338,7 +1428,9 @@
         "r-sig-007"
       ],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，白宫密切关注已由 r-sig-007 覆盖"
     },
     {
       "id": "p-b33db81932",
@@ -1359,15 +1451,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Russia says no plague found in contacts of Siberian lab worker who died - NBC News",
-      "summary_zh": "",
+      "title_zh": "俄方称死者接触者中未发现鼠疫病例",
+      "summary_zh": "俄官方表示，对死亡实验室员工接触者的排查中未发现鼠疫病例。（NBC）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-020"
     },
     {
       "id": "p-63a0d18a1a",
@@ -1396,7 +1490,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-f55a9f9ce9",
@@ -1425,7 +1521,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，死亡与隔离事实已由 r-sig-002/r-sig-004 覆盖"
     },
     {
       "id": "p-4c3fa35834",
@@ -1446,15 +1544,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Trump: Russia says suspected plague case is 'under control' - NBC News",
-      "summary_zh": "",
+      "title_zh": "特朗普转述：俄方称疑似鼠疫事件「已受控」",
+      "summary_zh": "美国总统特朗普转述俄方说法，称疑似鼠疫事件「已受到控制」。（NBC）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-021"
     },
     {
       "id": "p-94071fd1fb",
@@ -1483,7 +1583,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
     },
     {
       "id": "p-5d2a2e63f0",
@@ -1504,15 +1606,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday - CNBC",
-      "summary_zh": "",
+      "title_zh": "特朗普：不认为俄罗斯鼠疫事件与生物武器有关",
+      "summary_zh": "美国总统特朗普表示，不认为该事件涉及生物武器，并计划与普京通话。（CNBC）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-022"
     },
     {
       "id": "p-81d98803e3",
@@ -1541,7 +1645,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
     },
     {
       "id": "p-48d829b9f3",
@@ -1570,7 +1676,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-81f9c64dca",
@@ -1599,7 +1707,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-20b1196531",
@@ -1628,7 +1738,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-5fb04f7257",
@@ -1657,7 +1769,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-a08ef68398",
@@ -1678,15 +1792,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk - CNBC",
-      "summary_zh": "",
+      "title_zh": "特朗普提出美国愿助俄应对；世卫组织评估事件风险低",
+      "summary_zh": "特朗普提出向俄方提供帮助；世卫组织评估当前情况风险低。（CNBC）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-023"
     },
     {
       "id": "p-883c9941ec",
@@ -1715,7 +1831,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-20ed27aed2",
@@ -1744,7 +1862,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-9dccb43b2c",
@@ -1773,7 +1893,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，无独立新增事实"
     },
     {
       "id": "p-76ba93934a",
@@ -1802,7 +1924,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普愿提供帮助已由本次批准信号覆盖"
     },
     {
       "id": "p-edf5f511fa",
@@ -1823,15 +1947,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Russia denies imposing anti-plague measures after lab worker death - Al Jazeera",
-      "summary_zh": "",
+      "title_zh": "俄方否认因实验室员工死亡实施防鼠疫措施",
+      "summary_zh": "俄方否认在员工死亡后实施防鼠疫措施，与多家媒体报道的医院隔离情况存在出入。（半岛电视台）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-024"
     },
     {
       "id": "p-eca8f17518",
@@ -1860,7 +1986,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，CDC 监测旅客已由 r-sig-008 覆盖"
     },
     {
       "id": "p-9febbe2e75",
@@ -1889,7 +2017,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-80dc04d1cd",
@@ -1918,7 +2048,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，无独立新增事实"
     },
     {
       "id": "p-8d9f5c2eff",
@@ -1947,7 +2079,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-e3a269b4ce",
@@ -1968,15 +2102,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "EU countries to discuss suspected plague outbreak in Russia - Euronews.com",
-      "summary_zh": "",
+      "title_zh": "欧盟国家将就俄罗斯疑似鼠疫疫情进行讨论",
+      "summary_zh": "欧盟国家计划就俄罗斯疑似鼠疫疫情进行讨论。（欧洲新闻台）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-025"
     },
     {
       "id": "p-35f089fb5e",
@@ -2005,7 +2141,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，俄方否认与隔离并行的口径冲突已由本次批准信号覆盖"
     },
     {
       "id": "p-d18cbe6adc",
@@ -2034,7 +2172,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-364a699076",
@@ -2063,7 +2203,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-ac4e3589d6",
@@ -2092,7 +2234,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
     },
     {
       "id": "p-5688af191d",
@@ -2121,7 +2265,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，欧盟反应已由本次批准信号覆盖"
     },
     {
       "id": "p-ad3e79be91",
@@ -2150,7 +2296,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
     },
     {
       "id": "p-404202b373",
@@ -2171,15 +2319,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Video. Siberia plague outbreak is an 'isolated incident', virologist says - Euronews.com",
-      "summary_zh": "",
+      "title_zh": "病毒学家：西伯利亚鼠疫疑云属「孤立事件」",
+      "summary_zh": "受访病毒学家认为，西伯利亚疑似鼠疫事件属「孤立事件」。（欧洲新闻台）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-026"
     },
     {
       "id": "p-6fac0dd0bc",
@@ -2208,7 +2358,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "多主题混合简报，事件内容无增量"
     },
     {
       "id": "p-26c6549ab4",
@@ -2239,7 +2391,9 @@
         "r-sig-011"
       ],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-a61fec490d",
@@ -2268,7 +2422,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-fa4b0fcaa0",
@@ -2297,7 +2453,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
     },
     {
       "id": "p-629f5fcced",
@@ -2326,7 +2484,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
     },
     {
       "id": "p-341dd42db2",
@@ -2355,7 +2515,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-f55ae63063",
@@ -2384,7 +2546,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普「非生物武器」表态已由本次批准信号覆盖"
     },
     {
       "id": "p-54acb68a38",
@@ -2413,7 +2577,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-313031efaa",
@@ -2442,7 +2608,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-22e04f1c3b",
@@ -2471,7 +2639,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-9d85150c19",
@@ -2500,7 +2670,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，鲁比奥要求共享信息已由本次批准信号覆盖"
     },
     {
       "id": "p-ef2e7435b5",
@@ -2529,7 +2701,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-e9c4076842",
@@ -2558,7 +2732,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-cf1c325885",
@@ -2589,7 +2765,9 @@
         "r-sig-008"
       ],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，CDC 监测旅客已由 r-sig-008 覆盖"
     },
     {
       "id": "p-1d243f569e",
@@ -2618,7 +2796,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
     },
     {
       "id": "p-7df706e65e",
@@ -2647,7 +2827,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，美方施压要求信息公开已由本次批准信号覆盖"
     },
     {
       "id": "p-b9ae128838",
@@ -2676,7 +2858,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，白宫关注已由 r-sig-007 覆盖"
     },
     {
       "id": "p-652264ca11",
@@ -2705,7 +2889,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-772a2673b7",
@@ -2734,7 +2920,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-92541700c8",
@@ -2763,7 +2951,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-81548b62a5",
@@ -2792,7 +2982,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "含个人身份信息与未经证实的指控性表述，本站不收录"
     },
     {
       "id": "p-54049c06b3",
@@ -2821,7 +3013,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
     },
     {
       "id": "p-20101d14e0",
@@ -2850,7 +3044,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-3d8bf1032d",
@@ -2881,7 +3077,9 @@
         "r-sig-001"
       ],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，「打碎试管」说法已由 r-sig-001 覆盖"
     },
     {
       "id": "p-1d6f86bc4e",
@@ -2910,7 +3108,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
     },
     {
       "id": "p-5877cff6f3",
@@ -2939,7 +3139,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "地方官员措辞细节，无实质新事实"
     },
     {
       "id": "p-ef4a007f27",
@@ -2960,15 +3162,17 @@
       "source_tier": "B",
       "source_type": "local_media",
       "official": false,
-      "title_zh": "Погибшая пациентка в Шелехове прилетела из Таиланда - Люди Байкала",
-      "summary_zh": "",
+      "title_zh": "本地媒体：死者生前从泰国飞抵伊尔库茨克",
+      "summary_zh": "本地媒体「贝加尔人」报道，死亡患者事发前从泰国飞抵。（单一本地来源）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-027"
     },
     {
       "id": "p-8f3d13e354",
@@ -2997,7 +3201,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
     },
     {
       "id": "p-00dc2b332a",
@@ -3026,7 +3232,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，「打碎试管」说法已由 r-sig-001 覆盖"
     },
     {
       "id": "p-a4a0bf33bc",
@@ -3055,7 +3263,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-41a32c720f",
@@ -3084,7 +3294,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
     },
     {
       "id": "p-5f6ec36660",
@@ -3113,7 +3325,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
     },
     {
       "id": "p-6e667824da",
@@ -3142,7 +3356,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
     },
     {
       "id": "p-babe445a4e",
@@ -3171,7 +3387,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-9a1ddf8790",
@@ -3200,7 +3418,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
     },
     {
       "id": "p-322d654529",
@@ -3229,7 +3449,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
     },
     {
       "id": "p-6bcb5e7951",
@@ -3258,7 +3480,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
     },
     {
       "id": "p-ec7ab1b407",
@@ -3287,7 +3511,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
     },
     {
       "id": "p-850dc2e9ce",
@@ -3316,7 +3542,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
     },
     {
       "id": "p-7ad24b8226",
@@ -3345,7 +3573,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "标题党式报道，无可核实的新死因结论"
     },
     {
       "id": "p-84534de221",
@@ -3366,15 +3596,17 @@
       "source_tier": "B",
       "source_type": "local_media",
       "official": false,
-      "title_zh": "U.S. Embassy Urges Citizens to Leave Russia Over Siberian Plague Suspicions - The Moscow Times",
-      "summary_zh": "",
+      "title_zh": "《莫斯科时报》报道：美使馆因鼠疫疑云建议公民离开俄罗斯",
+      "summary_zh": "《莫斯科时报》报道，美国驻俄大使馆因西伯利亚鼠疫疑云建议公民离开俄罗斯。（单一来源，原文待核）",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-028"
     },
     {
       "id": "p-c361fffa8a",
@@ -3403,7 +3635,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-7923be768d",
@@ -3432,7 +3666,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
     },
     {
       "id": "p-9e4ca50c5a",
@@ -3461,7 +3697,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，医院防疫措施细节已由 r-sig-004 覆盖"
     },
     {
       "id": "p-7aaa06f6b2",
@@ -3490,7 +3728,1787 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-08T04:00:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-ed5a829ae7",
+      "raw_item": {
+        "item_id": "ed5a829ae7b09a319dfdc4f97ea7fb7ab72e0d51",
+        "source_id": "src-irk-gov",
+        "publisher": "Открытое Правительство Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NMi1jaUJMYXlHSTdIRVJPcTRGa1VIU3NrQUlDamEzOUFsaTkxNGNjbGlVN0FjNmRLeFJqT0w0SllMR0hMclMyaDhMOTRMQU5sVVpxN3NkWEk3X1U3bWJvZ05URnlodTd2cjlZ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NMi1jaUJMYXlHSTdIRVJPcTRGa1VIU3NrQUlDamEzOUFsaTkxNGNjbGlVN0FjNmRLeFJqT0w0SllMR0hMclMyaDhMOTRMQU5sVVpxN3NkWEk3X1U3bWJvZ05URnlodTd2cjlZ?oc=5",
+        "title": "Открытое Правительство Иркутской области - Открытое Правительство Иркутской области",
+        "summary": "Открытое Правительство Иркутской области  Открытое Правительство Иркутской области",
+        "published_at": "2026-10-01T13:13:55+00:00",
+        "collected_at": "2026-10-09T01:31:30Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Открытое Правительство Иркутской области - Открытое Правительство Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "抓取残片，无实质内容"
+    },
+    {
+      "id": "p-a4dce466f3",
+      "raw_item": {
+        "item_id": "a4dce466f368b9044829c3c84afc3d559c2541c8",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaFR4cExQYWN6ZW1lM0p4Z2RYZV9IVzNCSndUUTg1ZF8xdy11al94MFh3WXh6V2JYdEJPNnc2VnBxUFY4TEtsMnJjWl9RUmswRmx3UUxTV3EyT0VTT0hvbWx4dm81T3laYl9CYnBVNjc2ZWZ4X0J5c3dNLXdBSDl4SGwyNlpmelplbEFPUGZ1SmNpS1k5NERxU3lFMW5fSmlyTjh2ZXNhSlZuanVTVVI0N3VVbWJmRE4xTE1DaklmX2FlNVRfTkI2Ymx0eU5VbWtjUHZzQllfaw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaFR4cExQYWN6ZW1lM0p4Z2RYZV9IVzNCSndUUTg1ZF8xdy11al94MFh3WXh6V2JYdEJPNnc2VnBxUFY4TEtsMnJjWl9RUmswRmx3UUxTV3EyT0VTT0hvbWx4dm81T3laYl9CYnBVNjc2ZWZ4X0J5c3dNLXdBSDl4SGwyNlpmelplbEFPUGZ1SmNpS1k5NERxU3lFMW5fSmlyTjh2ZXNhSlZuanVTVVI0N3VVbWJmRE4xTE1DaklmX2FlNVRfTkI2Ymx0eU5VbWtjUHZzQllfaw?oc=5",
+        "title": "Russia says checks following Siberian plague lab death are complete - Reuters",
+        "summary": "Russia says checks following Siberian plague lab death are complete  Reuters",
+        "published_at": "2026-10-08T18:54:35+00:00",
+        "collected_at": "2026-10-09T01:31:37Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "俄方称研究所员工死亡事件的检查工作已完成",
+      "summary_zh": "俄官方表示，针对研究所员工死亡事件的检查已经完成。（路透社）",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-029"
+    },
+    {
+      "id": "p-343aa01c58",
+      "raw_item": {
+        "item_id": "343aa01c582b86270e8fb156d0ace63673d47c16",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTEwTFNMcERJTGdNYkNsY1MyRWozS3d5WjI1U0ZETW5yTmotZVRJU2hGeTF3RXV0RkczakRIWjBOWU9SRTltdzg2Ny1scTZzenc1QmkyOEI1V1dWQzNLNlJwUVZKZ2l1aFAyLWc1bVpIcUNmejdBVkJ3Y3lnN0tydTNFZnEtX1R0Qy1pZVN3TDRMOUF2VFhlZEh6VQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTEwTFNMcERJTGdNYkNsY1MyRWozS3d5WjI1U0ZETW5yTmotZVRJU2hGeTF3RXV0RkczakRIWjBOWU9SRTltdzg2Ny1scTZzenc1QmkyOEI1V1dWQzNLNlJwUVZKZ2l1aFAyLWc1bVpIcUNmejdBVkJ3Y3lnN0tydTNFZnEtX1R0Qy1pZVN3TDRMOUF2VFhlZEh6VQ?oc=5",
+        "title": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain - AP News",
+        "summary": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain  AP News",
+        "published_at": "2026-10-08T18:26:00+00:00",
+        "collected_at": "2026-10-09T01:31:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，检查工作完成已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-a7bb03bfcb",
+      "raw_item": {
+        "item_id": "a7bb03bfcb52d9ef53b516fc61a541e9c1e39bb0",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmU5WG1obFd1aWZJc0dmZXFWLXVackR1MEMzcGpGMTQ2NEtiMkIxYzVQQ181NXNTdDJNZU9STk1qZldScDYwRUUyX0hhU3lQeTJLZW9mcmt5Qk1FdENucnZ0N0REOVZjbkd0X013OHJNR0pGY2lLS1VZSHdWVC13VWFkM3BEcDQ1dUpMRGNIMEdjMnZSbEticWN2dWpCWTUxbm9jRGRrUnJETDRVN0FFTjFtY1I?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTmU5WG1obFd1aWZJc0dmZXFWLXVackR1MEMzcGpGMTQ2NEtiMkIxYzVQQ181NXNTdDJNZU9STk1qZldScDYwRUUyX0hhU3lQeTJLZW9mcmt5Qk1FdENucnZ0N0REOVZjbkd0X013OHJNR0pGY2lLS1VZSHdWVC13VWFkM3BEcDQ1dUpMRGNIMEdjMnZSbEticWN2dWpCWTUxbm9jRGRrUnJETDRVN0FFTjFtY1I?oc=5",
+        "title": "Moscow’s secrecy about a suspected plague case follows a pattern from the Soviet era - AP News",
+        "summary": "Moscow’s secrecy about a suspected plague case follows a pattern from the Soviet era  AP News",
+        "published_at": "2026-10-08T14:32:00+00:00",
+        "collected_at": "2026-10-09T01:31:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Moscow’s secrecy about a suspected plague case follows a pattern from the Soviet era - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-387d1818ab",
+      "raw_item": {
+        "item_id": "387d1818ab966f3b603b4ee9934c4f9100b42074",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONy1GMmF1ckpROUFWZHR6dDN6aTZ5YW1JcGlTR09mN0t2MEo4ZE1KajF6N2NLLXhBMnJzdFVLN2Z6T19nMTlBakh2UHJIaWRuLU03OEpIaW02bGQyLXZFOGVVODJkVGNZSFBvMmhxZ0N0eUpuMkQwSnJScnVMMnp0Vlh3MHVIR2NOUGNGeElYdzNrZVZiejRqTnJBeVRhUFN3OThOcUxCZzBhQkNHanJiVS14WVgyWjhWSGZfUm94SS1MNkNQSHltRHlnQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONy1GMmF1ckpROUFWZHR6dDN6aTZ5YW1JcGlTR09mN0t2MEo4ZE1KajF6N2NLLXhBMnJzdFVLN2Z6T19nMTlBakh2UHJIaWRuLU03OEpIaW02bGQyLXZFOGVVODJkVGNZSFBvMmhxZ0N0eUpuMkQwSnJScnVMMnp0Vlh3MHVIR2NOUGNGeElYdzNrZVZiejRqTnJBeVRhUFN3OThOcUxCZzBhQkNHanJiVS14WVgyWjhWSGZfUm94SS1MNkNQSHltRHlnQQ?oc=5",
+        "title": "Russian plague lab case raises concern, but experts say U.S. spread risk is low - AP News",
+        "summary": "Russian plague lab case raises concern, but experts say U.S. spread risk is low  AP News",
+        "published_at": "2026-10-06T03:11:00+00:00",
+        "collected_at": "2026-10-09T01:31:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian plague lab case raises concern, but experts say U.S. spread risk is low - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，CDC/专家低风险评估已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-5a656cfa1e",
+      "raw_item": {
+        "item_id": "5a656cfa1e4465e36c2c34b36281645a33e4c12d",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmdKd3RHNFpLMWxEbXZFZXN1U2pSQlkzVWxvZ1ppVVBSZlJkMU9RQzhHQVQyc2Rta0pvYWl3QXBZZThzdW42ekFub0ZSVENBTU1DUWFPeVF3NzFSTDdUY2dXcF9pZFRUaWFoZ2Fjcnp1U0lYdGNvM1dwN2h5ZVpVYWRVWHpyZW4tLWNJ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmdKd3RHNFpLMWxEbXZFZXN1U2pSQlkzVWxvZ1ppVVBSZlJkMU9RQzhHQVQyc2Rta0pvYWl3QXBZZThzdW42ekFub0ZSVENBTU1DUWFPeVF3NzFSTDdUY2dXcF9pZFRUaWFoZ2Fjcnp1U0lYdGNvM1dwN2h5ZVpVYWRVWHpyZW4tLWNJ?oc=5",
+        "title": "At the center of Russia’s plague scare, residents ‘don’t trust’ officials – but have little other choice - CNN",
+        "summary": "At the center of Russia’s plague scare, residents ‘don’t trust’ officials – but have little other choice  CNN",
+        "published_at": "2026-10-08T13:04:23+00:00",
+        "collected_at": "2026-10-09T01:31:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "At the center of Russia’s plague scare, residents ‘don’t trust’ officials – but have little other choice - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
+    },
+    {
+      "id": "p-09e06570d0",
+      "raw_item": {
+        "item_id": "09e06570d01574728e2ad1a8a1128e8c2fbb8180",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSENiZ01TUDFmLV9tOXlMRGkyR2hGNE1pUGlFckFDSHNCcVNuRzNDcC0wdzUycmJQVWVJaFp5MXRHR2p2Z1VCSHB0X1NIRGx6MGlCTmdpRW9BZmhON0NQRE1sR2U3N2VQTWFLUjNR?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fSENiZ01TUDFmLV9tOXlMRGkyR2hGNE1pUGlFckFDSHNCcVNuRzNDcC0wdzUycmJQVWVJaFp5MXRHR2p2Z1VCSHB0X1NIRGx6MGlCTmdpRW9BZmhON0NQRE1sR2U3N2VQTWFLUjNR?oc=5",
+        "title": "Pneumonic plague, by the numbers - CNN",
+        "summary": "Pneumonic plague, by the numbers  CNN",
+        "published_at": "2026-10-08T05:00:45+00:00",
+        "collected_at": "2026-10-09T01:31:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Pneumonic plague, by the numbers - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-eca49284e2",
+      "raw_item": {
+        "item_id": "eca49284e2aca38b1108e5b5a7ec0229d3ea9eb2",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUm9NOUpUTHF3X25NUGd4T1hFNjVuRUpFRFVpQi04T2xCVGxOTzV0cXNDTngtc0N0NTQybWlaSmZTXzhxbGRlOFc5bkhaVzdnR1JIM0VLanNCNzZrcjcyMi1hcjByZzBxaUhncGVWelhNWHZ6bXBJanNMY1ZfQWkyelJIRk4tdFp3ZGJwYlFHY3duQUJ1dFBCbzh1SnhNYklLejBpeFFXdUhWaHpseF9GZkNR?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUm9NOUpUTHF3X25NUGd4T1hFNjVuRUpFRFVpQi04T2xCVGxOTzV0cXNDTngtc0N0NTQybWlaSmZTXzhxbGRlOFc5bkhaVzdnR1JIM0VLanNCNzZrcjcyMi1hcjByZzBxaUhncGVWelhNWHZ6bXBJanNMY1ZfQWkyelJIRk4tdFp3ZGJwYlFHY3duQUJ1dFBCbzh1SnhNYklLejBpeFFXdUhWaHpseF9GZkNR?oc=5",
+        "title": "Infectious disease expert on potential Russia plague: lack of information from Russia ‘concerning’ - CNN",
+        "summary": "Infectious disease expert on potential Russia plague: lack of information from Russia ‘concerning’  CNN",
+        "published_at": "2026-10-05T23:54:05+00:00",
+        "collected_at": "2026-10-09T01:31:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Infectious disease expert on potential Russia plague: lack of information from Russia ‘concerning’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-2aef4a5cf8",
+      "raw_item": {
+        "item_id": "2aef4a5cf896e5ccf4c14c25a24a6dd8cc0270a6",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVldiRWU5QmdKR1IwcWxxM0ZKRUZKS2VRMERpSF9Ra1RoeDE1ejBzVjJ4WnVQeWlHcnNBeUVMUkhWdzdDZkY2VkljSzV3SjlzZVJQaHBwa2l2NjJ1SUZIbnpZWTZkSV8taTE1amdrNlh4ZWk3c3VUQkRsUGQxWGdaa3hKanVGUXJTczVGblpUUENlSHZPRkQydW9Ld2VPWU0?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVldiRWU5QmdKR1IwcWxxM0ZKRUZKS2VRMERpSF9Ra1RoeDE1ejBzVjJ4WnVQeWlHcnNBeUVMUkhWdzdDZkY2VkljSzV3SjlzZVJQaHBwa2l2NjJ1SUZIbnpZWTZkSV8taTE1amdrNlh4ZWk3c3VUQkRsUGQxWGdaa3hKanVGUXJTczVGblpUUENlSHZPRkQydW9Ld2VPWU0?oc=5",
+        "title": "Researcher dies of ‘unknown’ infection at Russian plague laboratory - CNN",
+        "summary": "Researcher dies of ‘unknown’ infection at Russian plague laboratory  CNN",
+        "published_at": "2026-10-05T11:34:20+00:00",
+        "collected_at": "2026-10-09T01:31:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher dies of ‘unknown’ infection at Russian plague laboratory - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
+    },
+    {
+      "id": "p-6a73b299b5",
+      "raw_item": {
+        "item_id": "6a73b299b5ffc7f1079377a053df0e981753bd08",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLVlXQkN2UmFoaGZldVZFTWlCSENjU2lYU2ZVd2FmMzFsMmM5cTlSLVEzTkF5UGxvMllEWjE0T1JqcHZqREdBU2hydDJqM2tqMmVBYVhmeG9POFczNm4wcUJ5aXhSMFJCc0ZtOXotNmo4Y0Q3a2tLTk02ZU4zSEY1QWRWbVBSZzNLcEJOVEZJT0hjWFdwSjFLbWFXQlFLSTBVby04QVJRcjVyTnhNWkpxLU1pMElla3FjLW05Z3g3ZWMzTnhRYWc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLVlXQkN2UmFoaGZldVZFTWlCSENjU2lYU2ZVd2FmMzFsMmM5cTlSLVEzTkF5UGxvMllEWjE0T1JqcHZqREdBU2hydDJqM2tqMmVBYVhmeG9POFczNm4wcUJ5aXhSMFJCc0ZtOXotNmo4Y0Q3a2tLTk02ZU4zSEY1QWRWbVBSZzNLcEJOVEZJT0hjWFdwSjFLbWFXQlFLSTBVby04QVJRcjVyTnhNWkpxLU1pMElla3FjLW05Z3g3ZWMzTnhRYWc?oc=5",
+        "title": "Ashley Allison on jobs report: ‘When America gets a cold, Black people get pneumonia’ - CNN",
+        "summary": "Ashley Allison on jobs report: ‘When America gets a cold, Black people get pneumonia’  CNN",
+        "published_at": "2026-10-03T02:38:07+00:00",
+        "collected_at": "2026-10-09T01:31:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Ashley Allison on jobs report: ‘When America gets a cold, Black people get pneumonia’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-0cdc29d77d",
+      "raw_item": {
+        "item_id": "0cdc29d77d72f5e1f8aeb3733876002fd24a2655",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaGRPNmE3eWRqS1M4bklmZng0cV8zS0RpQjg3SDI5d01CSmVjVFc4Z05JR0VWT1J4SDFwQUhLVTU3QkFUNnU4S0ZnSVR6aVpMTnlmc0thZWxhQ2g4dzhMeldtajNkVlI3d2VfT2ItUVFXcmtpNDB1LTNJZHZDYUJVd3E4VjhheFU5cjRlMG1qbVFaSU5CUUh6QjBjbk4zbUpLUVJJM3RSTQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaGRPNmE3eWRqS1M4bklmZng0cV8zS0RpQjg3SDI5d01CSmVjVFc4Z05JR0VWT1J4SDFwQUhLVTU3QkFUNnU4S0ZnSVR6aVpMTnlmc0thZWxhQ2g4dzhMeldtajNkVlI3d2VfT2ItUVFXcmtpNDB1LTNJZHZDYUJVd3E4VjhheFU5cjRlMG1qbVFaSU5CUUh6QjBjbk4zbUpLUVJJM3RSTQ?oc=5",
+        "title": "WHO seeks answers and clarity over plague lab death in Russia - NBC News",
+        "summary": "WHO seeks answers and clarity over plague lab death in Russia  NBC News",
+        "published_at": "2026-10-08T02:23:53+00:00",
+        "collected_at": "2026-10-09T01:31:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO seeks answers and clarity over plague lab death in Russia - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
+    },
+    {
+      "id": "p-b7a316cc20",
+      "raw_item": {
+        "item_id": "b7a316cc20d11d3ce7f788f00507372b4e5a7f48",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem1JY184Unc2S2RsTjBFY1Ixb2JZTUlkY0xSbV84bnc3UlM5UURzMzhkb2t4YjE3aFB3U2NjNXJhajZaMWFNVFU3UDdDM3FNUzVBNUlxV1NPWGxnbXR3YVpqNDRfVnNhUThVRi1UUEpOeDVXMUgtb1lCdUdUTjJyZmhDdl9NclR4RV8yYXhYRkhnLWFjejc3aXVLdG9JSkNURUU4R0hELW5QUUdCNFNEaVJXbmJFckNLZlE?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem1JY184Unc2S2RsTjBFY1Ixb2JZTUlkY0xSbV84bnc3UlM5UURzMzhkb2t4YjE3aFB3U2NjNXJhajZaMWFNVFU3UDdDM3FNUzVBNUlxV1NPWGxnbXR3YVpqNDRfVnNhUThVRi1UUEpOeDVXMUgtb1lCdUdUTjJyZmhDdl9NclR4RV8yYXhYRkhnLWFjejc3aXVLdG9JSkNURUU4R0hELW5QUUdCNFNEaVJXbmJFckNLZlE?oc=5",
+        "title": "Christa Pike has pneumonia and no function in her arms after failed execution, lawyer says - NBC News",
+        "summary": "Christa Pike has pneumonia and no function in her arms after failed execution, lawyer says  NBC News",
+        "published_at": "2026-10-07T18:31:38+00:00",
+        "collected_at": "2026-10-09T01:31:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Christa Pike has pneumonia and no function in her arms after failed execution, lawyer says - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-b9edebafa3",
+      "raw_item": {
+        "item_id": "b9edebafa37e21ad25d274a2a6542d545ba9b7c9",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlVLWTVUX243RnIyVEllbmh3RDF3QTRUS2tKYmxWYnVMY0hsTm1aek5DT3Baa28yUDlpdmxUaVZiYTFfSTZGZ3FRUzhTdk01UjI3RXlBSmFGcU1XMFg2WEJSVl8zU3I2UFJWNndfaDY4NG1JT2V0SFc5ZWdzY1o0NktoZmNNVE1kdnF6WnlWeGtJSmt5MS1tMjJyX1gyUExaLUlTNEJmM1gySzhNblZCbEpfR0xCWUppemNnMF91ZVN4QWc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlVLWTVUX243RnIyVEllbmh3RDF3QTRUS2tKYmxWYnVMY0hsTm1aek5DT3Baa28yUDlpdmxUaVZiYTFfSTZGZ3FRUzhTdk01UjI3RXlBSmFGcU1XMFg2WEJSVl8zU3I2UFJWNndfaDY4NG1JT2V0SFc5ZWdzY1o0NktoZmNNVE1kdnF6WnlWeGtJSmt5MS1tMjJyX1gyUExaLUlTNEJmM1gySzhNblZCbEpfR0xCWUppemNnMF91ZVN4QWc?oc=5",
+        "title": "Russia hospitalizes nearly 200 people after researcher’s death from plague: Reports - CNBC",
+        "summary": "Russia hospitalizes nearly 200 people after researcher’s death from plague: Reports  CNBC",
+        "published_at": "2026-10-05T13:05:00+00:00",
+        "collected_at": "2026-10-09T01:32:06Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia hospitalizes nearly 200 people after researcher’s death from plague: Reports - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-48d829b9f3",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
+    },
+    {
+      "id": "p-1dd0cfcb52",
+      "raw_item": {
+        "item_id": "1dd0cfcb52bae82ab5ac0f69a8b18ec9f5fbc375",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZGtRMDNPRF9Fc0Q4a3dSVXMtVW5wTHhlemZqcDZ6dm54czBvYXRvSWk3c2VORHF0bUNzN3BLUThDTXQyeTdSZHl1b0VjN0g0VmFVVDBzb3F2RDYxR04zdExTNmhLeUNiRkdGWHN6TlFkV3NyZ1lzRmtreEZOckVYWkJhYmZ3bXNUa2dJVnJfVEhtSTVYU2ZaQU5SRjc2QQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZGtRMDNPRF9Fc0Q4a3dSVXMtVW5wTHhlemZqcDZ6dm54czBvYXRvSWk3c2VORHF0bUNzN3BLUThDTXQyeTdSZHl1b0VjN0g0VmFVVDBzb3F2RDYxR04zdExTNmhLeUNiRkdGWHN6TlFkV3NyZ1lzRmtreEZOckVYWkJhYmZ3bXNUa2dJVnJfVEhtSTVYU2ZaQU5SRjc2QQ?oc=5",
+        "title": "Russian plague poses no immediate concern, analyst says - CNBC",
+        "summary": "Russian plague poses no immediate concern, analyst says  CNBC",
+        "published_at": "2026-10-06T14:06:21+00:00",
+        "collected_at": "2026-10-09T01:32:06Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian plague poses no immediate concern, analyst says - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-1dcfd08a4e",
+      "raw_item": {
+        "item_id": "1dcfd08a4ec1dc8191ff4cef9b74a54e224c26c7",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmZxZW16ZnFVRGtCVGJUdF9jZFlDSVQ2ZHlBWS1qRGUxdXlwWEZkMlRzaVlhRUNFZVR3S2Rxd1hmVE1LN29ZMFhxTjdGNy0zNzFvLWxNMlhQZU4yQTJDa21UZmNudGFJVlhGM2xsbXVyMG5EZEpCajJiRHBjOFV0X1FpalhLNndNYUlrbGM2TVF3NHpIanR5RjBiTjhfNkU3ZWExaGoyTkZXenM?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVmZxZW16ZnFVRGtCVGJUdF9jZFlDSVQ2ZHlBWS1qRGUxdXlwWEZkMlRzaVlhRUNFZVR3S2Rxd1hmVE1LN29ZMFhxTjdGNy0zNzFvLWxNMlhQZU4yQTJDa21UZmNudGFJVlhGM2xsbXVyMG5EZEpCajJiRHBjOFV0X1FpalhLNndNYUlrbGM2TVF3NHpIanR5RjBiTjhfNkU3ZWExaGoyTkZXenM?oc=5",
+        "title": "Dr. Nahid Bhadelia on Russian lab worker’s suspected plague death - CNBC",
+        "summary": "Dr. Nahid Bhadelia on Russian lab worker’s suspected plague death  CNBC",
+        "published_at": "2026-10-06T14:35:49+00:00",
+        "collected_at": "2026-10-09T01:32:06Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dr. Nahid Bhadelia on Russian lab worker’s suspected plague death - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-d4369d651d",
+      "raw_item": {
+        "item_id": "d4369d651d81969bc7fe419e4388e1e83a259347",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNFd5UEVLaVN2MUw4UWgwV1MyempDUkRMdzdabnYyS3ctZFpONWl4bWg3eldfbDRyeGdMTERlX2RLSFRXbElNR3RtYXVxbmxrajZGcHg0WFpBVHR0ejM5MHRIQVoxU08wcjdHOGk0dnpUR0RFTGVQRkhocjRWV2RPZ3RvMEc3MFMyaWxUdG5Wb3diQzdFSFdTQXFaZl9RdTdU0gGmAUFVX3lxTE1oWERZcVhZNXRHVWFDQXMwN2pwbkc4WHFrZml4YXVvQXMyTlZfaFkzZEJNekgyNFp0ODg3QXRrbERKMnozWkl5TTVkUVYyelZtMnI5eUhvNTdpM3dxRGxkb2s1SWM0SW5FWVdhR1VzTFZJQTNNN2hkTGZrOE4wbFY0RnNlWWNENnhsUlZ5Y29iTDhxTGYwaGtBNFI1R3BFSGQzU0NyMFE?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNFd5UEVLaVN2MUw4UWgwV1MyempDUkRMdzdabnYyS3ctZFpONWl4bWg3eldfbDRyeGdMTERlX2RLSFRXbElNR3RtYXVxbmxrajZGcHg0WFpBVHR0ejM5MHRIQVoxU08wcjdHOGk0dnpUR0RFTGVQRkhocjRWV2RPZ3RvMEc3MFMyaWxUdG5Wb3diQzdFSFdTQXFaZl9RdTdU0gGmAUFVX3lxTE1oWERZcVhZNXRHVWFDQXMwN2pwbkc4WHFrZml4YXVvQXMyTlZfaFkzZEJNekgyNFp0ODg3QXRrbERKMnozWkl5TTVkUVYyelZtMnI5eUhvNTdpM3dxRGxkb2s1SWM0SW5FWVdhR1VzTFZJQTNNN2hkTGZrOE4wbFY0RnNlWWNENnhsUlZ5Y29iTDhxTGYwaGtBNFI1R3BFSGQzU0NyMFE?oc=5",
+        "title": "What we know about Russia’s suspected plague case - Al Jazeera",
+        "summary": "What we know about Russia’s suspected plague case  Al Jazeera",
+        "published_at": "2026-10-06T14:28:33+00:00",
+        "collected_at": "2026-10-09T01:32:10Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "What we know about Russia’s suspected plague case - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
+    },
+    {
+      "id": "p-d4e1ec0cf4",
+      "raw_item": {
+        "item_id": "d4e1ec0cf41be6f9d54aaa381f52321a0ad251a6",
+        "source_id": "src-euronews",
+        "publisher": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQakJzd1BSekMya1lvQnNzT0lMZmpERzBvUmowb1RJSnhGOUR4VVc2TkZUR2hmSldSTVBfTnFaZzd4R21FaGdOMlRrN0p0cEJZUFM3RjJQTTlkTm9ielJ0U283SlhNQVRQbmgyUmtDVHBndkFYNTNiY28yX25tZHltY293M2piN3MzdVlzX0dmeGRPaEEzVEU2X0wwQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQakJzd1BSekMya1lvQnNzT0lMZmpERzBvUmowb1RJSnhGOUR4VVc2TkZUR2hmSldSTVBfTnFaZzd4R21FaGdOMlRrN0p0cEJZUFM3RjJQTTlkTm9ielJ0U283SlhNQVRQbmgyUmtDVHBndkFYNTNiY28yX25tZHltY293M2piN3MzdVlzX0dmeGRPaEEzVEU2X0wwQQ?oc=5",
+        "title": "EU presses Russia for more details on suspected plague case - Euronews.com",
+        "summary": "EU presses Russia for more details on suspected plague case  Euronews.com",
+        "published_at": "2026-10-08T13:36:31+00:00",
+        "collected_at": "2026-10-09T01:32:14Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "EU presses Russia for more details on suspected plague case - Euronews.com",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，欧盟反应已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-d134dd4348",
+      "raw_item": {
+        "item_id": "d134dd4348a6d38349a88a810062bd2dddd039cb",
+        "source_id": "src-euronews",
+        "publisher": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWGxRUTFxRHk0VHFPUkUtU0I5Wnk4OHI1Q0RqN3R5U2haVGlYMlJ1OFJQNjBuZGhoa05kWFlDMlh3Ny1udkFQZWFmU3ptX1FrWEpGbFd2MGhENWFqd1hsN1BaZTBGYzVFLVRyLUlzcjhvcVBtdFFJU3d1TlJNVks5eGpUMG5kLTM0eklsQ0lJdUNFS1JOVzRhTFNjRER5WV8xa0lOc1hmLTJZSWRpWlBaTFpvc20?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWGxRUTFxRHk0VHFPUkUtU0I5Wnk4OHI1Q0RqN3R5U2haVGlYMlJ1OFJQNjBuZGhoa05kWFlDMlh3Ny1udkFQZWFmU3ptX1FrWEpGbFd2MGhENWFqd1hsN1BaZTBGYzVFLVRyLUlzcjhvcVBtdFFJU3d1TlJNVks5eGpUMG5kLTM0eklsQ0lJdUNFS1JOVzRhTFNjRER5WV8xa0lOc1hmLTJZSWRpWlBaTFpvc20?oc=5",
+        "title": "The disease that once ravaged Europe still exists: could plague return to Spain? - Euronews.com",
+        "summary": "The disease that once ravaged Europe still exists: could plague return to Spain?  Euronews.com",
+        "published_at": "2026-10-08T14:05:28+00:00",
+        "collected_at": "2026-10-09T01:32:14Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "The disease that once ravaged Europe still exists: could plague return to Spain? - Euronews.com",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-5e27e32f1e",
+      "raw_item": {
+        "item_id": "5e27e32f1ee4103367623f246360589980aff138",
+        "source_id": "src-euronews",
+        "publisher": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFdsbll1NFNMazZXWXF6Q2lTMWxTZTJsb3FWMUZqdGREUk14SWRseW5lZ0RzN1FEaTRWYlhKbDd4eWUyMndBS05xUnNKWkJCVDQ0OEtVeE5ya0oxSlhVQzNWdDR0QkVoQzFWSmw1SWt6Q3FjSDhXWHZPY2RreklaZ29KWTVuanF5aUxYeU96QmNPS05pRzNZbXZIMnpGajZmdFVXNG55UXE2WUIxdjluMVZWN1lxZTlEYVhLQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFdsbll1NFNMazZXWXF6Q2lTMWxTZTJsb3FWMUZqdGREUk14SWRseW5lZ0RzN1FEaTRWYlhKbDd4eWUyMndBS05xUnNKWkJCVDQ0OEtVeE5ya0oxSlhVQzNWdDR0QkVoQzFWSmw1SWt6Q3FjSDhXWHZPY2RreklaZ29KWTVuanF5aUxYeU96QmNPS05pRzNZbXZIMnpGajZmdFVXNG55UXE2WUIxdjluMVZWN1lxZTlEYVhLQQ?oc=5",
+        "title": "'The Orange Plague': Naked Trump statue on display at European Parliament in Strasbourg - Euronews.com",
+        "summary": "'The Orange Plague': Naked Trump statue on display at European Parliament in Strasbourg  Euronews.com",
+        "published_at": "2026-10-08T07:59:27+00:00",
+        "collected_at": "2026-10-09T01:32:14Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "'The Orange Plague': Naked Trump statue on display at European Parliament in Strasbourg - Euronews.com",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-4bc890d033",
+      "raw_item": {
+        "item_id": "4bc890d0335cbecdd5a91a7d8339b755de00748c",
+        "source_id": "src-euronews",
+        "publisher": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV3FYeGRkVkhEX3UzcENnR3RKa3d0NUhUSEtQZzdBcUpoLTQtdEFFblZuc25FcVdmVlU2ZUJsdHBsaFVYdnJsa1YxdGh6VjRUdWRTaFRYSDVlZXlLbnNEdkRQM040dENKTHNlZDdrQXRoMXI1Tnl6dmNUMGQtblFKSVpYNFN1dzNMR2Q5UUhmOUxfMFo4OE13UEVJVE8zUXplWmVxelE5cw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV3FYeGRkVkhEX3UzcENnR3RKa3d0NUhUSEtQZzdBcUpoLTQtdEFFblZuc25FcVdmVlU2ZUJsdHBsaFVYdnJsa1YxdGh6VjRUdWRTaFRYSDVlZXlLbnNEdkRQM040dENKTHNlZDdrQXRoMXI1Tnl6dmNUMGQtblFKSVpYNFN1dzNMR2Q5UUhmOUxfMFo4OE13UEVJVE8zUXplWmVxelE5cw?oc=5",
+        "title": "What was the plague really like in Germany? Experts explain the facts - Euronews.com",
+        "summary": "What was the plague really like in Germany? Experts explain the facts  Euronews.com",
+        "published_at": "2026-10-08T07:33:42+00:00",
+        "collected_at": "2026-10-09T01:32:14Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "What was the plague really like in Germany? Experts explain the facts - Euronews.com",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-a9c367e2e1",
+      "raw_item": {
+        "item_id": "a9c367e2e15eef7b005ad28209f221de08e3f4df",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzl4eDlJSXc4WDdnYUdYd2FvYVlVVG9zMHFBUEtBQUdSZ0lrd1dqODhMVzdUcWRyYXJpV1FSYV83b2NOYXVtVFR0Nnh6WDdCeGxQUW05aHk1Tk9qOEg4WWd3bnlVOWtkQnU5M0thbDJCZXhaV080WnNTdnBsYVhVNw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzl4eDlJSXc4WDdnYUdYd2FvYVlVVG9zMHFBUEtBQUdSZ0lrd1dqODhMVzdUcWRyYXJpV1FSYV83b2NOYXVtVFR0Nnh6WDdCeGxQUW05aHk1Tk9qOEg4WWd3bnlVOWtkQnU5M0thbDJCZXhaV080WnNTdnBsYVhVNw?oc=5",
+        "title": "Russian health officials deny reports of 2nd plague death in Siberia - CBC",
+        "summary": "Russian health officials deny reports of 2nd plague death in Siberia  CBC",
+        "published_at": "2026-10-08T12:39:08+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian health officials deny reports of 2nd plague death in Siberia - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
+    },
+    {
+      "id": "p-b4cb7310d7",
+      "raw_item": {
+        "item_id": "b4cb7310d74445781c85a3e43fcf2535461e6e04",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sQmFLYnlwcnUyYmdvc0lpdms5cVRhQk5sSEw1cnJIUlJDdDdrVkNraUV4cnVpZ2Rjd3psREs4empJZWlpelY2OHFCU3N4TkUyeFdMclEzTTU?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sQmFLYnlwcnUyYmdvc0lpdms5cVRhQk5sSEw1cnJIUlJDdDdrVkNraUV4cnVpZ2Rjd3psREs4empJZWlpelY2OHFCU3N4TkUyeFdMclEzTTU?oc=5",
+        "title": "What we know about the suspected plague death in Russia - CBC",
+        "summary": "What we know about the suspected plague death in Russia  CBC",
+        "published_at": "2026-10-06T02:32:46+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "What we know about the suspected plague death in Russia - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
+    },
+    {
+      "id": "p-7c8ec915d8",
+      "raw_item": {
+        "item_id": "7c8ec915d857156252dc4329448d6029124ee594",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzNHVkWDJzazEwbGZITUw4YUhlN3N3RE5XVTZOVWw2Zm5NTTVfT3pqNkxtbC1CdTV2akoyRm40ZGFtTFI5M0RCZ2pxZWpkeEVE?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzNHVkWDJzazEwbGZITUw4YUhlN3N3RE5XVTZOVWw2Zm5NTTVfT3pqNkxtbC1CdTV2akoyRm40ZGFtTFI5M0RCZ2pxZWpkeEVE?oc=5",
+        "title": "Russian officials say no cases of plague in city where lab technician died - CBC",
+        "summary": "Russian officials say no cases of plague in city where lab technician died  CBC",
+        "published_at": "2026-10-06T16:26:41+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian officials say no cases of plague in city where lab technician died - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-629f5fcced",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，俄方否认鼠疫/无病例口径已由对应信号覆盖"
+    },
+    {
+      "id": "p-fd00b97f2e",
+      "raw_item": {
+        "item_id": "fd00b97f2e7eb6017d5ca167e5066c9527826a36",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNemdCcXBQdTdiTy1FXy12cjVhOGxlZzVpbmhfU3FhOG1oT2ZTOFRlVnZKRUxFV01WbW9aSk5pVFdpRjJPWVd1NHlDQXJnUVJKNFpWN2ZOZWFEQkZaVWxWODFIUERrejlyRkRmZUU5MXQzaDZGWmh5UGQwa1BRWURILWlsSm5ocEU?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNemdCcXBQdTdiTy1FXy12cjVhOGxlZzVpbmhfU3FhOG1oT2ZTOFRlVnZKRUxFV01WbW9aSk5pVFdpRjJPWVd1NHlDQXJnUVJKNFpWN2ZOZWFEQkZaVWxWODFIUERrejlyRkRmZUU5MXQzaDZGWmh5UGQwa1BRWURILWlsSm5ocEU?oc=5",
+        "title": "Decoding the Russian plague scare - CBC",
+        "summary": "Decoding the Russian plague scare  CBC",
+        "published_at": "2026-10-08T10:00:00+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Decoding the Russian plague scare - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "播客/音频节目转录，非独立报道事实"
+    },
+    {
+      "id": "p-00d413f375",
+      "raw_item": {
+        "item_id": "00d413f3753e9d3a6dfe5f9add377eaa5e31bde2",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LOXoxeFlFSndOeW1GdkZYSER0SEkyMTVjUEs1OU9XZlc5N29vUnpfRC1zaUNucmZmRlpvaGlBR0s5Z1lzd2hCN1pfemZhY2ViOEg3VHFsR3FNQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LOXoxeFlFSndOeW1GdkZYSER0SEkyMTVjUEs1OU9XZlc5N29vUnpfRC1zaUNucmZmRlpvaGlBR0s5Z1lzd2hCN1pfemZhY2ViOEg3VHFsR3FNQQ?oc=5",
+        "title": "WHO investigates second pneumonia case linked to Russian anti-plague lab - CBC",
+        "summary": "WHO investigates second pneumonia case linked to Russian anti-plague lab  CBC",
+        "published_at": "2026-10-08T11:45:19+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO investigates second pneumonia case linked to Russian anti-plague lab - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
+    },
+    {
+      "id": "p-b1cc8a69ed",
+      "raw_item": {
+        "item_id": "b1cc8a69ed1b21855a695b18ab5c0837c9f78374",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xS0M1a2ZrRzVRNkFjeVdESkRwM013STBMSFdrNmVMUmxGZW5BLVUyMXlLWV9aYXhlTDI5eW91Q01ETFAzZTNvMTljU1ZpWjVKVW5zU3ZqMS1fQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xS0M1a2ZrRzVRNkFjeVdESkRwM013STBMSFdrNmVMUmxGZW5BLVUyMXlLWV9aYXhlTDI5eW91Q01ETFAzZTNvMTljU1ZpWjVKVW5zU3ZqMS1fQQ?oc=5",
+        "title": "What we know about the suspected plague death in Russia - CBC",
+        "summary": "What we know about the suspected plague death in Russia  CBC",
+        "published_at": "2026-10-06T03:37:42+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "What we know about the suspected plague death in Russia - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-b4cb7310d7",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
+    },
+    {
+      "id": "p-a61f5724cb",
+      "raw_item": {
+        "item_id": "a61f5724cbab571a6dd2154ace6cd710f4ef9668",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VSkg4X3daeWcxSTZXVGhUa1c0dHRHSkZuMDc5eG1VWnhIaFEzVzF1RHBMR2NfOXZ6MF8yNHAyck5Eem1fdDR4UHVlaExfUGxTemlLR2pnNkthUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VSkg4X3daeWcxSTZXVGhUa1c0dHRHSkZuMDc5eG1VWnhIaFEzVzF1RHBMR2NfOXZ6MF8yNHAyck5Eem1fdDR4UHVlaExfUGxTemlLR2pnNkthUQ?oc=5",
+        "title": "WHO asks Russia about reports of 2nd plague case - CBC",
+        "summary": "WHO asks Russia about reports of 2nd plague case  CBC",
+        "published_at": "2026-10-07T20:14:57+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO asks Russia about reports of 2nd plague case - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
+    },
+    {
+      "id": "p-b6574cfd49",
+      "raw_item": {
+        "item_id": "b6574cfd49edd9cf624560c85d9182cfa537fbbb",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNa21QSXg3ekFRN3lVWXZwRlBTLUZTMEdRaUd5YXZFbmJlMG9NR2p6bUpCdGd2S0dUdjRJQjN5bGREUWpIenVEcW54c3VuNGZhaWc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNa21QSXg3ekFRN3lVWXZwRlBTLUZTMEdRaUd5YXZFbmJlMG9NR2p6bUpCdGd2S0dUdjRJQjN5bGREUWpIenVEcW54c3VuNGZhaWc?oc=5",
+        "title": "Decoding the Russian plague scare - CBC",
+        "summary": "Decoding the Russian plague scare  CBC",
+        "published_at": "2026-10-08T13:38:16+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Decoding the Russian plague scare - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-fd00b97f2e",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "播客/音频节目转录，非独立报道事实"
+    },
+    {
+      "id": "p-c6715df9e1",
+      "raw_item": {
+        "item_id": "c6715df9e1a1dd8e3a08106fcc6b741947f7570d",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcC1kUzRTYkZOQUNic3FrZEY5dnR0dkdUM1cxN3RWTVdyNmdnVm4zeWFNX1lFVXJYMk9URnVVZU9xR19sS2xnb2ZmNUNpN1EybjZKLTRPUTU3aGJxZS1rS1g1MTdtMVU2bW9PYjFWWnVYR1pPZjBIVV9MYjJpRS01Vjdxa0dsVGpqWS1Od2NkbkNXaUJILWlrdnBHR0ZsMXAzZ1M5M0pKWUN2Zw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcC1kUzRTYkZOQUNic3FrZEY5dnR0dkdUM1cxN3RWTVdyNmdnVm4zeWFNX1lFVXJYMk9URnVVZU9xR19sS2xnb2ZmNUNpN1EybjZKLTRPUTU3aGJxZS1rS1g1MTdtMVU2bW9PYjFWWnVYR1pPZjBIVV9MYjJpRS01Vjdxa0dsVGpqWS1Od2NkbkNXaUJILWlrdnBHR0ZsMXAzZ1M5M0pKWUN2Zw?oc=5",
+        "title": "Decoding the Russian plague scare | Front Burner | CBC Podcasts | CBC Listen - CBC",
+        "summary": "Decoding the Russian plague scare | Front Burner | CBC Podcasts | CBC Listen  CBC",
+        "published_at": "2026-10-08T14:10:10+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Decoding the Russian plague scare | Front Burner | CBC Podcasts | CBC Listen - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "播客/音频节目转录，非独立报道事实"
+    },
+    {
+      "id": "p-3eb1e5949e",
+      "raw_item": {
+        "item_id": "3eb1e5949e835f3803fee0f296bd286ccc6869aa",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjg2ZDJWQUNiOVRCVHQ0Qk5mcWZ0NnZNalJ6TVNnU0JFbXU3SGRtMTJmYm5tRzhNdW4wM3FuQ2tDQ2RwRm9QdUo4MHNoRzVYWEdMLUJxZGFZWnhiQm1FNFNVdVBndXFBcmRlbE8zck1lTUlibWdsbHhHT09RSUR3Q29FNDZKUUdETkUtZHBPMGFIM3ZxLUE?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjg2ZDJWQUNiOVRCVHQ0Qk5mcWZ0NnZNalJ6TVNnU0JFbXU3SGRtMTJmYm5tRzhNdW4wM3FuQ2tDQ2RwRm9QdUo4MHNoRzVYWEdMLUJxZGFZWnhiQm1FNFNVdVBndXFBcmRlbE8zck1lTUlibWdsbHhHT09RSUR3Q29FNDZKUUdETkUtZHBPMGFIM3ZxLUE?oc=5",
+        "title": "Decoding the Russian plague scare - Transcript - CBC",
+        "summary": "Decoding the Russian plague scare - Transcript  CBC",
+        "published_at": "2026-10-08T23:18:57+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Decoding the Russian plague scare - Transcript - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-fd00b97f2e",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "播客/音频节目转录，非独立报道事实"
+    },
+    {
+      "id": "p-d530bbe260",
+      "raw_item": {
+        "item_id": "d530bbe26063c8f3e53d14d159e08567bbafa030",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wc1lVRnBqNHNsOV9CYXBqc19UZjBZbXR5Y1c2bHFFSmhfc3hQcUdlSVBORDdOY1VtakNNNzVyN1VQRGZzeno4RldLMGpYZ056R0hmZ1k1OFhsQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wc1lVRnBqNHNsOV9CYXBqc19UZjBZbXR5Y1c2bHFFSmhfc3hQcUdlSVBORDdOY1VtakNNNzVyN1VQRGZzeno4RldLMGpYZ056R0hmZ1k1OFhsQQ?oc=5",
+        "title": "Russia quarantines dozens after death of lab worker - CBC",
+        "summary": "Russia quarantines dozens after death of lab worker  CBC",
+        "published_at": "2026-10-05T18:43:27+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia quarantines dozens after death of lab worker - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，隔离/医学观察措施已由 r-sig-004 覆盖"
+    },
+    {
+      "id": "p-cf45610d16",
+      "raw_item": {
+        "item_id": "cf45610d165a3d7ab32374c214b9524adbeda3af",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPejNfNDdJUk54cjZaWlczbUhQQWZXcVFBMDdaRVptdzFKbzcyamJJRDhKVmhha0hXUU50RURxUUZZOTFoWGRQNlFjVDh6YlNwRjYzeUFlMHFWQkNCRjhONFB1M0syOGpkQjYyWXdkMjRiOGhnUVEyaXk4QVpfQjlDYUJxdTF4MndybkV6VW9EbkxOSFhEdDM2c1RjVmd3a2ZYUU1rbU9nX2FtSGFGVWdjU1NZakpWRDh4VERBOXZYLUFfZkEyTlVPT3drR3VzcE1UVjJZQUVVVlg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPejNfNDdJUk54cjZaWlczbUhQQWZXcVFBMDdaRVptdzFKbzcyamJJRDhKVmhha0hXUU50RURxUUZZOTFoWGRQNlFjVDh6YlNwRjYzeUFlMHFWQkNCRjhONFB1M0syOGpkQjYyWXdkMjRiOGhnUVEyaXk4QVpfQjlDYUJxdTF4MndybkV6VW9EbkxOSFhEdDM2c1RjVmd3a2ZYUU1rbU9nX2FtSGFGVWdjU1NZakpWRDh4VERBOXZYLUFfZkEyTlVPT3drR3VzcE1UVjJZQUVVVlg?oc=5",
+        "title": "Parti Quebecois wins Quebec; a conversation with Cassie Campbell-Pascall; and a possible plague-related death - CBC",
+        "summary": "Parti Quebecois wins Quebec; a conversation with Cassie Campbell-Pascall; and a possible plague-related death  CBC",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-09T01:32:18Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Parti Quebecois wins Quebec; a conversation with Cassie Campbell-Pascall; and a possible plague-related death - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-9561d54a84",
+      "raw_item": {
+        "item_id": "9561d54a84a6d28af365d52c94cc4d3d086a8b25",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0Zydld0NTN3OHQ2ZUhpcmEzQk9fU0pOY0hQZzRaSVN3cVNIU0JnWmNCQnBZOGhtSmJGeUkxQlFrd0NFSERiUmtjUjVkVmlobFJUazcxUjRKWlFvc0RRbHRJVFRVRlR0X3BrLXp2TXFMdGVNWG55aURiM0txX0RfZTNxekY2U3RsYWR3TA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0Zydld0NTN3OHQ2ZUhpcmEzQk9fU0pOY0hQZzRaSVN3cVNIU0JnWmNCQnBZOGhtSmJGeUkxQlFrd0NFSERiUmtjUjVkVmlobFJUazcxUjRKWlFvc0RRbHRJVFRVRlR0X3BrLXp2TXFMdGVNWG55aURiM0txX0RfZTNxekY2U3RsYWR3TA?oc=5",
+        "title": "Catch up quickly: Kamala Harris; Russia plague reports; brain waste - The Washington Post",
+        "summary": "Catch up quickly: Kamala Harris; Russia plague reports; brain waste  The Washington Post",
+        "published_at": "2026-10-06T17:14:07+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Catch up quickly: Kamala Harris; Russia plague reports; brain waste - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-ee3abcfd18",
+      "raw_item": {
+        "item_id": "ee3abcfd184702462b9db4a657262ef7dc7da7be",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNjN0Q0V4bWxXTFF3OEozaTlxYV9lZWpJTHBFZVJnLTd0Ykd3QmRTWEtGTlQyOTNuQURvZGtmVlp3OUlNYVhTZzdMaFZzOHMwOTJNbmVqekpqY1J1RjAzZEZVdkFfUnhNSVNxc09xZENDVl83R2FnOWRSUXdWQy1LM2NtT21nN1E5ZmFXNllsYTl3RTFtem5OWHRwMWxfZTIwNXZNVmNZMHRkMk9rU1RzUHNpbUhuODNBSTlUVnJSZVlod1pjWlpJSzU3UFRRbTJONWIyY1N1bW5zajZ4T0VUQUtzdXNsbXh3OFV6b2VZcXljdUc4M3Yw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNjN0Q0V4bWxXTFF3OEozaTlxYV9lZWpJTHBFZVJnLTd0Ykd3QmRTWEtGTlQyOTNuQURvZGtmVlp3OUlNYVhTZzdMaFZzOHMwOTJNbmVqekpqY1J1RjAzZEZVdkFfUnhNSVNxc09xZENDVl83R2FnOWRSUXdWQy1LM2NtT21nN1E5ZmFXNllsYTl3RTFtem5OWHRwMWxfZTIwNXZNVmNZMHRkMk9rU1RzUHNpbUhuODNBSTlUVnJSZVlod1pjWlpJSzU3UFRRbTJONWIyY1N1bW5zajZ4T0VUQUtzdXNsbXh3OFV6b2VZcXljdUc4M3Yw?oc=5",
+        "title": "Tracking Trump: Trump on Russian plague case; Trump’s golf club proposed as the next Camp David; Trump heads to Texas; and more - The Washington Post",
+        "summary": "Tracking Trump: Trump on Russian plague case; Trump’s golf club proposed as the next Camp David; Trump heads to Texas; and more  The Washington Post",
+        "published_at": "2026-10-08T04:15:02+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Tracking Trump: Trump on Russian plague case; Trump’s golf club proposed as the next Camp David; Trump heads to Texas; and more - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-8d78daeb39",
+      "raw_item": {
+        "item_id": "8d78daeb3913ee9d98bc6c246f0ac40404573747",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkJuOVVTU2xsbmdKdzltUVhVZG9hbThfV3BibXNXVzRKNV96RkNPWkU0dUg2VnNWRlE5WndreDB4TXNkc1RtRjcwcVZOaWllMUkxRHcwOTZaYWhnc215elFDMVo2cG1CdllFUnpFclhScy1BN19vM1AtNGZGeFFYaXQzbTdGbW9HbUp0Vkt1RGNVLTd3YXlwRkM0dw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSkJuOVVTU2xsbmdKdzltUVhVZG9hbThfV3BibXNXVzRKNV96RkNPWkU0dUg2VnNWRlE5WndreDB4TXNkc1RtRjcwcVZOaWllMUkxRHcwOTZaYWhnc215elFDMVo2cG1CdllFUnpFclhScy1BN19vM1AtNGZGeFFYaXQzbTdGbW9HbUp0Vkt1RGNVLTd3YXlwRkM0dw?oc=5",
+        "title": "Opinion | The Russian plague - The Washington Post",
+        "summary": "Opinion | The Russian plague  The Washington Post",
+        "published_at": "2026-10-08T22:37:21+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Opinion | The Russian plague - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-26df448f7f",
+      "raw_item": {
+        "item_id": "26df448f7f46bc82287258ab0b60d08eaf000b64",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONXZOdEhlanJNXy0zZEp3NWx0RHFxcENZQ3czSWdfYkZ5UExfMTRXNW1mcVRNMW5HTC1IZS1wU0p6cUJ0VWtwM3JraXREaUtBM3Fhb1JyNlRzazl3aTBhblRJMnRMQjZ2SFhDOWs4YXZRaFRPUVhrSEc1a3BQa2NUNzI0ZUozLWgtQ3Q2Y2FhcHF3RTJ2QUN4cTEwZk5EUk9yd3Z1aE14RkxmS3FPeG9PU1A3Tl9ZQ2k4bjlQOTI1NGFpR3hCNUxBSWln?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONXZOdEhlanJNXy0zZEp3NWx0RHFxcENZQ3czSWdfYkZ5UExfMTRXNW1mcVRNMW5HTC1IZS1wU0p6cUJ0VWtwM3JraXREaUtBM3Fhb1JyNlRzazl3aTBhblRJMnRMQjZ2SFhDOWs4YXZRaFRPUVhrSEc1a3BQa2NUNzI0ZUozLWgtQ3Q2Y2FhcHF3RTJ2QUN4cTEwZk5EUk9yd3Z1aE14RkxmS3FPeG9PU1A3Tl9ZQ2k4bjlQOTI1NGFpR3hCNUxBSWln?oc=5",
+        "title": "UN health agency wants more details from Russia on suspected pneumonic plague case - The Washington Post",
+        "summary": "UN health agency wants more details from Russia on suspected pneumonic plague case  The Washington Post",
+        "published_at": "2026-10-08T04:10:04+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "UN health agency wants more details from Russia on suspected pneumonic plague case - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-5647450edc",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "reject_reason": "转载，世卫组织相关表态已由 r-sig-010 覆盖"
+    },
+    {
+      "id": "p-a14292bf71",
+      "raw_item": {
+        "item_id": "a14292bf711c5470e9d8ba8762bbcf5c8b321a39",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT2t2UEJfR05oTGcyMURLTGFobGMxTXJxdmJuZVJfa19zTkJGandhV2NndHhuc0NrV182UjVjSWg4M1dybDl2bWZfQ1c5dkltMUhwSTlaLXdzXy1ITHhsX2FPSXR3eWJkYzNrM3lEVFdkWWdjMHVhWklLRXVPQnhQRnpUdEkyd01oZEstQTM0TEZvcmZRTzdzdTVEV0lHNlVYZVdFUHBWM0lYS2lkZ2xRS19JdDhhQU9HOW9Gd1dOcUxsRlJKR0xaM0NiX3BCblU?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT2t2UEJfR05oTGcyMURLTGFobGMxTXJxdmJuZVJfa19zTkJGandhV2NndHhuc0NrV182UjVjSWg4M1dybDl2bWZfQ1c5dkltMUhwSTlaLXdzXy1ITHhsX2FPSXR3eWJkYzNrM3lEVFdkWWdjMHVhWklLRXVPQnhQRnpUdEkyd01oZEstQTM0TEZvcmZRTzdzdTVEV0lHNlVYZVdFUHBWM0lYS2lkZ2xRS19JdDhhQU9HOW9Gd1dOcUxsRlJKR0xaM0NiX3BCblU?oc=5",
+        "title": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain - The Washington Post",
+        "summary": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain  The Washington Post",
+        "published_at": "2026-10-08T19:03:51+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian official seeks to turn the page on a suspected pneumonic plague case but questions remain - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-343aa01c58",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，检查工作完成已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-18bb34af5f",
+      "raw_item": {
+        "item_id": "18bb34af5f12d01598740ca462a4edcde7ab797d",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IQ3oyV2pOV3dkU2twMUM0OHF1RUJKTzRMdC1sOG81UkZsMTRuQXBmeEVFTk1KaHhKemkwREZtWVpTVmNqUEh6NFhBMDAwOTR5VnVYZ3Uyc3BMZHlKU2xxaUFoM2hkaDI3WjhpM3VJRXM0WF9JUkUxMg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IQ3oyV2pOV3dkU2twMUM0OHF1RUJKTzRMdC1sOG81UkZsMTRuQXBmeEVFTk1KaHhKemkwREZtWVpTVmNqUEh6NFhBMDAwOTR5VnVYZ3Uyc3BMZHlKU2xxaUFoM2hkaDI3WjhpM3VJRXM0WF9JUkUxMg?oc=5",
+        "title": "Kamala Harris’s 2028 prospects; plague reports in Russia; how to get a clean brain; and more - The Washington Post",
+        "summary": "Kamala Harris’s 2028 prospects; plague reports in Russia; how to get a clean brain; and more  The Washington Post",
+        "published_at": "2026-10-06T11:10:29+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Kamala Harris’s 2028 prospects; plague reports in Russia; how to get a clean brain; and more - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-728e37d122",
+      "raw_item": {
+        "item_id": "728e37d12219d619fb106180b40eb19c9cc2d434",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2Q5VHk3TVF0YlpTR2tzaHM2ckFfQmQ3MzFYOWdYVzgyWkx4N0JjbFlCbjJMMDZhWk84d3hDOGotb01nUjhnLUdHQWFlcm4wR205bkVrUm5SZXBmNkR0UDRDcGJtcUIyejJ6UEQxVWxudFZqaU16QXJSRXBpcFhrRVc2TXpZVWs0Q1N3OHJHXzFLcW9XbDBaR3VQVmh5eVNBTU5Zc2Z4SUhFR3pZWnhuSk45ZW1ENHF2Z1J5ZGdMZWRuNDJJZkpod091VUJaRTU1SHlaU2VyMFc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2Q5VHk3TVF0YlpTR2tzaHM2ckFfQmQ3MzFYOWdYVzgyWkx4N0JjbFlCbjJMMDZhWk84d3hDOGotb01nUjhnLUdHQWFlcm4wR205bkVrUm5SZXBmNkR0UDRDcGJtcUIyejJ6UEQxVWxudFZqaU16QXJSRXBpcFhrRVc2TXpZVWs0Q1N3OHJHXzFLcW9XbDBaR3VQVmh5eVNBTU5Zc2Z4SUhFR3pZWnhuSk45ZW1ENHF2Z1J5ZGdMZWRuNDJJZkpod091VUJaRTU1SHlaU2VyMFc?oc=5",
+        "title": "Russia reports a worker at a Siberian plague institute got pneumonia from an unknown cause and died - The Washington Post",
+        "summary": "Russia reports a worker at a Siberian plague institute got pneumonia from an unknown cause and died  The Washington Post",
+        "published_at": "2026-10-05T21:17:19+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia reports a worker at a Siberian plague institute got pneumonia from an unknown cause and died - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-b62313f1e1",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
+    },
+    {
+      "id": "p-038fffb97e",
+      "raw_item": {
+        "item_id": "038fffb97e1b34f81bade76f40115b1b6274918e",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUJVSXNHeGM0eDM2Vk51SGlwNUZmdEYtb01Pd1EzenZZR2lQVXhScnVjQ01ZQlR4bDltN0R4V1V4VzM2eXo3SmxMak85b3hCNnkzR001M3VueFVRM19DRTJOd2xkcjktZlJ1S1RYMEtqdDFpbGt4RXlXXzRQRmZEeEJVYjBqMjBzX1ZCNi1KcWxMYmI0bHlranRGbjdpREFqMGF5OTR5MG1GQ3otWFRvQU13?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUJVSXNHeGM0eDM2Vk51SGlwNUZmdEYtb01Pd1EzenZZR2lQVXhScnVjQ01ZQlR4bDltN0R4V1V4VzM2eXo3SmxMak85b3hCNnkzR001M3VueFVRM19DRTJOd2xkcjktZlJ1S1RYMEtqdDFpbGt4RXlXXzRQRmZEeEJVYjBqMjBzX1ZCNi1KcWxMYmI0bHlranRGbjdpREFqMGF5OTR5MG1GQ3otWFRvQU13?oc=5",
+        "title": "Opinion | Russia’s plague scare and the danger of unpreparedness - The Washington Post",
+        "summary": "Opinion | Russia’s plague scare and the danger of unpreparedness  The Washington Post",
+        "published_at": "2026-10-09T00:07:23+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Opinion | Russia’s plague scare and the danger of unpreparedness - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "观点/评论内容，非可核实事实"
+    },
+    {
+      "id": "p-b9d2b9cc5e",
+      "raw_item": {
+        "item_id": "b9d2b9cc5e09cc986d31f263a35afbe194e32937",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWdOc3ZYWm9lMjhhV2ZsYmRFdFlyOWd3WXJycnBleFB2NS1QQXhTS0dFYUwtSHBqZTNmeWZBaXZteElva1YxVFJQRUt6bmpqb0RmMEg2cFZ3bWNtYzY4akxPdUFHTHVqNnhvWkxqZ2FaS1ZnU2M5VTF0OWprY0xwSGNSV25mRTdjTDFNZW5lRFBKUlpDOFNaTlZQQUUtbnA2aENsM1pHMERlUWhQSElTcVVqWWVOa3ZEb3htWkg1RmF4d1NVUF9xc3R5dXZuR2M?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbWdOc3ZYWm9lMjhhV2ZsYmRFdFlyOWd3WXJycnBleFB2NS1QQXhTS0dFYUwtSHBqZTNmeWZBaXZteElva1YxVFJQRUt6bmpqb0RmMEg2cFZ3bWNtYzY4akxPdUFHTHVqNnhvWkxqZ2FaS1ZnU2M5VTF0OWprY0xwSGNSV25mRTdjTDFNZW5lRFBKUlpDOFNaTlZQQUUtbnA2aENsM1pHMERlUWhQSElTcVVqWWVOa3ZEb3htWkg1RmF4d1NVUF9xc3R5dXZuR2M?oc=5",
+        "title": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia - The Washington Post",
+        "summary": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia  The Washington Post",
+        "published_at": "2026-10-06T23:44:25+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-9ff260c8db",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-465d29de8d",
+      "raw_item": {
+        "item_id": "465d29de8d357d95ab04389fe47b2c89fbdb47f5",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjBTVG5zSWZEdXZ3UDBaU0piSXBGRDk1MWttYTVWSEZ5NWFCWnBQVGRBZjhLblR4Y2VjWmhZdTRnNklKNnJKRTY0ZFpYQ053SV9yamZCMkNRVmlHVFVjemxNdmVhQUxhTGJaU2FhY0k5cGZaQmZmX09mWlJHOENtMHdlaUpVOHZMbmpDa0hwSmNZcF9HYm12Z050M1NyR0k1TzQ1QTAxYWtlSVowXzV5bktSaHhwRlcxTC0xN0FSeWM2YkpITGpZWDR6dGhtMVk?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjBTVG5zSWZEdXZ3UDBaU0piSXBGRDk1MWttYTVWSEZ5NWFCWnBQVGRBZjhLblR4Y2VjWmhZdTRnNklKNnJKRTY0ZFpYQ053SV9yamZCMkNRVmlHVFVjemxNdmVhQUxhTGJaU2FhY0k5cGZaQmZmX09mWlJHOENtMHdlaUpVOHZMbmpDa0hwSmNZcF9HYm12Z050M1NyR0k1TzQ1QTAxYWtlSVowXzV5bktSaHhwRlcxTC0xN0FSeWM2YkpITGpZWDR6dGhtMVk?oc=5",
+        "title": "The plague never went away. Cases are reported in parts of Africa and the US nearly every year - The Washington Post",
+        "summary": "The plague never went away. Cases are reported in parts of Africa and the US nearly every year  The Washington Post",
+        "published_at": "2026-10-08T04:16:00+00:00",
+        "collected_at": "2026-10-09T01:32:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "The plague never went away. Cases are reported in parts of Africa and the US nearly every year - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-62857ab27a",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-0658a810c7",
+      "raw_item": {
+        "item_id": "0658a810c744ca58115ffaed2071299e952978b8",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWpHUlhZT3k1aTNBWC1rNVBSQnZvSEN0Nm5lYkh1QlVGN19nVTBIZWlwVENfSlF5QUdETFNnWWlWWXlIZkJkdzl1QWlYMEdOZjJHQkthdlY0Y2tFaTlrXzYzdzljQ0tJN3piSk12WW1OVXhVelFVQUZDMnliOTBiUmxmbmpoSzJrcTMtdE04MzFWQnB5aTRONFg3MUJaWnlDcEVrUUVoeEJkZGE0Z1dyRUtBcmpJZUtCNDE40gHCAUFVX3lxTE91WUpuRlhnWHIweDdzM0ZvZ3hSUVgzRG5OeDFpYVVXMVhVLU5Td0EtUW8zR1Rsd2VzaldmSnBLSE1XOVZSdVFkVGhlWFVKel9jQ2FGOFFGWVdRU1FXYmtzb0RLR2NvaXBoWFJHeWxoMnBrRXE1M1JnMzZ3TTdZUGZUcU9QMm5rY0lMM0xqUExwMWdvd2gzdkZfNFp0ekZDTkM2UG9MMUZ6TXdfVHdDVzgxVlBjRHY4MlVTMV9qOWU5bTNB?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWpHUlhZT3k1aTNBWC1rNVBSQnZvSEN0Nm5lYkh1QlVGN19nVTBIZWlwVENfSlF5QUdETFNnWWlWWXlIZkJkdzl1QWlYMEdOZjJHQkthdlY0Y2tFaTlrXzYzdzljQ0tJN3piSk12WW1OVXhVelFVQUZDMnliOTBiUmxmbmpoSzJrcTMtdE04MzFWQnB5aTRONFg3MUJaWnlDcEVrUUVoeEJkZGE0Z1dyRUtBcmpJZUtCNDE40gHCAUFVX3lxTE91WUpuRlhnWHIweDdzM0ZvZ3hSUVgzRG5OeDFpYVVXMVhVLU5Td0EtUW8zR1Rsd2VzaldmSnBLSE1XOVZSdVFkVGhlWFVKel9jQ2FGOFFGWVdRU1FXYmtzb0RLR2NvaXBoWFJHeWxoMnBrRXE1M1JnMzZ3TTdZUGZUcU9QMm5rY0lMM0xqUExwMWdvd2gzdkZfNFp0ekZDTkM2UG9MMUZ6TXdfVHdDVzgxVlBjRHY4MlVTMV9qOWU5bTNB?oc=5",
+        "title": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+        "summary": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader  The Indian Express",
+        "published_at": "2026-10-07T15:57:29+00:00",
+        "collected_at": "2026-10-09T01:32:33Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:42Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-6df9fc9768",
+      "raw_item": {
+        "item_id": "6df9fc9768ad7cfa19593150ec01f9455b8f15d8",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFJwcUtvR2hVdml2VzBJcHhMMG5fVnRrVWEtRjNmWVE1ZGt6Q3RJR3J1OTZwNGZudDN5b01OZk5RaEZpZ21fTk9ZQVBRVW5aX2kxZXdVMTJnRkw1MWZOUV9id0g3dHZYS1JlOHRDWGh1U19WQ3dqWFFjYnpQdDBoaFRXcm44bFkwRGFUSFViN2t4UktCMDdzdnhQdFZJUDIxNG5QS1FMZ0wyelE2OE55ck43Um9aSWgwU1VfY9IBwwFBVV95cUxOTkl0eE9LSU1NYlNrVzMzRVBKQzdvaDdEOGlEbF9QV3hQblpIVTBKd3JwUFk5NmpHMzRLalk0MWdybm5CdkdQMjhzc1JLOWd4b1h0SjJDR0Q5OE5LaGZUeTFsajVIclZ5QlU2aldBSHlPd3d1MUVXeUV3ZllrN2ExdlRVcjlOSExzenJGbzhHYXFIbUpZZy1TTWVzUzB2Y21Iel9zWTNuNmltbE9UV2ZTMVE5QkdfRWZ3a2htV2VUUTluc2c?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcFJwcUtvR2hVdml2VzBJcHhMMG5fVnRrVWEtRjNmWVE1ZGt6Q3RJR3J1OTZwNGZudDN5b01OZk5RaEZpZ21fTk9ZQVBRVW5aX2kxZXdVMTJnRkw1MWZOUV9id0g3dHZYS1JlOHRDWGh1U19WQ3dqWFFjYnpQdDBoaFRXcm44bFkwRGFUSFViN2t4UktCMDdzdnhQdFZJUDIxNG5QS1FMZ0wyelE2OE55ck43Um9aSWgwU1VfY9IBwwFBVV95cUxOTkl0eE9LSU1NYlNrVzMzRVBKQzdvaDdEOGlEbF9QV3hQblpIVTBKd3JwUFk5NmpHMzRLalk0MWdybm5CdkdQMjhzc1JLOWd4b1h0SjJDR0Q5OE5LaGZUeTFsajVIclZ5QlU2aldBSHlPd3d1MUVXeUV3ZllrN2ExdlRVcjlOSExzenJGbzhHYXFIbUpZZy1TTWVzUzB2Y21Iel9zWTNuNmltbE9UV2ZTMVE5QkdfRWZ3a2htV2VUUTluc2c?oc=5",
+        "title": "Pneumonic plague in Russia? What we know about Siberian lab tech’s death - The Indian Express",
+        "summary": "Pneumonic plague in Russia? What we know about Siberian lab tech’s death  The Indian Express",
+        "published_at": "2026-10-05T09:11:25+00:00",
+        "collected_at": "2026-10-09T01:32:33Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Pneumonic plague in Russia? What we know about Siberian lab tech’s death - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "综述性汇总，无独立新增事实"
+    },
+    {
+      "id": "p-1aae6b9999",
+      "raw_item": {
+        "item_id": "1aae6b99995c6c3067091aba4239772f219aa0e8",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQVFGbXl0cE5mcW9sZVBzRVU1SjFGcTNXbE94cENWYzFQZ1FCUTJpOGhHRUFGbjZ4cFVwX0FSSEFpbDhEQ19iZGZGV2pNSThHZlROTHY1b25kR2w1Qk5Mblp0R3RhaXQ2TmxJWXREVkZsYUFLdHRENE44YTJtZ0xjTWZHOUVDNjR0UlQ0RkFPUjRlNTBGTmtkZmd0WTlueTNGNDhkWnhjWndNVmh10gGzAUFVX3lxTFBOLWRSVVZ5RDJCSFJXTGVOcWZDOUVibnM2cHdpNjl5UjZIb3RsZDc1aDZpMFR1M1A5VWNqTDhOUzhNc19LWjd2Q0ZPdzZsNGhWYkV2MzJULXRhMFdfVFpfQ0hYdTF2eDV5Q3RQUXlxeVFlNVJ4ZEpsbXktSS1HMEZhdzV5azdSRWctdHREWC1LWnJXU0Q0ekdkTW1EM1FHRWdxUFpMRlVwaVcyZWVpeHdFc3VN?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQVFGbXl0cE5mcW9sZVBzRVU1SjFGcTNXbE94cENWYzFQZ1FCUTJpOGhHRUFGbjZ4cFVwX0FSSEFpbDhEQ19iZGZGV2pNSThHZlROTHY1b25kR2w1Qk5Mblp0R3RhaXQ2TmxJWXREVkZsYUFLdHRENE44YTJtZ0xjTWZHOUVDNjR0UlQ0RkFPUjRlNTBGTmtkZmd0WTlueTNGNDhkWnhjWndNVmh10gGzAUFVX3lxTFBOLWRSVVZ5RDJCSFJXTGVOcWZDOUVibnM2cHdpNjl5UjZIb3RsZDc1aDZpMFR1M1A5VWNqTDhOUzhNc19LWjd2Q0ZPdzZsNGhWYkV2MzJULXRhMFdfVFpfQ0hYdTF2eDV5Q3RQUXlxeVFlNVJ4ZEpsbXktSS1HMEZhdzV5azdSRWctdHREWC1LWnJXU0Q0ekdkTW1EM1FHRWdxUFpMRlVwaVcyZWVpeHdFc3VN?oc=5",
+        "title": "Plague in Russia? Lab worker dies in Siberia, hospital quarantined - The Indian Express",
+        "summary": "Plague in Russia? Lab worker dies in Siberia, hospital quarantined  The Indian Express",
+        "published_at": "2026-10-03T04:33:30+00:00",
+        "collected_at": "2026-10-09T01:32:33Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Plague in Russia? Lab worker dies in Siberia, hospital quarantined - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:38Z",
+      "reject_reason": "转载，员工死亡事实已由 r-sig-002 覆盖"
+    },
+    {
+      "id": "p-89af011214",
+      "raw_item": {
+        "item_id": "89af011214e45aceea17cc6e8123c4fb0d973559",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTVloTGxKNmxSMGtjTWJ5SXI0SVdTTkllbjdfSndQOF9LLWxFTjhjYTZWX0YxOHVlaFBZTFF1MUdoQ2JIVVNYLVpHSE5WbEdTYnNHQnduRmRuVWJIMVpvS1lUVXNPc185Wk9KbXJTcnhOU1NxMGZWbTVpUXd3SDNhZVpoMVB5QVZLTnk0UGxnNVpJZWsyaVFLcXpVWjZsR2F2ZGhwSWh4ZnRwWEU0RXFDV2xfQ000djJTSXVRZXRZeV90RXU4ZG82UXRMeUVlSEx0aWfSAdgBQVVfeXFMTjB3RjBqRWVJRmRPQk1ZeHUtMzYyZTBGYVNDeExIb0lXRDdQMVN3cWNOUkIyMlhhQXdHajFJVF9vejZCMzdTRU5jaFlGSWFlekZWNTlOXzBfOUZLWGg2Z3pxenV6UGV4RFJkeXIzNHZEb3RSVHlrOUxwVGhKLWszcmJ1aDlkbnQ0TXhDRkloYW1BRXg4Y2Q1V3N2VmVWWENlOWRmLU9JUWpzUWVQSlhJdzBib1oxUHdrbTRpZHRocEhHb2VKbHh5N2JuM21ScHRNVzBhOTdxbTNZ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTVloTGxKNmxSMGtjTWJ5SXI0SVdTTkllbjdfSndQOF9LLWxFTjhjYTZWX0YxOHVlaFBZTFF1MUdoQ2JIVVNYLVpHSE5WbEdTYnNHQnduRmRuVWJIMVpvS1lUVXNPc185Wk9KbXJTcnhOU1NxMGZWbTVpUXd3SDNhZVpoMVB5QVZLTnk0UGxnNVpJZWsyaVFLcXpVWjZsR2F2ZGhwSWh4ZnRwWEU0RXFDV2xfQ000djJTSXVRZXRZeV90RXU4ZG82UXRMeUVlSEx0aWfSAdgBQVVfeXFMTjB3RjBqRWVJRmRPQk1ZeHUtMzYyZTBGYVNDeExIb0lXRDdQMVN3cWNOUkIyMlhhQXdHajFJVF9vejZCMzdTRU5jaFlGSWFlekZWNTlOXzBfOUZLWGg2Z3pxenV6UGV4RFJkeXIzNHZEb3RSVHlrOUxwVGhKLWszcmJ1aDlkbnQ0TXhDRkloYW1BRXg4Y2Q1V3N2VmVWWENlOWRmLU9JUWpzUWVQSlhJdzBib1oxUHdrbTRpZHRocEhHb2VKbHh5N2JuM21ScHRNVzBhOTdxbTNZ?oc=5",
+        "title": "Scheduled call with Putin to discuss possible case of pneumonic plague in Russia: Trump - The Indian Express",
+        "summary": "Scheduled call with Putin to discuss possible case of pneumonic plague in Russia: Trump  The Indian Express",
+        "published_at": "2026-10-06T23:24:39+00:00",
+        "collected_at": "2026-10-09T01:32:33Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Scheduled call with Putin to discuss possible case of pneumonic plague in Russia: Trump - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，特朗普与普京通话安排已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-94d1e5837d",
+      "raw_item": {
+        "item_id": "94d1e5837d038c5f57aa8b3c30c762b813ea0955",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ01IQV9velAzWG1CbWtObmlWMTBFeldneEJaQS1pcFkzZVYwNlBSZEJXLWc3LWVIdUdqeVFxSTRDanE1N3FfbFp3dktBQkYzOFJXdjFJUHhSYXUxR3hzai1LMTlIbWFPMXBDVUxwLUk4U0g3bUJZd0VrdmZRVUI2cUVVd3JXLVltRGtYZkhPcFV5bF9RNTExUXRhcjFTc1RyZ1RkMXlaM1lxWTVzZ2fSAbQBQVVfeXFMUGtTUDd6OV9ONm16elpFUjFSRzNCN0VRVC1IeTN4cEh3LV81WWY3Wm9nU3hyZzVaZ2hUcGUtand4Nm1PcVN0RUR1a2NjUXpEUlhFT0htNVlOcnpPT19aUnZnZVlFbG4wUzdJVlh5R19nalVqOHk3eFJXb0J6Y29YMWFnd0lqR3lLbGotcDZzc2pZdmRhUDE1V2U4QW5XS3F6WU1rc1EzVUxtWXhlNW9CYU1CTVA5?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ01IQV9velAzWG1CbWtObmlWMTBFeldneEJaQS1pcFkzZVYwNlBSZEJXLWc3LWVIdUdqeVFxSTRDanE1N3FfbFp3dktBQkYzOFJXdjFJUHhSYXUxR3hzai1LMTlIbWFPMXBDVUxwLUk4U0g3bUJZd0VrdmZRVUI2cUVVd3JXLVltRGtYZkhPcFV5bF9RNTExUXRhcjFTc1RyZ1RkMXlaM1lxWTVzZ2fSAbQBQVVfeXFMUGtTUDd6OV9ONm16elpFUjFSRzNCN0VRVC1IeTN4cEh3LV81WWY3Wm9nU3hyZzVaZ2hUcGUtand4Nm1PcVN0RUR1a2NjUXpEUlhFT0htNVlOcnpPT19aUnZnZVlFbG4wUzdJVlh5R19nalVqOHk3eFJXb0J6Y29YMWFnd0lqR3lLbGotcDZzc2pZdmRhUDE1V2U4QW5XS3F6WU1rc1EzVUxtWXhlNW9CYU1CTVA5?oc=5",
+        "title": "Pneumonic plague: What to know about the disease after suspected case in Siberia - The Indian Express",
+        "summary": "Pneumonic plague: What to know about the disease after suspected case in Siberia  The Indian Express",
+        "published_at": "2026-10-05T10:57:08+00:00",
+        "collected_at": "2026-10-09T01:32:33Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Pneumonic plague: What to know about the disease after suspected case in Siberia - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-329792b2c0",
+      "raw_item": {
+        "item_id": "329792b2c0700b59aad7fdf47158f052101a61c4",
+        "source_id": "src-meduza",
+        "publisher": "Meduza",
+        "url": "https://meduza.io/news/2026/10/08/eto-bylo-ispytanie-no-my-ego-proshli-dostoyno-vlasti-irkutskoy-oblasti-otchitalis-chto-zavershili-proverku-posle-smerti-sotrudnitsy-protivochumnogo-instituta",
+        "url_canonical": "https://meduza.io/news/2026/10/08/eto-bylo-ispytanie-no-my-ego-proshli-dostoyno-vlasti-irkutskoy-oblasti-otchitalis-chto-zavershili-proverku-posle-smerti-sotrudnitsy-protivochumnogo-instituta",
+        "title": "«Это было испытание, но мы его прошли достойно». Власти Иркутской области отчитались, что завершили проверку после смерти сотрудницы противочумного института",
+        "summary": "В Иркутской области завершили «комплекс профилактических мероприятий» в связи со смертью сотрудницы Иркутского противочумного института Дарьи Шипиловой, сообщил губернатор Игорь Кобзев. По его словам, у погибшей была внебольничная пневмония.",
+        "published_at": "2026-10-08T16:15:46+00:00",
+        "collected_at": "2026-10-09T01:32:37Z",
+        "language": "ru",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "«Это было испытание, но мы его прошли достойно». Власти Иркутской области отчитались, что завершили проверку после смерти сотрудницы противочумного института",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，检查工作完成已由本次批准信号覆盖"
+    },
+    {
+      "id": "p-a1dfa3249f",
+      "raw_item": {
+        "item_id": "a1dfa3249fdfde434d34248f8b12041c134e02ac",
+        "source_id": "src-meduza",
+        "publisher": "Meduza",
+        "url": "https://meduza.io/feature/2026/10/08/v-moskve-prostilis-s-anatoliem-kashpirovskim-samym-izvestnym-tselitelem-pozdnego-sssr-fotografii",
+        "url_canonical": "https://meduza.io/feature/2026/10/08/v-moskve-prostilis-s-anatoliem-kashpirovskim-samym-izvestnym-tselitelem-pozdnego-sssr-fotografii",
+        "title": "В Москве простились с Анатолием Кашпировским — самым известным «целителем» позднего СССР. Фотографии",
+        "summary": "8 октября на Троекуровском кладбище в Москве прошла церемония прощания с Анатолием Кашпировским (он умер 3 октября в возрасте 87 лет). Он (наряду с Алланом Чумаком, умершим девять лет назад) был самым известным телевизионным «целителем» позднесоветского времени. На прощание с Кашпировским пришли сотни человек. Похороны пройдут в закрытом формате. По словам бывшей помощницы Кашпировского, он хотел, чтобы его похоронили в его родном городе Винница, где покоятся его родители и дочь. Телеграм-канал Shot утверждает, что тело «целителя» действительно доставят в Украину. Официально семья Кашпировского не разглашает место его погребения.",
+        "published_at": "2026-10-08T13:25:22+00:00",
+        "collected_at": "2026-10-09T01:32:37Z",
+        "language": "ru",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "В Москве простились с Анатолием Кашпировским — самым известным «целителем» позднего СССР. Фотографии",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "与本事件无关（过滤器误抓）"
+    },
+    {
+      "id": "p-c1ab2fa3ed",
+      "raw_item": {
+        "item_id": "c1ab2fa3edbe9b91ed1828db1f4e3e6d22e7f45c",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/society/2199517",
+        "url_canonical": "https://tass.com/society/2199517",
+        "title": "Russia's media watchdog urges news outlets to verify reports from Irkutsk Region",
+        "summary": "The media watchdog highlighted that false information about the sanitary and epidemiological situation in Irkutsk Region, in southeastern Russia, had been circulating in recent days",
+        "published_at": "2026-10-08T18:06:21+00:00",
+        "collected_at": "2026-10-09T01:32:42Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "俄媒体监管机构要求媒体核实伊尔库茨克州相关报道",
+      "summary_zh": "俄罗斯媒体监管机构要求新闻媒体核实有关伊尔库茨克州的报道。（塔斯社）",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "approved",
+      "decided_at": "2026-10-09T01:55:37Z",
+      "decided_signal_id": "r-sig-030"
+    },
+    {
+      "id": "p-859b77666a",
+      "raw_item": {
+        "item_id": "859b77666a90feadb47512a3e617e89c5863add8",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOam9Uc3ZTeG1xLWxySW8ydWtsVk5Ubmh1Rmx3TDVuUXBFUjFnMEkybXYxU0E2Q2FLUnZVYTFndVpYdmhLc1F6VHdBUmdST1NSSWp5TUNoYWlZbW85aHJNZjlnNzJNMW1iYXl6WTVWVzBDZlFNa3NpWDBPdFNFNWdpcG5sQ2prd25GTlhSQjFpQnJIdTNnTlhkcVNuNjNWd3RzLVdSV1d4dG85enEzMFgzczBtMEEtOURjMDlFOTh1cXJBSVQ1NVJn?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOam9Uc3ZTeG1xLWxySW8ydWtsVk5Ubmh1Rmx3TDVuUXBFUjFnMEkybXYxU0E2Q2FLUnZVYTFndVpYdmhLc1F6VHdBUmdST1NSSWp5TUNoYWlZbW85aHJNZjlnNzJNMW1iYXl6WTVWVzBDZlFNa3NpWDBPdFNFNWdpcG5sQ2prd25GTlhSQjFpQnJIdTNnTlhkcVNuNjNWd3RzLVdSV1d4dG85enEzMFgzczBtMEEtOURjMDlFOTh1cXJBSVQ1NVJn?oc=5",
+        "title": "Не ездить в Шелехов из-за чумы попросили власти Байкальска — и через два часа удалили пост - Люди Байкала",
+        "summary": "Не ездить в Шелехов из-за чумы попросили власти Байкальска — и через два часа удалили пост  Люди Байкала",
+        "published_at": "2026-10-05T22:25:57+00:00",
+        "collected_at": "2026-10-09T01:32:47Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Не ездить в Шелехов из-за чумы попросили власти Байкальска — и через два часа удалили пост - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
+    },
+    {
+      "id": "p-8f9638b8f6",
+      "raw_item": {
+        "item_id": "8f9638b8f68f16b70711815e736a1c7a3c4b0208",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMksxSHBMNll0UXNwNWpEenQtVlZ5cE45VzZJRGd6SGVRUTRwOVh2XzNsc05LWE1nUHVYeFJ4ZG16MGlEUm1ZbTNVT3FUMHNBWUNwT0JvYlNyeUFMd3hSXzBmcnZ0Z2Zfam1nWXVIYVp2WVNmUUN0c2ZNTVVnRVBqd2FnRm1mbVh0OC1PdG0xWmVsMXBmbC1ONmJTUHlTRHh4S0ZTUHhSZGhMQmlIVFRsYXNHOEdfNHdjdTFDQkdHSklwVElLOU5Z?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMksxSHBMNll0UXNwNWpEenQtVlZ5cE45VzZJRGd6SGVRUTRwOVh2XzNsc05LWE1nUHVYeFJ4ZG16MGlEUm1ZbTNVT3FUMHNBWUNwT0JvYlNyeUFMd3hSXzBmcnZ0Z2Zfam1nWXVIYVp2WVNmUUN0c2ZNTVVnRVBqd2FnRm1mbVh0OC1PdG0xWmVsMXBmbC1ONmJTUHlTRHh4S0ZTUHhSZGhMQmlIVFRsYXNHOEdfNHdjdTFDQkdHSklwVElLOU5Z?oc=5",
+        "title": "Губернатор Кобзев наконец-то прокомментировал смерть сотрудницы противочумного института - Люди Байкала",
+        "summary": "Губернатор Кобзев наконец-то прокомментировал смерть сотрудницы противочумного института  Люди Байкала",
+        "published_at": "2026-10-05T22:26:48+00:00",
+        "collected_at": "2026-10-09T01:32:47Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Губернатор Кобзев наконец-то прокомментировал смерть сотрудницы противочумного института - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "州长表态内容不详，无具体新事实"
+    },
+    {
+      "id": "p-115072b28b",
+      "raw_item": {
+        "item_id": "115072b28b39c047ea0740e79718cd45aabb4641",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHFNNzdHVVJQVzJJZ2hBY0F5VUw5bkpuVGxDTE5xc2NLOXdxNUg3TExoMGRGLXVGRGRXLXFLdTAySUZhaERSdWUtY2I1NmVmYWVjMko5c3JjQlZKS1FkZFZ2MXZIdTFzZXZ1WnpOZ3VnQmUycm5mM0NNUmpBd1RDS2JGLTI1WEdOdXRNVTN5NEpxSlNXdlVTb2syZ2tLTExIMFFsdmNJN0lieUJnR0RPNQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbHFNNzdHVVJQVzJJZ2hBY0F5VUw5bkpuVGxDTE5xc2NLOXdxNUg3TExoMGRGLXVGRGRXLXFLdTAySUZhaERSdWUtY2I1NmVmYWVjMko5c3JjQlZKS1FkZFZ2MXZIdTFzZXZ1WnpOZ3VnQmUycm5mM0NNUmpBd1RDS2JGLTI1WEdOdXRNVTN5NEpxSlNXdlVTb2syZ2tLTExIMFFsdmNJN0lieUJnR0RPNQ?oc=5",
+        "title": "Администрация Шелеховского района отказалась от помощи Дональда Трампа - Люди Байкала",
+        "summary": "Администрация Шелеховского района отказалась от помощи Дональда Трампа  Люди Байкала",
+        "published_at": "2026-10-07T16:02:32+00:00",
+        "collected_at": "2026-10-09T01:32:47Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Администрация Шелеховского района отказалась от помощи Дональда Трампа - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，俄方回应美援助已由本次批准信号覆盖（地方政府花絮）"
+    },
+    {
+      "id": "p-7fdd60ef27",
+      "raw_item": {
+        "item_id": "7fdd60ef279df72c281dc654441820405b7372e3",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkhMU2pNTlN0SU1aWGNDLU1DUm1MdjE2Q1JWb1lHdE5sX25RcUhuektCUlg5VmV5WmhlcEZwZTYzNl93N2JQdWh6eGhzT0hReGF3WXlZS18tSDFYNGNfVmk1cGl6YU8zT3l1eVFkLXZjTE56VzgyaDFmNDlMRUhGbUU4Uk5HQ2wzaHBGX3lJTVVJSDJpYnprWXlYeVBVOVhjbGVGNUNNTDh1YUFJU0k0b3lzN0RHdG8?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkhMU2pNTlN0SU1aWGNDLU1DUm1MdjE2Q1JWb1lHdE5sX25RcUhuektCUlg5VmV5WmhlcEZwZTYzNl93N2JQdWh6eGhzT0hReGF3WXlZS18tSDFYNGNfVmk1cGl6YU8zT3l1eVFkLXZjTE56VzgyaDFmNDlMRUhGbUU4Uk5HQ2wzaHBGX3lJTVVJSDJpYnprWXlYeVBVOVhjbGVGNUNNTDh1YUFJU0k0b3lzN0RHdG8?oc=5",
+        "title": "Посольство США осведомлено из прессы о карантине и закрытии больниц в Иркутске - Люди Байкала",
+        "summary": "Посольство США осведомлено из прессы о карантине и закрытии больниц в Иркутске  Люди Байкала",
+        "published_at": "2026-10-07T16:02:32+00:00",
+        "collected_at": "2026-10-09T01:32:47Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Посольство США осведомлено из прессы о карантине и закрытии больниц в Иркутске - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "边缘信息，对事件事实链无直接影响"
+    },
+    {
+      "id": "p-1763f7c421",
+      "raw_item": {
+        "item_id": "1763f7c421ea953e64d3381aa9a273ff928ece6f",
+        "source_id": "src-mailru-science",
+        "publisher": "Наука Mail",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByYmhPUGFUQUZWaWt3Mi1tZjVfd0V0RGRmTzF2TnJZZDJVOFVEOC01R2F1RkM2aEhwdXdxZHJPb1dud2poMDQ3UlMweG9PZG1McVRCcUVYWmRhdlNpZ0VST0Y0U3NzbTg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFByYmhPUGFUQUZWaWt3Mi1tZjVfd0V0RGRmTzF2TnJZZDJVOFVEOC01R2F1RkM2aEhwdXdxZHJPb1dud2poMDQ3UlMweG9PZG1McVRCcUVYWmRhdlNpZ0VST0Y0U3NzbTg?oc=5",
+        "title": "Чума: что это за болезнь простыми словами - Наука Mail",
+        "summary": "Чума: что это за болезнь простыми словами  Наука Mail",
+        "published_at": "2026-10-08T14:34:13+00:00",
+        "collected_at": "2026-10-09T01:32:51Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Чума: что это за болезнь простыми словами - Наука Mail",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:40Z",
+      "reject_reason": "一般科普/背景资料，与事件事实链无直接关系"
+    },
+    {
+      "id": "p-f76ce1e2f9",
+      "raw_item": {
+        "item_id": "f76ce1e2f97e1e361ea4a3944a9522d1db8cde84",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDFOazFodWI3SVlFNEpOOHdMR21IT05jNFRpV2pTRGlfbldsT3I3elVkY095YWx5Si1SQkxEQ2xRQVViSG9NMGRQaVlOMG9vYjRMclQyRFJzdWN5anFVV0JyVEVZVkZnOUNSUXhGZmFCNWE4NjBjVUVrOGhOdS1LSDA5QmV6TmJLVjBIU2hDU1g4enhaSkFMYWx5TThvOXc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcDFOazFodWI3SVlFNEpOOHdMR21IT05jNFRpV2pTRGlfbldsT3I3elVkY095YWx5Si1SQkxEQ2xRQVViSG9NMGRQaVlOMG9vYjRMclQyRFJzdWN5anFVV0JyVEVZVkZnOUNSUXhGZmFCNWE4NjBjVUVrOGhOdS1LSDA5QmV6TmJLVjBIU2hDU1g4enhaSkFMYWx5TThvOXc?oc=5",
+        "title": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?' - The Moscow Times",
+        "summary": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?'  The Moscow Times",
+        "published_at": "2026-10-08T10:59:00+00:00",
+        "collected_at": "2026-10-09T01:32:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?' - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "decided_at": "2026-10-09T01:55:41Z",
+      "reject_reason": "社会反应侧写，非事件事实链内容"
+    },
+    {
+      "id": "p-bd6bf2a878",
+      "raw_item": {
+        "item_id": "bd6bf2a878de4c2c34df25bfacb229989eafb576",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWk1QWZoRGZpVjE4UW9jZzlnV2Nwc295eTdGdEVxU3FSNHBBVXEzMll4N0JQWXBwdXNhXzJMbTVteGRZZTZLSzl4OHVyeE02MUpVdVZuT0J6bEF2S0xNSkxzYk0yQ2hKOXhjSUdIT3FyaDdaX195blQtMjgwMk1XSnB4aWJUV1FHbC11RjFpWVR1N0lKN2NpYXByWld4aDd3ckpGS05iRXJUWG9WYktXUkJ5dDJKMWc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWk1QWZoRGZpVjE4UW9jZzlnV2Nwc295eTdGdEVxU3FSNHBBVXEzMll4N0JQWXBwdXNhXzJMbTVteGRZZTZLSzl4OHVyeE02MUpVdVZuT0J6bEF2S0xNSkxzYk0yQ2hKOXhjSUdIT3FyaDdaX195blQtMjgwMk1XSnB4aWJUV1FHbC11RjFpWVR1N0lKN2NpYXByWld4aDd3ckpGS05iRXJUWG9WYktXUkJ5dDJKMWc?oc=5",
+        "title": "Russia Says Checks Following Siberian Plague Lab Death Are Complete - The Moscow Times",
+        "summary": "Russia Says Checks Following Siberian Plague Lab Death Are Complete  The Moscow Times",
+        "published_at": "2026-10-08T16:00:44+00:00",
+        "collected_at": "2026-10-09T01:32:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Russia Says Checks Following Siberian Plague Lab Death Are Complete - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级；批次内疑似转载，合并审核",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T01:33:21Z",
+      "decision": "rejected",
+      "duplicate_of_proposal": "p-a4dce466f3",
+      "decided_at": "2026-10-09T01:55:39Z",
+      "reject_reason": "转载，检查工作完成已由本次批准信号覆盖"
     }
   ]
 }

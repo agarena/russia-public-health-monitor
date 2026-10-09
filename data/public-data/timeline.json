@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T09:30:00Z",
+  "updated_at": "2026-10-09T04:30:00Z",
   "entries": [
     {
       "id": "tl-2026-09-25-a",
@@ -36,6 +36,18 @@
       "source_ids": [
         "r-sig-002",
         "r-sig-004"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-02-b",
+      "date": "2026-10-02",
+      "date_precision": "day",
+      "title": "本地媒体报道死者事发前从泰国飞抵（无法核实）",
+      "description": "本地媒体「贝加尔人」报道，死亡患者事发前从泰国飞抵伊尔库茨克。该说法为单一来源，官方未证实。",
+      "status": "unconfirmed",
+      "source_ids": [
+        "r-sig-027"
       ],
       "correction": null
     },
@@ -100,6 +112,21 @@
       "correction": null
     },
     {
+      "id": "tl-2026-10-06-b",
+      "date": "2026-10-06",
+      "date_precision": "day",
+      "title": "俄方向 WHO 通报无鼠疫病例；美方要求提供更多信息；欧盟将讨论",
+      "description": "路透社报道，俄官方告知 WHO 舍列霍夫未检出鼠疫病例；同日 WHO 评估当前情况风险低。美国国务卿鲁比奥要求俄方共享更多信息，欧盟国家宣布将就事件进行讨论。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-014",
+        "r-sig-015",
+        "r-sig-023",
+        "r-sig-025"
+      ],
+      "correction": null
+    },
+    {
       "id": "tl-2026-10-07-a",
       "date": "2026-10-07",
       "date_precision": "day",
@@ -110,6 +137,33 @@
         "r-sig-007",
         "r-sig-008",
         "r-sig-009"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-07-b",
+      "date": "2026-10-07",
+      "date_precision": "day",
+      "title": "特朗普称已安排与普京通话、不认为涉生物武器；CDC 主任评估风险低",
+      "description": "特朗普表示已安排与普京通话（议题含该事件）、不认为事件涉及生物武器。美国疾控中心主任称据现有信息评估鼠疫风险低，继续监测相关旅客。俄方同日就美方援助提议作出回应。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-016",
+        "r-sig-018",
+        "r-sig-022",
+        "r-sig-031"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-07-c",
+      "date": "2026-10-07",
+      "date_precision": "day",
+      "title": "《莫斯科时报》报道美使馆建议公民离开俄罗斯（无法核实）",
+      "description": "《莫斯科时报》报道，美国驻俄大使馆因西伯利亚鼠疫疑云建议公民离开俄罗斯。单一来源报道，建议原文待核实，与此前已证实的「赴俄旅行提醒」的关系待确认。",
+      "status": "unconfirmed",
+      "source_ids": [
+        "r-sig-028"
       ],
       "correction": null
     },
@@ -146,6 +200,33 @@
       "status": "reported",
       "source_ids": [
         "r-sig-012"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-08-d",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "俄方称检查工作已完成、接触者排查未发现鼠疫",
+      "description": "路透社、NBC 报道：俄官方表示针对事件的检查已经完成，对死者接触者的排查中未发现鼠疫病例；特朗普同日转述俄方说法称事件「已受控」。完整的病原学细节仍未公开。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-020",
+        "r-sig-021",
+        "r-sig-029"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-08-e",
+      "date": "2026-10-08",
+      "date_precision": "day",
+      "title": "俄媒体监管机构要求媒体核实伊尔库茨克州相关报道",
+      "description": "塔斯社报道，俄罗斯媒体监管机构要求新闻媒体核实有关伊尔库茨克州的报道。俄方此前已多次称部分媒体报道为不实信息。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-030",
+        "r-sig-011"
       ],
       "correction": null
     }
