@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T02:35:28Z",
+  "updated_at": "2026-10-09T03:11:08Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -5571,6 +5571,35 @@
       "decision": "rejected",
       "decided_at": "2026-10-09T02:39:17Z",
       "reject_reason": "一般科普/风险评述（CBC The Current），无独立新增事实"
+    },
+    {
+      "id": "p-dfc4cada7f",
+      "raw_item": {
+        "item_id": "dfc4cada7f2e7c6a6b15f4f86e5a1babe828aa4e",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02TThMcTFGOThieW9zZ0VLc2UxTENtQzRCakJrUmhWU2hjLWlXWTFYaF85UWxmbU0tOFZhVVFVd0FmX2w0bUwydkZYYXBNSUtESm9zMHVHQnZodXJVM1FGazJnXzlKdEs4QXFfNloyN3plY3c?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02TThMcTFGOThieW9zZ0VLc2UxTENtQzRCakJrUmhWU2hjLWlXWTFYaF85UWxmbU0tOFZhVVFVd0FmX2w0bUwydkZYYXBNSUtESm9zMHVHQnZodXJVM1FGazJnXzlKdEs4QXFfNloyN3plY3c?oc=5",
+        "title": "Pneumonic plague, by the numbers - CNN",
+        "summary": "Pneumonic plague, by the numbers  CNN",
+        "published_at": "2026-10-08T05:00:45+00:00",
+        "collected_at": "2026-10-09T02:47:22Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Pneumonic plague, by the numbers - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-09T03:11:08Z",
+      "decision": null
     }
   ]
 }
