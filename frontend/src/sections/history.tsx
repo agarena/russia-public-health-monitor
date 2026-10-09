@@ -9,7 +9,7 @@ export default function HistorySection() {
   return (
     <Section
       id="history"
-      no="10"
+      no="09"
       title="历史模式参照"
       subtitle="回答「当前事件有哪些信息结构，在过去某些公共卫生事件早期阶段曾出现过」，同时说明哪些关键特征目前并没有出现"
     >
@@ -19,15 +19,15 @@ export default function HistorySection() {
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h3 className="text-sm font-semibold text-slate-900">
                 {c.name_zh}
-                <span className="ml-2 font-normal text-xs text-slate-400">{c.period}</span>
+                <span className="ml-2 font-normal text-xs text-slate-500">{c.period}</span>
               </h3>
-              <span className="text-xs text-slate-400">
+              <span className="text-xs text-slate-500">
                 结构相似度：{SIMILARITY_LABELS[c.similarity]}
               </span>
             </div>
             <div className="mt-3 grid gap-6 md:grid-cols-2">
               <div>
-                <p className="text-[11px] text-slate-400">相似的信息结构</p>
+                <p className="text-[11px] text-slate-500">相似的信息结构</p>
                 <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
                   {c.similar.map((s, i) => (
                     <li key={i}>✓ {s}</li>
@@ -35,7 +35,7 @@ export default function HistorySection() {
                 </ul>
               </div>
               <div>
-                <p className="text-[11px] text-slate-400">目前并没有出现的特征</p>
+                <p className="text-[11px] text-slate-500">目前并没有出现的特征</p>
                 <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
                   {c.different.map((s, i) => (
                     <li key={i}>× {s}</li>

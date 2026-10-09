@@ -37,7 +37,7 @@ export default function MethodologySection() {
   return (
     <Section
       id="methodology"
-      no="12"
+      no="11"
       title="方法论与免责声明"
       subtitle="本站帮用户把现在公开的信息整理清楚，而不是预测未来"
     >
@@ -103,11 +103,11 @@ export default function MethodologySection() {
       {ratingChanges.length > 0 && (
         <div className="mt-8">
           <h3 className="text-sm font-semibold text-slate-800">评级变更记录</h3>
-          <p className="mt-0.5 text-[11px] text-slate-400">每次阶段 / 等级 / 证据 / 趋势变化都记录理由与依据来源</p>
+          <p className="mt-0.5 text-[11px] text-slate-500">每次阶段 / 等级 / 证据 / 趋势变化都记录理由与依据来源</p>
           <div className="mt-3 overflow-x-auto">
             <table className="w-full min-w-[560px] text-left text-xs">
               <thead>
-                <tr className="border-b border-slate-200 text-slate-400">
+                <tr className="border-b border-slate-200 text-slate-500">
                   <th className="py-2 pr-3 font-medium">时间</th>
                   <th className="py-2 pr-3 font-medium">维度</th>
                   <th className="py-2 pr-3 font-medium">变化</th>

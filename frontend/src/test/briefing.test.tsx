@@ -50,22 +50,18 @@ describe("单页简报结构", () => {
     for (const name of ["低关注", "持续关注", "高度关注", "重大关注"]) {
       expect(screen.getAllByText(name).length).toBeGreaterThan(0);
     }
-    // 证据完整度五级全列出
-    for (const name of ["纯传闻", "单一来源", "可靠机构确认", "较完整证据链"]) {
-      expect(screen.getAllByText(name).length).toBeGreaterThan(0);
-    }
     // 首屏不出现 L2/O1/C3 这类代码标识
     const hero = document.getElementById("overview");
     expect(hero).not.toBeNull();
     expect(hero!.textContent).not.toMatch(/\b(L[0-3]|O[0-8]|C[0-4])\b/);
   });
 
-  it("第一屏：统一状态牌三个维度 + 一句话判断 + 更新时间", () => {
+  it("第一屏：统一状态牌两个维度 + 总结 + 更新时间", () => {
     renderPage();
-    expect(screen.getByText("关注等级")).toBeInTheDocument();
+    // 「关注等级」在状态牌行标签与评级变更记录表的维度列各出现一次
+    expect(screen.getAllByText("关注等级").length).toBeGreaterThan(0);
     expect(screen.getByText("观察阶段")).toBeInTheDocument();
-    expect(screen.getByText("证据完整度")).toBeInTheDocument();
-    expect(screen.getByText("一句话判断")).toBeInTheDocument();
+    expect(screen.getByText("总结")).toBeInTheDocument();
     expect(screen.getByText(/最后更新/)).toBeInTheDocument();
   });
 
@@ -164,7 +160,7 @@ describe("单页简报结构", () => {
         <App />
       </MemoryRouter>,
     );
-    expect(screen.getByText("一句话判断")).toBeInTheDocument();
+    expect(screen.getByText("总结")).toBeInTheDocument();
   });
 });
 

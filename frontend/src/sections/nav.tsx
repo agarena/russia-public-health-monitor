@@ -3,13 +3,17 @@ import { useEffect, useState } from "react";
 import { SITE_NAME, SITE_NAME_EN } from "@/lib/constants";
 import { event } from "@/data";
 
+// 顺序与页面锚点的实际排列一致（滚动高亮逻辑依赖这一点）。
 export const NAV_ITEMS = [
   { href: "#overview", label: "总览" },
   { href: "#changes", label: "变化" },
   { href: "#evidence", label: "证据" },
-  { href: "#timeline", label: "时间线" },
   { href: "#next", label: "下一步" },
+  { href: "#phase", label: "阶段" },
+  { href: "#timeline", label: "时间线" },
+  { href: "#sources", label: "来源" },
   { href: "#history", label: "历史参照" },
+  { href: "#china", label: "中国" },
   { href: "#methodology", label: "说明" },
 ];
 
@@ -54,24 +58,24 @@ export function SiteNav() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-20 border-b border-stone-200/80 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-14 max-w-[1280px] items-center justify-between gap-4 px-4 md:px-8">
         <a href="#overview" className="min-w-0">
           <div className="truncate text-sm font-semibold leading-tight text-slate-900">
             {SITE_NAME}
           </div>
-          <div className="hidden truncate text-[11px] leading-tight text-slate-400 sm:block">
+          <div className="hidden truncate text-[11px] leading-tight text-slate-500 sm:block">
             {SITE_NAME_EN}
           </div>
         </a>
 
         {/* 桌面端锚点导航 */}
-        <nav className="hidden items-center gap-1 md:flex" aria-label="页面内导航">
+        <nav className="hidden shrink-0 items-center gap-1 md:flex" aria-label="页面内导航">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className={`rounded px-2.5 py-1.5 text-sm transition-colors hover:bg-slate-100 hover:text-slate-900 ${
+              className={`whitespace-nowrap rounded px-2.5 py-1.5 text-sm transition-colors hover:bg-slate-100 hover:text-slate-900 ${
                 active === item.href
                   ? "font-medium text-slate-900 underline decoration-slate-300 underline-offset-4"
                   : "text-slate-600"
@@ -97,7 +101,7 @@ export function SiteNav() {
       </div>
 
       {open && (
-        <nav className="border-t border-slate-100 bg-white px-4 py-2 md:hidden" aria-label="页面内导航（手机）">
+        <nav className="border-t border-stone-100 bg-white px-4 py-2 md:hidden" aria-label="页面内导航（手机）">
           {NAV_ITEMS.map((item) => (
             <a
               key={item.href}

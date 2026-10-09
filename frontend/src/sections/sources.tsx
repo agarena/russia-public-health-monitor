@@ -17,7 +17,7 @@ export default function SourcesSection() {
   return (
     <Section
       id="sources"
-      no="09"
+      no="08"
       title="来源与信息差异"
       subtitle="来源数量不代表事件严重程度；重点是不同来源对同一事件的说法是否一致"
     >
@@ -35,13 +35,14 @@ export default function SourcesSection() {
                   {byTier.get(t)!.map((s) => (
                     <span
                       key={s.id}
+                      id={`source-${s.id}`}
                       className="rounded border border-slate-200 bg-slate-50 px-2 py-0.5 text-xs text-slate-700"
                     >
                       {s.name_zh ?? s.name}
                     </span>
                   ))}
                 </div>
-                <p className="mt-1.5 text-[11px] leading-relaxed text-slate-400">{tierDesc.get(t)}</p>
+                <p className="mt-1.5 text-[11px] leading-relaxed text-slate-500">{tierDesc.get(t)}</p>
               </dd>
             </div>
           ))}
@@ -63,7 +64,7 @@ export default function SourcesSection() {
               <li key={i} className="rounded-lg border border-slate-200 p-3.5">
                 <div className="flex flex-wrap items-center gap-2 text-sm text-slate-800">
                   <span className="font-medium">{from.name_zh ?? from.name}</span>
-                  <span className="text-slate-400">← 引用 ─</span>
+                  <span className="text-slate-500">← 引用 ─</span>
                   <span className="font-medium">{to.name_zh ?? to.name}</span>
                 </div>
                 {r.note_zh && <p className="mt-1 text-xs text-slate-500">{r.note_zh}</p>}
@@ -89,7 +90,7 @@ export default function SourcesSection() {
                   <span className="text-sm font-medium text-slate-900">{s.title_zh}</span>
                 </div>
                 <p className="mt-1.5 text-xs leading-relaxed text-slate-600">{s.summary_zh}</p>
-                <p className="mt-1.5 text-[11px] text-slate-400">
+                <p className="mt-1.5 text-[11px] text-slate-500">
                   独立来源 ×{s.independent_source_count} ·{" "}
                   <ExternalLink href={s.url}>
                     <span className="text-[11px]">原文 ↗</span>

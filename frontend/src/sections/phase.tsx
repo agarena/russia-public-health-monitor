@@ -10,21 +10,21 @@ export default function PhaseTrack() {
   return (
     <Section
       id="phase"
-      no="07"
+      no="06"
       title="公开信息观察阶段"
       subtitle="阶段推进只认证据：社交热搜、转载量、情绪化标题不会触发升级"
     >
-      <div className="border-l-2 border-slate-800 pl-5">
+      <div className="border-l-2 border-stone-800 pl-5">
         <p className="text-sm font-semibold text-slate-900">当前：{meta.label}</p>
         <p className="mt-1 max-w-2xl text-sm leading-relaxed text-slate-600">{meta.description}</p>
       </div>
-      <p className="mt-4 text-xs leading-relaxed text-slate-400">
+      <p className="mt-4 text-xs leading-relaxed text-slate-500">
         完整的九级阶段定义见
-        <a href="#methodology" className="mx-0.5 underline underline-offset-2 hover:text-slate-600">
+        <a href="#methodology" className="mx-0.5 underline underline-offset-2 hover:text-slate-700">
           方法论
         </a>
         ；什么信息会推进阶段见
-        <a href="#next" className="mx-0.5 underline underline-offset-2 hover:text-slate-600">
+        <a href="#next" className="mx-0.5 underline underline-offset-2 hover:text-slate-700">
           下一步值得观察
         </a>
         。该阶段仅表示本站对公开信息的观察状态，不代表官方疫情阶段认定，也不代表疾病发生概率。

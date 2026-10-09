@@ -17,7 +17,7 @@
 | demo | bool | true 时站点显示演示横幅并 noindex |
 | first_seen / last_updated | ISO 时间 | 首次公开报道 / 最后更新 |
 | observation_phase | `O0`–`O8` | 观察阶段（公开信息状态，非官方疫情认定） |
-| attention_level | `L0`–`L3` | 信息关注等级（非疾病概率） |
+| attention_level | `L0`–`L3` | 关注等级（事件对中国读者的影响与相关程度，非疾病概率） |
 | confidence | `C0`–`C4` | 证据完整度 |
 | trend | `up` `stable` `down` `insufficient` | 公开信息变化趋势，非疫情趋势 |
 | summary | str | 一句话摘要 |

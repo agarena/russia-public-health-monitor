@@ -1,15 +1,18 @@
 // 已确认 / 尚未确认（编辑部双栏）+ 当前未知 / 下一步观察（双栏）。
-import { event, signalById, sourceName } from "@/data";
+import { event, signalById, sourceById, sourceName } from "@/data";
 import { HOMEPAGE_CAPS, phaseMeta } from "@/lib/constants";
 import Section from "@/sections/Section";
 
 function SourceDots({ signalIds }: { signalIds?: string[] }) {
   const ids = (signalIds ?? []).filter((id) => signalById.has(id));
   if (ids.length === 0) return null;
+  // 「详情」直接定位到来源区里该来源的标签；来源缺失时退回来源区顶部
+  const firstSourceId = signalById.get(ids[0])!.source_id;
+  const anchor = sourceById.has(firstSourceId) ? `#source-${firstSourceId}` : "#sources";
   return (
-    <p className="mt-1 text-[11px] text-slate-400">
-      来源：{ids.map((id) => sourceName(signalById.get(id)!.source_id)).join("、")}
-      <a href="#sources" className="ml-1 underline underline-offset-2">
+    <p className="mt-1 text-[11px] text-slate-500">
+      来源：{[...new Set(ids.map((id) => sourceName(signalById.get(id)!.source_id)))].join("、")}
+      <a href={anchor} className="ml-1 underline underline-offset-2 hover:text-slate-700">
         详情
       </a>
     </p>
@@ -22,7 +25,7 @@ export function EvidenceSplit() {
   return (
     <Section
       id="evidence"
-      no="04"
+      no="03"
       title="已确认 / 尚未确认"
       subtitle="把混在一起的信息拆成「事实」与「说法」——这是本站最核心的工作"
     >
@@ -50,7 +53,7 @@ export function EvidenceSplit() {
           </ul>
         </div>
       </div>
-      <p className="mt-6 text-xs text-slate-400">
+      <p className="mt-6 text-xs text-slate-500">
         「已确认」= 可靠公开来源支持；「尚未确认」= 仅有报道或传闻。公开报道不等于确认事实，多家转载不等于多个独立来源。
       </p>
     </Section>
@@ -63,7 +66,7 @@ export function UnknownsNext() {
   return (
     <Section
       id="next"
-      no="05 / 06"
+      no="04 / 05"
       title="当前最重要的未知 · 下一步值得观察"
       subtitle="不知道什么，往往比知道多少新闻更重要；下一步是「值得观察」，不是「预计发生」"
     >
@@ -73,7 +76,7 @@ export function UnknownsNext() {
           <ol className="space-y-4">
             {unknowns.map((u, i) => (
               <li key={u.id} className="flex gap-3">
-                <span className="text-xs font-medium tabular-nums text-slate-300">
+                <span className="text-xs font-medium tabular-nums text-slate-400">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div>
@@ -89,7 +92,7 @@ export function UnknownsNext() {
           <ol className="space-y-4">
             {triggers.map((t, i) => (
               <li key={t.id} className="flex gap-3">
-                <span className="text-xs font-medium tabular-nums text-slate-300">
+                <span className="text-xs font-medium tabular-nums text-slate-400">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <div>

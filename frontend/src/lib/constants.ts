@@ -45,10 +45,10 @@ export interface LevelMeta {
 }
 
 export const ATTENTION_LEVELS: LevelMeta[] = [
-  { code: "L0", emoji: "🟢", label: "低关注", description: "没有明显变化。", badge: "bg-green-50 text-green-800 border-green-200", dot: "bg-green-500" },
-  { code: "L1", emoji: "🟡", label: "持续关注", description: "存在异常信息，需要继续观察。", badge: "bg-amber-50 text-amber-800 border-amber-200", dot: "bg-amber-500" },
-  { code: "L2", emoji: "🟠", label: "高度关注", description: "多个重要升级信号出现。", badge: "bg-orange-50 text-orange-800 border-orange-200", dot: "bg-orange-500" },
-  { code: "L3", emoji: "🔴", label: "重大关注", description: "公开信息出现重要传播、扩散或公共卫生措施升级信号。L3 不代表「疫情已经爆发」。", badge: "bg-red-50 text-red-800 border-red-200", dot: "bg-red-500" },
+  { code: "L0", emoji: "🟢", label: "低关注", description: "中国境内及涉华公开信息均无明显变化，普通读者暂无需特别留意。", badge: "bg-green-50 text-green-800 border-green-200", dot: "bg-green-500" },
+  { code: "L1", emoji: "🟡", label: "持续关注", description: "暂无对中国境内的直接影响，但事件仍在演进、存在潜在相关信号，建议保持留意。", badge: "bg-amber-50 text-amber-800 border-amber-200", dot: "bg-amber-500" },
+  { code: "L2", emoji: "🟠", label: "高度关注", description: "出现与中国直接相关的具体公开信号（如赴俄旅行提示、口岸或防控措施、在俄中国公民受影响报道），建议公众留意官方渠道信息。", badge: "bg-orange-50 text-orange-800 border-orange-200", dot: "bg-orange-500" },
+  { code: "L3", emoji: "🔴", label: "重大关注", description: "中国境内出现与本事件直接相关的公开信息（如输入性病例、防控措施调整），普通读者需要留意并关注官方渠道发布。L3 不代表「疫情已经爆发」。", badge: "bg-red-50 text-red-800 border-red-200", dot: "bg-red-500" },
 ];
 
 export const levelMeta = (code: AttentionLevel): LevelMeta =>

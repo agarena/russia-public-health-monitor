@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-white text-slate-900 antialiased;
+    @apply bg-stone-50 text-stone-900 antialiased;
+    /* 中文避头尾：标点不出现在行首/行尾（，。」「 等） */
+    line-break: strict;
   }
 }
 
@@ -66,7 +68,16 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
   .meter-anim {
     animation: none !important;
   }
+}
+
+/* 「详情」从已确认/尚未确认钻取到具体来源时，高亮来源区对应该来源的标签 */
+[id^="source-"]:target {
+  background-color: #fef9c3;
+  box-shadow: 0 0 0 1px #fde047;
 }

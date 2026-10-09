@@ -8,7 +8,7 @@ export default function ChinaSection() {
   return (
     <Section
       id="china"
-      no="11"
+      no="10"
       title="中国相关公开信息"
       subtitle="只记录与本事件直接相关的中国境内公开信息变化；该区块不代表任何风险判断"
     >
@@ -28,28 +28,30 @@ export default function ChinaSection() {
 
           <div className="mt-6 grid gap-8 md:grid-cols-3">
             <div>
-              <p className="text-[11px] text-slate-400">已观察</p>
+              <p className="text-[11px] text-slate-500">已观察</p>
               <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
                 {watch.observed.length === 0 ? (
-                  <li className="text-slate-400">· 暂无</li>
+                  <li className="text-slate-500 before:mr-1.5 before:text-slate-400 before:content-['·']">暂无</li>
                 ) : (
-                  watch.observed.map((s, i) => <li key={i}>· {s}</li>)
+                  watch.observed.map((s, i) => (
+                    <li key={i} className="before:mr-1.5 before:text-slate-400 before:content-['·']">{s}</li>
+                  ))
                 )}
               </ul>
             </div>
             <div>
-              <p className="text-[11px] text-slate-400">尚未观察到</p>
+              <p className="text-[11px] text-slate-500">尚未观察到</p>
               <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
                 {watch.not_observed.map((s, i) => (
-                  <li key={i}>· {s}</li>
+                  <li key={i} className="before:mr-1.5 before:text-slate-400 before:content-['·']">{s}</li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[11px] text-slate-400">下一观察点</p>
+              <p className="text-[11px] text-slate-500">下一观察点</p>
               <ul className="mt-1.5 space-y-1 text-sm leading-relaxed text-slate-700">
                 {watch.next_watch.map((s, i) => (
-                  <li key={i}>· {s}</li>
+                  <li key={i} className="before:mr-1.5 before:text-slate-400 before:content-['·']">{s}</li>
                 ))}
               </ul>
             </div>

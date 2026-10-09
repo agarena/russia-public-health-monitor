@@ -17,8 +17,8 @@ import DisclaimerModal from "@/sections/DisclaimerModal";
 
 export default function BriefingPage() {
   usePageMeta(
-    "首页",
-    "2026 年俄罗斯相关公共卫生事件：当前状态、已确认与未确认信息、关键未知与下一步观察点。",
+    "公开信息状态与核验",
+    "俄罗斯鼠疫公开信息监测：2026 年俄罗斯相关公共卫生事件的当前状态、已确认与未确认信息、关键未知与下一步观察点。仅整理公开信息，不提供疫情预测。",
   );
 
   // 演示数据模式下对搜索引擎 noindex；正式数据自动解除
@@ -37,7 +37,7 @@ export default function BriefingPage() {
   }, []);
 
   return (
-    <div className="flex min-h-screen flex-col bg-white">
+    <div className="flex min-h-screen flex-col bg-stone-50">
       <DisclaimerModal />
       <TopBanners />
       <SiteNav />

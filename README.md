@@ -32,10 +32,14 @@ It is designed to help readers quickly understand:
 
 - Not a medical-diagnosis, epidemic-forecasting or public-health decision system.
 - It outputs **no disease probabilities, no infection probabilities, no predictions**.
-- "Attention level" (L0–L3), "observation phase" (O0–O8) and "evidence confidence"
-  (C0–C4) describe the *state of public information*, never the probability of any
-  future event. The four status dimensions (phase / level / confidence / freshness)
-  are always displayed separately and never merged.
+- "Attention level" (L0–L3) measures **the event's relevance and impact for
+  readers in China** — whether ordinary readers should pay attention.
+  "Observation phase" (O0–O8) and "evidence confidence" (C0–C4) describe the
+  *state of public information*. None of the status dimensions (phase / level /
+  confidence / freshness) ever represent the probability of any future event,
+  and they are never merged into a single composite score. The hero status
+  plate shows attention level and observation phase; full grading definitions
+  (including evidence confidence) live in the methodology section.
 - It does not infer political motives, rank countries or regions, or make group-based
   judgements. Disagreements between sources are shown as-is.
 

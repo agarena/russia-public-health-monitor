@@ -15,7 +15,7 @@ export default function TimelineSection() {
   return (
     <Section
       id="timeline"
-      no="08"
+      no="07"
       title="事件时间线"
       subtitle="按时间倒序；每个节点标注信息状态与来源。后续发现有误的报道不删除，追加更正说明——可以看到「当时人们知道什么」"
     >
@@ -30,17 +30,20 @@ export default function TimelineSection() {
                 aria-hidden
               />
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <time className="text-xs tabular-nums text-slate-400">{entry.date}</time>
+                <time className="text-xs tabular-nums text-slate-500">{entry.date}</time>
                 <SignalStatusChip status={entry.status} />
               </div>
               <h3 className="mt-1.5 text-sm font-semibold leading-snug text-slate-900">{entry.title}</h3>
               <p className="mt-1 max-w-2xl text-sm leading-relaxed text-slate-600">{entry.description}</p>
-              <p className="mt-1.5 text-[11px] text-slate-400">
-                来源：{entry.source_ids
-                  .map((sid) => signalById.get(sid))
-                  .filter(Boolean)
-                  .map((s) => sourceName(s!.source_id))
-                  .join("、") || "—"}
+              <p className="mt-1.5 text-[11px] text-slate-500">
+                来源：{[
+                  ...new Set(
+                    entry.source_ids
+                      .map((sid) => signalById.get(sid))
+                      .filter(Boolean)
+                      .map((s) => sourceName(s!.source_id)),
+                  ),
+                ].join("、") || "—"}
                 {signal && (
                   <>
                     {" · "}
