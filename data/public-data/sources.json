@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T01:44:28Z",
+  "updated_at": "2026-10-10T02:59:31Z",
   "sources": [
     {
       "id": "src-who",
@@ -13,7 +13,7 @@
       "url": "https://www.who.int",
       "description_zh": "联合国卫生机构；声明、疫情暴发新闻（DON）与记者会口径。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-rospotr",
@@ -27,7 +27,7 @@
       "url": "https://www.rospotrebnadzor.ru",
       "description_zh": "俄罗斯联邦卫生与流行病学监督主管部门，事件的直接主管官方来源。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-irk-gov",
@@ -41,7 +41,7 @@
       "url": "https://www.irkobl.ru",
       "description_zh": "事件发生地州政府与州长公开表态。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-reuters",
@@ -55,7 +55,7 @@
       "url": "https://www.reuters.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-ap",
@@ -69,7 +69,7 @@
       "url": "https://apnews.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-cnn",
@@ -83,7 +83,7 @@
       "url": "https://www.cnn.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-wsj",
@@ -97,7 +97,7 @@
       "url": "https://www.wsj.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:45Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-bbc",
@@ -111,7 +111,7 @@
       "url": "https://www.bbc.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-axios",
@@ -125,7 +125,7 @@
       "url": "https://www.axios.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-nbc",
@@ -139,7 +139,7 @@
       "url": "https://www.nbcnews.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-abc",
@@ -153,7 +153,7 @@
       "url": "https://abcnews.go.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-cnbc",
@@ -167,7 +167,7 @@
       "url": "https://www.cnbc.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-aljazeera",
@@ -181,7 +181,7 @@
       "url": "https://www.aljazeera.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-euronews",
@@ -195,7 +195,7 @@
       "url": "https://www.euronews.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-cbc",
@@ -209,7 +209,7 @@
       "url": "https://www.cbc.ca",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-wapo",
@@ -223,7 +223,7 @@
       "url": "https://www.washingtonpost.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-forbes",
@@ -237,7 +237,7 @@
       "url": "https://www.forbes.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-indianexpress",
@@ -251,7 +251,7 @@
       "url": "https://indianexpress.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-meduza",
@@ -265,7 +265,7 @@
       "url": "https://meduza.io",
       "description_zh": "俄语独立媒体，公开 RSS。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:34Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-tass-en",
@@ -279,7 +279,7 @@
       "url": "https://tass.com",
       "description_zh": "俄罗斯官方通讯社英文版，公开 RSS；用于观察俄国内口径。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-baikal",
@@ -293,7 +293,7 @@
       "url": "https://baikal-journal.ru",
       "description_zh": "事件发生地本地媒体，最早披露细节。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-mailru-science",
@@ -307,7 +307,7 @@
       "url": "https://science.mail.ru",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-onliner",
@@ -321,7 +321,7 @@
       "url": "https://people.onliner.by",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-moscowtimes",
@@ -335,7 +335,7 @@
       "url": "https://www.themoscowtimes.com",
       "description_zh": null,
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     },
     {
       "id": "src-lshtm",
@@ -349,7 +349,7 @@
       "url": "https://www.lshtm.ac.uk",
       "description_zh": "学术机构的快速分析（Rapid reaction）。",
       "collection_status": "healthy",
-      "last_collected_at": "2026-10-10T01:39:12Z"
+      "last_collected_at": "2026-10-10T02:59:30Z"
     }
   ],
   "relations": [
