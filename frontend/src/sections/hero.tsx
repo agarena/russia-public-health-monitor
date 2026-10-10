@@ -79,9 +79,11 @@ function StatusPlate() {
 
 export default function StatusHero() {
   const abnormal = statusData.sources_total - statusData.sources_healthy;
-  const relative = formatRelative(event.last_updated);
+  // 「最后更新」指数据采集时间（statusData.last_successful_collection），非首页内容的编辑修订时间
+  const updated = statusData.last_successful_collection;
+  const relative = formatRelative(updated);
   // 相对时间与「YYYY-MM-DD」重叠时（如数据时间晚于本机时钟）只显示一个，避免同一日期出现两遍
-  const relativeShown = relative === formatDate(event.last_updated) ? "" : `（${relative}）`;
+  const relativeShown = relative === formatDate(updated) ? "" : `（${relative}）`;
 
   return (
     <header id="overview" className="scroll-mt-20 pb-10 pt-10 md:pb-14 md:pt-16">
@@ -90,7 +92,7 @@ export default function StatusHero() {
       <p className="mt-1 text-xs leading-relaxed text-stone-500">
         单一事件公开信息简报 · 最后更新{" "}
         <span className="text-stone-700">
-          {formatDateTime(event.last_updated)}
+          {formatDateTime(updated)}
           {relativeShown}
         </span>{" "}
         · 数据源 {statusData.sources_healthy}/{statusData.sources_total} 正常
