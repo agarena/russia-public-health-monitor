@@ -1,24 +1,9 @@
 // 完整可信度说明：弹窗与页底共用同一组件，统一维护（改这里两处同步）。
 import { ABOUT_SITE } from "@/lib/constants";
 
-// 最关键的三句话置顶：即使不再往下读，也能带走本站的核心边界。
-const KEY_POINTS = [
-  "本站只整理公开信息——不是医疗诊断系统、疫情预测系统或官方信息发布机构，不提供任何形式的预测。",
-  "页面中的「关注等级」「观察阶段」等不是医学结论，不代表疾病发生概率，也不是未来事件预测。",
-  "公开信息可能有错漏与延迟；涉及医疗、健康、旅行等重大决定，请以所在地官方信息和专业机构意见为准。",
-];
-
 export default function FullDisclaimer() {
   return (
-    <div className="space-y-6 text-sm leading-relaxed text-slate-600">
-      <div className="rounded-xl border border-amber-300 bg-amber-50 p-4 md:p-5">
-        <p className="text-base font-bold text-amber-900">三句话读懂本站</p>
-        <ol className="mt-2.5 list-decimal space-y-2 pl-5 font-medium text-amber-900">
-          {KEY_POINTS.map((point) => (
-            <li key={point}>{point}</li>
-          ))}
-        </ol>
-      </div>
+    <div className="space-y-5 text-sm leading-relaxed text-slate-600">
       <div>
         <h3 className="text-base font-semibold text-slate-800">关于网站名称</h3>
         <p className="mt-2">{ABOUT_SITE.name_note}</p>

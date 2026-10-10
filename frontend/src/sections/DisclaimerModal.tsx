@@ -72,17 +72,17 @@ export default function DisclaimerModal() {
         role="dialog"
         aria-modal="true"
         aria-label={`${SITE_NAME} · 重要说明`}
-        className="max-h-[85vh] w-full max-w-3xl overflow-y-auto rounded-2xl bg-white p-6 shadow-xl md:p-10"
+        className="max-h-[92vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-white p-6 shadow-xl md:p-8"
         onClick={(e) => e.stopPropagation()}
       >
         <h2 className="text-2xl font-bold tracking-tight text-slate-900">
           ⚠️ 重要说明
         </h2>
         <p className="mt-1.5 text-sm text-slate-500">进入本站前请先阅读以下内容</p>
-        <div className="mt-6">
+        <div className="mt-4">
           <FullDisclaimer />
         </div>
-        <div className="mt-8 flex justify-end border-t border-slate-200 pt-5">
+        <div className="mt-5 flex justify-end border-t border-slate-200 pt-3">
           <button
             type="button"
             autoFocus
