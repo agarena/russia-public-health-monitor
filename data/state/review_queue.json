@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T02:59:31Z",
+  "updated_at": "2026-10-10T05:54:06Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6036,6 +6036,35 @@
       "decision": "rejected",
       "decided_at": "2026-10-10T01:43:54Z",
       "reject_reason": "转载转述：州长转达 WHO「无风险」评估，事实已由 r-sig-006/r-sig-023 覆盖；B级地方媒体转述不计独立来源"
+    },
+    {
+      "id": "p-5f13bc3129",
+      "raw_item": {
+        "item_id": "5f13bc31291505ad1aa81190d55cea480aa2c50b",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CeUZjLTd0emVuMnYtQ3FEYUdYV05jQVFTOEI5Z1p6cE9CVmhyb2dCMTFoRG1SajZ4M3JjZ0stN3FJNTZpb0JiTGVDS2s4Q01yY0VNOHBiY0s0ODdaeXRueG1vQVlPajRRUnBtUzlSRUp1V3Z0alFDYTZOUFJBdw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CeUZjLTd0emVuMnYtQ3FEYUdYV05jQVFTOEI5Z1p6cE9CVmhyb2dCMTFoRG1SajZ4M3JjZ0stN3FJNTZpb0JiTGVDS2s4Q01yY0VNOHBiY0s0ODdaeXRueG1vQVlPajRRUnBtUzlSRUp1V3Z0alFDYTZOUFJBdw?oc=5",
+        "title": "Deadly bear attacks are rattling Russian Siberia. Why now? - CNN",
+        "summary": "Deadly bear attacks are rattling Russian Siberia. Why now?  CNN",
+        "published_at": "2026-10-03T04:01:45+00:00",
+        "collected_at": "2026-10-10T05:54:04Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Deadly bear attacks are rattling Russian Siberia. Why now? - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T05:54:06Z",
+      "decision": null
     }
   ]
 }
