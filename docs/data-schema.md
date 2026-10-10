@@ -21,7 +21,6 @@
 | confidence | `C0`–`C4` | 证据完整度 |
 | trend | `up` `stable` `down` `insufficient` | 公开信息变化趋势，非疫情趋势 |
 | summary | str | 一句话摘要 |
-| key_changes | list | 近期关键变化（≤6；含 at 日期与 signal_ids） |
 | confirmed / unconfirmed | list | 首页两栏（各≤5；每条带可追溯 signal_ids） |
 | unknowns | list | 当前未知（question/importance/why_it_matters） |
 | next_triggers | list | 下一步观察点（condition → potential_next_phase） |
@@ -78,7 +77,7 @@ source_ids（依据信号）。
 ## 硬性不变量
 
 1. CONFIRMED 只能来自 S/A 级来源 + 维护者确认（`processor.review` 强制）。
-2. 首页上限：关键变化 ≤6，确认/未确认/未知/观察点各 ≤5（`policy_check` 强制）。
+2. 首页上限：确认/未确认/未知/观察点各 ≤5（`policy_check` 强制）。
 3. 禁词表扫描全部数据文件（`config/settings.yaml` `banned_patterns`；引用条目豁免）。
 4. 公开数据生成是原子替换；失败不破坏上一版（`public-data.prev` 为回滚点）。
 5. AI 输出永远是建议，不直接进入 signals.jsonl。

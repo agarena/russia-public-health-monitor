@@ -29,12 +29,6 @@ class StrictModel(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
 
-class KeyChange(StrictModel):
-    text: str
-    at: str
-    signal_ids: list[str] = []
-
-
 class RefItem(StrictModel):
     text: str
     signal_ids: list[str] = []
@@ -78,7 +72,6 @@ class Event(StrictModel):
     confidence: EvidenceConfidence
     trend: Trend
     summary: str
-    key_changes: list[KeyChange] = []
     confirmed: list[RefItem] = []
     unconfirmed: list[RefItem] = []
     unknowns: list[UnknownItem] = []

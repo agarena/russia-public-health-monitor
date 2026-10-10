@@ -138,7 +138,7 @@ def check_reference_integrity(data: dict[str, object]) -> list[str]:
     )
     event = data.get("event.json")
     if isinstance(event, Event):
-        for group in ("key_changes", "confirmed", "unconfirmed"):
+        for group in ("confirmed", "unconfirmed"):
             for item in getattr(event, group):
                 for sid in item.signal_ids:
                     if sid not in signal_ids:

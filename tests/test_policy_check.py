@@ -59,12 +59,12 @@ def _demo_event(n_changes: int) -> Event:
         confidence="C2",
         trend="up",
         summary="s",
-        key_changes=[{"text": "x", "at": "2026-01-01"} for _ in range(n_changes)],
+        confirmed=[{"text": "x"} for _ in range(n_changes)],
     )
 
 
 def test_caps_violation_detected():
-    caps = {"key_changes": 6, "confirmed": 5, "unconfirmed": 5, "unknowns": 5, "next_triggers": 5}
+    caps = {"confirmed": 5, "unconfirmed": 5, "unknowns": 5, "next_triggers": 5}
     errors = check_caps(_demo_event(7), caps)
-    assert any("key_changes" in e for e in errors)
-    assert check_caps(_demo_event(6), caps) == []
+    assert any("confirmed" in e for e in errors)
+    assert check_caps(_demo_event(5), caps) == []

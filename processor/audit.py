@@ -76,7 +76,7 @@ def audit_signal(signal_id: str) -> int:
     tl_refs = [e["id"] for e in timeline.get("entries", []) if signal_id in e.get("source_ids", [])]
     event = _read_json(MANUAL_DIR / "event.json") or {}
     ev_refs = []
-    for block in ("key_changes", "confirmed", "unconfirmed"):
+    for block in ("confirmed", "unconfirmed"):
         for i, item in enumerate(event.get(block, [])):
             if signal_id in (item.get("signal_ids") or []):
                 ev_refs.append(f"{block}[{i}]")

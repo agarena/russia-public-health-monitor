@@ -3,7 +3,6 @@ event_id: russia-public-health-2026
 
 # 首页信息密度上限（规格书 §24/§94）
 homepage_caps:
-  key_changes: 6
   confirmed: 5
   unconfirmed: 5
   unknowns: 5

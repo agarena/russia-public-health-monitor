@@ -22,11 +22,6 @@ export interface RefItem {
   note?: string;
 }
 
-export interface KeyChange extends RefItem {
-  /** 变化发生日期（YYYY-MM-DD） */
-  at: string;
-}
-
 export interface UnknownItem {
   id: string;
   question: string;
@@ -66,7 +61,6 @@ export interface EventData {
   confidence: EvidenceConfidence;
   trend: Trend;
   summary: string;
-  key_changes: KeyChange[];
   confirmed: RefItem[];
   unconfirmed: RefItem[];
   unknowns: UnknownItem[];

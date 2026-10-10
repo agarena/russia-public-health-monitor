@@ -164,7 +164,6 @@ export const LANGUAGE_LABELS: Record<string, string> = {
 
 /** 首页信息密度上限（规格书 §24 / §94）。数据生成端强制，前端再截断一次兜底。 */
 export const HOMEPAGE_CAPS = {
-  key_changes: 6,
   confirmed: 5,
   unconfirmed: 5,
   unknowns: 5,

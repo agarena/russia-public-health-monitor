@@ -77,7 +77,7 @@ def test_ratings_apply_records_change(tmp_path, monkeypatch):
             "first_seen": "2026-10-01", "last_updated": "2026-10-01T00:00:00Z",
             "observation_phase": "O1", "attention_level": "L1", "confidence": "C2",
             "trend": "up", "summary": "s",
-            "key_changes": [], "confirmed": [], "unconfirmed": [],
+            "confirmed": [], "unconfirmed": [],
             "unknowns": [], "next_triggers": [],
         }),
         encoding="utf-8",

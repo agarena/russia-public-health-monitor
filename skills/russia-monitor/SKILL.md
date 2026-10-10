@@ -81,11 +81,11 @@ uv run python -m processor.ratings apply --level L2 \
 uv run python -m processor.ratings log              # 变更历史
 ```
 
-首页区块（摘要/关键变化/已确认/未确认/未知/观察点）、时间线、病例、传播关系、
+首页区块（摘要/已确认/未确认/未知/观察点）、时间线、病例、传播关系、
 来源引用关系是人工维护文件，直接用编辑工具修改（改前先读）：
 
 ```
-data/state/manual/event.json          首页全部内容（受上限约束：关键变化≤6，其余≤5）
+data/state/manual/event.json          首页全部内容（受上限约束：各区块≤5）
 data/state/manual/timeline.json       时间线（纠错不删除，加 correction 字段）
 data/state/manual/cases.json          病例（不写姓名/住址/联系方式）
 data/state/manual/transmission.json   传播关系（接触≠感染，谨慎标注）
