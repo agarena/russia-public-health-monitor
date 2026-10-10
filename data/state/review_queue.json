@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T18:36:58Z",
+  "updated_at": "2026-10-10T23:34:29Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6180,6 +6180,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T18:36:58Z",
+      "decision": null
+    },
+    {
+      "id": "p-50d06f8016",
+      "raw_item": {
+        "item_id": "50d06f80161d297b6fdb3686fb627c097c924e5d",
+        "source_id": "src-who",
+        "publisher": "World Health Organization (WHO)",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmRm1ETnJHNWpHdDJwUldHT1pvQ0tmYjNKeFFtREtUaXVDWTFQN3pBZV9VMkZzWlhkUmNRMnE3MnVrQUxfZElPUEFZQmM1TU96RVVyVWtmMU5mSVpGWlBlX2V0MG5jZmhUNllMXzJYejZSTWNhLTk3R0xR?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmRm1ETnJHNWpHdDJwUldHT1pvQ0tmYjNKeFFtREtUaXVDWTFQN3pBZV9VMkZzWlhkUmNRMnE3MnVrQUxfZElPUEFZQmM1TU96RVVyVWtmMU5mSVpGWlBlX2V0MG5jZmhUNllMXzJYejZSTWNhLTk3R0xR?oc=5",
+        "title": "Pneumonia of undetermined etiology - the Russian Federation - World Health Organization (WHO)",
+        "summary": "Pneumonia of undetermined etiology - the Russian Federation  World Health Organization (WHO)",
+        "published_at": "2026-10-10T21:13:49+00:00",
+        "collected_at": "2026-10-10T23:34:27Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Pneumonia of undetermined etiology - the Russian Federation - World Health Organization (WHO)",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T23:34:29Z",
+      "decision": null
+    },
+    {
+      "id": "p-17e89c5fa5",
+      "raw_item": {
+        "item_id": "17e89c5fa55a5b98aac92517bc0ac771ee199128",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTJRMHRZQzJnSlNVc3hSQTlWYW1MbWxuZ3ZnUkh2bEpuQXVTZ1pqdDMzWUxVY1lkMFFFS2N2NkdaZUxfdmZYS0VNclJVSXZnVlNlY085SjlRajhQNmdYbWg3amZOUTBtM19aTXd6dkhhWkNPdkNRb1R0amZqdXZ4TTFXd1NyMTE0X0hTdEwyZWVZMkFxVkUyZkxaVlhRRU5xcGExbmJHVWp1LWd3MXVNZ3FPSGlsMGFWRlpLbGxBbGtRQS05MUF1NjQ0TXdyT1Vwc05iZWg2VTQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUTJRMHRZQzJnSlNVc3hSQTlWYW1MbWxuZ3ZnUkh2bEpuQXVTZ1pqdDMzWUxVY1lkMFFFS2N2NkdaZUxfdmZYS0VNclJVSXZnVlNlY085SjlRajhQNmdYbWg3amZOUTBtM19aTXd6dkhhWkNPdkNRb1R0amZqdXZ4TTFXd1NyMTE0X0hTdEwyZWVZMkFxVkUyZkxaVlhRRU5xcGExbmJHVWp1LWd3MXVNZ3FPSGlsMGFWRlpLbGxBbGtRQS05MUF1NjQ0TXdyT1Vwc05iZWg2VTQ?oc=5",
+        "title": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia - Reuters",
+        "summary": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia  Reuters",
+        "published_at": "2026-10-10T18:53:43+00:00",
+        "collected_at": "2026-10-10T23:34:27Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO unsure what caused pneumonia that killed plague-lab worker in Russia - Reuters",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T23:34:29Z",
       "decision": null
     }
   ]
