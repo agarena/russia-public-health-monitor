@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T05:54:06Z",
+  "updated_at": "2026-10-10T12:33:05Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6064,6 +6064,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T05:54:06Z",
+      "decision": null
+    },
+    {
+      "id": "p-982f47d827",
+      "raw_item": {
+        "item_id": "982f47d827145e0b8de2343488bc2c2c77c595f4",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHFwOVgtUXhfcTFBX0xJY3dwVnNYakJEa0kwQm5pTEpxTFlsX2cxX1Rzd3Nvd2JSaDhtbTVrRWUxOFVZVlRBeEVDVVhPUm0yYUtFTVU1M2xxVWtFSTJETE54QUdvcVgtY3Q5WlBaYzVuYmRycUlJcWhoTnNFQ1EtWFVOM24zT0ZtU1FydjcxVVlUWWo1T21CZU1R?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHFwOVgtUXhfcTFBX0xJY3dwVnNYakJEa0kwQm5pTEpxTFlsX2cxX1Rzd3Nvd2JSaDhtbTVrRWUxOFVZVlRBeEVDVVhPUm0yYUtFTVU1M2xxVWtFSTJETE54QUdvcVgtY3Q5WlBaYzVuYmRycUlJcWhoTnNFQ1EtWFVOM24zT0ZtU1FydjcxVVlUWWo1T21CZU1R?oc=5",
+        "title": "Researcher dies of ‘unknown’ infection at Russian plague laboratory - CNN",
+        "summary": "Researcher dies of ‘unknown’ infection at Russian plague laboratory  CNN",
+        "published_at": "2026-10-05T11:34:20+00:00",
+        "collected_at": "2026-10-10T12:32:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher dies of ‘unknown’ infection at Russian plague laboratory - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T12:33:05Z",
+      "decision": null
+    },
+    {
+      "id": "p-e5d2608288",
+      "raw_item": {
+        "item_id": "e5d26082886954fd6d58b08b017b272df344b27a",
+        "source_id": "src-meduza",
+        "publisher": "Meduza",
+        "url": "https://meduza.io/news/2026/10/10/v-rossiyu-zapretili-vvozit-gruzinskuyu-kolu-i-mineralnuyu-vodu-nabeglavi",
+        "url_canonical": "https://meduza.io/news/2026/10/10/v-rossiyu-zapretili-vvozit-gruzinskuyu-kolu-i-mineralnuyu-vodu-nabeglavi",
+        "title": "В Россию запретили ввозить грузинскую колу и минеральную воду «Набеглави»",
+        "summary": "Роспотребнадзор запретил ввоз и продажу в России грузинского алкоголя и напитков нескольких производителей. Об этом сообщил РБК, в распоряжении которого есть соответствующее распоряжение.",
+        "published_at": "2026-10-10T09:42:41+00:00",
+        "collected_at": "2026-10-10T12:33:00Z",
+        "language": "ru",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "В Россию запретили ввозить грузинскую колу и минеральную воду «Набеглави»",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T12:33:05Z",
       "decision": null
     }
   ]
