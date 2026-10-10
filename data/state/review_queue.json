@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T12:33:05Z",
+  "updated_at": "2026-10-10T18:36:58Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6122,6 +6122,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T12:33:05Z",
+      "decision": null
+    },
+    {
+      "id": "p-54e07ac0a9",
+      "raw_item": {
+        "item_id": "54e07ac0a93a1c6dfa097b15e5fc0db424a2e66a",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVRWMWFjMlliTzFtUnRlTnItNjV6Y2g0QVhEOGtYcFZiT2QzOTRCODkyTWFuZ3VBd2p5dzJqQlYyZHNKUU5taHlQdTg4anlrVGNyRHEzZE1OVF9HalBYdU9lYXZ4U0dDbjd3UXhsVkFNOVMtdDl3dmRwY3RFekxBN2V6NXQ3TjBxTFJ0c05NQUVIT0QtQ0w4WlBtYnVxbUdxZzVVS0RUNFVHRmJt?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbVRWMWFjMlliTzFtUnRlTnItNjV6Y2g0QVhEOGtYcFZiT2QzOTRCODkyTWFuZ3VBd2p5dzJqQlYyZHNKUU5taHlQdTg4anlrVGNyRHEzZE1OVF9HalBYdU9lYXZ4U0dDbjd3UXhsVkFNOVMtdDl3dmRwY3RFekxBN2V6NXQ3TjBxTFJ0c05NQUVIT0QtQ0w4WlBtYnVxbUdxZzVVS0RUNFVHRmJt?oc=5",
+        "title": "Infectious disease expert on potential Russia plague: lack of information from Russia 'concerning' - CNN",
+        "summary": "Infectious disease expert on potential Russia plague: lack of information from Russia 'concerning'  CNN",
+        "published_at": "2026-10-05T23:54:05+00:00",
+        "collected_at": "2026-10-10T18:36:54Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Infectious disease expert on potential Russia plague: lack of information from Russia 'concerning' - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T18:36:58Z",
+      "decision": null
+    },
+    {
+      "id": "p-69de64e018",
+      "raw_item": {
+        "item_id": "69de64e0182cdc5e0d4124fe34eceae4dfcdd779",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYnpCVzlyWEJjQkw0YkJsNUdmTWZxQUcyVUhVU2V5VVVFRW9QQVdsWjBZWkYxMWtVVXRsclc3enRReEdrZkNPOHZrWEJlNVk1M2pkYlNDZ29kOVFCWHRvbDFBNjhlN1BGWG42OThETHpYM0RrYkZ0aExxNkc0ZzF6REVZcDVxZmYzcWpPUUMtR3l6SW8ySUdTN0lPZzhEZWdNNWNlM09uaTdNQWk1aURGLXdkZG1vMFc3T0pzTURLc19hZw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYnpCVzlyWEJjQkw0YkJsNUdmTWZxQUcyVUhVU2V5VVVFRW9QQVdsWjBZWkYxMWtVVXRsclc3enRReEdrZkNPOHZrWEJlNVk1M2pkYlNDZ29kOVFCWHRvbDFBNjhlN1BGWG42OThETHpYM0RrYkZ0aExxNkc0ZzF6REVZcDVxZmYzcWpPUUMtR3l6SW8ySUdTN0lPZzhEZWdNNWNlM09uaTdNQWk1aURGLXdkZG1vMFc3T0pzTURLc19hZw?oc=5",
+        "title": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’ - CNN",
+        "summary": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’  CNN",
+        "published_at": "2026-10-08T04:28:00+00:00",
+        "collected_at": "2026-10-10T18:36:54Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-10T18:36:58Z",
       "decision": null
     }
   ]
