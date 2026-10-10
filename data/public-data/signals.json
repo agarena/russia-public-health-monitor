@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:02:54Z",
+  "updated_at": "2026-10-10T01:44:28Z",
   "signals": [
     {
       "id": "r-sig-029",
@@ -39,6 +39,27 @@
       "origin_source_id": "src-tass-en",
       "derived_from": [],
       "url": "https://tass.com/society/2199517",
+      "importance": 0.5,
+      "is_quotation": false,
+      "demo": false
+    },
+    {
+      "id": "r-sig-032",
+      "event_id": "russia-public-health-2026",
+      "published_at": "2026-10-08T15:30:51+00:00",
+      "collected_at": "2026-10-10T00:02:51Z",
+      "language": "en",
+      "source_id": "src-cnn",
+      "source_tier": "A",
+      "title_original": "At the center of Russia’s plague scare, residents ‘don’t trust’ officials – but have little other choice - CNN",
+      "title_zh": "CNN探访鼠疫疑云中心舍列霍夫：居民「不信任」官方，但别无选择",
+      "summary_zh": "CNN实地探访处于隔离中的舍列霍夫：受访居民表示不信任官方就研究所员工死亡所作的通报，但除此之外几乎没有别的选择。（审核备注：CNN原创实地报道，记录隔离城镇居民的信息环境与信任状况；A级专业媒体，单源报 C2）",
+      "status": "reported",
+      "confidence": "C2",
+      "independent_source_count": 1,
+      "origin_source_id": "src-cnn",
+      "derived_from": [],
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObjJqdUdEYVVBSTVxNldDeDhqbjdIOHo5UUtvc084X2J2N3h1UlgtbVdYU1B3aGktcXctajk3S0g3ZTh2YXhvS1F1bFhfYlI0cmZWRXFwOWlsRlZ6azllblA3SmJURGI2THdwZDZVMUZwdlpJOG9vMlUyY3ZZMDZrWUxJbm45NkNQenNJMWRUbEw?oc=5",
       "importance": 0.5,
       "is_quotation": false,
       "demo": false

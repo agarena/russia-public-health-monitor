@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T00:02:53Z",
+  "updated_at": "2026-10-10T01:39:45Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -5630,7 +5630,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T11:20:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:29Z",
+      "reject_reason": "转载：CNN对研究所员工死亡事件首日报道，事实已由 r-sig-001/r-sig-003 覆盖，无增量信息"
     },
     {
       "id": "p-ee52d64aa3",
@@ -5659,7 +5661,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T11:20:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:29Z",
+      "reject_reason": "多主题新闻综述凑条（俄罗斯鼠疫疑云+果阿旅游季+反对派），鼠疫仅顺带提及，与本事件无直接关联"
     },
     {
       "id": "p-1abedbd522",
@@ -5688,7 +5692,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T11:20:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:30Z",
+      "reject_reason": "一般科普（鼠疫如何传播），不直接影响对本事件的理解"
     },
     {
       "id": "p-ad1d9a8dd5",
@@ -5717,7 +5723,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:30Z",
+      "reject_reason": "与本事件无关：伊尔库茨克兽医部门动物运输安全提醒（8月27日旧文），仅因地名命中关键词"
     },
     {
       "id": "p-d93db808b8",
@@ -5746,7 +5754,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:40Z",
+      "reject_reason": "BBC播客综述，复盘已知事实，无法从标题核实独立增量信息"
     },
     {
       "id": "p-ee26522c28",
@@ -5775,7 +5785,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:41Z",
+      "reject_reason": "背景科普（全球鼠疫流行地区盘点），事件部分为已知事实复述（俄方否认），无增量"
     },
     {
       "id": "p-78d7200e97",
@@ -5804,7 +5816,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:41Z",
+      "reject_reason": "同主题叙事转载（俄方信息不透明），已由 r-sig-019 覆盖；标题层面无新事实"
     },
     {
       "id": "p-7701de2868",
@@ -5833,7 +5847,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:41Z",
+      "reject_reason": "推测性「生物武器研究」框架，无事实依据；涉生物武器表述仅可作特定来源原话引用，同类已由 r-sig-012 覆盖"
     },
     {
       "id": "p-927cd51c8a",
@@ -5862,7 +5878,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:53Z",
+      "reject_reason": "背景解读综述（CBC），事实均为已知，无增量信息"
     },
     {
       "id": "p-337ace9a11",
@@ -5891,7 +5909,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-09T18:21:48Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:53Z",
+      "reject_reason": "观点评论文章（恐惧与不信任叙事），非事实增量"
     },
     {
       "id": "p-6f1cb1dd6e",
@@ -5912,15 +5932,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "At the center of Russia’s plague scare, residents ‘don’t trust’ officials – but have little other choice - CNN",
-      "summary_zh": "",
+      "title_zh": "CNN探访鼠疫疑云中心舍列霍夫：居民「不信任」官方，但别无选择",
+      "summary_zh": "CNN实地探访处于隔离中的舍列霍夫：受访居民表示不信任官方就研究所员工死亡所作的通报，但除此之外几乎没有别的选择。",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T00:02:53Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-10T01:43:18Z",
+      "decided_signal_id": "r-sig-032"
     },
     {
       "id": "p-d1b7fbb70e",
@@ -5949,7 +5971,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T00:02:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:54Z",
+      "reject_reason": "面向国际读者的答疑式综述，隔离与死亡等事实均已由既有信号覆盖，无增量"
     },
     {
       "id": "p-a18faa658a",
@@ -5978,7 +6002,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T00:02:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:54Z",
+      "reject_reason": "转载：俄方否认「第二例」已由 r-sig-010/r-sig-011 覆盖，无增量信息"
     },
     {
       "id": "p-5b16f613f8",
@@ -6007,7 +6033,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T00:02:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-10T01:43:54Z",
+      "reject_reason": "转载转述：州长转达 WHO「无风险」评估，事实已由 r-sig-006/r-sig-023 覆盖；B级地方媒体转述不计独立来源"
     }
   ]
 }
