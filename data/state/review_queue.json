@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:51:31Z",
+  "updated_at": "2026-10-11T18:55:21Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6528,6 +6528,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
+      "decision": null
+    },
+    {
+      "id": "p-ac99531c4f",
+      "raw_item": {
+        "item_id": "ac99531c4fb5834bbaee0051d8e436869bdf60c2",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjdqa29wRDYycDk5dS1kRzVhUk9oNWlGUVJhUERQcUZsMV9RenhlZWVXanc0dnY1OEJwdWVGaGotWDJiRmMyZVdORnJQX2ljMFZQS3pZcmhWOUQ3VkFMaXg4QmRJdmx0VHBhVXV6X0pOaE1qWUxta3FHcmg2VWJicDAxUk1EVGFxLTRGNU15SWFjOGljazZpZWNFZFhmb25ET0lZem1DV0E1REph?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRjdqa29wRDYycDk5dS1kRzVhUk9oNWlGUVJhUERQcUZsMV9RenhlZWVXanc0dnY1OEJwdWVGaGotWDJiRmMyZVdORnJQX2ljMFZQS3pZcmhWOUQ3VkFMaXg4QmRJdmx0VHBhVXV6X0pOaE1qWUxta3FHcmg2VWJicDAxUk1EVGFxLTRGNU15SWFjOGljazZpZWNFZFhmb25ET0lZem1DV0E1REph?oc=5",
+        "title": "Ex-Covid czar: Potential plague case raises ‘red flags’ - CNN",
+        "summary": "Ex-Covid czar: Potential plague case raises ‘red flags’  CNN",
+        "published_at": "2026-10-06T04:34:00+00:00",
+        "collected_at": "2026-10-11T18:55:17Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Ex-Covid czar: Potential plague case raises ‘red flags’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T18:55:21Z",
+      "decision": null
+    },
+    {
+      "id": "p-b7e0ed6777",
+      "raw_item": {
+        "item_id": "b7e0ed67774ba3539638699e99422533525aeec8",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeFBSWkwxSnk3SXk0Sjh5WDFPaHVoVFZwMG4wTWhKeVZkeU5fTWx0NTZGMkVrXy03TUVSTXluNHluWU5HaWhtbkU4allyc2RGcDdENnU5RFNvN3JGZVY5MDdRTWhvdkNGUzU3R0ttMlZhWXppRUJiV0hTbnNJN2RSU2dOZk1BQlYwUjZnb3pZVHVsVVdoOUo1Z05Sb3ZDQjZlWV9OanRCVWNCUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeFBSWkwxSnk3SXk0Sjh5WDFPaHVoVFZwMG4wTWhKeVZkeU5fTWx0NTZGMkVrXy03TUVSTXluNHluWU5HaWhtbkU4allyc2RGcDdENnU5RFNvN3JGZVY5MDdRTWhvdkNGUzU3R0ttMlZhWXppRUJiV0hTbnNJN2RSU2dOZk1BQlYwUjZnb3pZVHVsVVdoOUo1Z05Sb3ZDQjZlWV9OanRCVWNCUQ?oc=5",
+        "title": "Trump Admin Presses Russia for Information as it Struggles to Plan for Potential Plague Fallout - CNN",
+        "summary": "Trump Admin Presses Russia for Information as it Struggles to Plan for Potential Plague Fallout  CNN",
+        "published_at": "2026-10-08T00:54:57+00:00",
+        "collected_at": "2026-10-11T18:55:17Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump Admin Presses Russia for Information as it Struggles to Plan for Potential Plague Fallout - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T18:55:21Z",
+      "decision": null
+    },
+    {
+      "id": "p-a8950bcb43",
+      "raw_item": {
+        "item_id": "a8950bcb432ea5be501fea8a8ec2872ed9572448",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUUdXUFJ5cVhwdFRPTjBjdjhWeGVuOUhVN0IwUkhRTzUwS00xUE9QdllYWElmRTRJaWNOZXF1elpDelp3c21JemY4YnlYVjZVYUxxaVBlNGNrVW9BbUtxTmxJLWpORm9ZQ1hWRG1MOVJTOUdfbHNOWU5pMDhSVzE2UFZHb2sxcmtxTjB1YjhSY1phdGVLcUVqUVdFR2pIUTN1RHczSA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUUdXUFJ5cVhwdFRPTjBjdjhWeGVuOUhVN0IwUkhRTzUwS00xUE9QdllYWElmRTRJaWNOZXF1elpDelp3c21JemY4YnlYVjZVYUxxaVBlNGNrVW9BbUtxTmxJLWpORm9ZQ1hWRG1MOVJTOUdfbHNOWU5pMDhSVzE2UFZHb2sxcmtxTjB1YjhSY1phdGVLcUVqUVdFR2pIUTN1RHczSA?oc=5",
+        "title": "Bear Kills 2 Berry Pickers in Siberia’s Irkutsk Region - The Moscow Times",
+        "summary": "Bear Kills 2 Berry Pickers in Siberia’s Irkutsk Region  The Moscow Times",
+        "published_at": "2026-09-17T07:00:00+00:00",
+        "collected_at": "2026-10-11T18:55:19Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Bear Kills 2 Berry Pickers in Siberia’s Irkutsk Region - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T18:55:21Z",
       "decision": null
     }
   ]
