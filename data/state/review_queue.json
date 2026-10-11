@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T23:34:29Z",
+  "updated_at": "2026-10-11T05:47:53Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6238,6 +6238,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T23:34:29Z",
+      "decision": null
+    },
+    {
+      "id": "p-9ed54db3fd",
+      "raw_item": {
+        "item_id": "9ed54db3fdbe75a9548e27c92d3babc2767d8746",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUl5WTRidGtjLU45TV83d1hOQjZqWGRUaFBjcDBKb3NWX3I0UHo1ODNoY0pxWjdMaG9jd1FZZ0Rmd2lCdXZDQkNvbm54YzJXSmpPMEIwYmV1U0lLOFF6TF9zaEt5RnlWdjd2VEtCbGFjY0M0NDdXWGY1elNzdVN0eTJzY01XSWZWZzBwV2hLQWZRcXZvamE5eHBwa3JoMF9ZNF84NlJYRy1nYndP?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdUl5WTRidGtjLU45TV83d1hOQjZqWGRUaFBjcDBKb3NWX3I0UHo1ODNoY0pxWjdMaG9jd1FZZ0Rmd2lCdXZDQkNvbm54YzJXSmpPMEIwYmV1U0lLOFF6TF9zaEt5RnlWdjd2VEtCbGFjY0M0NDdXWGY1elNzdVN0eTJzY01XSWZWZzBwV2hLQWZRcXZvamE5eHBwa3JoMF9ZNF84NlJYRy1nYndP?oc=5",
+        "title": "Prison riot in violence-plagued Mexican state leaves 10 dead - Reuters",
+        "summary": "Prison riot in violence-plagued Mexican state leaves 10 dead  Reuters",
+        "published_at": "2026-10-08T23:29:42+00:00",
+        "collected_at": "2026-10-11T05:47:51Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Prison riot in violence-plagued Mexican state leaves 10 dead - Reuters",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T05:47:53Z",
+      "decision": null
+    },
+    {
+      "id": "p-6333ad5544",
+      "raw_item": {
+        "item_id": "6333ad55444cda4949eed059dd2164b0e89d102a",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNODdPc2Z0TW1TQklIX3NlbVVWWVRZVFBUazJxN0ZNMWJpUGRPeUdpR2NBYjV0WDNWcVVwU1RlUFE4b2RjeEFCbUQyUGJleXVFRlBrcEJHa1VXU01hNmtETDZnZkoyZXlJVWVzVDZsM19sSEstV1ZkT2lhYmVDV1NTaUxwZ2l2b044blJFZkMzX0NMTDlkclNnVTFQTEhIMFNlY0c0N1Mzc3FabkhWWm5NMmlmOA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNODdPc2Z0TW1TQklIX3NlbVVWWVRZVFBUazJxN0ZNMWJpUGRPeUdpR2NBYjV0WDNWcVVwU1RlUFE4b2RjeEFCbUQyUGJleXVFRlBrcEJHa1VXU01hNmtETDZnZkoyZXlJVWVzVDZsM19sSEstV1ZkT2lhYmVDV1NTaUxwZ2l2b044blJFZkMzX0NMTDlkclNnVTFQTEhIMFNlY0c0N1Mzc3FabkhWWm5NMmlmOA?oc=5",
+        "title": "Former US envoy demands answers on suspected plague death: 'Hold the Russians' feet to the fire' - CNN",
+        "summary": "Former US envoy demands answers on suspected plague death: 'Hold the Russians' feet to the fire'  CNN",
+        "published_at": "2026-10-08T00:24:46+00:00",
+        "collected_at": "2026-10-11T05:47:51Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Former US envoy demands answers on suspected plague death: 'Hold the Russians' feet to the fire' - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T05:47:53Z",
+      "decision": null
+    },
+    {
+      "id": "p-e5eec78f60",
+      "raw_item": {
+        "item_id": "e5eec78f603c38d2f9f3c1557e15daa00f7b108d",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3JVYWtmNzEwM19UZkxKS0ZhdUxTSlMxVmR4N0VuNWhiT0ZhcEdvSTVhUnZUeDFKcUFkRl9WQlg1RDNDTUNpaUVEQ0pwT0J4YnI1MTk0MHl3SEdnMk1UanBWMGJXc0M3X2N6RDNvMkNhTVAwNnBFOGR4NnNpeFhsbHA2WFQzSmJybmhzWUR1MDVVd3RFa1ZKN3BuUkZlazQ2akpmRThURlQwbDZn0gGyAUFVX3lxTFAxZXdNMW9RUk05dW85VEdKdWdhMm5jVTFMUXk3NjBqSEFVZS1RVXloLVJyT01ZYjNkNU5fS1BJOUZhNHdudHhKMnpkR1pzdEdhTnpjaGlSN0pwdGZibWJHTzZvNHJ3TE5CeHhONjh3a1hIZmYySF9QbjBwekZQWERHRkxWY19UMzVvT2JFbm5LX3FsaC16RDBUeUdPajRwUmk3Sms3bDF0ejJTMENoY09Nb0E?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPN3JVYWtmNzEwM19UZkxKS0ZhdUxTSlMxVmR4N0VuNWhiT0ZhcEdvSTVhUnZUeDFKcUFkRl9WQlg1RDNDTUNpaUVEQ0pwT0J4YnI1MTk0MHl3SEdnMk1UanBWMGJXc0M3X2N6RDNvMkNhTVAwNnBFOGR4NnNpeFhsbHA2WFQzSmJybmhzWUR1MDVVd3RFa1ZKN3BuUkZlazQ2akpmRThURlQwbDZn0gGyAUFVX3lxTFAxZXdNMW9RUk05dW85VEdKdWdhMm5jVTFMUXk3NjBqSEFVZS1RVXloLVJyT01ZYjNkNU5fS1BJOUZhNHdudHhKMnpkR1pzdEdhTnpjaGlSN0pwdGZibWJHTzZvNHJ3TE5CeHhONjh3a1hIZmYySF9QbjBwekZQWERHRkxWY19UMzVvT2JFbm5LX3FsaC16RDBUeUdPajRwUmk3Sms3bDF0ejJTMENoY09Nb0E?oc=5",
+        "title": "WHO says no plague case registered after Russian lab worker’s death - Al Jazeera",
+        "summary": "WHO says no plague case registered after Russian lab worker’s death  Al Jazeera",
+        "published_at": "2026-10-10T22:36:44+00:00",
+        "collected_at": "2026-10-11T05:47:52Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO says no plague case registered after Russian lab worker’s death - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-11T05:47:53Z",
       "decision": null
     }
   ]
