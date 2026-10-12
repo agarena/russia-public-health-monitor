@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:40:25Z",
+  "updated_at": "2026-10-12T05:59:26Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -6880,6 +6880,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
+      "decision": null
+    },
+    {
+      "id": "p-a39dde9f5b",
+      "raw_item": {
+        "item_id": "a39dde9f5b3880df0af90600e850cb40869a692d",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jUEZweEg0SGhydGFqekwxN2JNT2QzSkdsNEJKRDJiYmFtWmFoeHJ4NFBLbXVqRF9yMlozMVdEZC1Tc1FnelczODZtTVBnRmoyaTROa0JDam5FMnNYbHV0Qi1mcm4tSjBm?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5jUEZweEg0SGhydGFqekwxN2JNT2QzSkdsNEJKRDJiYmFtWmFoeHJ4NFBLbXVqRF9yMlozMVdEZC1Tc1FnelczODZtTVBnRmoyaTROa0JDam5FMnNYbHV0Qi1mcm4tSjBm?oc=5",
+        "title": "What is pneumonic plague and how dangerous is it? - CNN",
+        "summary": "What is pneumonic plague and how dangerous is it?  CNN",
+        "published_at": "2026-10-05T18:30:10+00:00",
+        "collected_at": "2026-10-12T05:59:23Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "What is pneumonic plague and how dangerous is it? - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-12T05:59:26Z",
+      "decision": null
+    },
+    {
+      "id": "p-1291c3524c",
+      "raw_item": {
+        "item_id": "1291c3524cc30306de979e4a413859eac8788740",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xNk51bHNGaVJhNWU0TkNrZXU3OGhOdlg1RHBHaUt4ak1sTzJKMlM4ZndzZGJ6ZnJSSm5SczVjdGF5ZVhZT0xXXzdZVEdpclZTTXN1aFg0OUlaZ2xNamg1djdaUUpodWNHdGF6TUZJTFU5aVFBWnFFOQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xNk51bHNGaVJhNWU0TkNrZXU3OGhOdlg1RHBHaUt4ak1sTzJKMlM4ZndzZGJ6ZnJSSm5SczVjdGF5ZVhZT0xXXzdZVEdpclZTTXN1aFg0OUlaZ2xNamg1djdaUUpodWNHdGF6TUZJTFU5aVFBWnFFOQ?oc=5",
+        "title": "Deadly bear attacks are rattling Russian Siberia. Why now? - CNN",
+        "summary": "Deadly bear attacks are rattling Russian Siberia. Why now?  CNN",
+        "published_at": "2026-10-03T07:00:00+00:00",
+        "collected_at": "2026-10-12T05:59:23Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Deadly bear attacks are rattling Russian Siberia. Why now? - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-12T05:59:26Z",
       "decision": null
     }
   ]
