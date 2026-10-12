@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T15:27:09Z",
+  "updated_at": "2026-10-12T23:00:23Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7083,6 +7083,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-12b4c8f25a",
+      "raw_item": {
+        "item_id": "12b4c8f25ad7c491fcdfbb40db50a4b2fb69eaa6",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd2lFMmJCVlFkY3BtZlNzR0lsaWNiY29wSTR4azk4Q2hBQ2NIbm83SjdvOHB5MExTcWhpdXgxcFBvRHJpcjlhdjI3TmMtLWp3Y2lGRjJ2VFEtV1dYelpPSkxsNkhBZ3BBOHRTN2lCa3IyXzNrbnlXcUFhU2hwSzZxZVpDemVDc2s?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd2lFMmJCVlFkY3BtZlNzR0lsaWNiY29wSTR4azk4Q2hBQ2NIbm83SjdvOHB5MExTcWhpdXgxcFBvRHJpcjlhdjI3TmMtLWp3Y2lGRjJ2VFEtV1dYelpPSkxsNkhBZ3BBOHRTN2lCa3IyXzNrbnlXcUFhU2hwSzZxZVpDemVDc2s?oc=5",
+        "title": "Dozens quarantined after researcher at Russian plague laboratory dies of ‘unknown’ infection - CNN",
+        "summary": "Dozens quarantined after researcher at Russian plague laboratory dies of ‘unknown’ infection  CNN",
+        "published_at": "2026-10-04T16:25:45+00:00",
+        "collected_at": "2026-10-12T23:00:19Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dozens quarantined after researcher at Russian plague laboratory dies of ‘unknown’ infection - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-12T23:00:23Z",
+      "decision": null
+    },
+    {
+      "id": "p-2c2cfa745e",
+      "raw_item": {
+        "item_id": "2c2cfa745e75eb3ebe0cde4a247087123abb066b",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1RQdWJKTVNhdlhwNVR6a3pqNlVFZXRHcTJVVzF6c0NwRllEeUlGR0x0RkhTUFJwWU8yN2ZoX3JJeEJFYjYtSEJfQVYwYi05RTUtbTdfR0JZOHB4RFVaelg3TmlEeU5uRmN5anpPM2lIX01TNTEyUlZSOWtxdXY4T2xwRDF1LWZFUGd6dVl0N0pOcUhFdGROSnRtd0xFd251aEctT3hDY0cyRUk?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ1RQdWJKTVNhdlhwNVR6a3pqNlVFZXRHcTJVVzF6c0NwRllEeUlGR0x0RkhTUFJwWU8yN2ZoX3JJeEJFYjYtSEJfQVYwYi05RTUtbTdfR0JZOHB4RFVaelg3TmlEeU5uRmN5anpPM2lIX01TNTEyUlZSOWtxdXY4T2xwRDF1LWZFUGd6dVl0N0pOcUhFdGROSnRtd0xFd251aEctT3hDY0cyRUk?oc=5",
+        "title": "Researcher in Russia dies after potential plague exposure - NBC News",
+        "summary": "Researcher in Russia dies after potential plague exposure  NBC News",
+        "published_at": "2026-10-05T13:34:14+00:00",
+        "collected_at": "2026-10-12T23:00:20Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher in Russia dies after potential plague exposure - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-12T23:00:23Z",
+      "decision": null
+    },
+    {
+      "id": "p-b9397723dc",
+      "raw_item": {
+        "item_id": "b9397723dcaacfdbd2f991debbd6e66a1e97e979",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVnVWajk3VWhLTTlsTXFkY0x0Uk9kQU5kRE9uSU05Uk0tem82WWF4ekNiVENNb0UyQTh1cGF6TXkteV8zcGpsYjhlV01TOU9aWHc0MmQ0eVoxb3o5akxOMXNmQ0k2c3lab2pnT2RRei1ERXJDc3ZGTENOM1RkYXo2aENoU2M2T3k5QU9UQXZfZm52c1hPLXFNOHVaNA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVnVWajk3VWhLTTlsTXFkY0x0Uk9kQU5kRE9uSU05Uk0tem82WWF4ekNiVENNb0UyQTh1cGF6TXkteV8zcGpsYjhlV01TOU9aWHc0MmQ0eVoxb3o5akxOMXNmQ0k2c3lab2pnT2RRei1ERXJDc3ZGTENOM1RkYXo2aENoU2M2T3k5QU9UQXZfZm52c1hPLXFNOHVaNA?oc=5",
+        "title": "Rubio: Russian plague death is 'cause for focus' - NBC News",
+        "summary": "Rubio: Russian plague death is 'cause for focus'  NBC News",
+        "published_at": "2026-10-05T18:44:02+00:00",
+        "collected_at": "2026-10-12T23:00:20Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Rubio: Russian plague death is 'cause for focus' - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-12T23:00:23Z",
       "decision": null
     }
   ]
