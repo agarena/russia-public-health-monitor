@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T01:38:45Z",
+  "updated_at": "2026-10-13T06:48:01Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7311,6 +7311,64 @@
       "decision": "rejected",
       "decided_at": "2026-10-13T01:59:05Z",
       "reject_reason": "与本事件无关（俄气投资项目）"
+    },
+    {
+      "id": "p-9a674bbb8b",
+      "raw_item": {
+        "item_id": "9a674bbb8b6b136b9aa119eb1b8a38fea2c6c54f",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDhselc0aXJNbGZkRmhDeWc3X0sxUnROUGpKYV9YY1JSMWhkdU82Y2Y2X3BYUFBCSHNYaTA3cUpqa0x1WEs1amJHd1VVc21qWVFNZ1pIdVctbmdGYk1iZHhzRjhjc0h1TG9ITUdZdEZfaEgxVnJKNl9aT0VOV24tWWRHZHM4b0MxdGdlLUJMa0tWMGs5R25KcktkNy0xLVJTa1lxX1p2aTRnQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbDhselc0aXJNbGZkRmhDeWc3X0sxUnROUGpKYV9YY1JSMWhkdU82Y2Y2X3BYUFBCSHNYaTA3cUpqa0x1WEs1amJHd1VVc21qWVFNZ1pIdVctbmdGYk1iZHhzRjhjc0h1TG9ITUdZdEZfaEgxVnJKNl9aT0VOV24tWWRHZHM4b0MxdGdlLUJMa0tWMGs5R25KcktkNy0xLVJTa1lxX1p2aTRnQQ?oc=5",
+        "title": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection - CNN",
+        "summary": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection  CNN",
+        "published_at": "2026-10-06T00:49:32+00:00",
+        "collected_at": "2026-10-13T06:47:58Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T06:48:01Z",
+      "decision": null
+    },
+    {
+      "id": "p-239a5f4926",
+      "raw_item": {
+        "item_id": "239a5f4926881273027daf51b3015c68d6af4c2c",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbjJ6R2Yyc3dpOTFzeFJDQy1uX0dxS2R1dmdqZXJUS29zT1h1a0d6a3JDc1p2YURhc08yekNBTVNBUTJxOHlVNWE2YVNGTDl4d2U2dC1XQ1g4M294b2RLZS1xZEl0aGRRYjZ2c2wxVGpoZ1pTTjc3cVRmUlFIUk5qUzRKcFZkVVl6c09HdWpvZlNjRWY5YS1kTlM3eFRXUW1uOTZucFgySGlmRVdzNzFVQUQtaHZ0UVhWLVNSZ0lNRUdVYnU3MFl2eGVnY0pFMmFUU0IzOVp5NA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbjJ6R2Yyc3dpOTFzeFJDQy1uX0dxS2R1dmdqZXJUS29zT1h1a0d6a3JDc1p2YURhc08yekNBTVNBUTJxOHlVNWE2YVNGTDl4d2U2dC1XQ1g4M294b2RLZS1xZEl0aGRRYjZ2c2wxVGpoZ1pTTjc3cVRmUlFIUk5qUzRKcFZkVVl6c09HdWpvZlNjRWY5YS1kTlM3eFRXUW1uOTZucFgySGlmRVdzNzFVQUQtaHZ0UVhWLVNSZ0lNRUdVYnU3MFl2eGVnY0pFMmFUU0IzOVp5NA?oc=5",
+        "title": "Trump admin. increases pressure on Kremlin over death at plague lab - CNN",
+        "summary": "Trump admin. increases pressure on Kremlin over death at plague lab  CNN",
+        "published_at": "2026-10-07T22:43:07+00:00",
+        "collected_at": "2026-10-13T06:47:58Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump admin. increases pressure on Kremlin over death at plague lab - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T06:48:01Z",
+      "decision": null
     }
   ]
 }
