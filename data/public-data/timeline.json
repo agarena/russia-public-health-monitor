@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T04:30:00Z",
+  "updated_at": "2026-10-13T01:55:00Z",
   "entries": [
     {
       "id": "tl-2026-09-25-a",
@@ -227,6 +227,30 @@
       "source_ids": [
         "r-sig-030",
         "r-sig-011"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-09-a",
+      "date": "2026-10-09",
+      "date_precision": "day",
+      "title": "CNN 分析：死亡事件加剧外界对「隐瞒」的担忧（原话引用）",
+      "description": "CNN 分析文章称，由于俄方公布信息有限，研究所员工死亡事件正加剧外界对「隐瞒」的担忧。此为对媒体论述口径的记录，非本站证实的事实判断。",
+      "status": "reported",
+      "source_ids": [
+        "r-sig-034"
+      ],
+      "correction": null
+    },
+    {
+      "id": "tl-2026-10-10-a",
+      "date": "2026-10-10",
+      "date_precision": "day",
+      "title": "WHO 发布疾病暴发通报：不明病因肺炎，未登记鼠疫病例",
+      "description": "WHO 就俄罗斯联邦发布疾病暴发通报，将研究所员工死亡病例定性为「不明病因肺炎」，并表示事件后未登记鼠疫病例。病原学结论仍未公布。",
+      "status": "confirmed",
+      "source_ids": [
+        "r-sig-033"
       ],
       "correction": null
     }

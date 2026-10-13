@@ -1,6 +1,52 @@
 {
+<<<<<<< HEAD
   "updated_at": "2026-10-12T23:00:23Z",
+=======
+  "updated_at": "2026-10-13T01:51:02Z",
+>>>>>>> ecd1aa0 (data: 2026-10-13 更新——WHO 疾病暴发通报入证据链（r-sig-033 confirmed）、CNN 分析报道（r-sig-034 reported）；评级 C3→C4、趋势 up→down；审核 29 条提案（批准 2、驳回 27）)
   "signals": [
+    {
+      "id": "r-sig-033",
+      "event_id": "russia-public-health-2026",
+      "published_at": "2026-10-10T21:13:49+00:00",
+      "collected_at": "2026-10-13T01:38:34Z",
+      "language": "en",
+      "source_id": "src-who",
+      "source_tier": "S",
+      "title_original": "Pneumonia of undetermined etiology - the Russian Federation - World Health Organization (WHO)",
+      "title_zh": "WHO 疾病暴发通报：俄罗斯病例为「不明病因肺炎」",
+      "summary_zh": "WHO 就俄罗斯联邦发布疾病暴发通报，将研究所员工死亡病例定性为不明病因肺炎；WHO 同时表示事件后未登记鼠疫病例。（审核备注：WHO 官方疾病暴发通报（S 级一手来源）；与 r-sig-002 官方口径一致，并新增「未登记鼠疫病例」表述；路透/半岛转述不另立信号）",
+      "status": "confirmed",
+      "confidence": "C3",
+      "independent_source_count": 1,
+      "origin_source_id": "src-who",
+      "derived_from": [],
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmRm1ETnJHNWpHdDJwUldHT1pvQ0tmYjNKeFFtREtUaXVDWTFQN3pBZV9VMkZzWlhkUmNRMnE3MnVrQUxfZElPUEFZQmM1TU96RVVyVWtmMU5mSVpGWlBlX2V0MG5jZmhUNllMXzJYejZSTWNhLTk3R0xR?oc=5",
+      "importance": 0.5,
+      "is_quotation": false,
+      "demo": false
+    },
+    {
+      "id": "r-sig-034",
+      "event_id": "russia-public-health-2026",
+      "published_at": "2026-10-09T19:05:00+00:00",
+      "collected_at": "2026-10-13T01:38:33Z",
+      "language": "en",
+      "source_id": "src-cnn",
+      "source_tier": "A",
+      "title_original": "Why a Russian plague lab death is fueling fears of a cover-up - CNN",
+      "title_zh": "CNN 分析：实验室死亡事件加剧外界对「隐瞒」的担忧（原话引用）",
+      "summary_zh": "CNN 分析文章称，由于俄方公布的信息有限，研究所员工死亡事件正加剧外界对「隐瞒」的担忧。该表述为 CNN 文章原话口径，非本站证实的事实判断。（审核备注：CNN 对国际舆论担忧的分析报道；同主题稿件（WaPo 评论、莫斯科时报评论、CNN 另稿）不另立信号；涉「隐瞒」表述按原话引用处理）",
+      "status": "reported",
+      "confidence": "C2",
+      "independent_source_count": 1,
+      "origin_source_id": "src-cnn",
+      "derived_from": [],
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeHZFSlVrb0tDbTUyT0dqQm1KcDJfcGhpZkJYYjNTWGFzVGh2TE9SaVMzUjE0dDFYTkk5TlJ5ZnVWLUwwU1ZyWjA4bkhhYTEza3p6UHY2TEZxdDc1YloycVk5RU9ZYVp0WXhqQXpCd1IzcktTdlM5S25VRWtRbjNBS0Zkc0JETnZ3T1JaRzlFSllJSktkTVpQZ0ZCWjRFSU1IQmJFemsxdjQ3MWN0MjJhR1d0TUhZcTA?oc=5",
+      "importance": 0.5,
+      "is_quotation": true,
+      "demo": false
+    },
     {
       "id": "r-sig-029",
       "event_id": "russia-public-health-2026",
