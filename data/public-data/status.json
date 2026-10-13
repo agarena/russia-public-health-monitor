@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-  "generated_at": "2026-10-12T23:00:23Z",
+  "generated_at": "2026-10-13T01:59:38Z",
   "last_successful_collection": "2026-10-12T23:00:22Z",
-=======
-  "generated_at": "2026-10-13T01:51:02Z",
-  "last_successful_collection": "2026-10-13T01:38:34Z",
->>>>>>> ecd1aa0 (data: 2026-10-13 更新——WHO 疾病暴发通报入证据链（r-sig-033 confirmed）、CNN 分析报道（r-sig-034 reported）；评级 C3→C4、趋势 up→down；审核 29 条提案（批准 2、驳回 27）)
   "sources_healthy": 25,
   "sources_total": 25,
   "source_health": [

@@ -6064,7 +6064,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T23:00:23Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:58Z",
+      "reject_reason": "转载：员工死亡核心事实已由 r-sig-002/r-sig-003 覆盖"
     },
     {
       "id": "p-b9397723dc",
@@ -6093,7 +6095,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T23:00:23Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:59Z",
+      "reject_reason": "转载：鲁比奥表态已由 r-sig-015 覆盖"
     },
     {
       "id": "p-e5eec78f60",
@@ -6122,7 +6126,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T05:47:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:56Z",
+      "reject_reason": "转载：WHO「未登记鼠疫病例」已由 r-sig-033（WHO 疾病暴发通报）覆盖"
     },
     {
       "id": "p-b1ec7e748e",
@@ -6182,7 +6188,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:02Z",
+      "reject_reason": "解读综述，无新增事实"
     },
     {
       "id": "p-4c980aa621",
@@ -6211,7 +6219,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:58Z",
+      "reject_reason": "评论文章（Opinion），无新闻事实增量"
     },
     {
       "id": "p-ea6cc22331",
@@ -6271,7 +6281,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:04Z",
+      "reject_reason": "专家评论，与 r-sig-026 主题重叠，无新增事实"
     },
     {
       "id": "p-c36dd441c8",
@@ -6302,7 +6314,9 @@
         "r-sig-028"
       ],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:06Z",
+      "reject_reason": "转载，已由 r-sig-028 覆盖"
     },
     {
       "id": "p-a5ade8ce1f",
@@ -6331,7 +6345,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:55Z",
+      "reject_reason": "评论分析，与 r-sig-032（民间不信任）主题重叠"
     },
     {
       "id": "p-3555367842",
@@ -6360,7 +6376,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:53Z",
+      "reject_reason": "民间情绪报道，与 r-sig-032 主题重叠，无新增事实"
     },
     {
       "id": "p-66004db572",
@@ -6389,7 +6407,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:57Z",
+      "reject_reason": "转载：医院隔离/筛查已由 r-sig-004 覆盖"
     },
     {
       "id": "p-fd27173f31",
@@ -6418,7 +6438,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:54Z",
+      "reject_reason": "转载：「约200人观察」已由 r-sig-004 覆盖"
     },
     {
       "id": "p-8afa82ff0b",
@@ -6447,7 +6469,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:00Z",
+      "reject_reason": "与本事件无关（熊袭人事故）"
     },
     {
       "id": "p-a8950bcb43",
@@ -6476,7 +6500,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T18:55:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:55Z",
+      "reject_reason": "与本事件无关（熊袭人事故，且与前条重复）"
     },
     {
       "id": "p-50d06f8016",
@@ -6497,15 +6523,17 @@
       "source_tier": "S",
       "source_type": "official",
       "official": true,
-      "title_zh": "Pneumonia of undetermined etiology - the Russian Federation - World Health Organization (WHO)",
-      "summary_zh": "",
+      "title_zh": "WHO 疾病暴发通报：俄罗斯病例为「不明病因肺炎」",
+      "summary_zh": "WHO 就俄罗斯联邦发布疾病暴发通报，将研究所员工死亡病例定性为不明病因肺炎；WHO 同时表示事件后未登记鼠疫病例。",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T23:34:29Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-13T01:49:00Z",
+      "decided_signal_id": "r-sig-033"
     },
     {
       "id": "p-4b7f36d803",
@@ -6534,7 +6562,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:07Z",
+      "reject_reason": "抓取残片，无实质内容"
     },
     {
       "id": "p-17e89c5fa5",
@@ -6563,7 +6593,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T23:34:29Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:03Z",
+      "reject_reason": "转载：WHO 通报已由 r-sig-033（S 级一手来源）覆盖"
     },
     {
       "id": "p-12b4c8f25a",
@@ -6592,7 +6624,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T23:00:23Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:02Z",
+      "reject_reason": "转载：隔离措施已由 r-sig-004 覆盖"
     },
     {
       "id": "p-69de64e018",
@@ -6621,7 +6655,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T18:36:58Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:56Z",
+      "reject_reason": "评论表态，与 r-sig-015/019 主题重叠；与前大使另一条报道重复"
     },
     {
       "id": "p-a5bc2f8d39",
@@ -6642,15 +6678,17 @@
       "source_tier": "A",
       "source_type": "international_media",
       "official": false,
-      "title_zh": "Why a Russian plague lab death is fueling fears of a cover-up - CNN",
-      "summary_zh": "",
+      "title_zh": "CNN 分析：实验室死亡事件加剧外界对「隐瞒」的担忧（原话引用）",
+      "summary_zh": "CNN 分析文章称，由于俄方公布的信息有限，研究所员工死亡事件正加剧外界对「隐瞒」的担忧。该表述为 CNN 文章原话口径，非本站证实的事实判断。",
       "suggested_status": "unconfirmed",
       "suggested_confidence": "C1",
       "importance": 0.5,
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
-      "decision": null
+      "decision": "approved",
+      "decided_at": "2026-10-13T01:49:00Z",
+      "decided_signal_id": "r-sig-034"
     },
     {
       "id": "p-982f47d827",
@@ -6679,7 +6717,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T12:33:05Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:03Z",
+      "reject_reason": "转载：员工死亡核心事实已由 r-sig-002/r-sig-003 覆盖"
     },
     {
       "id": "p-a39dde9f5b",
@@ -6708,7 +6748,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T05:59:26Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:01Z",
+      "reject_reason": "一般科普（肺鼠疫问答），无事件增量"
     },
     {
       "id": "p-221c9a2c86",
@@ -6737,7 +6779,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:56Z",
+      "reject_reason": "转载：员工死亡核心事实已由 r-sig-002/r-sig-003 覆盖"
     },
     {
       "id": "p-2b314ad4ac",
@@ -6766,7 +6810,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:06Z",
+      "reject_reason": "同主题分析，与 r-sig-034 重叠"
     },
     {
       "id": "p-365887889d",
@@ -6795,7 +6841,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:54Z",
+      "reject_reason": "评论分析，无新增事实"
     },
     {
       "id": "p-6333ad5544",
@@ -6824,7 +6872,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T05:47:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:57Z",
+      "reject_reason": "与前大使表态报道重复，与 r-sig-015/019 主题重叠"
     },
     {
       "id": "p-b7e0ed6777",
@@ -6853,7 +6903,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T18:55:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:59Z",
+      "reject_reason": "转载：美方加大交涉已由 r-sig-019 覆盖"
     },
     {
       "id": "p-83d554a2d5",
@@ -6882,7 +6934,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:06Z",
+      "reject_reason": "抓取残片/主题页，无实质内容"
     },
     {
       "id": "p-5f13bc3129",
@@ -6911,7 +6965,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T05:54:06Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:59Z",
+      "reject_reason": "与本事件无关（熊袭人话题报道）"
     },
     {
       "id": "p-e5d2608288",
@@ -6940,7 +6996,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T12:33:05Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:02Z",
+      "reject_reason": "与本事件无关（格鲁吉亚饮料进口禁令）"
     },
     {
       "id": "p-54e07ac0a9",
@@ -6969,7 +7027,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-10T18:36:58Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:04Z",
+      "reject_reason": "专家评论（信息不透明令人担忧），无新增事实；与 r-sig-019/026 主题重叠"
     },
     {
       "id": "p-9ed54db3fd",
@@ -6998,7 +7058,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T05:47:53Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:05Z",
+      "reject_reason": "与本事件无关（墨西哥监狱骚乱）"
     },
     {
       "id": "p-ed17474262",
@@ -7027,7 +7089,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:54Z",
+      "reject_reason": "转载：与 r-sig-034 同稿重复"
     },
     {
       "id": "p-4fc0b0db93",
@@ -7056,7 +7120,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T12:51:31Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:55Z",
+      "reject_reason": "同主题分析，与 r-sig-034 重叠"
     },
     {
       "id": "p-ac99531c4f",
@@ -7085,7 +7151,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T18:55:21Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:05Z",
+      "reject_reason": "专家评论，无新增事实"
     },
     {
       "id": "p-39c910ad81",
@@ -7114,7 +7182,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:00Z",
+      "reject_reason": "评论分析（生物安全议题讨论），无新增事实"
     },
     {
       "id": "p-f62f574c4c",
@@ -7145,7 +7215,9 @@
         "r-sig-029"
       ],
       "proposed_at": "2026-10-11T23:40:25Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:58Z",
+      "reject_reason": "转载：检查完成已由 r-sig-029 覆盖"
     },
     {
       "id": "p-1291c3524c",
@@ -7174,7 +7246,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T05:59:26Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:58:53Z",
+      "reject_reason": "与本事件无关（熊袭人话题报道，重复）"
     },
     {
       "id": "p-93abff170c",
@@ -7203,7 +7277,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:01Z",
+      "reject_reason": "与本事件无关（体育新闻）"
     },
     {
       "id": "p-93f5c674d3",
@@ -7232,7 +7308,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-12T15:27:09Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-13T01:59:05Z",
+      "reject_reason": "与本事件无关（俄气投资项目）"
     }
   ]
 }
