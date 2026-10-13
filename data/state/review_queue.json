@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T06:48:01Z",
+  "updated_at": "2026-10-13T16:00:03Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7368,6 +7368,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T06:48:01Z",
+      "decision": null
+    },
+    {
+      "id": "p-7c1981f6b2",
+      "raw_item": {
+        "item_id": "7c1981f6b27bcd093ded67d3ca69143597335885",
+        "source_id": "src-wsj",
+        "publisher": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWUc2bE1kdW9zamJkQ0o1T2gxMTk5VHFrbW1SbkM5YWQzOU9fWVJUOVhHRXJHdTRTcG1QVzUybWZiM1ptdnZTbEdOWlhSN1U2R1dYYnIweUUzcGlFV1U2ellHNndfOWZsaGJZZ2k1QUhXb1FOVUdvNzVoZUF2dTFmTzhGMFFIQm9pX1hqeXFac3N1ZmJDckY2emxsT0xMYjNKYzlURlpETzhoWDJEd0ZNd3dYWGxZM09mT1BaNHRWYUk2OGdNQTlTUHAteWlzUTdX?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWUc2bE1kdW9zamJkQ0o1T2gxMTk5VHFrbW1SbkM5YWQzOU9fWVJUOVhHRXJHdTRTcG1QVzUybWZiM1ptdnZTbEdOWlhSN1U2R1dYYnIweUUzcGlFV1U2ellHNndfOWZsaGJZZ2k1QUhXb1FOVUdvNzVoZUF2dTFmTzhGMFFIQm9pX1hqeXFac3N1ZmJDckY2emxsT0xMYjNKYzlURlpETzhoWDJEd0ZNd3dYWGxZM09mT1BaNHRWYUk2OGdNQTlTUHAteWlzUTdX?oc=5",
+        "title": "U.S. Pressures Russia For Details on Siberian Lab Death - WSJ",
+        "summary": "U.S. Pressures Russia For Details on Siberian Lab Death  WSJ",
+        "published_at": "2026-10-07T09:44:00+00:00",
+        "collected_at": "2026-10-13T15:59:57Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "U.S. Pressures Russia For Details on Siberian Lab Death - WSJ",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T16:00:03Z",
+      "decision": null
+    },
+    {
+      "id": "p-26a84bc7b3",
+      "raw_item": {
+        "item_id": "26a84bc7b3b49a4b43f401dad35d09ebc83829b7",
+        "source_id": "src-wapo",
+        "publisher": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFDUWQ3OEsyaDNkMVlsZU5rNTZyMl95TlBIal9WVE1yRlNrN1hycFo1RFVwZGVQQUp2a0NPZ01YVEtPZlJDcXVOZjNjZEE0OWJlVVFCNzFrMmRFd1ZkVk5NcFlzOEJ4Uko1NE02MTJHUzlBOGFMTjNvQXV6S19GdmVFRlJKclc3SHBzM0NHOUlfTmt5eWZOb1ZFcG1DUUFkMGVZZ19DeXFtYnM?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXFDUWQ3OEsyaDNkMVlsZU5rNTZyMl95TlBIal9WVE1yRlNrN1hycFo1RFVwZGVQQUp2a0NPZ01YVEtPZlJDcXVOZjNjZEE0OWJlVVFCNzFrMmRFd1ZkVk5NcFlzOEJ4Uko1NE02MTJHUzlBOGFMTjNvQXV6S19GdmVFRlJKclc3SHBzM0NHOUlfTmt5eWZOb1ZFcG1DUUFkMGVZZ19DeXFtYnM?oc=5",
+        "title": "Opinion | After Russia’s plague incident, U.S. readiness needs urgent review - The Washington Post",
+        "summary": "Opinion | After Russia’s plague incident, U.S. readiness needs urgent review  The Washington Post",
+        "published_at": "2026-10-13T14:33:15+00:00",
+        "collected_at": "2026-10-13T16:00:02Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Opinion | After Russia’s plague incident, U.S. readiness needs urgent review - The Washington Post",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T16:00:03Z",
+      "decision": null
+    },
+    {
+      "id": "p-79178f42b6",
+      "raw_item": {
+        "item_id": "79178f42b6659b5b2a1054b02106b922b899e697",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZHdqZGdzQnhpdThYdmpNaEQ3aHQ1NDR0cDBVdVJLRjQyc0RuOTRuQWpUN0phOTlPOVJJNExQSEIza19qbml3S1VYZm9EbU1PVmdRR0l6Nl9DeGluMDNPdmhrZ1R4aEg3V2I2WTVMOVVfY194RS1uX2RuaGxGRVAtV2FJemZGSnlIazhxRmM1bS1TUVVwbEstMlFVcTUwY3djT2JwUXpKb2FtWjBZSEFac0dfVkY5a0U5MU9vcEQzWQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZHdqZGdzQnhpdThYdmpNaEQ3aHQ1NDR0cDBVdVJLRjQyc0RuOTRuQWpUN0phOTlPOVJJNExQSEIza19qbml3S1VYZm9EbU1PVmdRR0l6Nl9DeGluMDNPdmhrZ1R4aEg3V2I2WTVMOVVfY194RS1uX2RuaGxGRVAtV2FJemZGSnlIazhxRmM1bS1TUVVwbEstMlFVcTUwY3djT2JwUXpKb2FtWjBZSEFac0dfVkY5a0U5MU9vcEQzWQ?oc=5",
+        "title": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer. - The Moscow Times",
+        "summary": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer.  The Moscow Times",
+        "published_at": "2026-10-13T12:33:00+00:00",
+        "collected_at": "2026-10-13T15:59:59Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer. - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T16:00:03Z",
       "decision": null
     }
   ]
