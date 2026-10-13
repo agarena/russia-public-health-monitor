@@ -36,14 +36,18 @@ DIMENSION_ATTR = {
 
 def load_changes() -> list[dict]:
     if RATING_CHANGES.exists():
-        return json.loads(RATING_CHANGES.read_text(encoding="utf-8"))
+        data = json.loads(RATING_CHANGES.read_text(encoding="utf-8"))
+        if isinstance(data, list):
+            return data
+        return data.get("changes", [])
     return []
 
 
 def save_changes(changes: list[dict]) -> None:
     RATING_CHANGES.parent.mkdir(parents=True, exist_ok=True)
+    payload = {"updated_at": now_iso(), "changes": changes}
     RATING_CHANGES.write_text(
-        json.dumps(changes, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
 
