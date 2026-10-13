@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T16:00:03Z",
+  "updated_at": "2026-10-13T21:15:18Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7455,6 +7455,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T16:00:03Z",
+      "decision": null
+    },
+    {
+      "id": "p-b64d5ce061",
+      "raw_item": {
+        "item_id": "b64d5ce06104b43a9237af5c4db1f9a79c9cf84a",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSy11Rld2WDljaTBUTVJ0TEZQRHZDN1Zfa2llSWVfSzhsUkt3UGlKcmIxbUM4NEJRblZSSEhRb01aRWFralNVeXl6TnlpeUpsXzM2a19MMTh2dXI4bEMxbDYxNWwxbzRFUGVmSnNZUmRHNTZVSkVaRk5YTVc4SXJZaDFTdml4S09aQ1B2NS1IODlGYURjQTBzTW9hRUNWQ2xGRlg0?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSy11Rld2WDljaTBUTVJ0TEZQRHZDN1Zfa2llSWVfSzhsUkt3UGlKcmIxbUM4NEJRblZSSEhRb01aRWFralNVeXl6TnlpeUpsXzM2a19MMTh2dXI4bEMxbDYxNWwxbzRFUGVmSnNZUmRHNTZVSkVaRk5YTVc4SXJZaDFTdml4S09aQ1B2NS1IODlGYURjQTBzTW9hRUNWQ2xGRlg0?oc=5",
+        "title": "Virologist tells CNN about infection at Russian plague lab - CNN",
+        "summary": "Virologist tells CNN about infection at Russian plague lab  CNN",
+        "published_at": "2026-10-05T22:07:37+00:00",
+        "collected_at": "2026-10-13T21:15:13Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Virologist tells CNN about infection at Russian plague lab - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T21:15:18Z",
+      "decision": null
+    },
+    {
+      "id": "p-37ce209ed4",
+      "raw_item": {
+        "item_id": "37ce209ed446e3f04daa7d5dce6c36bea4a065cc",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2VhbTVVcTNkaFFESGxWdkVCUmhTRGZ5SW1xWG8xVktwZDc2WHJjOW9xOWRpV1BUYWJaTWlNOHpNLVlGbnlpUjQxYjhHREVtMGxVQk9kaUwzdHNmV2VCcWRCakU2bG4tYlNqQTJ0TzhlbHhnMTFscE1kYTVndEZPY0stT2JPS00tZVBwYWlqSUxwcHRmS28tSTB4dWFhNkx4Ry1Ga3FYZnhySFF6ai1yOVNtYlRGT3VyNjJISUlEblJhYlVq?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQ2VhbTVVcTNkaFFESGxWdkVCUmhTRGZ5SW1xWG8xVktwZDc2WHJjOW9xOWRpV1BUYWJaTWlNOHpNLVlGbnlpUjQxYjhHREVtMGxVQk9kaUwzdHNmV2VCcWRCakU2bG4tYlNqQTJ0TzhlbHhnMTFscE1kYTVndEZPY0stT2JPS00tZVBwYWlqSUxwcHRmS28tSTB4dWFhNkx4Ry1Ga3FYZnhySFF6ai1yOVNtYlRGT3VyNjJISUlEblJhYlVq?oc=5",
+        "title": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer. - The Moscow Times",
+        "summary": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer.  The Moscow Times",
+        "published_at": "2026-10-13T16:13:20+00:00",
+        "collected_at": "2026-10-13T21:15:15Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Plague Research Isn't the Problem. But Russia Still Has Questions to Answer. - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-13T21:15:18Z",
       "decision": null
     }
   ]
