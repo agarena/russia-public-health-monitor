@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:14:01Z",
+  "updated_at": "2026-10-14T07:39:32Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7513,6 +7513,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T21:15:18Z",
+      "decision": null
+    },
+    {
+      "id": "p-52d27096c7",
+      "raw_item": {
+        "item_id": "52d27096c78dd3f701676528d99af7335310c1ab",
+        "source_id": "src-forbes",
+        "publisher": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObXppeEpqbUxyN29Oc2hpTFBNbHBoalZqZDBpaG1Xbm0ySDBWRjVVWVdXa05QTXdFcDR0ZTFSTEV0clRmVnJCM0s3UEI1UWZWbW1yTUtWWlhjZmlkWGkyV0dER2Q3OFBwRnZPMnliaDU1eHk1OWp2TW03SWxXdmIxTmVtaDk0NTc2a0NWT21SQUpWeUZocDJGQUFvNjVRRDhaNENjZzRJSk05Zm43alp3SWw4VzNtVEZRY3VPNHNkanoyUEVXckhZUDF2ZU1TaldkcWMzQktGbw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObXppeEpqbUxyN29Oc2hpTFBNbHBoalZqZDBpaG1Xbm0ySDBWRjVVWVdXa05QTXdFcDR0ZTFSTEV0clRmVnJCM0s3UEI1UWZWbW1yTUtWWlhjZmlkWGkyV0dER2Q3OFBwRnZPMnliaDU1eHk1OWp2TW03SWxXdmIxTmVtaDk0NTc2a0NWT21SQUpWeUZocDJGQUFvNjVRRDhaNENjZzRJSk05Zm43alp3SWw4VzNtVEZRY3VPNHNkanoyUEVXckhZUDF2ZU1TaldkcWMzQktGbw?oc=5",
+        "title": "Here's What Concerns Me Most About The Russian Plague Lab Death: Former White House Official - Forbes",
+        "summary": "Here's What Concerns Me Most About The Russian Plague Lab Death: Former White House Official  Forbes",
+        "published_at": "2026-10-06T17:47:24+00:00",
+        "collected_at": "2026-10-14T07:39:28Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Here's What Concerns Me Most About The Russian Plague Lab Death: Former White House Official - Forbes",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-14T07:39:32Z",
       "decision": null
     }
   ]
