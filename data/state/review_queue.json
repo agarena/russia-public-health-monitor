@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T23:15:23Z",
+  "updated_at": "2026-10-15T02:34:09Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7339,7 +7339,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T06:48:01Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:11Z",
+      "reject_reason": "转载：数十人隔离事实已由 r-sig-004 覆盖"
     },
     {
       "id": "p-239a5f4926",
@@ -7368,7 +7370,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T06:48:01Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:11Z",
+      "reject_reason": "转载：美方加大交涉力度已由 r-sig-019 覆盖"
     },
     {
       "id": "p-7c1981f6b2",
@@ -7397,7 +7401,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T16:00:03Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:12Z",
+      "reject_reason": "转载：美方施压索要详情已由 r-sig-019 覆盖"
     },
     {
       "id": "p-26a84bc7b3",
@@ -7426,7 +7432,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T16:00:03Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:12Z",
+      "reject_reason": "无关：美方生物防备政策评论文章，不含本事件新事实"
     },
     {
       "id": "p-79178f42b6",
@@ -7455,7 +7463,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T16:00:03Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:12Z",
+      "reject_reason": "分析评论无新增事实，透明度议题已由 r-sig-034 覆盖；与批内 p-37ce209ed4 同文"
     },
     {
       "id": "p-b64d5ce061",
@@ -7484,7 +7494,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T21:15:18Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:13Z",
+      "reject_reason": "转载：病毒学家表态已由 r-sig-026 覆盖"
     },
     {
       "id": "p-37ce209ed4",
@@ -7513,7 +7525,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-13T21:15:18Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:13Z",
+      "reject_reason": "分析评论无新增事实，透明度议题已由 r-sig-034 覆盖；与批内 p-79178f42b6 同文"
     },
     {
       "id": "p-52d27096c7",
@@ -7542,7 +7556,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T07:39:32Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:14Z",
+      "reject_reason": "无关：白宫前官员个人评论，不含事件新事实"
     },
     {
       "id": "p-363b7b01a3",
@@ -7571,7 +7587,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:14Z",
+      "reject_reason": "媒介现象报道（小报炒作），无事件新事实；媒体管制动态已由 r-sig-030 覆盖"
     },
     {
       "id": "p-bdd11f7560",
@@ -7600,7 +7618,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:14Z",
+      "reject_reason": "转载：特朗普「非生物武器」表态已由 r-sig-022 覆盖"
     },
     {
       "id": "p-7dbe83fe07",
@@ -7629,7 +7649,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:47Z",
+      "reject_reason": "转载：WHO 索取详情已由 r-sig-010、r-sig-033 覆盖"
     },
     {
       "id": "p-f167f2f403",
@@ -7660,7 +7682,9 @@
         "r-sig-017"
       ],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:48Z",
+      "reject_reason": "转载：derived_from r-sig-017，无增量信息"
     },
     {
       "id": "p-5bf5306f8d",
@@ -7689,7 +7713,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:48Z",
+      "reject_reason": "无关：肺鼠疫科普问答，非本事件事实"
     },
     {
       "id": "p-f30fc755b0",
@@ -7718,7 +7744,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T13:44:51Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:48Z",
+      "reject_reason": "无关：中俄天然气管道谈判，与本事件无关"
     },
     {
       "id": "p-874a097c07",
@@ -7747,7 +7775,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T18:39:15Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:49Z",
+      "reject_reason": "无关：俄消费者权益保护局「肺部健康日」预防科普，与本事件无关"
     },
     {
       "id": "p-f350255516",
@@ -7776,7 +7806,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T18:39:15Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:49Z",
+      "reject_reason": "转载：透明度争议分析已由 r-sig-034 覆盖"
     },
     {
       "id": "p-2b6683bbcd",
@@ -7805,7 +7837,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T18:39:15Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:50Z",
+      "reject_reason": "无关：泛鼠疫议题评论文章，不含本事件新事实"
     },
     {
       "id": "p-79ddca9bba",
@@ -7834,7 +7868,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T18:39:15Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:50Z",
+      "reject_reason": "无关：评论文章，不含本事件新事实"
     },
     {
       "id": "p-1c1b3bc3cd",
@@ -7863,7 +7899,9 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-14T18:39:15Z",
-      "decision": null
+      "decision": "rejected",
+      "decided_at": "2026-10-15T02:37:50Z",
+      "reject_reason": "转载：专家风险低的评估已由 r-sig-016、r-sig-026 覆盖"
     }
   ]
 }
