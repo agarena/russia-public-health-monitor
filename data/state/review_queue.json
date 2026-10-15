@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:02:02Z",
+  "updated_at": "2026-10-15T21:23:56Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8164,6 +8164,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-15T17:02:02Z",
+      "decision": null
+    },
+    {
+      "id": "p-3bfa2d01c2",
+      "raw_item": {
+        "item_id": "3bfa2d01c29e0490d55cc91baacbe4ce2a0ca48a",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZGZlTW1QaVhHUzdRVGtyRW1QcXpkSmNBby1NRkw3S1UyanR1VWlJS2N1d3c4TXZWUmNXWXdXS2c0aEFabzU5NHRfelQyVmVyRGd5T1U2aGNfeng3U1hON0ZJUVZTWUo0Mm8wU0F2M19ZaWxQTTJzVzd5UkVpZEd5c3hyaHAzQ2YzaFNNTGY5TUJwLUc4T0E5LWlxSVBDQ2hjY2dsMlBya2xxclgtM1ZEUF9fVDFVYXBaMzVkRzdyMlo?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZGZlTW1QaVhHUzdRVGtyRW1QcXpkSmNBby1NRkw3S1UyanR1VWlJS2N1d3c4TXZWUmNXWXdXS2c0aEFabzU5NHRfelQyVmVyRGd5T1U2aGNfeng3U1hON0ZJUVZTWUo0Mm8wU0F2M19ZaWxQTTJzVzd5UkVpZEd5c3hyaHAzQ2YzaFNNTGY5TUJwLUc4T0E5LWlxSVBDQ2hjY2dsMlBya2xxclgtM1ZEUF9fVDFVYXBaMzVkRzdyMlo?oc=5",
+        "title": "Trump says Russia told him plague risk is ‘very much under control’ - AP News",
+        "summary": "Trump says Russia told him plague risk is ‘very much under control’  AP News",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-15T21:23:53Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says Russia told him plague risk is ‘very much under control’ - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-15T21:23:56Z",
       "decision": null
     }
   ]
