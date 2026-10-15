@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T11:30:27Z",
+  "updated_at": "2026-10-15T17:02:02Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8046,6 +8046,124 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-15T11:30:27Z",
+      "decision": null
+    },
+    {
+      "id": "p-8169a0114b",
+      "raw_item": {
+        "item_id": "8169a0114b3452a61f13ebe18e3e6ba65bb4b634",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSFAzX3RqNU56SVd6TXpNUlpUY0tZUUFDdHJNOWVab2NQdDN2ZTdaWHdMZEV3WGFRVXFiUmpGQ1Bab0p0bWF2bm05NXdzZmplaUs1OTJKOVlpVTR2RUdLN1hsa0E3VUFQX2p5MS1QRlFKcUotSlhJWWN1cW1ReUQwdGtEVlJFTFVDVXdHbU5ZZFFOV1JzeVpyREg1aE9sWUctcVBJRWxkeUhRM2ZvcXdBbURveXpqVm1GZGM2LUd6bkJPUWFDWldVMmVub1JUTHIwT2JPYjFFbFNEaDNIdTNr?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSFAzX3RqNU56SVd6TXpNUlpUY0tZUUFDdHJNOWVab2NQdDN2ZTdaWHdMZEV3WGFRVXFiUmpGQ1Bab0p0bWF2bm05NXdzZmplaUs1OTJKOVlpVTR2RUdLN1hsa0E3VUFQX2p5MS1QRlFKcUotSlhJWWN1cW1ReUQwdGtEVlJFTFVDVXdHbU5ZZFFOV1JzeVpyREg1aE9sWUctcVBJRWxkeUhRM2ZvcXdBbURveXpqVm1GZGM2LUd6bkJPUWFDWldVMmVub1JUTHIwT2JPYjFFbFNEaDNIdTNr?oc=5",
+        "title": "WHO says possible case of plague in Russia presents ‘very low’ risk outside of the country - AP News",
+        "summary": "WHO says possible case of plague in Russia presents ‘very low’ risk outside of the country  AP News",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-15T17:02:00Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "WHO says possible case of plague in Russia presents ‘very low’ risk outside of the country - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-15T17:02:02Z",
+      "decision": null
+    },
+    {
+      "id": "p-7e3951f941",
+      "raw_item": {
+        "item_id": "7e3951f941587004ecaec0b2b032b57acb1951f9",
+        "source_id": "src-ap",
+        "publisher": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWm44bDhSbGFhWTdrajZFNkowTU9paThoMlJpVmZFZGdiNlNRQ0RhY0ZodGV6eUtzWF9rMGw0T3pKY1EzS1NDc181YUpkakNRbUt4bFJRU1Q2dlRBZDNXdVZIdkFYdE9yZ0E2M0F4WDVhblJnOWNHaUFGcUhMR0M4WEVKRDk0aXZ4Ukp6ZHQ0TFp6QXVRU2tIZmVnT1ZzNi1DVUJIek1jSUNJRzhpcTB4bkhMc2YwSFh5Z25LT0puNjU2Z3VUYzkzWTdKVDJaMG1vSldIaGVXaVRxeHM1QkZEcU9jTERLdEd1VUc4Qg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWm44bDhSbGFhWTdrajZFNkowTU9paThoMlJpVmZFZGdiNlNRQ0RhY0ZodGV6eUtzWF9rMGw0T3pKY1EzS1NDc181YUpkakNRbUt4bFJRU1Q2dlRBZDNXdVZIdkFYdE9yZ0E2M0F4WDVhblJnOWNHaUFGcUhMR0M4WEVKRDk0aXZ4Ukp6ZHQ0TFp6QXVRU2tIZmVnT1ZzNi1DVUJIek1jSUNJRzhpcTB4bkhMc2YwSFh5Z25LT0puNjU2Z3VUYzkzWTdKVDJaMG1vSldIaGVXaVRxeHM1QkZEcU9jTERLdEd1VUc4Qg?oc=5",
+        "title": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia - AP News",
+        "summary": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia  AP News",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-15T17:02:00Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia - AP News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [
+        "r-sig-018"
+      ],
+      "proposed_at": "2026-10-15T17:02:02Z",
+      "decision": null
+    },
+    {
+      "id": "p-dc0970f8d3",
+      "raw_item": {
+        "item_id": "dc0970f8d38d0aae54df5715fe55490428fc5207",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkR2ZEdGcU9Iei1DVHYzV0RGR0VVRGowc3VYOTJmQXN5T1l4cUJJcFgwczRJSWNoLXhyeUtpQnVnb0o5WGNrRTZPT2Q5TGpqWGowbjVsdVdXWjQ4cE1jQ1p2a1NRdXNwVUpVTFZ1Ul9iWFYtRlFndXM0TW5xQnJITENJY0tIamZEaXB4OVgzYU1wa1ZaT1lCUGFuOWJkMHBWNEpBWlh5OWVwNTdIZ3JySQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMkR2ZEdGcU9Iei1DVHYzV0RGR0VVRGowc3VYOTJmQXN5T1l4cUJJcFgwczRJSWNoLXhyeUtpQnVnb0o5WGNrRTZPT2Q5TGpqWGowbjVsdVdXWjQ4cE1jQ1p2a1NRdXNwVUpVTFZ1Ul9iWFYtRlFndXM0TW5xQnJITENJY0tIamZEaXB4OVgzYU1wa1ZaT1lCUGFuOWJkMHBWNEpBWlh5OWVwNTdIZ3JySQ?oc=5",
+        "title": "Report: Dozens quarantined after mystery death in Russian lab - CNN",
+        "summary": "Report: Dozens quarantined after mystery death in Russian lab  CNN",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-15T17:02:00Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Report: Dozens quarantined after mystery death in Russian lab - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-15T17:02:02Z",
+      "decision": null
+    },
+    {
+      "id": "p-9eb388bfa3",
+      "raw_item": {
+        "item_id": "9eb388bfa3b30ab2c375d79a6035d5c9e5a68176",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVN2bEVNeEtvbWhhN3JhWTlFcmR0ZVpHTVM1Ti1SWk1iYUw0SWFSQXlvMTNPREg1UlZKRnhDLUZoMUNnRE4tbXphQXg5bVprV3FzWHFsdkRDY3F1Z2pJZUM3dmxJclk5aE9pTjEwbnNZa01qUkhQbDJCcXoyY1BTb1o3Z25BaDlOM2FfNmo0S3ZxMU9jU1NHV3J3bXA4UXVWTEE?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVN2bEVNeEtvbWhhN3JhWTlFcmR0ZVpHTVM1Ti1SWk1iYUw0SWFSQXlvMTNPREg1UlZKRnhDLUZoMUNnRE4tbXphQXg5bVprV3FzWHFsdkRDY3F1Z2pJZUM3dmxJclk5aE9pTjEwbnNZa01qUkhQbDJCcXoyY1BTb1o3Z25BaDlOM2FfNmo0S3ZxMU9jU1NHV3J3bXA4UXVWTEE?oc=5",
+        "title": "Trump says he'll 'help' Russia with suspected plague - NBC News",
+        "summary": "Trump says he'll 'help' Russia with suspected plague  NBC News",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-15T17:02:01Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says he'll 'help' Russia with suspected plague - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-15T17:02:02Z",
       "decision": null
     }
   ]
