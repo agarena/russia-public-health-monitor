@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T02:34:09Z",
+  "updated_at": "2026-10-15T04:40:27Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -7902,6 +7902,35 @@
       "decision": "rejected",
       "decided_at": "2026-10-15T02:37:50Z",
       "reject_reason": "转载：专家风险低的评估已由 r-sig-016、r-sig-026 覆盖"
+    },
+    {
+      "id": "p-3b3d2db007",
+      "raw_item": {
+        "item_id": "3b3d2db00774453b759da547e21727e95483bab7",
+        "source_id": "src-rospotr",
+        "publisher": "Rospotrebnadzor.ru",
+        "url": "https://news.google.com/rss/articles/CBMiogRBVV95cUxQRU9LVDNEb0xaSy10SFplcWQ3bG1NakVDanI0U2d1aWptczVodF90SXVSZGdONjBlTWRDb1lDNVVjZExJYUJzSmk1eWt1d0lBY3BLcVVwT0JNdHFicUVXV29NME5VWmlHRDhNcEFFNlpCTFhZX2hLUEZ4dV84YVpLOHA4OVhUWm1WZ3BTUjh6WGJEU2c1SXFvZVZjUVB6M2RCWFl4QUNBNDRxRVE5UVE0N1lMR3NpMFRaRW8ybjdUMlVuMFFTNkMtV0hfS1lpZXVIX3FrUERYRFpjMnJEVTA4QTYzem8tUjFLWTBYeEJyUElHbjF5WEZzMndZSnhxUnNjQW5HU1BWdWhxY1VSUS11aUNhN2Zid2JsaHEtZDVsQzF4ZHNpTndWanpUSW05d29nSFZ0d2k1bmstdmMydmdnRkRNMUpwQ2MwRXh0TnN3Z2pHZVZIRkNfUnYyd2lfUGxrd29WU3UtRkpDNF9hb2RhZ0dNcHVTX3N5bUM5dWFJWGN6RVRVQWZqbm5XWnlLUDlOYmJ4bkpxa1ZSQUc5S1JpUWVuVzgzMFkzTWhGWWlUYjBxWTJPZG9nV1ZUNkoyTFlzQjEzVnVHM3ZlQy1DYjdZQU9kdF9rNkZuMWZ0UVFxZ29RdG8wel9fZ25VNWJxYVAySnJ3amVjQlc4S0xiSmhhRTVwSkdzd0RLQjF1SnlsV1J1eXpmaGZTSW1iMnJRWGZxb2c?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiogRBVV95cUxQRU9LVDNEb0xaSy10SFplcWQ3bG1NakVDanI0U2d1aWptczVodF90SXVSZGdONjBlTWRDb1lDNVVjZExJYUJzSmk1eWt1d0lBY3BLcVVwT0JNdHFicUVXV29NME5VWmlHRDhNcEFFNlpCTFhZX2hLUEZ4dV84YVpLOHA4OVhUWm1WZ3BTUjh6WGJEU2c1SXFvZVZjUVB6M2RCWFl4QUNBNDRxRVE5UVE0N1lMR3NpMFRaRW8ybjdUMlVuMFFTNkMtV0hfS1lpZXVIX3FrUERYRFpjMnJEVTA4QTYzem8tUjFLWTBYeEJyUElHbjF5WEZzMndZSnhxUnNjQW5HU1BWdWhxY1VSUS11aUNhN2Zid2JsaHEtZDVsQzF4ZHNpTndWanpUSW05d29nSFZ0d2k1bmstdmMydmdnRkRNMUpwQ2MwRXh0TnN3Z2pHZVZIRkNfUnYyd2lfUGxrd29WU3UtRkpDNF9hb2RhZ0dNcHVTX3N5bUM5dWFJWGN6RVRVQWZqbm5XWnlLUDlOYmJ4bkpxa1ZSQUc5S1JpUWVuVzgzMFkzTWhGWWlUYjBxWTJPZG9nV1ZUNkoyTFlzQjEzVnVHM3ZlQy1DYjdZQU9kdF9rNkZuMWZ0UVFxZ29RdG8wel9fZ25VNWJxYVAySnJ3amVjQlc4S0xiSmhhRTVwSkdzd0RLQjF1SnlsV1J1eXpmaGZTSW1iMnJRWGZxb2c?oc=5",
+        "title": "День легочного здоровья: как не допустить осложнений при пневмонии - Rospotrebnadzor.ru",
+        "summary": "День легочного здоровья: как не допустить осложнений при пневмонии  Rospotrebnadzor.ru",
+        "published_at": "2026-10-15T01:16:01+00:00",
+        "collected_at": "2026-10-15T04:40:25Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "День легочного здоровья: как не допустить осложнений при пневмонии - Rospotrebnadzor.ru",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-15T04:40:27Z",
+      "decision": null
     }
   ]
 }
