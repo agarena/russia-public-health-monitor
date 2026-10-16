@@ -1,177 +1,177 @@
 {
   "src-abc": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-aljazeera": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 3
+    "items_last_run": 0
   },
   "src-ap": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 2
+    "items_last_run": 5
   },
   "src-axios": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-baikal": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 1
+    "items_last_run": 0
   },
   "src-bbc": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 1
+    "items_last_run": 0
   },
   "src-cbc": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
-    "last_error": null,
-    "items_last_run": 1
-  },
-  "src-cnbc": {
-    "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 2
   },
+  "src-cnbc": {
+    "status": "healthy",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
+    "last_error": null,
+    "items_last_run": 4
+  },
   "src-cnn": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 1
   },
   "src-euronews": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 6
+    "items_last_run": 10
   },
   "src-forbes": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 1
+    "items_last_run": 6
   },
   "src-indianexpress": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 0
+    "items_last_run": 1
   },
   "src-irk-gov": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-lshtm": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 1
   },
   "src-mailru-science": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-meduza": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 7
+    "items_last_run": 12
   },
   "src-moscowtimes": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
-    "last_error": null,
-    "items_last_run": 2
-  },
-  "src-nbc": {
-    "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 1
   },
+  "src-nbc": {
+    "status": "healthy",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
+    "last_error": null,
+    "items_last_run": 3
+  },
   "src-onliner": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-reuters": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 3
+    "items_last_run": 2
   },
   "src-rospotr": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 1
   },
   "src-tass-en": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 23
+    "items_last_run": 50
   },
   "src-wapo": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 1
+    "items_last_run": 0
   },
   "src-who": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
     "items_last_run": 0
   },
   "src-wsj": {
     "status": "healthy",
-    "last_success": "2026-10-16T07:10:32Z",
-    "last_collected_at": "2026-10-16T07:10:32Z",
+    "last_success": "2026-10-16T13:16:05Z",
+    "last_collected_at": "2026-10-16T13:16:05Z",
     "last_error": null,
-    "items_last_run": 3
+    "items_last_run": 4
   }
 }

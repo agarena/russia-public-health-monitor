@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T07:10:32Z",
+  "updated_at": "2026-10-16T13:16:05Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8222,6 +8222,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-16T00:25:00Z",
+      "decision": null
+    },
+    {
+      "id": "p-81d7f43042",
+      "raw_item": {
+        "item_id": "81d7f430428b08a126df26cf92e19a18176dc8e3",
+        "source_id": "src-rospotr",
+        "publisher": "Управления Роспотребнадзора по Белгородской области",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwb3JFNWV0d1lBY1VJR3UxNlJyQ2NVTTE5ajN5V0p1VU1XMFY5MnZUeTJ6QUp5VkQ3dFM1SnB5dTkyMjhvZE5abXlZZTIxRlZneV85RlB6NnlVTVpYNUh0d282bjRYZzhxUzhzMDBB?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwb3JFNWV0d1lBY1VJR3UxNlJyQ2NVTTE5ajN5V0p1VU1XMFY5MnZUeTJ6QUp5VkQ3dFM1SnB5dTkyMjhvZE5abXlZZTIxRlZneV85RlB6NnlVTVpYNUh0d282bjRYZzhxUzhzMDBB?oc=5",
+        "title": "Информация для туристов об актуальных эпидемиологических угрозах и правилах безопасности отдыха - Управление Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека по Белгородской области | Уп - Управления Роспотребнадзора по Белгородской области",
+        "summary": "Информация для туристов об актуальных эпидемиологических угрозах и правилах безопасности отдыха - Управление Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека по Белгородской области | Уп  Управления Роспотребнадзора по Белгородской области",
+        "published_at": "2026-09-30T22:00:40+00:00",
+        "collected_at": "2026-10-16T13:16:01Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Информация для туристов об актуальных эпидемиологических угрозах и правилах безопасности отдыха - Управление Федеральной службы по надзору в сфере защиты прав потребителей и благополучия человека по Белгородской области | Уп - Управления Роспотребнадзора по Белгородской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-16T13:16:05Z",
       "decision": null
     }
   ]
