@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T21:23:56Z",
+  "updated_at": "2026-10-16T00:25:00Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8193,6 +8193,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-15T21:23:56Z",
+      "decision": null
+    },
+    {
+      "id": "p-229699c4dc",
+      "raw_item": {
+        "item_id": "229699c4dc53d0d8695349d5305b8fe215f3a44e",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUkpqcFhmTmJ4NnoxZ0RSZFV2aXB2Rmc0NlhmWHlsS0lWeEpnZHhGcUZDS215Nlg1anRDY2ZBc1BaU050LUg0ZFB1WmVMRVM4aktEWTVzNnZlVjZUNG5aOS1Jc3VLdnJhYXpoV05aUTVEb0hmdXJodlltY29UNGYwcTUyc3JwSm5RemRDU1czLU43blV3bVJHVw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUkpqcFhmTmJ4NnoxZ0RSZFV2aXB2Rmc0NlhmWHlsS0lWeEpnZHhGcUZDS215Nlg1anRDY2ZBc1BaU050LUg0ZFB1WmVMRVM4aktEWTVzNnZlVjZUNG5aOS1Jc3VLdnJhYXpoV05aUTVEb0hmdXJodlltY29UNGYwcTUyc3JwSm5RemRDU1czLU43blV3bVJHVw?oc=5",
+        "title": "Trump to speak with Putin over plague fears - NBC News",
+        "summary": "Trump to speak with Putin over plague fears  NBC News",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-16T00:24:56Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump to speak with Putin over plague fears - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-16T00:25:00Z",
       "decision": null
     }
   ]
