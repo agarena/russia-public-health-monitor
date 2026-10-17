@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T00:30:05Z",
+  "updated_at": "2026-10-17T06:58:11Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8251,6 +8251,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-16T13:16:05Z",
+      "decision": null
+    },
+    {
+      "id": "p-3f58544643",
+      "raw_item": {
+        "item_id": "3f5854464302ef823555ffd39a2ce384ac523b8b",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVnktVjh0bUVVNmhmZEVfWE1VczZvTXZMYVg3Y0RIR1pLVE1zQlV4a1U0VFkyZXNLSEpvVzRfSDAtWDd0bk1IT3hfdHlZbU1vY0tQT1NfWlRaX2pxTnFpMmE1a2RkS3pVb0E2WVE3WjBScFFwcDdBRmJ4Qkw1U0xvcGlMQ2NoeTFGQnRfbWE4V193bExsa0tHM3Q1Ym9aVnpuaW5vTVRpWlI5bl9yMjFMSnZn?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVnktVjh0bUVVNmhmZEVfWE1VczZvTXZMYVg3Y0RIR1pLVE1zQlV4a1U0VFkyZXNLSEpvVzRfSDAtWDd0bk1IT3hfdHlZbU1vY0tQT1NfWlRaX2pxTnFpMmE1a2RkS3pVb0E2WVE3WjBScFFwcDdBRmJ4Qkw1U0xvcGlMQ2NoeTFGQnRfbWE4V193bExsa0tHM3Q1Ym9aVnpuaW5vTVRpWlI5bl9yMjFMSnZn?oc=5",
+        "title": "Ex-Covid czar: Potential plague case raises ‘red flags’ - CNN",
+        "summary": "Ex-Covid czar: Potential plague case raises ‘red flags’  CNN",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-17T06:58:03Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Ex-Covid czar: Potential plague case raises ‘red flags’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T06:58:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-66d7fc3b9e",
+      "raw_item": {
+        "item_id": "66d7fc3b9edbd60d43d4d31c7c3a057f640b39b9",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcGFycjZIcXZReVBrTzJSajNTbXFPVU1rQnRHMEdBM0NrZlJ4VGkxT3ZYVWxnc0V0VUFQbks5eWtzYkxlMEc3SFQtYkJLTXA0dVhDZi13Yk5vMVJoQVB1YmJEMllEVV83WjdsTTk5OFRoMTNrQzRlS2NjOGpFWGhQUFJFMm1wWUJ4RUN4Z0VBVHhTWDBMMWlydHprYjFlLVZxb2NmaTFoSGFmZ2RFd3U3bXVOZ0RWa29qVnNibXdUSXZfeHRic2w3MG9maFNkN1llanc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcGFycjZIcXZReVBrTzJSajNTbXFPVU1rQnRHMEdBM0NrZlJ4VGkxT3ZYVWxnc0V0VUFQbks5eWtzYkxlMEc3SFQtYkJLTXA0dVhDZi13Yk5vMVJoQVB1YmJEMllEVV83WjdsTTk5OFRoMTNrQzRlS2NjOGpFWGhQUFJFMm1wWUJ4RUN4Z0VBVHhTWDBMMWlydHprYjFlLVZxb2NmaTFoSGFmZ2RFd3U3bXVOZ0RWa29qVnNibXdUSXZfeHRic2w3MG9maFNkN1llanc?oc=5",
+        "title": "Officials Seek to Reassure Public After Irkutsk Anti-Plague Institute Worker’s Death - The Moscow Times",
+        "summary": "Officials Seek to Reassure Public After Irkutsk Anti-Plague Institute Worker’s Death  The Moscow Times",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-17T06:58:06Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Officials Seek to Reassure Public After Irkutsk Anti-Plague Institute Worker’s Death - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T06:58:11Z",
       "decision": null
     }
   ]
