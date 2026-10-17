@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T15:36:09Z",
+  "updated_at": "2026-10-17T18:30:51Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8367,6 +8367,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-17T15:36:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-64305b2e27",
+      "raw_item": {
+        "item_id": "64305b2e27a1435c28160f5ef29757640949933d",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSWRzY0pLd0Z0UGNDdWhOR2JrUEV1X2hnWGt3Z2xoZ0g3TWhVMS1BRkQ4TnNTLWRfTHNucDZRbHhCM0hKLTg2b3E4OFNGLU5KZUJPSlA1TUJkTnVOamYxc2pFVk5NN1dKRzFodEFYbVBOYnNEWDhFU1MwVkIwTkxSaU5NWkFkc1BDRkhCME4wWHZZRG03UzlocC1zekxiYzQ3YUdYS0JmZ2ttZnhj?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSWRzY0pLd0Z0UGNDdWhOR2JrUEV1X2hnWGt3Z2xoZ0g3TWhVMS1BRkQ4TnNTLWRfTHNucDZRbHhCM0hKLTg2b3E4OFNGLU5KZUJPSlA1TUJkTnVOamYxc2pFVk5NN1dKRzFodEFYbVBOYnNEWDhFU1MwVkIwTkxSaU5NWkFkc1BDRkhCME4wWHZZRG03UzlocC1zekxiYzQ3YUdYS0JmZ2ttZnhj?oc=5",
+        "title": "Zelenskiy wants swift exit of Ukraine's prosecutor general as graft clashes plague government - Reuters",
+        "summary": "Zelenskiy wants swift exit of Ukraine's prosecutor general as graft clashes plague government  Reuters",
+        "published_at": "2026-09-14T07:00:00+00:00",
+        "collected_at": "2026-10-17T18:30:49Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Zelenskiy wants swift exit of Ukraine's prosecutor general as graft clashes plague government - Reuters",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T18:30:51Z",
+      "decision": null
+    },
+    {
+      "id": "p-8714535152",
+      "raw_item": {
+        "item_id": "87145351525827f2d5505c71960681f52fb1d5b1",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZkJUdDFvUkNiRWFmVkQ3WDFPb0F4TDFjVjV5TzdET1BKb0RYUWFqMVFoNmpHaDd5NjZQamlRaWZuR1lQWWhGaXpvS1FsSGhjYzM2RkhlOVFfeVgtSTQ5TnNWcFNIVFBEelp5bk9PWVNDaVZ3M2lLaFlmbVRmRURBOWE0QzNlTEk5VWc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZkJUdDFvUkNiRWFmVkQ3WDFPb0F4TDFjVjV5TzdET1BKb0RYUWFqMVFoNmpHaDd5NjZQamlRaWZuR1lQWWhGaXpvS1FsSGhjYzM2RkhlOVFfeVgtSTQ5TnNWcFNIVFBEelp5bk9PWVNDaVZ3M2lLaFlmbVRmRURBOWE0QzNlTEk5VWc?oc=5",
+        "title": "Russian plague scare — what we know so far - CNN",
+        "summary": "Russian plague scare — what we know so far  CNN",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-17T18:30:49Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian plague scare — what we know so far - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T18:30:51Z",
       "decision": null
     }
   ]
