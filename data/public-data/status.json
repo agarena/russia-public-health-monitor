@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T21:09:40Z",
-  "last_successful_collection": "2026-10-16T21:09:40Z",
-  "sources_healthy": 25,
+  "generated_at": "2026-10-17T00:30:05Z",
+  "last_successful_collection": "2026-10-17T00:30:04Z",
+  "sources_healthy": 24,
   "sources_total": 25,
   "source_health": [
     {
@@ -82,7 +82,7 @@
     {
       "id": "src-wapo",
       "name": "华盛顿邮报",
-      "status": "healthy"
+      "status": "degraded"
     },
     {
       "id": "src-forbes",
