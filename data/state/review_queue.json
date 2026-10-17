@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T12:12:00Z",
+  "updated_at": "2026-10-17T15:36:09Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8309,6 +8309,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-17T06:58:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-03bc936675",
+      "raw_item": {
+        "item_id": "03bc936675f80380d49549f1d8520634e69f4c47",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRNjNldUljTEktVjQxREF3c011dDRpcXk2Nmp3Z2Zud3hHWUd6YjlvRWE0akFSZ2dteFc3VXpUTUtfeXQ0YmRseXpkYkY1Tm82VHYw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRNjNldUljTEktVjQxREF3c011dDRpcXk2Nmp3Z2Zud3hHWUd6YjlvRWE0akFSZ2dteFc3VXpUTUtfeXQ0YmRseXpkYkY1Tm82VHYw?oc=5",
+        "title": "В Иркутском муниципальном округе вакцинировано от ЗУДа более 16,6 тыс. сельхозживотных - Официальный портал Иркутской области",
+        "summary": "В Иркутском муниципальном округе вакцинировано от ЗУДа более 16,6 тыс. сельхозживотных  Официальный портал Иркутской области",
+        "published_at": "2026-09-14T07:00:00+00:00",
+        "collected_at": "2026-10-17T15:36:05Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "В Иркутском муниципальном округе вакцинировано от ЗУДа более 16,6 тыс. сельхозживотных - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T15:36:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-c1fceb4f12",
+      "raw_item": {
+        "item_id": "c1fceb4f1293f67c52b0850e79365f8e66e912e0",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZU9kZkFCOFh0c2FvVDB3MlF5OGp2Z0dMQWU5Z3VaTjNhMElSWkQ4QWdoRDFvcVBWVWt6NGM4ZDRvYVIyb042aXRJeV96NXdIdUU5Nlp5dGVfaHVYRHZoeU9MZmtFR3JtQ29zT3VpN2hWeGEwWUFIaFFPVzNaZy1idklTVEI?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZU9kZkFCOFh0c2FvVDB3MlF5OGp2Z0dMQWU5Z3VaTjNhMElSWkQ4QWdoRDFvcVBWVWt6NGM4ZDRvYVIyb042aXRJeV96NXdIdUU5Nlp5dGVfaHVYRHZoeU9MZmtFR3JtQ29zT3VpN2hWeGEwWUFIaFFPVzNaZy1idklTVEI?oc=5",
+        "title": "Russia says no epidemic risk as WHO says plague lab death remains unexplained - CNN",
+        "summary": "Russia says no epidemic risk as WHO says plague lab death remains unexplained  CNN",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-17T15:36:05Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia says no epidemic risk as WHO says plague lab death remains unexplained - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-17T15:36:09Z",
       "decision": null
     }
   ]
