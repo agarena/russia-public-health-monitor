@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T11:06:39Z",
+  "updated_at": "2026-10-18T15:53:20Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8715,6 +8715,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-18T04:35:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-6a8c3b8a74",
+      "raw_item": {
+        "item_id": "6a8c3b8a743d4ab098e0f159c5e042fc95bd7004",
+        "source_id": "src-euronews",
+        "publisher": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc2NjSEpHYXZJakZWZjhDblJvcWpXMjNqZVB5RGdmZkY1TThIMUstUm1ES0lfMHU5SU9wVU9JSDA4eVlOMzNNSzBrOXpwMUpuMGhuU3d0SUtnSEtFM3hfanRWLWVuUnh5Zlo4VndtN3l0Q21vX1d3YlhBX3BLVEFieHp1WmpfaVZPVTdzQlRIY1hXRXV4WXZuTDdFNnA0U1NoZlRFQmxMN2lHNzBnRldKandjbnc3dW00S2o4TTln?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc2NjSEpHYXZJakZWZjhDblJvcWpXMjNqZVB5RGdmZkY1TThIMUstUm1ES0lfMHU5SU9wVU9JSDA4eVlOMzNNSzBrOXpwMUpuMGhuU3d0SUtnSEtFM3hfanRWLWVuUnh5Zlo4VndtN3l0Q21vX1d3YlhBX3BLVEFieHp1WmpfaVZPVTdzQlRIY1hXRXV4WXZuTDdFNnA0U1NoZlRFQmxMN2lHNzBnRldKandjbnc3dW00S2o4TTln?oc=5",
+        "title": "Video. WHO says Siberia plague risk is low as drones sink Black Sea ships - Euronews.com",
+        "summary": "Video. WHO says Siberia plague risk is low as drones sink Black Sea ships  Euronews.com",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-18T15:53:17Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Video. WHO says Siberia plague risk is low as drones sink Black Sea ships - Euronews.com",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-18T15:53:20Z",
       "decision": null
     }
   ]
