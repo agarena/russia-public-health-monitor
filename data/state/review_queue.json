@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T15:53:20Z",
+  "updated_at": "2026-10-18T18:38:59Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8744,6 +8744,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-18T15:53:20Z",
+      "decision": null
+    },
+    {
+      "id": "p-043a11ed0b",
+      "raw_item": {
+        "item_id": "043a11ed0b8201a87b82bd6b638253268eea9f6c",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MX1cyVWJ1cS1FeGFPTHd2Q1A3ZzNNT3czQzVXU3JxMjNXM0FoeHYycUo3eE9CVEtUZk5hZmlCV1dwRDk3QWJXbWxKenkxeExrU3Vmb0RGdm5VRjJuaERLWQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MX1cyVWJ1cS1FeGFPTHd2Q1A3ZzNNT3czQzVXU3JxMjNXM0FoeHYycUo3eE9CVEtUZk5hZmlCV1dwRDk3QWJXbWxKenkxeExrU3Vmb0RGdm5VRjJuaERLWQ?oc=5",
+        "title": "Новости - Официальный портал Иркутской области",
+        "summary": "Новости  Официальный портал Иркутской области",
+        "published_at": "2026-10-06T03:32:44+00:00",
+        "collected_at": "2026-10-18T18:38:56Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Новости - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-18T18:38:59Z",
+      "decision": null
+    },
+    {
+      "id": "p-0940e56ed8",
+      "raw_item": {
+        "item_id": "0940e56ed8fd77b85544ebc5e4dc475716f6c8bf",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYk9pRzNNX0VvMWhyVXNIaFRMS1dYei1OYnViSVlxZ09TNHE4QUhHSFJnOU9TQy04cjR2d2pGaG5SWVNZQk5yTmFNZ1VSYjdLVU50UGlpOVRuTGlTQ014NjNrekVvbzhrNXd0TC1rdnlVUFY1czFVbkhUX0NjWmhrQlQ1b2lvdllaa3A2ak1XQWlJcERLaURWQ1VBeThtZVRlSkFCamgtd2RkWjlJZHBpVVlfT1ItVDFDS010c19Dbk9tRWFXM2ptNmFqVFJfa3NVQ0RyUVdseXJBT1ItSTh5ektSREg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQYk9pRzNNX0VvMWhyVXNIaFRMS1dYei1OYnViSVlxZ09TNHE4QUhHSFJnOU9TQy04cjR2d2pGaG5SWVNZQk5yTmFNZ1VSYjdLVU50UGlpOVRuTGlTQ014NjNrekVvbzhrNXd0TC1rdnlVUFY1czFVbkhUX0NjWmhrQlQ1b2lvdllaa3A2ak1XQWlJcERLaURWQ1VBeThtZVRlSkFCamgtd2RkWjlJZHBpVVlfT1ItVDFDS010c19Dbk9tRWFXM2ptNmFqVFJfa3NVQ0RyUVdseXJBT1ItSTh5ektSREg?oc=5",
+        "title": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners - The Moscow Times",
+        "summary": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners  The Moscow Times",
+        "published_at": "2026-09-11T07:00:00+00:00",
+        "collected_at": "2026-10-18T18:38:58Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-18T18:38:59Z",
       "decision": null
     }
   ]
