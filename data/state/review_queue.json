@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T04:41:48Z",
+  "updated_at": "2026-10-19T13:17:18Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8802,6 +8802,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-18T18:38:59Z",
+      "decision": null
+    },
+    {
+      "id": "p-93123ea351",
+      "raw_item": {
+        "item_id": "93123ea351729fbad9ca6a5b663034e5e062a73f",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWlItUEhLQzM3cEZHcUhTbjVlVGJ6OUVyQ044VWJralpHNkx6eFBNdURRVGRnbVhGcDIzcDRnWVk4cVV1bWs1bGF5alNtSVp1Q3BxV1dKbFpvVDJDdE83dXVQa2ZmQUQtam9PZTY3Mjc2RldWM1l6QWU2SllxaG5zbzhhSGZ6cWZxSXY3S203ajM4VnlPQUxkVl9kaC1xWG40bXhBZEpwd0xKUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWlItUEhLQzM3cEZHcUhTbjVlVGJ6OUVyQ044VWJralpHNkx6eFBNdURRVGRnbVhGcDIzcDRnWVk4cVV1bWs1bGF5alNtSVp1Q3BxV1dKbFpvVDJDdE83dXVQa2ZmQUQtam9PZTY3Mjc2RldWM1l6QWU2SllxaG5zbzhhSGZ6cWZxSXY3S203ajM4VnlPQUxkVl9kaC1xWG40bXhBZEpwd0xKUQ?oc=5",
+        "title": "Dozens quarantined after plague lab researcher dies - CNN",
+        "summary": "Dozens quarantined after plague lab researcher dies  CNN",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-19T13:17:12Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dozens quarantined after plague lab researcher dies - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-19T13:17:18Z",
+      "decision": null
+    },
+    {
+      "id": "p-e64ab75129",
+      "raw_item": {
+        "item_id": "e64ab751299cdd2b91b18acd8fc51c2498db8e96",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGNIUTBTVTluMnRJUjBMaEd3a1lOb1hZZEtRY0pOV2sxTU45cmpxajhvTXdZckNvS2JTaF9SOFcwelN1VGNVWEVHaEZnTmdJYk9ha0N0bDZIeS1UaDhEeTVLSmczdjNzMDh3d05icU10R1BfSXp2TFIwRktlWVpaY0RqUTNaa0ZVdm5BNzlBcEd2bWwtMGFHR3EzNXp0XzZBbGpIOA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGNIUTBTVTluMnRJUjBMaEd3a1lOb1hZZEtRY0pOV2sxTU45cmpxajhvTXdZckNvS2JTaF9SOFcwelN1VGNVWEVHaEZnTmdJYk9ha0N0bDZIeS1UaDhEeTVLSmczdjNzMDh3d05icU10R1BfSXp2TFIwRktlWVpaY0RqUTNaa0ZVdm5BNzlBcEd2bWwtMGFHR3EzNXp0XzZBbGpIOA?oc=5",
+        "title": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?' - The Moscow Times",
+        "summary": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?'  The Moscow Times",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-10-19T13:17:14Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Regions Calling: In Irkutsk, Locals Ask 'What Plague?' - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-19T13:17:18Z",
       "decision": null
     }
   ]
