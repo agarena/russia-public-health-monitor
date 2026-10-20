@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:43:21Z",
+  "updated_at": "2026-10-20T04:52:03Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8860,6 +8860,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-19T13:17:18Z",
+      "decision": null
+    },
+    {
+      "id": "p-c400da9395",
+      "raw_item": {
+        "item_id": "c400da939526aacf66e2447a9e5002857a19fcaa",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRXFzR1FEQzRWdzhnSkdLOExsSXctQ0V2ZWFyT3pETGZBWF9scUZIZXNRU21pQWFKTHdaYVdMbkVoTFU3S0w5T0t1TkZKdXhiamppWGxpOWN6Z3dKQ2pDZm93anpDODE5RUx2RnAyS0UtbWYycm5uT29XUUxUN0s5TDFuR3l1YzVWdGY0OFR6aG1RRjkxNDRjcWxoWWdEeXV3MWxvSWtSS0FUVGFDZU5uc1VtMTVneGFsc1Q3RGQ4eWw1eWdTNkVCZEJqX2ZUdkNwZkxJcTh4Q2nSAd8BQVVfeXFMUF9zZUJjTEFEdFZCYzY0MHU3RF80R3RCTXZjXzZ3bVB0WnpaRmhtZm9RY0JCWFRYM2w5ZG53S1RtcmF4LTZWNmpXdEFQYkVhcTdQc2x0U2hoUWd0TVg0TDVObHdBcWV1LVhKbUNpdmNpbjdyQzV3Wm9tZmtOSTlrNl84V0haOTFRZmt5TkJVTnBscnhaSEU3a2phcXkwbTVYUHF4M3RvdnpwVEYzNzZPd2Q0cmJraExKMzNUeE5qSHBYb3pkVkJYUGUxWUhGaEoxRnd1S3FWc0dLdXZsZnJYNA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRXFzR1FEQzRWdzhnSkdLOExsSXctQ0V2ZWFyT3pETGZBWF9scUZIZXNRU21pQWFKTHdaYVdMbkVoTFU3S0w5T0t1TkZKdXhiamppWGxpOWN6Z3dKQ2pDZm93anpDODE5RUx2RnAyS0UtbWYycm5uT29XUUxUN0s5TDFuR3l1YzVWdGY0OFR6aG1RRjkxNDRjcWxoWWdEeXV3MWxvSWtSS0FUVGFDZU5uc1VtMTVneGFsc1Q3RGQ4eWw1eWdTNkVCZEJqX2ZUdkNwZkxJcTh4Q2nSAd8BQVVfeXFMUF9zZUJjTEFEdFZCYzY0MHU3RF80R3RCTXZjXzZ3bVB0WnpaRmhtZm9RY0JCWFRYM2w5ZG53S1RtcmF4LTZWNmpXdEFQYkVhcTdQc2x0U2hoUWd0TVg0TDVObHdBcWV1LVhKbUNpdmNpbjdyQzV3Wm9tZmtOSTlrNl84V0haOTFRZmt5TkJVTnBscnhaSEU3a2phcXkwbTVYUHF4M3RvdnpwVEYzNzZPd2Q0cmJraExKMzNUeE5qSHBYb3pkVkJYUGUxWUhGaEoxRnd1S3FWc0dLdXZsZnJYNA?oc=5",
+        "title": "UPSC Essentials | Daily subject-wise quiz : Science and Technology MCQs on neutrino, pneumonic plague and more (Week 183) - The Indian Express",
+        "summary": "UPSC Essentials | Daily subject-wise quiz : Science and Technology MCQs on neutrino, pneumonic plague and more (Week 183)  The Indian Express",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-20T04:52:01Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "UPSC Essentials | Daily subject-wise quiz : Science and Technology MCQs on neutrino, pneumonic plague and more (Week 183) - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T04:52:03Z",
       "decision": null
     }
   ]
