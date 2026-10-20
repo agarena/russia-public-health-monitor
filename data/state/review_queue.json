@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T11:38:12Z",
+  "updated_at": "2026-10-20T17:10:08Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -8918,6 +8918,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-20T11:38:12Z",
+      "decision": null
+    },
+    {
+      "id": "p-a2373d9c21",
+      "raw_item": {
+        "item_id": "a2373d9c21e0b10382539c9e027f07be773a95f4",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbG5jN3YzSWtOZGl5XzJyd3IzN19fLXZhdV9DLXdaMW1SV3pXdTJHQkxOeWtZVHBTZnpoX0xfTFFBVkVQX1h1YlBMc2ZZZllpeWNfS0FoYzJ4cDZPY2Z2QXRmUjhkaGY5SXBPTmlqUWRMUTdLZHVVV08zTEc1Z0VQX05IVW1wMnVfZFZlamprV1BIX3BXdmVWbmY5ZVpZVGxWc1FsV1FsNWdNVjBmb2o3UWo1UWJlQzlKWC1uOA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbG5jN3YzSWtOZGl5XzJyd3IzN19fLXZhdV9DLXdaMW1SV3pXdTJHQkxOeWtZVHBTZnpoX0xfTFFBVkVQX1h1YlBMc2ZZZllpeWNfS0FoYzJ4cDZPY2Z2QXRmUjhkaGY5SXBPTmlqUWRMUTdLZHVVV08zTEc1Z0VQX05IVW1wMnVfZFZlamprV1BIX3BXdmVWbmY5ZVpZVGxWc1FsV1FsNWdNVjBmb2o3UWo1UWJlQzlKWC1uOA?oc=5",
+        "title": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’ - CNN",
+        "summary": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’  CNN",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-10-20T17:10:00Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Ex-US envoy on suspected plague death: ‘Hold the Russians’ feet to the fire’ - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T17:10:08Z",
+      "decision": null
+    },
+    {
+      "id": "p-ab13248940",
+      "raw_item": {
+        "item_id": "ab132489402e349727abf92df54c5efce453be90",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/economy/2204833",
+        "url_canonical": "https://tass.com/economy/2204833",
+        "title": "Belogorsk-Khabarovsk gas pipeline 94% completed — Gazprom",
+        "summary": "Gazprom is laying the Belogorsk-Khabarovsk gas pipeline to connect the Sakhalin-Khabarovsk-Vladivostok and the Power of Siberia",
+        "published_at": "2026-10-20T15:31:03+00:00",
+        "collected_at": "2026-10-20T17:10:02Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Belogorsk-Khabarovsk gas pipeline 94% completed — Gazprom",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T17:10:08Z",
+      "decision": null
+    },
+    {
+      "id": "p-257649bc29",
+      "raw_item": {
+        "item_id": "257649bc29a4bb2c96921a818cf0065599a84255",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ2MtSnltbk1YdEtKdGRkdUtRMzJna0ljMDBVb2lRVGFYSFlYU0hDVjhpRVoyUkxxeFBjUkFRemthWnBpY0t4am9yZ3VaWjdUR0toR3k5Tl84VFpmM2NHbUtVcnEzYTd3M0Z2b29LY3dITms4QTBXOS14OUlOY1pqcTRjVHpNR0dWUmJKR0xuc1NKOENWbElxOHNFbmJ5c3dLSnk0cQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ2MtSnltbk1YdEtKdGRkdUtRMzJna0ljMDBVb2lRVGFYSFlYU0hDVjhpRVoyUkxxeFBjUkFRemthWnBpY0t4am9yZ3VaWjdUR0toR3k5Tl84VFpmM2NHbUtVcnEzYTd3M0Z2b29LY3dITms4QTBXOS14OUlOY1pqcTRjVHpNR0dWUmJKR0xuc1NKOENWbElxOHNFbmJ5c3dLSnk0cQ?oc=5",
+        "title": "Ограничения ввели в иркутском психоневрологическом диспансере - Люди Байкала",
+        "summary": "Ограничения ввели в иркутском психоневрологическом диспансере  Люди Байкала",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-20T17:10:02Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Ограничения ввели в иркутском психоневрологическом диспансере - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T17:10:08Z",
       "decision": null
     }
   ]
