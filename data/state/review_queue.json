@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T17:10:08Z",
+  "updated_at": "2026-10-20T21:38:09Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9005,6 +9005,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-20T17:10:08Z",
+      "decision": null
+    },
+    {
+      "id": "p-65d731684f",
+      "raw_item": {
+        "item_id": "65d731684ff4734bcb6ba8d710eeb4d90246dbd9",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOejhVc1l5YmE1WWxUSE5NbE4teGE0QWFicFJ3RFlLTUpSVzRKWi1XX1hrcXZ1M3poMkROWVB0ZnZjdkl6Q2s3NVVYanpTbE1PUmtjd2hDSk5BSmdiQzN5X2RKRGtDZzQ3LWxld2ZWZFY2MVVSTlAyeHNGLXV3cng5UFprbkZSek9EQ1FGdko5QWFpSWdwRWF2emhuejBoTkU4ZUZBbFQ0b3NyeEUyVDE0LWY5M1JVbmxuQTNMeEQyaDRpenhCNnc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOejhVc1l5YmE1WWxUSE5NbE4teGE0QWFicFJ3RFlLTUpSVzRKWi1XX1hrcXZ1M3poMkROWVB0ZnZjdkl6Q2s3NVVYanpTbE1PUmtjd2hDSk5BSmdiQzN5X2RKRGtDZzQ3LWxld2ZWZFY2MVVSTlAyeHNGLXV3cng5UFprbkZSek9EQ1FGdko5QWFpSWdwRWF2emhuejBoTkU4ZUZBbFQ0b3NyeEUyVDE0LWY5M1JVbmxuQTNMeEQyaDRpenhCNnc?oc=5",
+        "title": "Russia plague quarantine following lab death: Should we be worried? - Al Jazeera - Al Jazeera",
+        "summary": "Russia plague quarantine following lab death: Should we be worried? - Al Jazeera  Al Jazeera",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-10-20T21:38:04Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia plague quarantine following lab death: Should we be worried? - Al Jazeera - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T21:38:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-064e164e4e",
+      "raw_item": {
+        "item_id": "064e164e4e3dee6fc0be56d541e1ff9f877262b3",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV3A4QnN2OUdjOTBFcjFFazlzOGpveU9aRUgzc1pjLUV5bEV3R3hZalVYSWNySzMxbVlPcXE0Sy1wd3hWcE5ENkZXY0RnVHJGVFRnT2w4anZpakJJeXVXektFeDRZMk9ZaWZvM3FJMDc3NThXNmE3MXN0cTI4TjliMTdTNVJxQlo3TUNObVRVMUZwY09GSmF6TnQwaUdieHg5WjFDelJ4ZTM5d3pfUUQyY1BDVFV3dHJWb2QxbXFvbnBCOW8wNW5kSmNn?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOV3A4QnN2OUdjOTBFcjFFazlzOGpveU9aRUgzc1pjLUV5bEV3R3hZalVYSWNySzMxbVlPcXE0Sy1wd3hWcE5ENkZXY0RnVHJGVFRnT2w4anZpakJJeXVXektFeDRZMk9ZaWZvM3FJMDc3NThXNmE3MXN0cTI4TjliMTdTNVJxQlo3TUNObVRVMUZwY09GSmF6TnQwaUdieHg5WjFDelJ4ZTM5d3pfUUQyY1BDVFV3dHJWb2QxbXFvbnBCOW8wNW5kSmNn?oc=5",
+        "title": "Russia dismisses reports of second plague case as 'false information' - Al Jazeera - Al Jazeera",
+        "summary": "Russia dismisses reports of second plague case as 'false information' - Al Jazeera  Al Jazeera",
+        "published_at": "2026-10-08T07:13:05+00:00",
+        "collected_at": "2026-10-20T21:38:04Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia dismisses reports of second plague case as 'false information' - Al Jazeera - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-20T21:38:09Z",
       "decision": null
     }
   ]
