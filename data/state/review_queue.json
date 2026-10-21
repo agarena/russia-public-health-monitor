@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:49:22Z",
+  "updated_at": "2026-10-21T18:39:52Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9239,6 +9239,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-21T13:49:22Z",
+      "decision": null
+    },
+    {
+      "id": "p-6adafc9a18",
+      "raw_item": {
+        "item_id": "6adafc9a18487cea7c5ca2c5c6ff17833e0d6f41",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWtja0h3NDU2XzNOY3Y1dXRuZ0lsd1BKa05CaHBjU3VLSTdDcFJTaG1oYkpOUnNaTy1aVkJFQWZmMFFCRkhSQUJpV01nVS1qZGJIZ1g4Nm94MWI4a2lvNVpURXRVNE5ldUdLUTZPMlNMNVdtci10RExqVUk0TWZYSnpPZF9PMzEzS2NmOE9ET3VvNW4xQUd6MlBsdEhCUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTWtja0h3NDU2XzNOY3Y1dXRuZ0lsd1BKa05CaHBjU3VLSTdDcFJTaG1oYkpOUnNaTy1aVkJFQWZmMFFCRkhSQUJpV01nVS1qZGJIZ1g4Nm94MWI4a2lvNVpURXRVNE5ldUdLUTZPMlNMNVdtci10RExqVUk0TWZYSnpPZF9PMzEzS2NmOE9ET3VvNW4xQUd6MlBsdEhCUQ?oc=5",
+        "title": "Researcher at Russian plague research lab dies - CNN",
+        "summary": "Researcher at Russian plague research lab dies  CNN",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-21T18:39:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher at Russian plague research lab dies - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T18:39:52Z",
+      "decision": null
+    },
+    {
+      "id": "p-a812f048f1",
+      "raw_item": {
+        "item_id": "a812f048f19e5174caf5a95e589984f818b06b25",
+        "source_id": "src-nbc",
+        "publisher": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0hQRW5fZ3lpQ3IyTHB5dE1YN0RuZVo0WWh3WWtnei1qZDdxTUVnWmU0eXNTeVZMdm1TVXBiNTBPcWJEM09JWm1XV2h2NWtRTFptQmdtMGFlRkdMN3pvaXV1aklxeXZBQTdWRS1NWk56a0ZzczBqUjA0bGVMdlZoZ3owQUhmZklyVjUyd3Vrd2U1R0kwc3g3TkhWZW91UFBic2FNOV84SEI?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0hQRW5fZ3lpQ3IyTHB5dE1YN0RuZVo0WWh3WWtnei1qZDdxTUVnWmU0eXNTeVZMdm1TVXBiNTBPcWJEM09JWm1XV2h2NWtRTFptQmdtMGFlRkdMN3pvaXV1aklxeXZBQTdWRS1NWk56a0ZzczBqUjA0bGVMdlZoZ3owQUhmZklyVjUyd3Vrd2U1R0kwc3g3TkhWZW91UFBic2FNOV84SEI?oc=5",
+        "title": "Trump does not think Russian plague case is a bioweapon - NBC News",
+        "summary": "Trump does not think Russian plague case is a bioweapon  NBC News",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-21T18:39:45Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump does not think Russian plague case is a bioweapon - NBC News",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T18:39:52Z",
+      "decision": null
+    },
+    {
+      "id": "p-c8b9c4faef",
+      "raw_item": {
+        "item_id": "c8b9c4faef8260470646208ae38d45c8736079d0",
+        "source_id": "src-moscowtimes",
+        "publisher": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUU5lZ3NBT3gwRHBZOF84N3Z6U2dwMm5uTWlETlRlQkZLQ3NfVW1QbmZVVHN6U2xyQXlLaHJLXzEyRE1WNnJpVUJ0LXZiTUxXUUlDMFByS0VHTlM5STRxSW5zU1pYdWxjX2Q4Q2dJTTlBNTlFNlBZZVlKc2R3ZTNFQWlKSWVsT0lXLTBaOW42eDZab001Qm5DdlBJRXJEanJjQjEta1IwLUFLcExJSkowT29YQ3BxV1VsT2JrOUp3b080OGQzcFZHWDR2ZW9nRVhKY05IOVhxNTVscHc1M0RZ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUU5lZ3NBT3gwRHBZOF84N3Z6U2dwMm5uTWlETlRlQkZLQ3NfVW1QbmZVVHN6U2xyQXlLaHJLXzEyRE1WNnJpVUJ0LXZiTUxXUUlDMFByS0VHTlM5STRxSW5zU1pYdWxjX2Q4Q2dJTTlBNTlFNlBZZVlKc2R3ZTNFQWlKSWVsT0lXLTBaOW42eDZab001Qm5DdlBJRXJEanJjQjEta1IwLUFLcExJSkowT29YQ3BxV1VsT2JrOUp3b080OGQzcFZHWDR2ZW9nRVhKY05IOVhxNTVscHc1M0RZ?oc=5",
+        "title": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners - The Moscow Times",
+        "summary": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners  The Moscow Times",
+        "published_at": "2026-09-11T07:00:00+00:00",
+        "collected_at": "2026-10-21T18:39:46Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Siberia’s Irkutsk Region Offers Military Recruiters Record $18K Commission for Enlisting Foreigners - The Moscow Times",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T18:39:52Z",
       "decision": null
     }
   ]
