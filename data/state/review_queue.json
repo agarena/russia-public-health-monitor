@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T21:38:09Z",
+  "updated_at": "2026-10-21T00:37:51Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9063,6 +9063,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-20T21:38:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-ce975fc428",
+      "raw_item": {
+        "item_id": "ce975fc4285cece8a0ea5add0852a494641c650d",
+        "source_id": "src-irk-gov",
+        "publisher": "Открытое Правительство Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLZldtY1o2SDlodVBYVkd4OFVsTzlpMUZtVF8wOWQzTVVRS2pCVVB0QzE5X2loQTExY1BqXzJpX3ZlU3E5cWxWcnBIbXdaRFI3V3hlQ09WOE9oTUdH?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLZldtY1o2SDlodVBYVkd4OFVsTzlpMUZtVF8wOWQzTVVRS2pCVVB0QzE5X2loQTExY1BqXzJpX3ZlU3E5cWxWcnBIbXdaRFI3V3hlQ09WOE9oTUdH?oc=5",
+        "title": "Лента событий министерств - Открытое Правительство Иркутской области",
+        "summary": "Лента событий министерств  Открытое Правительство Иркутской области",
+        "published_at": "2026-10-18T16:00:00+00:00",
+        "collected_at": "2026-10-21T00:37:48Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Лента событий министерств - Открытое Правительство Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T00:37:51Z",
+      "decision": null
+    },
+    {
+      "id": "p-dcd6483162",
+      "raw_item": {
+        "item_id": "dcd6483162a05b3ccb118782e9a2967daf3e470f",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVBEdWRtWmQ4QXNPMjJLT1gxNVhhYmFyRm45X3ljX3p2di1QTlg3aDNUWldXOUhCV2xUbi1ETk1oWHFvQWQzWm5rOGxNRG9Bc25wOGpnRncycGIxNk5UOTZvTlRUTmZmbnplMFJZV1NZRXdZeTVOTDlJWEtrdGEteE1Rcy1FWDJNLUozUzJlU0UzbGZJenVF?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVBEdWRtWmQ4QXNPMjJLT1gxNVhhYmFyRm45X3ljX3p2di1QTlg3aDNUWldXOUhCV2xUbi1ETk1oWHFvQWQzWm5rOGxNRG9Bc25wOGpnRncycGIxNk5UOTZvTlRUTmZmbnplMFJZV1NZRXdZeTVOTDlJWEtrdGEteE1Rcy1FWDJNLUozUzJlU0UzbGZJenVF?oc=5",
+        "title": "Researcher at Russian plague lab dies of unknown infection - CNN",
+        "summary": "Researcher at Russian plague lab dies of unknown infection  CNN",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-21T00:37:48Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Researcher at Russian plague lab dies of unknown infection - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T00:37:51Z",
       "decision": null
     }
   ]
