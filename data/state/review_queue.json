@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T00:37:51Z",
+  "updated_at": "2026-10-21T07:40:27Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9121,6 +9121,95 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-21T00:37:51Z",
+      "decision": null
+    },
+    {
+      "id": "p-7747ef2101",
+      "raw_item": {
+        "item_id": "7747ef21010abc5f6fa2de6f04802a7643be5742",
+        "source_id": "src-who",
+        "publisher": "World Health Organization (WHO)",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OUWcyUTBCSWhybENiNDl4MVctY0JoUzBRQm9HS3dQNUNpV3VTWVN4dWZEU2g1MjY2Qm5sc3lGcVMyTUh0V05FcnNZRm82aTlIaGxHTld3em1CQUlDUzhnR2VFVVNyZw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5OUWcyUTBCSWhybENiNDl4MVctY0JoUzBRQm9HS3dQNUNpV3VTWVN4dWZEU2g1MjY2Qm5sc3lGcVMyTUh0V05FcnNZRm82aTlIaGxHTld3em1CQUlDUzhnR2VFVVNyZw?oc=5",
+        "title": "Plague - World Health Organization (WHO)",
+        "summary": "Plague  World Health Organization (WHO)",
+        "published_at": "2026-09-29T07:00:00+00:00",
+        "collected_at": "2026-10-21T07:40:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Plague - World Health Organization (WHO)",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T07:40:27Z",
+      "decision": null
+    },
+    {
+      "id": "p-be1b925009",
+      "raw_item": {
+        "item_id": "be1b925009cdc7cde28a6da6e4e8c00abbe30bc4",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWU5jM1dEMmdqSGFpeEJGVFdpYU9lOVRYQm9YNHRYSVlfZ0d6eHNlZERyVjJSSVBJRXZsVTQ3emttc3BjaGlNV0hiS1dqNkRfODBWQjBaZ1lZUW03U3RnMXhOZkRXNGFlVTlYQUdMWUVJMVFCMTFEc2dycmxQWkZPQ0FSVk9lRUtGaTNFWFdnbTgyZUZCQlpwSEdXWlh0Q0J1SDJWUVNxZGVUbEY0dHM0aVJkNHA1TnFlT1Bldk1VV3ZZMTNN?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWU5jM1dEMmdqSGFpeEJGVFdpYU9lOVRYQm9YNHRYSVlfZ0d6eHNlZERyVjJSSVBJRXZsVTQ3emttc3BjaGlNV0hiS1dqNkRfODBWQjBaZ1lZUW03U3RnMXhOZkRXNGFlVTlYQUdMWUVJMVFCMTFEc2dycmxQWkZPQ0FSVk9lRUtGaTNFWFdnbTgyZUZCQlpwSEdXWlh0Q0J1SDJWUVNxZGVUbEY0dHM0aVJkNHA1TnFlT1Bldk1VV3ZZMTNN?oc=5",
+        "title": "Russia denies imposing anti-plague measures after lab worker death - Al Jazeera - Al Jazeera",
+        "summary": "Russia denies imposing anti-plague measures after lab worker death - Al Jazeera  Al Jazeera",
+        "published_at": "2026-10-06T21:52:41+00:00",
+        "collected_at": "2026-10-21T07:40:25Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia denies imposing anti-plague measures after lab worker death - Al Jazeera - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [
+        "r-sig-024"
+      ],
+      "proposed_at": "2026-10-21T07:40:27Z",
+      "decision": null
+    },
+    {
+      "id": "p-a6c6c9089f",
+      "raw_item": {
+        "item_id": "a6c6c9089fa30545fd3d667c1add8d06f0149122",
+        "source_id": "src-mailru-science",
+        "publisher": "Наука Mail",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbFM2MEw5TWZUQi1UeHJNbHdKZ0plMGN0VkFkaElKbjZISDZJbFl3OE44QzRqeDU5cFJtZC1QX2FuSDlLN0pkZUVDOEgxd1BJWUlfaXFqNTFnWkxXNVRhbHVKcEdXNDRYb0hNbnpBVENwdmJDSmRaeFpnR0M0bk5wd0N0Zk1WWXM3M2t5OG00NjExYnc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbFM2MEw5TWZUQi1UeHJNbHdKZ0plMGN0VkFkaElKbjZISDZJbFl3OE44QzRqeDU5cFJtZC1QX2FuSDlLN0pkZUVDOEgxd1BJWUlfaXFqNTFnWkxXNVRhbHVKcEdXNDRYb0hNbnpBVENwdmJDSmRaeFpnR0M0bk5wd0N0Zk1WWXM3M2t5OG00NjExYnc?oc=5",
+        "title": "Ученые выяснили, как чума XIV века повлияла на разнообразие растений - Наука Mail",
+        "summary": "Ученые выяснили, как чума XIV века повлияла на разнообразие растений  Наука Mail",
+        "published_at": "2026-10-21T06:00:22+00:00",
+        "collected_at": "2026-10-21T07:40:26Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Ученые выяснили, как чума XIV века повлияла на разнообразие растений - Наука Mail",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T07:40:27Z",
       "decision": null
     }
   ]
