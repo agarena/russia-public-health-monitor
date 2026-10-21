@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T07:40:27Z",
+  "updated_at": "2026-10-21T13:49:22Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9210,6 +9210,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-21T07:40:27Z",
+      "decision": null
+    },
+    {
+      "id": "p-ad871274dc",
+      "raw_item": {
+        "item_id": "ad871274dca93c6b2ff0bc7ee169800d6c8aaf59",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/economy/2205279",
+        "url_canonical": "https://tass.com/economy/2205279",
+        "title": "Russia, China to reach commercial agreements on Power of Baikal by end-2026 — Novak",
+        "summary": "The Power of Baikal is the new name of Power of Siberia 2 pipeline",
+        "published_at": "2026-10-21T10:13:02+00:00",
+        "collected_at": "2026-10-21T13:49:15Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Russia, China to reach commercial agreements on Power of Baikal by end-2026 — Novak",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-21T13:49:22Z",
       "decision": null
     }
   ]
