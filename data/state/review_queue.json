@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T17:11:25Z",
+  "updated_at": "2026-10-22T21:36:42Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9529,6 +9529,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-22T11:53:54Z",
+      "decision": null
+    },
+    {
+      "id": "p-25aeab78b6",
+      "raw_item": {
+        "item_id": "25aeab78b6e64162b60eb37c6875deac6a882623",
+        "source_id": "src-irk-gov",
+        "publisher": "Открытое Правительство Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YRUFMTmdiNmVKalcwVWd0T09fRURYLUhqQ3VWa1BTczFwXzRGRHhVZGIzaGxDc3NhaVVkaEwwMF9vSzY4TVVuaUlOanhJWDFwcW02cFNLTEttWmM?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YRUFMTmdiNmVKalcwVWd0T09fRURYLUhqQ3VWa1BTczFwXzRGRHhVZGIzaGxDc3NhaVVkaEwwMF9vSzY4TVVuaUlOanhJWDFwcW02cFNLTEttWmM?oc=5",
+        "title": "Открытое Правительство Иркутской области - Открытое Правительство Иркутской области",
+        "summary": "Открытое Правительство Иркутской области  Открытое Правительство Иркутской области",
+        "published_at": "2026-10-20T07:00:00+00:00",
+        "collected_at": "2026-10-22T21:36:40Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Открытое Правительство Иркутской области - Открытое Правительство Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-22T21:36:42Z",
       "decision": null
     }
   ]
