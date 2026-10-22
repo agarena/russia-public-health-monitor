@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:20:33Z",
+  "updated_at": "2026-10-22T04:47:29Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9326,6 +9326,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-21T18:39:52Z",
+      "decision": null
+    },
+    {
+      "id": "p-9e5791e6d4",
+      "raw_item": {
+        "item_id": "9e5791e6d4c3603375cbce67a89811e7e0e458e0",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wbUJ3OHZUT2pJb1JJUXFIMmFjeFlXdmUzMW5GT3cxX0ZBX05FZENla0Y1ZVVIX2RBOFpKNTJjLXQ3QWJENV9jYXYzNmJDUnpJdUFMM1RFVWVwemRCLUpiZWp1dmpXSHc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4wbUJ3OHZUT2pJb1JJUXFIMmFjeFlXdmUzMW5GT3cxX0ZBX05FZENla0Y1ZVVIX2RBOFpKNTJjLXQ3QWJENV9jYXYzNmJDUnpJdUFMM1RFVWVwemRCLUpiZWp1dmpXSHc?oc=5",
+        "title": "'Lives at serious risk’ as power outages plague Gaza's hospitals - Reuters",
+        "summary": "'Lives at serious risk’ as power outages plague Gaza's hospitals  Reuters",
+        "published_at": "2026-09-10T07:00:00+00:00",
+        "collected_at": "2026-10-22T04:47:22Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "'Lives at serious risk’ as power outages plague Gaza's hospitals - Reuters",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-22T04:47:29Z",
+      "decision": null
+    },
+    {
+      "id": "p-18d32787d2",
+      "raw_item": {
+        "item_id": "18d32787d2e437918e16b8c52af3b0c5037b6979",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRmM4ZnlHTi1VdEZYSld0dk12bkhZU0VKWGRsODlPZE55TXVSa0JMbG5HM3RqUDNkbnMyOTVYaHdCRzhoMzdhejdld0hobEh2STNsR2tCSEh3dThRRk1JRVhrdEFjNkdMaVJKNllmZkFjSGU5bUJUTzlMOUVUZUJfMlhUN01Sdk5NUGpBYlJYV3pzRmxlLWhfTk5CM3dyNllEQThFeUkyWENtcmJQX05HSC1YaFhrTlhFZi1XUk9R0gHDAUFVX3lxTFBYX05tUEVaYTFydlJjX0h2Z0Y5MndURlVldjNnbG8tYWpTMUlEQ0MzN0o4bWxVZFZrTVlwbE1jbkNDRHl5TWoyRGRWTGd5U0tXSjRCN2RrbGtrNWFqakdoX0hjQktTYUJxM1lPYnhVXzROVVB2eUtKa3premc0MnF6YW1GczlscThfaDh5bVBXRmxRTWZ0QU1DYnA2d2dKbkVtcml4NWZsNjdyRjlhZkhvQi0tVUMydzQtX2pFWGdSaWE0cw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRmM4ZnlHTi1VdEZYSld0dk12bkhZU0VKWGRsODlPZE55TXVSa0JMbG5HM3RqUDNkbnMyOTVYaHdCRzhoMzdhejdld0hobEh2STNsR2tCSEh3dThRRk1JRVhrdEFjNkdMaVJKNllmZkFjSGU5bUJUTzlMOUVUZUJfMlhUN01Sdk5NUGpBYlJYV3pzRmxlLWhfTk5CM3dyNllEQThFeUkyWENtcmJQX05HSC1YaFhrTlhFZi1XUk9R0gHDAUFVX3lxTFBYX05tUEVaYTFydlJjX0h2Z0Y5MndURlVldjNnbG8tYWpTMUlEQ0MzN0o4bWxVZFZrTVlwbE1jbkNDRHl5TWoyRGRWTGd5U0tXSjRCN2RrbGtrNWFqakdoX0hjQktTYUJxM1lPYnhVXzROVVB2eUtKa3premc0MnF6YW1GczlscThfaDh5bVBXRmxRTWZ0QU1DYnA2d2dKbkVtcml4NWZsNjdyRjlhZkhvQi0tVUMydzQtX2pFWGdSaWE0cw?oc=5",
+        "title": "Food affordability fears plague Gaza as Israel halts commercial goods - Al Jazeera",
+        "summary": "Food affordability fears plague Gaza as Israel halts commercial goods  Al Jazeera",
+        "published_at": "2026-10-16T20:48:13+00:00",
+        "collected_at": "2026-10-22T04:47:23Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Food affordability fears plague Gaza as Israel halts commercial goods - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-22T04:47:29Z",
       "decision": null
     }
   ]
