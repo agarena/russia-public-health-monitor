@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:23:00Z",
+  "updated_at": "2026-10-23T23:09:41Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9703,6 +9703,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-23T13:27:54Z",
+      "decision": null
+    },
+    {
+      "id": "p-40c49ec058",
+      "raw_item": {
+        "item_id": "40c49ec0583a2dc46ef83d72ccf888e21c397841",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkZQbXp1TGpsaWRBQldCVFhFSzVGankwSG55ZDlGZC1Mb3RqR3FxN2x4TGJ2Mmg0WlZCcnNxMFpySWVMLVh0SFRCcEEzSW1ZdEtoYTZEV0doN2V6TnJna2ZzV3AwRVZHcDU5Wk1pUExNMTFfNWxDc2hrUTVsc2hTbnNaaWlOZngwM2F6SHRDUXFZN0k3b3NSMmo4MzB2VUhqM3ROZ185aG9mS2RYNTJHLWYzSTJMWm1yNHlFWUkzS2tDUTQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkZQbXp1TGpsaWRBQldCVFhFSzVGankwSG55ZDlGZC1Mb3RqR3FxN2x4TGJ2Mmg0WlZCcnNxMFpySWVMLVh0SFRCcEEzSW1ZdEtoYTZEV0doN2V6TnJna2ZzV3AwRVZHcDU5Wk1pUExNMTFfNWxDc2hrUTVsc2hTbnNaaWlOZngwM2F6SHRDUXFZN0k3b3NSMmo4MzB2VUhqM3ROZ185aG9mS2RYNTJHLWYzSTJMWm1yNHlFWUkzS2tDUTQ?oc=5",
+        "title": "Trump says US ready to aid Russia with plague outbreak in Siberia - Al Jazeera - Al Jazeera",
+        "summary": "Trump says US ready to aid Russia with plague outbreak in Siberia - Al Jazeera  Al Jazeera",
+        "published_at": "2026-10-05T22:34:18+00:00",
+        "collected_at": "2026-10-23T23:09:36Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says US ready to aid Russia with plague outbreak in Siberia - Al Jazeera - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-23T23:09:41Z",
       "decision": null
     }
   ]
