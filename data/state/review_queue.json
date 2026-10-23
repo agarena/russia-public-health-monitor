@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T00:40:57Z",
+  "updated_at": "2026-10-23T07:33:31Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9558,6 +9558,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-22T21:36:42Z",
+      "decision": null
+    },
+    {
+      "id": "p-db9d3a6484",
+      "raw_item": {
+        "item_id": "db9d3a64847ff13650f5efa382ca16d15d0f78cc",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/economy/2206669",
+        "url_canonical": "https://tass.com/economy/2206669",
+        "title": "Siberian linguists find specific word perception in different peoples",
+        "summary": "Linguists at the Tomsk State University studied the sensory experience reflection in meanings of Russian and Khakass words",
+        "published_at": "2026-10-23T06:59:27+00:00",
+        "collected_at": "2026-10-23T07:33:27Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Siberian linguists find specific word perception in different peoples",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-23T07:33:31Z",
+      "decision": null
+    },
+    {
+      "id": "p-2260d99fe3",
+      "raw_item": {
+        "item_id": "2260d99fe316df95733d1fe0d68d71290a16a24b",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUFNU1NsWnNKTVlBcWNkQ0VoMlVCQWtGOC1sY3JQS0l3azRhZmhxTXNxSHlnLWw0QVJfcHdONHMtNUlPM3J3LXlIMHIzR0xJTE40NklfWGpidkQwSXlyUXdUamFSSjZhOEhpM0JvRDRfMTZFNXEyWlA3YXUxN3Q1R0c5VzhENmQ3UDNQLW5VZmtzbWpacE0yQ2tpSGpJTTJkQ0RGczZXQ2JwakhFSkc3WFVyMG41YmpXR2JvTEVLbXM?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQUFNU1NsWnNKTVlBcWNkQ0VoMlVCQWtGOC1sY3JQS0l3azRhZmhxTXNxSHlnLWw0QVJfcHdONHMtNUlPM3J3LXlIMHIzR0xJTE40NklfWGpidkQwSXlyUXdUamFSSjZhOEhpM0JvRDRfMTZFNXEyWlA3YXUxN3Q1R0c5VzhENmQ3UDNQLW5VZmtzbWpacE0yQ2tpSGpJTTJkQ0RGczZXQ2JwakhFSkc3WFVyMG41YmpXR2JvTEVLbXM?oc=5",
+        "title": "Конференцию о чуме, которую организует иркутский противочумный институт, перенесли - Люди Байкала",
+        "summary": "Конференцию о чуме, которую организует иркутский противочумный институт, перенесли  Люди Байкала",
+        "published_at": "2026-10-23T05:33:48+00:00",
+        "collected_at": "2026-10-23T07:33:26Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Конференцию о чуме, которую организует иркутский противочумный институт, перенесли - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-23T07:33:31Z",
       "decision": null
     }
   ]
