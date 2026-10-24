@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T15:57:58Z",
+  "updated_at": "2026-10-24T18:47:58Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9761,6 +9761,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-24T15:57:58Z",
+      "decision": null
+    },
+    {
+      "id": "p-652c003078",
+      "raw_item": {
+        "item_id": "652c003078ac7aa7c0702545b2948a725410e6e2",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUeUh5NlNwMU9DMi1LTmxiT0phRlY4RGNibDNCTk5rbl9weEg1dVFrQnlENUZILWF2Mjk3M0NET0twNHZfX2pnM0UwYmtoOG9jeFVpR0NObTJOQXgyMEdJUjlyVDdOazBaSWM2YWZCVlVjMjdxb01N?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUeUh5NlNwMU9DMi1LTmxiT0phRlY4RGNibDNCTk5rbl9weEg1dVFrQnlENUZILWF2Mjk3M0NET0twNHZfX2pnM0UwYmtoOG9jeFVpR0NObTJOQXgyMEdJUjlyVDdOazBaSWM2YWZCVlVjMjdxb01N?oc=5",
+        "title": "Портал деятельности НКО Иркутской области - Официальный портал Иркутской области",
+        "summary": "Портал деятельности НКО Иркутской области  Официальный портал Иркутской области",
+        "published_at": "2026-10-24T13:29:28+00:00",
+        "collected_at": "2026-10-24T18:47:53Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Портал деятельности НКО Иркутской области - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-24T18:47:58Z",
+      "decision": null
+    },
+    {
+      "id": "p-715beb7e06",
+      "raw_item": {
+        "item_id": "715beb7e06c3023638e1609710de48639a044bcd",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VQ2lhWUdlektRbXFMYWJTWG5OcEpwZG1ENk44OTY3RzdTTWo4N09RYWlJNmRrT2h5N3hIblJZY29YUU5MTU1ULU5iVTUxUkdLQm9VcXNXWlJkQXJzMEZTeDFnN3Y3Zk1BTE02ZA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VQ2lhWUdlektRbXFMYWJTWG5OcEpwZG1ENk44OTY3RzdTTWo4N09RYWlJNmRrT2h5N3hIblJZY29YUU5MTU1ULU5iVTUxUkdLQm9VcXNXWlJkQXJzMEZTeDFnN3Y3Zk1BTE02ZA?oc=5",
+        "title": "Новости службы ЗАГС - Официальный портал Иркутской области",
+        "summary": "Новости службы ЗАГС  Официальный портал Иркутской области",
+        "published_at": "2026-10-24T10:38:43+00:00",
+        "collected_at": "2026-10-24T18:47:53Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Новости службы ЗАГС - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-24T18:47:58Z",
+      "decision": null
+    },
+    {
+      "id": "p-6819a343c7",
+      "raw_item": {
+        "item_id": "6819a343c75ba76d2d3a18a2c033ae3b9855a586",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/emergencies/2207313",
+        "url_canonical": "https://tass.com/emergencies/2207313",
+        "title": "Ozon logistics center in Siberia’s Omsk comes under enemy attack",
+        "summary": "No one was injured, according to preliminary information",
+        "published_at": "2026-10-24T15:58:18+00:00",
+        "collected_at": "2026-10-24T18:47:55Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Ozon logistics center in Siberia’s Omsk comes under enemy attack",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-24T18:47:58Z",
       "decision": null
     }
   ]
