@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T11:01:36Z",
+  "updated_at": "2026-10-24T15:57:58Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9732,6 +9732,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-23T23:09:41Z",
+      "decision": null
+    },
+    {
+      "id": "p-9d40aaabb4",
+      "raw_item": {
+        "item_id": "9d40aaabb49bcb66380c825e25357df33f826a54",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/emergencies/2207297",
+        "url_canonical": "https://tass.com/emergencies/2207297",
+        "title": "Omsk northern industrial cluster in Russia’s Siberia comes under enemy drone attack",
+        "summary": "Emergency services are working at the scene, said Vitaly Khotsenko, the governor of the Siberian region",
+        "published_at": "2026-10-24T14:17:36+00:00",
+        "collected_at": "2026-10-24T15:57:48Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Omsk northern industrial cluster in Russia’s Siberia comes under enemy drone attack",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-24T15:57:58Z",
       "decision": null
     }
   ]
