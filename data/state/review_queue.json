@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:31:10Z",
+  "updated_at": "2026-10-25T16:20:34Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9877,6 +9877,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-24T22:29:20Z",
+      "decision": null
+    },
+    {
+      "id": "p-3429c315ca",
+      "raw_item": {
+        "item_id": "3429c315ca98d6e733b50b2a91ddb971702e9af6",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCcERmd3JaWGsxVU14RENYa3NCdXJmVFljd3JHaS1IMk1zbVZ1cWtFMEo5NllYd1NNRERac2VMSFFsYzRLOWlzeGJ6aUpzUmhVQ0NJNDNDRU9lOVpXa2F4RHJ1aEF4b2ZpT3QyMg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCcERmd3JaWGsxVU14RENYa3NCdXJmVFljd3JHaS1IMk1zbVZ1cWtFMEo5NllYd1NNRERac2VMSFFsYzRLOWlzeGJ6aUpzUmhVQ0NJNDNDRU9lOVpXa2F4RHJ1aEF4b2ZpT3QyMg?oc=5",
+        "title": "Новости - Официальный портал Иркутской области",
+        "summary": "Новости  Официальный портал Иркутской области",
+        "published_at": "2026-10-25T07:40:15+00:00",
+        "collected_at": "2026-10-25T16:20:32Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Новости - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-25T16:20:34Z",
+      "decision": null
+    },
+    {
+      "id": "p-132b3abee0",
+      "raw_item": {
+        "item_id": "132b3abee00a9b50c4f43a6b94c7054b3f9d3ee1",
+        "source_id": "src-reuters",
+        "publisher": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BMFBZMGdWRGlEeDB4Y3VGSzZmVXNOcU5ZRmNoQUJrRHpEcXhpbGZ0OHh2elMyckhMU2VXa3VFN1ozcFdrS1RacTk4anE4MWJ0MDNhZnc2cURUalBa?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BMFBZMGdWRGlEeDB4Y3VGSzZmVXNOcU5ZRmNoQUJrRHpEcXhpbGZ0OHh2elMyckhMU2VXa3VFN1ozcFdrS1RacTk4anE4MWJ0MDNhZnc2cURUalBa?oc=5",
+        "title": "Gossip sites and tabloids: WHO sparks Russian plague scare - Reuters",
+        "summary": "Gossip sites and tabloids: WHO sparks Russian plague scare  Reuters",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-10-25T16:20:31Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Gossip sites and tabloids: WHO sparks Russian plague scare - Reuters",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-25T16:20:34Z",
       "decision": null
     }
   ]
