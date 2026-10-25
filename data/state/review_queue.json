@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T16:20:34Z",
+  "updated_at": "2026-10-25T20:52:02Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9935,6 +9935,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-25T16:20:34Z",
+      "decision": null
+    },
+    {
+      "id": "p-a9a1bf45a4",
+      "raw_item": {
+        "item_id": "a9a1bf45a451533964cb06f4de3227cbe43608e0",
+        "source_id": "src-cbc",
+        "publisher": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHYnFuR1Y4MHI4RzVsbERuSHIzMDhWd1ZGcUJkT05odDdKVUI5bFI4czhGQmY5SWxrV2RreVI5NHNUYlRtOUZQWGhnQkVld29o?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHYnFuR1Y4MHI4RzVsbERuSHIzMDhWd1ZGcUJkT05odDdKVUI5bFI4czhGQmY5SWxrV2RreVI5NHNUYlRtOUZQWGhnQkVld29o?oc=5",
+        "title": "Trump says call scheduled with Putin to discuss possible plague death in Russia - CBC",
+        "summary": "Trump says call scheduled with Putin to discuss possible plague death in Russia  CBC",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-25T20:51:57Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump says call scheduled with Putin to discuss possible plague death in Russia - CBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-25T20:52:02Z",
       "decision": null
     }
   ]
