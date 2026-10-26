@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T20:52:02Z",
+  "updated_at": "2026-10-26T00:23:50Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9964,6 +9964,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-25T20:52:02Z",
+      "decision": null
+    },
+    {
+      "id": "p-cf639bd6e1",
+      "raw_item": {
+        "item_id": "cf639bd6e19839920e7e829dce203b1312a581bc",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTlI3OXhfSlB3Y1d1dkhjeGRybnllTG5raUkyOW1BVm1KdjdJMWthVFZ4aUwxMk1ZcTR1RnhhUnM5b3hZZGlLbUc5RThHS1o2OFcwblZxekpXWjR5UVFqZTRGbXhKMW5hRGdUM2tKeXBkcC0wYmxHMGhfQlBRSlFTTUxObw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTlI3OXhfSlB3Y1d1dkhjeGRybnllTG5raUkyOW1BVm1KdjdJMWthVFZ4aUwxMk1ZcTR1RnhhUnM5b3hZZGlLbUc5RThHS1o2OFcwblZxekpXWjR5UVFqZTRGbXhKMW5hRGdUM2tKeXBkcC0wYmxHMGhfQlBRSlFTTUxObw?oc=5",
+        "title": "Новости - Официальный портал Иркутской области",
+        "summary": "Новости  Официальный портал Иркутской области",
+        "published_at": "2026-10-25T11:07:47+00:00",
+        "collected_at": "2026-10-26T00:23:45Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Новости - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-26T00:23:50Z",
       "decision": null
     }
   ]
