@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T15:12:29Z",
+  "updated_at": "2026-10-26T21:01:29Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -9993,6 +9993,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-26T00:23:50Z",
+      "decision": null
+    },
+    {
+      "id": "p-396d65c41e",
+      "raw_item": {
+        "item_id": "396d65c41ef85915dbbcc2b601d2755b1aa95d1c",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc09KS2l1UEVQaWR2bFRHQnduM2ZkTWI5dElpQ09qT19zWFhHdVlKZUotVmhITUlIU0doQmRvZ0dURDBVY3BXQjJUSVFqWTc1QnlvTjRfcHdLRXlMc0x1UDhqcXpvWmV6bXRnRW1CQW50V1gxU1R0Q2RqcmQ4Z041U2NGUEw2c2l2QWNZSk13MVljaFpweXVNaEdwZzFyejY5MUN6OFFRUThtaGR1RDlj?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc09KS2l1UEVQaWR2bFRHQnduM2ZkTWI5dElpQ09qT19zWFhHdVlKZUotVmhITUlIU0doQmRvZ0dURDBVY3BXQjJUSVFqWTc1QnlvTjRfcHdLRXlMc0x1UDhqcXpvWmV6bXRnRW1CQW50V1gxU1R0Q2RqcmQ4Z041U2NGUEw2c2l2QWNZSk13MVljaFpweXVNaEdwZzFyejY5MUN6OFFRUThtaGR1RDlj?oc=5",
+        "title": "Dozens quarantined after plague lab researcher dies - CNN",
+        "summary": "Dozens quarantined after plague lab researcher dies  CNN",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-10-26T21:01:22Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dozens quarantined after plague lab researcher dies - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-26T21:01:29Z",
       "decision": null
     }
   ]
