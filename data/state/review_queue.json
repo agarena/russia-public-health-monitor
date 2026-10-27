@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:53:10Z",
+  "updated_at": "2026-10-27T14:32:35Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10051,6 +10051,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-27T07:53:10Z",
+      "decision": null
+    },
+    {
+      "id": "p-a7c2406e8b",
+      "raw_item": {
+        "item_id": "a7c2406e8b7e42204887a3dd06af29a86b707d2c",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QQkUtR3A0dWMxdjZiR0FlM0ZjYk1ncmsyVUd5TGZBb0FpbU1rbmdRZDB4Q0VjblRGQlBsN3VWOTVlQ1RzUVVCYVRBMzNRZ0xt?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QQkUtR3A0dWMxdjZiR0FlM0ZjYk1ncmsyVUd5TGZBb0FpbU1rbmdRZDB4Q0VjblRGQlBsN3VWOTVlQ1RzUVVCYVRBMzNRZ0xt?oc=5",
+        "title": "На автодороге Иркутск – Шелехов приступили к ремонту участка длиной шесть километров - Официальный портал Иркутской области",
+        "summary": "На автодороге Иркутск – Шелехов приступили к ремонту участка длиной шесть километров  Официальный портал Иркутской области",
+        "published_at": "2026-10-18T13:21:32+00:00",
+        "collected_at": "2026-10-27T14:32:30Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "На автодороге Иркутск – Шелехов приступили к ремонту участка длиной шесть километров - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-27T14:32:35Z",
       "decision": null
     }
   ]
