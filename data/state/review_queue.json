@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T01:29:21Z",
+  "updated_at": "2026-10-27T07:53:10Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10022,6 +10022,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-26T21:01:29Z",
+      "decision": null
+    },
+    {
+      "id": "p-a37ce3010c",
+      "raw_item": {
+        "item_id": "a37ce3010ca0f482d653006e637a5573654414eb",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGJMNWJCM2ZWMGtJTTdrblJud1ZuU0FyQTVlUjJvc2xDQlhGX2lObzZxX0FNMHlNcWFMV2phb2JyZ1NyMk03VXl1dlRXWXpWUC11eEdlV1F1US1URmM5d3owMnJOX1JPTk95RF9RZWttdkQtb3R4dGYwOG1MMU1Da1ZYeXY?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMGJMNWJCM2ZWMGtJTTdrblJud1ZuU0FyQTVlUjJvc2xDQlhGX2lObzZxX0FNMHlNcWFMV2phb2JyZ1NyMk03VXl1dlRXWXpWUC11eEdlV1F1US1URmM5d3owMnJOX1JPTk95RF9RZWttdkQtb3R4dGYwOG1MMU1Da1ZYeXY?oc=5",
+        "title": "Водитель сбил ребенка в Иркутской области - Люди Байкала",
+        "summary": "Водитель сбил ребенка в Иркутской области  Люди Байкала",
+        "published_at": "2026-09-22T07:00:00+00:00",
+        "collected_at": "2026-10-27T07:53:08Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Водитель сбил ребенка в Иркутской области - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-27T07:53:10Z",
       "decision": null
     }
   ]
