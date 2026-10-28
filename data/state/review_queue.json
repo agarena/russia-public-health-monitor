@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T01:23:11Z",
+  "updated_at": "2026-10-28T08:33:56Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10109,6 +10109,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-28T01:23:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-86f2b9e8f9",
+      "raw_item": {
+        "item_id": "86f2b9e8f9b1aae3c3b5b8ad7e7bf50c54f2b35a",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSDBHNjQwMGJsNkRzbHRKdEZHZ1RhdkN4bkxBOExrd3hVeU12SEF0T09NX3d2My0xc0llaFNHMDNqVUJCNlJJcFdwSmRWRG9OaVJSdnlrQ3VvamtkSVVzcFZIS1lfVFB1aGpEeUhlWUgzN1M2S2ljTkZtVExxSEc4MXBhdEpBbWVUV09qa1BFdWd6djY3VlNVNHdyLWRXZDZSaEdZV2xmaWs4ZU9Yb1YyUE5qYUxEY3fSAbwBQVVfeXFMTjdPNnNGYWtBWHJjWUlDdmcyUEdJbFJBVFYxczlJUllnWG1DUE5TTGFYb0cxNzN0bmliLXpGeWpCZ1AyLXpnQzJsYWo5ZG1zdzllVTVsMGp0cURSc3I5LVdfWmQyWVlIRkZPMGp0dXp1UHc5MUd6UnhEYldUcjloalhaUGlfWkZ2UlNETUZRaVdWcklGb0Zaei14Z3h2SW5oU1BUT0ZqWDJra01sa0p0S1o3SFl0TE9xMzFEa0s?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSDBHNjQwMGJsNkRzbHRKdEZHZ1RhdkN4bkxBOExrd3hVeU12SEF0T09NX3d2My0xc0llaFNHMDNqVUJCNlJJcFdwSmRWRG9OaVJSdnlrQ3VvamtkSVVzcFZIS1lfVFB1aGpEeUhlWUgzN1M2S2ljTkZtVExxSEc4MXBhdEpBbWVUV09qa1BFdWd6djY3VlNVNHdyLWRXZDZSaEdZV2xmaWs4ZU9Yb1YyUE5qYUxEY3fSAbwBQVVfeXFMTjdPNnNGYWtBWHJjWUlDdmcyUEdJbFJBVFYxczlJUllnWG1DUE5TTGFYb0cxNzN0bmliLXpGeWpCZ1AyLXpnQzJsYWo5ZG1zdzllVTVsMGp0cURSc3I5LVdfWmQyWVlIRkZPMGp0dXp1UHc5MUd6UnhEYldUcjloalhaUGlfWkZ2UlNETUZRaVdWcklGb0Zaei14Z3h2SW5oU1BUT0ZqWDJra01sa0p0S1o3SFl0TE9xMzFEa0s?oc=5",
+        "title": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo - Al Jazeera",
+        "summary": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo  Al Jazeera",
+        "published_at": "2026-10-25T18:26:02+00:00",
+        "collected_at": "2026-10-28T08:33:54Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-28T08:33:56Z",
       "decision": null
     }
   ]
