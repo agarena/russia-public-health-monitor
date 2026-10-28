@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T20:42:34Z",
+  "updated_at": "2026-10-28T01:23:11Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10080,6 +10080,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-27T14:32:35Z",
+      "decision": null
+    },
+    {
+      "id": "p-f0038fe892",
+      "raw_item": {
+        "item_id": "f0038fe8922ae0c57b4cf56e64416406d0a09bf5",
+        "source_id": "src-bbc",
+        "publisher": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xdUFMWFM1U3MxaHRYQURiRk5RVkNnTElrV2dHbFZDQnd1R1h5THlCallneWZ0dlAxUVByYWtHYXNBSGlhX2ZPZXNueEVqdWUx?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4xdUFMWFM1U3MxaHRYQURiRk5RVkNnTElrV2dHbFZDQnd1R1h5THlCallneWZ0dlAxUVByYWtHYXNBSGlhX2ZPZXNueEVqdWUx?oc=5",
+        "title": "Health Check | Should we be worried about the plague? - BBC",
+        "summary": "Health Check | Should we be worried about the plague?  BBC",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-10-28T01:23:07Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Health Check | Should we be worried about the plague? - BBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-28T01:23:11Z",
       "decision": null
     }
   ]
