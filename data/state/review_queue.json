@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T22:36:04Z",
+  "updated_at": "2026-10-29T05:49:29Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10138,6 +10138,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-28T08:33:56Z",
+      "decision": null
+    },
+    {
+      "id": "p-cfa2d721ec",
+      "raw_item": {
+        "item_id": "cfa2d721ecc38a2fd094687a8d013de50dcc7ff1",
+        "source_id": "src-rospotr",
+        "publisher": "Центр гигиенического образования населения",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa01xTzhOVmNHZFVpcVRVdmQxY2ZUcWxDSWxmU2FhWFR5aGYxOEpvNHdlYzJjeXI2RUpPUFIwQ0ZKSmlIWFQ0YzBoRWVEd2VxaWlKYldzUWN2QVFxX3FoT3hXNk5JOV9Ra2Rtb0hLcTFnWTB3TzJGUHBFX2xiOFlXZW82QVIzdmM?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa01xTzhOVmNHZFVpcVRVdmQxY2ZUcWxDSWxmU2FhWFR5aGYxOEpvNHdlYzJjeXI2RUpPUFIwQ0ZKSmlIWFQ0YzBoRWVEd2VxaWlKYldzUWN2QVFxX3FoT3hXNk5JOV9Ra2Rtb0hLcTFnWTB3TzJGUHBFX2xiOFlXZW82QVIzdmM?oc=5",
+        "title": "Профилактика пневмонии - Центр гигиенического образования населения",
+        "summary": "Профилактика пневмонии  Центр гигиенического образования населения",
+        "published_at": "2026-10-28T13:46:04+00:00",
+        "collected_at": "2026-10-29T05:49:23Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Профилактика пневмонии - Центр гигиенического образования населения",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-29T05:49:29Z",
+      "decision": null
+    },
+    {
+      "id": "p-10e4e4593e",
+      "raw_item": {
+        "item_id": "10e4e4593e8d6ec86e05b72cafbf68fe0d5140c7",
+        "source_id": "src-forbes",
+        "publisher": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOejZZZHFDaDBkWktEMVAtLVRxLUV6NzFwaDViZW1iOTRMSnpUTl9EcTM2eUdndkRJUWZ0TFROc0hZWXhPZVZqdnR6NmxmblJqUG56YkdzazhmNTZrMmxOdFpIbDlUVlRNU1plekZwRGVRWHRGQUluLUdqMGFpMEZuNVlqOFZKTnlNeUdyTjZYZjVRUk44TG11d3hHSUl1NEM5blRLMFBJNWZuN3Q0ajFPWV9qN0ZrTDJ5RlB2UnZsdHBJRTBpV3c?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOejZZZHFDaDBkWktEMVAtLVRxLUV6NzFwaDViZW1iOTRMSnpUTl9EcTM2eUdndkRJUWZ0TFROc0hZWXhPZVZqdnR6NmxmblJqUG56YkdzazhmNTZrMmxOdFpIbDlUVlRNU1plekZwRGVRWHRGQUluLUdqMGFpMEZuNVlqOFZKTnlNeUdyTjZYZjVRUk44TG11d3hHSUl1NEM5blRLMFBJNWZuN3Q0ajFPWV9qN0ZrTDJ5RlB2UnZsdHBJRTBpV3c?oc=5",
+        "title": "'The Social Reckoning' Proves 'The Facebook Files' Plague Meta - Forbes",
+        "summary": "'The Social Reckoning' Proves 'The Facebook Files' Plague Meta  Forbes",
+        "published_at": "2026-10-10T07:00:00+00:00",
+        "collected_at": "2026-10-29T05:49:29Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "'The Social Reckoning' Proves 'The Facebook Files' Plague Meta - Forbes",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-29T05:49:29Z",
       "decision": null
     }
   ]
