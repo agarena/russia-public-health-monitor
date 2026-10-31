@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T12:31:04Z",
+  "updated_at": "2026-10-31T18:34:22Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10315,6 +10315,35 @@
       "proposed_at": "2026-10-30T05:50:10Z",
       "decision": null,
       "duplicate_of_proposal": "p-9c1ac926a0"
+    },
+    {
+      "id": "p-1d7f5209bc",
+      "raw_item": {
+        "item_id": "1d7f5209bcae65754ca084ef99a60f4e2020e69c",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeTdPSTVWSzRnYU4wWV9yZy15MTRCT19WT3lNM1lFZDc1NFZpemh3OHhyd2VJbG9MZ3AtRXBDdndmWmhpWVl4Nmdmd3VoVnN2bFQyVmtfdDNvSXI5T3JXM0dNdDRBTGRkTjhLc0lzcDM0d0sxTFZ1ZzhsSVRka2dXTlVBT2JkM3NwNWl6UlB2V0M3bzRaU0V0MVZMSlAwdHFpN05hSldkV1I0NmVLV0JnSEphdWptRTVTeks0?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeTdPSTVWSzRnYU4wWV9yZy15MTRCT19WT3lNM1lFZDc1NFZpemh3OHhyd2VJbG9MZ3AtRXBDdndmWmhpWVl4Nmdmd3VoVnN2bFQyVmtfdDNvSXI5T3JXM0dNdDRBTGRkTjhLc0lzcDM0d0sxTFZ1ZzhsSVRka2dXTlVBT2JkM3NwNWl6UlB2V0M3bzRaU0V0MVZMSlAwdHFpN05hSldkV1I0NmVLV0JnSEphdWptRTVTeks0?oc=5",
+        "title": "Здание Противочумного института готовят к реконструкции на средства Минобороны - Люди Байкала",
+        "summary": "Здание Противочумного института готовят к реконструкции на средства Минобороны  Люди Байкала",
+        "published_at": "2026-10-31T10:17:10+00:00",
+        "collected_at": "2026-10-31T18:34:18Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Здание Противочумного института готовят к реконструкции на средства Минобороны - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-10-31T18:34:22Z",
+      "decision": null
     }
   ]
 }
