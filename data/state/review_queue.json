@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T23:24:19Z",
+  "updated_at": "2026-11-01T06:06:17Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10343,6 +10343,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-10-31T18:34:22Z",
+      "decision": null
+    },
+    {
+      "id": "p-031a6f340a",
+      "raw_item": {
+        "item_id": "031a6f340abd0fa5d027321c28d21393c9b13e5c",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWpHUlhZT3k1aTNBWC1rNVBSQnZvSEN0Nm5lYkh1QlVGN19nVTBIZWlwVENfSlF5QUdETFNnWWlWWXlIZkJkdzl1QWlYMEdOZjJHQkthdlY0Y2tFaTlrXzYzdzljQ0tJN3piSk12WW1OVXhVelFVQUZDMnliOTBiUmxmbmpoSzJrcTMtdE04MzFWQnB5aTRONFg3MUJaWnlDcEVrUUVoeEJkZGE0Z1dyRUtBcmpJZUtCNDE4?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWpHUlhZT3k1aTNBWC1rNVBSQnZvSEN0Nm5lYkh1QlVGN19nVTBIZWlwVENfSlF5QUdETFNnWWlWWXlIZkJkdzl1QWlYMEdOZjJHQkthdlY0Y2tFaTlrXzYzdzljQ0tJN3piSk12WW1OVXhVelFVQUZDMnliOTBiUmxmbmpoSzJrcTMtdE04MzFWQnB5aTRONFg3MUJaWnlDcEVrUUVoeEJkZGE0Z1dyRUtBcmpJZUtCNDE4?oc=5",
+        "title": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+        "summary": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader  The Indian Express",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-11-01T06:06:13Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Plague scare in Russia, tourism season in Goa, and a screening demand from opposition leader - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-01T06:06:17Z",
       "decision": null
     }
   ]
