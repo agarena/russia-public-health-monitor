@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:06:17Z",
+  "updated_at": "2026-11-01T13:25:36Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10372,6 +10372,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-01T06:06:17Z",
+      "decision": null
+    },
+    {
+      "id": "p-bef0c62cb3",
+      "raw_item": {
+        "item_id": "bef0c62cb3c3666b5effc3b5994df67c2591eca7",
+        "source_id": "src-rospotr",
+        "publisher": "Управление Роспотребнадзора по городу Москве",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQa2pKeHFLYm4yLUhVaGx3bmJsMGhZYWZ6eXdhbmVwWnd0elBOQ1FoeTV2VFZBV3pjeVMxUnRpanQtN25NQXdpR2lDNnRNSnd4Qk9feGNsLWF1ZHc0aGh3MExJSnNVMGtmS0lRVmtjYTF0dUNtRlBLcTJySHp3UHBoU0Z2bWYzRmFTMFRBT2hlWHdWVkpPZ0ZlQ1hZdEZ5NHZhRWdPdnF0ZTlrY3hWNG1nWFpWT3pISGdsbG9nQzdiZl85emp1UFVPRjduVEVqM1FXYXRMNmh3S3VxOWVwaHJDSGh0TEJCeXZacWw3Wg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQa2pKeHFLYm4yLUhVaGx3bmJsMGhZYWZ6eXdhbmVwWnd0elBOQ1FoeTV2VFZBV3pjeVMxUnRpanQtN25NQXdpR2lDNnRNSnd4Qk9feGNsLWF1ZHc0aGh3MExJSnNVMGtmS0lRVmtjYTF0dUNtRlBLcTJySHp3UHBoU0Z2bWYzRmFTMFRBT2hlWHdWVkpPZ0ZlQ1hZdEZ5NHZhRWdPdnF0ZTlrY3hWNG1nWFpWT3pISGdsbG9nQzdiZl85emp1UFVPRjduVEVqM1FXYXRMNmh3S3VxOWVwaHJDSGh0TEJCeXZacWw3Wg?oc=5",
+        "title": "Топ-5 опасных осложнений гриппа и важность своевременной вакцинации - Управление Роспотребнадзора по городу Москве",
+        "summary": "Топ-5 опасных осложнений гриппа и важность своевременной вакцинации  Управление Роспотребнадзора по городу Москве",
+        "published_at": "2026-11-01T02:50:58+00:00",
+        "collected_at": "2026-11-01T13:25:29Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Топ-5 опасных осложнений гриппа и важность своевременной вакцинации - Управление Роспотребнадзора по городу Москве",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-01T13:25:36Z",
+      "decision": null
+    },
+    {
+      "id": "p-724c35d396",
+      "raw_item": {
+        "item_id": "724c35d3969bece388d4008c60e98a15cbf8b740",
+        "source_id": "src-rospotr",
+        "publisher": "Rospotrebnadzor.ru",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxeU1NMEZBYl94dDgwSUMtdWR6WVYyRmdDNm9IRFpRbWhfUHNmbEd6bTdmMHJyaXZKX2E2V2xsVlhvVVNYMTM3ekFncmduZkJnSHFCQkt5TzVyTXV5V1diRQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxeU1NMEZBYl94dDgwSUMtdWR6WVYyRmdDNm9IRFpRbWhfUHNmbEd6bTdmMHJyaXZKX2E2V2xsVlhvVVNYMTM3ekFncmduZkJnSHFCQkt5TzVyTXV5V1diRQ?oc=5",
+        "title": "Пресс-центр -Пресс-релизы -5 самых опасных осложнений гриппа - Rospotrebnadzor.ru",
+        "summary": "Пресс-центр -Пресс-релизы -5 самых опасных осложнений гриппа  Rospotrebnadzor.ru",
+        "published_at": "2026-11-01T07:20:01+00:00",
+        "collected_at": "2026-11-01T13:25:29Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Пресс-центр -Пресс-релизы -5 самых опасных осложнений гриппа - Rospotrebnadzor.ru",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-01T13:25:36Z",
       "decision": null
     }
   ]
