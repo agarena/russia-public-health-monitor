@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:04:17Z",
+  "updated_at": "2026-11-02T15:54:31Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10430,6 +10430,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-01T13:25:36Z",
+      "decision": null
+    },
+    {
+      "id": "p-26a9d38dfb",
+      "raw_item": {
+        "item_id": "26a9d38dfb75ef679c01dd2a4404aafb3ae70aa8",
+        "source_id": "src-tass-en",
+        "publisher": "TASS (English)",
+        "url": "https://tass.com/economy/2211905",
+        "url_canonical": "https://tass.com/economy/2211905",
+        "title": "Gazprom sets new record for daily gas supplies to China via Power of Siberia pipeline",
+        "summary": "Previously, Russian Deputy Prime Minister Alexander Novak stated that Russia would supply 39 bln cubic meters of gas to China this year via the Power of Siberia pipeline",
+        "published_at": "2026-11-02T12:01:09+00:00",
+        "collected_at": "2026-11-02T15:54:29Z",
+        "language": "en",
+        "relay": false,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Gazprom sets new record for daily gas supplies to China via Power of Siberia pipeline",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-02T15:54:31Z",
       "decision": null
     }
   ]
