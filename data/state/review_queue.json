@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T15:54:31Z",
+  "updated_at": "2026-11-02T23:30:49Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10459,6 +10459,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-02T15:54:31Z",
+      "decision": null
+    },
+    {
+      "id": "p-b42b65cdcb",
+      "raw_item": {
+        "item_id": "b42b65cdcbe7e6ac2ac665f73e16e09b09a8bbd2",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYU53d1JWY0UzZlJrQlloejFrUnVaSzFpX0xBdVc1N1NxSGJvbC04cVduUkJ6d2lDZ3lMRS0wTml6R1pMaFRjVHRLTVNRQzN1UTQ2amJTVGhhWW1uUTUzMkVsYzhOWDhpRm1SN1dBLW1MMHFUYmdxQ21JRENJN3RSTGNCN0xmM0N2T0ozNHlGTHIwOXAwMm9ZS0duUTdHOXpUUkJaTmlqZGEyUlY2TXV5ZXY3cHg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYU53d1JWY0UzZlJrQlloejFrUnVaSzFpX0xBdVc1N1NxSGJvbC04cVduUkJ6d2lDZ3lMRS0wTml6R1pMaFRjVHRLTVNRQzN1UTQ2amJTVGhhWW1uUTUzMkVsYzhOWDhpRm1SN1dBLW1MMHFUYmdxQ21JRENJN3RSTGNCN0xmM0N2T0ozNHlGTHIwOXAwMm9ZS0duUTdHOXpUUkJaTmlqZGEyUlY2TXV5ZXY3cHg?oc=5",
+        "title": "Russian lab worker dies of suspected plague in Siberia; US monitoring case - Al Jazeera",
+        "summary": "Russian lab worker dies of suspected plague in Siberia; US monitoring case  Al Jazeera",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-11-02T23:30:44Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian lab worker dies of suspected plague in Siberia; US monitoring case - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-02T23:30:49Z",
       "decision": null
     }
   ]
