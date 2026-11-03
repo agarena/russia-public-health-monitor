@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T23:30:49Z",
+  "updated_at": "2026-11-03T06:48:46Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10488,6 +10488,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-02T23:30:49Z",
+      "decision": null
+    },
+    {
+      "id": "p-9229b97c7b",
+      "raw_item": {
+        "item_id": "9229b97c7b57dec1a2df0ff1ecfab9ffa57efeab",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83dm94aU1FWnpDNWxiRU9DelBSVzI1dG1TQVpsMzNFUDlMcER3bWRlRUlyQXhucUhsUWQ0Um5NRUhEWVd4X0E?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE83dm94aU1FWnpDNWxiRU9DelBSVzI1dG1TQVpsMzNFUDlMcER3bWRlRUlyQXhucUhsUWQ0Um5NRUhEWVd4X0E?oc=5",
+        "title": "В Шелехове провели капитальный ремонт в двух объектах культуры по нацпроекту «Семья» - Официальный портал Иркутской области",
+        "summary": "В Шелехове провели капитальный ремонт в двух объектах культуры по нацпроекту «Семья»  Официальный портал Иркутской области",
+        "published_at": "2026-10-20T07:35:54+00:00",
+        "collected_at": "2026-11-03T06:48:44Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "В Шелехове провели капитальный ремонт в двух объектах культуры по нацпроекту «Семья» - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-03T06:48:46Z",
       "decision": null
     }
   ]
