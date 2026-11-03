@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T06:48:46Z",
+  "updated_at": "2026-11-03T16:16:18Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10517,6 +10517,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-03T06:48:46Z",
+      "decision": null
+    },
+    {
+      "id": "p-69eca99c61",
+      "raw_item": {
+        "item_id": "69eca99c61f98dba7064f5f0ec6f02fec9837935",
+        "source_id": "src-rospotr",
+        "publisher": "ФБУЗ \"Центр гигиены и эпидемиологии в Чеченской Республике\"",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yNGFjekQzMDNEcmljZlFUSHMzNEVnUHl0Smlkd3ItUnVwaEo4SEQ4WXNjdjlWUGh1Q3BPX3RnbnhlNU82WDM2MU8zdERNWl95RzJkc1g4UG5fa21OYVJXZWg1V3A3dw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yNGFjekQzMDNEcmljZlFUSHMzNEVnUHl0Smlkd3ItUnVwaEo4SEQ4WXNjdjlWUGh1Q3BPX3RnbnhlNU82WDM2MU8zdERNWl95RzJkc1g4UG5fa21OYVJXZWg1V3A3dw?oc=5",
+        "title": "ТОП-5 ОПАСНЫХ ОСЛОЖНЕНИЙ ГРИППА: ЧЕМ ОПАСНА ИНФЕКЦИЯ И КАК ЗАЩИТИТЬ СВОЁ ЗДОРОВЬЕ - ФБУЗ \"Центр гигиены и эпидемиологии в Чеченской Республике\"",
+        "summary": "ТОП-5 ОПАСНЫХ ОСЛОЖНЕНИЙ ГРИППА: ЧЕМ ОПАСНА ИНФЕКЦИЯ И КАК ЗАЩИТИТЬ СВОЁ ЗДОРОВЬЕ  ФБУЗ \"Центр гигиены и эпидемиологии в Чеченской Республике\"",
+        "published_at": "2026-11-02T14:18:26+00:00",
+        "collected_at": "2026-11-03T16:16:11Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "ТОП-5 ОПАСНЫХ ОСЛОЖНЕНИЙ ГРИППА: ЧЕМ ОПАСНА ИНФЕКЦИЯ И КАК ЗАЩИТИТЬ СВОЁ ЗДОРОВЬЕ - ФБУЗ \"Центр гигиены и эпидемиологии в Чеченской Республике\"",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-03T16:16:18Z",
       "decision": null
     }
   ]
