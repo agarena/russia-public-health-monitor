@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T02:20:58Z",
+  "updated_at": "2026-11-04T12:09:09Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10546,6 +10546,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-03T16:16:18Z",
+      "decision": null
+    },
+    {
+      "id": "p-233f7a1634",
+      "raw_item": {
+        "item_id": "233f7a16345744c19c70ff9bb0743d70b2845e5b",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWkw5N3ppNzNPeTJxYXliYk9vZ1EtdmRCanpWeXF1a2RWNGJWVDAtZlBXNFdMalNZUG1SYTlLRFA3bjFWWjZ2OGdJNnE1ellyTVI3clJlS3FTUmFiVzE2cm5HUjQtdU9YVFdxci1YakZZd291ekJTVmVieUc4NkxFb0hUd1lOWV9ncmdqcDVPbUd1OGxiX0xDb2JLWWhBRDJjUS04Y0ptMktyZzUtNGZmb1RQOHlFd09EeFR4cW1BOUtaQ281cTZ3bmZsYWZnYUQ0UVh1UnMyaThrQlRYY0NKR2ZNa1g?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWkw5N3ppNzNPeTJxYXliYk9vZ1EtdmRCanpWeXF1a2RWNGJWVDAtZlBXNFdMalNZUG1SYTlLRFA3bjFWWjZ2OGdJNnE1ellyTVI3clJlS3FTUmFiVzE2cm5HUjQtdU9YVFdxci1YakZZd291ekJTVmVieUc4NkxFb0hUd1lOWV9ncmdqcDVPbUd1OGxiX0xDb2JLWWhBRDJjUS04Y0ptMktyZzUtNGZmb1RQOHlFd09EeFR4cW1BOUtaQ281cTZ3bmZsYWZnYUQ0UVh1UnMyaThrQlRYY0NKR2ZNa1g?oc=5",
+        "title": "Иркутский противочумный институт нарушал требования безопасности, а оборудование для него закупало Минобороны - Люди Байкала",
+        "summary": "Иркутский противочумный институт нарушал требования безопасности, а оборудование для него закупало Минобороны  Люди Байкала",
+        "published_at": "2026-11-02T21:45:08+00:00",
+        "collected_at": "2026-11-04T12:09:08Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Иркутский противочумный институт нарушал требования безопасности, а оборудование для него закупало Минобороны - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-04T12:09:09Z",
       "decision": null
     }
   ]
