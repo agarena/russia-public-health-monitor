@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T00:55:13Z",
+  "updated_at": "2026-11-05T09:30:11Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10575,6 +10575,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-04T12:09:09Z",
+      "decision": null
+    },
+    {
+      "id": "p-c4dfcea012",
+      "raw_item": {
+        "item_id": "c4dfcea01233965221c75ff4787af0bbb21fc18f",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRFBmWHNPT0s2N1dGcUs5NmlIREM1ZVdrcWowNW9BMUlHdE83Sk43MERsejJsODlPYXo3UDAxNVU0d1FhZmRBbDZ5VnRCUHl0X1ljb3pzOGViSkdWNU51Z0F2dUl4aXNNMXFldnVwcWpKMThkV3hjMlYtZHBxOWdRaXJhYXpEcUJMUFdBUzJtTHh4a2lfbEwyUWFHM3E2M2x5N2JjNlF2ZDgtZmRUZGF6V1ZBcXNwd1FyY3RvMmE1M2VXc0QyLXFJWmF3VEZzN3Zoc2s3Y1Z6aVppT3dvZnBuenYzazlnZw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRFBmWHNPT0s2N1dGcUs5NmlIREM1ZVdrcWowNW9BMUlHdE83Sk43MERsejJsODlPYXo3UDAxNVU0d1FhZmRBbDZ5VnRCUHl0X1ljb3pzOGViSkdWNU51Z0F2dUl4aXNNMXFldnVwcWpKMThkV3hjMlYtZHBxOWdRaXJhYXpEcUJMUFdBUzJtTHh4a2lfbEwyUWFHM3E2M2x5N2JjNlF2ZDgtZmRUZGF6V1ZBcXNwd1FyY3RvMmE1M2VXc0QyLXFJWmF3VEZzN3Zoc2s3Y1Z6aVppT3dvZnBuenYzazlnZw?oc=5",
+        "title": "Pneumonic plague, by the numbers - CNN",
+        "summary": "Pneumonic plague, by the numbers  CNN",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-11-05T09:30:07Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Pneumonic plague, by the numbers - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-05T09:30:11Z",
       "decision": null
     }
   ]
