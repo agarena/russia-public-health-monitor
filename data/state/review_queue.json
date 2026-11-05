@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:02:02Z",
+  "updated_at": "2026-11-05T23:38:46Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10604,6 +10604,66 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-05T09:30:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-a4f1d5554b",
+      "raw_item": {
+        "item_id": "a4f1d5554b47d4f9667aabb3cd83edbb09634eef",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pNmRPRzIwX2Z3NmZSblBrWU90NkJZSkxwSTdhX25vaFl2aGdVa3BlVUNDTnRydzQ1VlhhdjdQV0Zabks1MW5HQWgzNG8zX2hRMkxwSmpDcVdUWmc3N0hiNjN5Q2FweUxlTFRqRWJ4T1RPV1NPV1BOWVFYSHpwQQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pNmRPRzIwX2Z3NmZSblBrWU90NkJZSkxwSTdhX25vaFl2aGdVa3BlVUNDTnRydzQ1VlhhdjdQV0Zabks1MW5HQWgzNG8zX2hRMkxwSmpDcVdUWmc3N0hiNjN5Q2FweUxlTFRqRWJ4T1RPV1NPV1BOWVFYSHpwQQ?oc=5",
+        "title": "Earliest evidence of cannabis use found in ancient Siberian tomb - CNN",
+        "summary": "Earliest evidence of cannabis use found in ancient Siberian tomb  CNN",
+        "published_at": "2026-11-05T19:00:15+00:00",
+        "collected_at": "2026-11-05T23:38:40Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Earliest evidence of cannabis use found in ancient Siberian tomb - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-05T23:38:46Z",
+      "decision": null
+    },
+    {
+      "id": "p-32fa1a68d6",
+      "raw_item": {
+        "item_id": "32fa1a68d62de5c62e126e4267a6e4f2edc7b535",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcXJMeVV5am51ZUlUWGFjanhCaE5zQktGOWxFVERkZVlYZkJGSGZLaHQ5RlpRbEhWNEhkMWFFM0ZXYjZFdnVxOTVoNHBoMFItZGJDQWFYZDlQMkI3cUVXcE5tZU85RERIODlkYVZLejlCTDN0TXVBMWk2cHdrOF93Z0l2OA?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcXJMeVV5am51ZUlUWGFjanhCaE5zQktGOWxFVERkZVlYZkJGSGZLaHQ5RlpRbEhWNEhkMWFFM0ZXYjZFdnVxOTVoNHBoMFItZGJDQWFYZDlQMkI3cUVXcE5tZU85RERIODlkYVZLejlCTDN0TXVBMWk2cHdrOF93Z0l2OA?oc=5",
+        "title": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk - CNBC",
+        "summary": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk  CNBC",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-11-05T23:38:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [
+        "r-sig-023"
+      ],
+      "proposed_at": "2026-11-05T23:38:46Z",
       "decision": null
     }
   ]
