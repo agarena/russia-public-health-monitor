@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T01:56:07Z",
+  "updated_at": "2026-11-07T08:47:42Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10722,6 +10722,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-07T01:56:07Z",
+      "decision": null
+    },
+    {
+      "id": "p-0825f0cd25",
+      "raw_item": {
+        "item_id": "0825f0cd251bfcc1f2185979645c2897dba28777",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU0V1bkg1RmRTOW5TYk5kOHFwVzdyRFZybE1IMFJ6a2dxWEtmdnRYV0FKLXhwbVFJYUNKZEtrZjlkS0xES3BqdnBzQmNDT21MOHRsaFJkbnVDSmdfek5CT1ZBb0RXQlRha2NyYXJzeDJjczNScFd5UllEeTFGWjJyOV8yQ2dZcGRaV0Z3ek1MbG85eWJBQk1mZHRZRnRlZnJaT3Z3enp2YU80emtMTlBaR29yc3gxUkdWMmhEMl9EZ1N3T2RnTDc3NGlSUG94eWd6QWx3bE9EUlA0UTZq?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQU0V1bkg1RmRTOW5TYk5kOHFwVzdyRFZybE1IMFJ6a2dxWEtmdnRYV0FKLXhwbVFJYUNKZEtrZjlkS0xES3BqdnBzQmNDT21MOHRsaFJkbnVDSmdfek5CT1ZBb0RXQlRha2NyYXJzeDJjczNScFd5UllEeTFGWjJyOV8yQ2dZcGRaV0Z3ek1MbG85eWJBQk1mZHRZRnRlZnJaT3Z3enp2YU80emtMTlBaR29yc3gxUkdWMmhEMl9EZ1N3T2RnTDc3NGlSUG94eWd6QWx3bE9EUlA0UTZq?oc=5",
+        "title": "Trump admin. increases pressure on Kremlin over death at plague lab - CNN",
+        "summary": "Trump admin. increases pressure on Kremlin over death at plague lab  CNN",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-11-07T08:47:38Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump admin. increases pressure on Kremlin over death at plague lab - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-07T08:47:42Z",
       "decision": null
     }
   ]
