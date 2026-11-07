@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T21:29:59Z",
+  "updated_at": "2026-11-07T01:56:07Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10664,6 +10664,64 @@
         "r-sig-023"
       ],
       "proposed_at": "2026-11-05T23:38:46Z",
+      "decision": null
+    },
+    {
+      "id": "p-04b4e9326f",
+      "raw_item": {
+        "item_id": "04b4e9326fa6bbb297944ab914d4516833eefc8d",
+        "source_id": "src-irk-gov",
+        "publisher": "Правительство Иркутской Области",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKNjNJRm9sMlVpY0lLWXQ2dzBLd1FXOFdDWGlBcDBDcFdBSENvU05QR2Jza3RNT1dzOUlrS3dRSGdNQXR1WU1BTU15ZjlkVkJZQlRSTDBTUC0?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKNjNJRm9sMlVpY0lLWXQ2dzBLd1FXOFdDWGlBcDBDcFdBSENvU05QR2Jza3RNT1dzOUlrS3dRSGdNQXR1WU1BTU15ZjlkVkJZQlRSTDBTUC0?oc=5",
+        "title": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба» - Правительство Иркутской Области",
+        "summary": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба»  Правительство Иркутской Области",
+        "published_at": "2026-10-23T05:54:49+00:00",
+        "collected_at": "2026-11-07T01:56:06Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба» - Правительство Иркутской Области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-07T01:56:07Z",
+      "decision": null
+    },
+    {
+      "id": "p-90c2eb59d5",
+      "raw_item": {
+        "item_id": "90c2eb59d5039cd98ea5b13188b7062a46a06449",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOHlYQjEyakY3dlotR25kYnZQVWFld3FGZ1A1UzBjQTlDc0RDWGM4dUdPZDZMTTVEZUZ1YUJwSUN3SVpycFl5SmtKQy10bEFWdk9KY0VVaEdvcFNEeUYyV1NmN2h5bG4tZjVqdDJHajl5dG9DWVljWnktTmZtNXRTN0R1amhucF9vamxzRWlsVE0ybTNrV1VIWDZQbUVqblFyY2ZIRlBUR3hxRGRF?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOHlYQjEyakY3dlotR25kYnZQVWFld3FGZ1A1UzBjQTlDc0RDWGM4dUdPZDZMTTVEZUZ1YUJwSUN3SVpycFl5SmtKQy10bEFWdk9KY0VVaEdvcFNEeUYyV1NmN2h5bG4tZjVqdDJHajl5dG9DWVljWnktTmZtNXRTN0R1amhucF9vamxzRWlsVE0ybTNrV1VIWDZQbUVqblFyY2ZIRlBUR3hxRGRF?oc=5",
+        "title": "Russia dismisses reports of second plague case, WHO urges formal response - Al Jazeera",
+        "summary": "Russia dismisses reports of second plague case, WHO urges formal response  Al Jazeera",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-11-07T01:56:06Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia dismisses reports of second plague case, WHO urges formal response - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-07T01:56:07Z",
       "decision": null
     }
   ]
