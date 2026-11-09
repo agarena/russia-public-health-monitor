@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:49:09Z",
+  "updated_at": "2026-11-09T20:44:41Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10809,6 +10809,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-08T16:40:51Z",
+      "decision": null
+    },
+    {
+      "id": "p-56d16798ec",
+      "raw_item": {
+        "item_id": "56d16798ec7772c98f8549e7401f6ef294a213cd",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5U1VDeU03cmVoODhqZlhSUTFmMVUzMXVtQzhkUl9BaTk0Z0xhR0E3RDhCNVltclJBS0x1NW9Ec1lfd2pzQlN3WWpWVWNBdXJaazBkMzVfSUpLajVFN2c?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB5U1VDeU03cmVoODhqZlhSUTFmMVUzMXVtQzhkUl9BaTk0Z0xhR0E3RDhCNVltclJBS0x1NW9Ec1lfd2pzQlN3WWpWVWNBdXJaazBkMzVfSUpLajVFN2c?oc=5",
+        "title": "Город Шелехов в выходные дни на благоустроенных территориях встретит свой День города! - Официальный портал Иркутской области",
+        "summary": "Город Шелехов в выходные дни на благоустроенных территориях встретит свой День города!  Официальный портал Иркутской области",
+        "published_at": "2026-11-09T01:40:15+00:00",
+        "collected_at": "2026-11-09T20:44:39Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Город Шелехов в выходные дни на благоустроенных территориях встретит свой День города! - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-09T20:44:41Z",
+      "decision": null
+    },
+    {
+      "id": "p-80a204e12b",
+      "raw_item": {
+        "item_id": "80a204e12b235397a9145f5a26cef285c44d1bb9",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42UDNJSU9hSkVVTE9BbFQxWmI3cS1rTHFacXJJU1F2N3Z3TDA1Qkx4NlU2MVAzRkVVd3V2dmUxd1E3Q09lNmpIODdRbEtUNENKQ0ZrV3ctRmZlNHVxem43OFVPVQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42UDNJSU9hSkVVTE9BbFQxWmI3cS1rTHFacXJJU1F2N3Z3TDA1Qkx4NlU2MVAzRkVVd3V2dmUxd1E3Q09lNmpIODdRbEtUNENKQ0ZrV3ctRmZlNHVxem43OFVPVQ?oc=5",
+        "title": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба» - Официальный портал Иркутской области",
+        "summary": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба»  Официальный портал Иркутской области",
+        "published_at": "2026-11-09T00:24:22+00:00",
+        "collected_at": "2026-11-09T20:44:39Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "В Шелехове школьникам показали, как ИИ меняет 3D-технологии: прошел «Урок цифры» на базе «IT-куба» - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-09T20:44:41Z",
       "decision": null
     }
   ]
