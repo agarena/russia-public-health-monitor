@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T12:39:48Z",
+  "updated_at": "2026-11-10T20:49:45Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11070,6 +11070,93 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-10T12:39:48Z",
+      "decision": null
+    },
+    {
+      "id": "p-bd22b1371e",
+      "raw_item": {
+        "item_id": "bd22b1371e0330edce38ecbda5f210020516faae",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZnFIRXZJWmNZNkEtaV8yeGtPeWk5cWd2U2xPMTh3MWhZQ3ZSNllyTkZYMFBSQnhERS1kdWs4QzJ1dVJmaXdyMEdOMFNBUEZhRFNqcGk2bVAzQmstZmpZc2JESjlTVjQ4ZE1tOW5CVndCZmU5U3BkQ3hENWFHdDdzakw2QlIwNlFkOWhTTQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZnFIRXZJWmNZNkEtaV8yeGtPeWk5cWd2U2xPMTh3MWhZQ3ZSNllyTkZYMFBSQnhERS1kdWs4QzJ1dVJmaXdyMEdOMFNBUEZhRFNqcGk2bVAzQmstZmpZc2JESjlTVjQ4ZE1tOW5CVndCZmU5U3BkQ3hENWFHdDdzakw2QlIwNlFkOWhTTQ?oc=5",
+        "title": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia - CNBC",
+        "summary": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia  CNBC",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-11-10T20:49:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump set to talk to Russia's Putin 'very soon' about plague-related death in Siberia - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-10T20:49:45Z",
+      "decision": null
+    },
+    {
+      "id": "p-976a38773b",
+      "raw_item": {
+        "item_id": "976a38773b6a196cdadba05916361cbbd56ce663",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNXVjNVVnNjBhZzVNbFl6MlBkV3hmNndGNm5xOGo3WFV4aTl6UDNUa1hzcUNVamc4M3o3aGhvTU5VTldDU25UdnJkR0VYSFZfOGRJb3hhQXdYbWppNk1icXRBYkllbENWN25PSjN3MXd2d0ZKazlvMllkd2ZLQTNxOVpvLUo0SkpMZk90dHJuM2hKaVM3OGxGT1Vn?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNXVjNVVnNjBhZzVNbFl6MlBkV3hmNndGNm5xOGo3WFV4aTl6UDNUa1hzcUNVamc4M3o3aGhvTU5VTldDU25UdnJkR0VYSFZfOGRJb3hhQXdYbWppNk1icXRBYkllbENWN25PSjN3MXd2d0ZKazlvMllkd2ZLQTNxOVpvLUo0SkpMZk90dHJuM2hKaVM3OGxGT1Vn?oc=5",
+        "title": "Russia hospitalizes almost 200 people after researcher's death from plague: Reports - CNBC",
+        "summary": "Russia hospitalizes almost 200 people after researcher's death from plague: Reports  CNBC",
+        "published_at": "2026-10-05T07:00:00+00:00",
+        "collected_at": "2026-11-10T20:49:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russia hospitalizes almost 200 people after researcher's death from plague: Reports - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-10T20:49:45Z",
+      "decision": null
+    },
+    {
+      "id": "p-a095466a05",
+      "raw_item": {
+        "item_id": "a095466a0570e82469cbd75a61ca7955c3c4cbe2",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRi1RWUQ0ZHBpSGY1ek5pakxfaHhQUzFQbS1QeGk0YVc5WUZiTlBNNUU5bWZOVXdPR0I0bGVZZjNNYkJqZGtiT290ZjRKREpTWnFUdFNyNXF2Z2tGbzJhQllLWjZaNVRESndvYTA4RkJ2alZORFdyVFdOYUlOdzZ4QldqZ1hDM0tXM0ZYZGlKWQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRi1RWUQ0ZHBpSGY1ek5pakxfaHhQUzFQbS1QeGk0YVc5WUZiTlBNNUU5bWZOVXdPR0I0bGVZZjNNYkJqZGtiT290ZjRKREpTWnFUdFNyNXF2Z2tGbzJhQllLWjZaNVRESndvYTA4RkJ2alZORFdyVFdOYUlOdzZ4QldqZ1hDM0tXM0ZYZGlKWQ?oc=5",
+        "title": "Russian lab worker's suspected plague death leaves experts puzzled - CNBC",
+        "summary": "Russian lab worker's suspected plague death leaves experts puzzled  CNBC",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-11-10T20:49:41Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Russian lab worker's suspected plague death leaves experts puzzled - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-10T20:49:45Z",
       "decision": null
     }
   ]
