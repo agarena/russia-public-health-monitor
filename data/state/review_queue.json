@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T20:44:41Z",
+  "updated_at": "2026-11-10T04:07:43Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -10867,6 +10867,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-09T20:44:41Z",
+      "decision": null
+    },
+    {
+      "id": "p-016f0ced50",
+      "raw_item": {
+        "item_id": "016f0ced50822ff3df22abfd7168384a115c38ad",
+        "source_id": "src-irk-gov",
+        "publisher": "Официальный портал Иркутской области",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MemhMVFVTMFhwLTEwS09xdFNhQTZyNmF6bGxBSU12OHhvcUoxTk5XeWwzaDFpOEltYlZEX2ZVMjIwc3hSaTJrRnJCZGtOZVFKTER2NXN5Mm9EUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MemhMVFVTMFhwLTEwS09xdFNhQTZyNmF6bGxBSU12OHhvcUoxTk5XeWwzaDFpOEltYlZEX2ZVMjIwc3hSaTJrRnJCZGtOZVFKTER2NXN5Mm9EUQ?oc=5",
+        "title": "Капитальный ремонт Детской школы искусств имени К.Г. Самарина в Шелехове выходит на финишную прямую - Официальный портал Иркутской области",
+        "summary": "Капитальный ремонт Детской школы искусств имени К.Г. Самарина в Шелехове выходит на финишную прямую  Официальный портал Иркутской области",
+        "published_at": "2026-11-09T15:05:39+00:00",
+        "collected_at": "2026-11-10T04:07:40Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Капитальный ремонт Детской школы искусств имени К.Г. Самарина в Шелехове выходит на финишную прямую - Официальный портал Иркутской области",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-10T04:07:43Z",
       "decision": null
     }
   ]
