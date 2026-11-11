@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T09:26:58Z",
+  "updated_at": "2026-11-11T17:53:53Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11157,6 +11157,66 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-10T20:49:45Z",
+      "decision": null
+    },
+    {
+      "id": "p-35fce463cf",
+      "raw_item": {
+        "item_id": "35fce463cf42cc87c33e6602760e894c3cecd4c0",
+        "source_id": "src-cnbc",
+        "publisher": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iUm5vMTZIZ0pOUnduTzVmRHBZUVlCTDZzX2tMTWxSUnBoaW82NHlnU1d6ZXEtYmctaUZtbDM0M2pJdVdRZGZIS2tZS3FmYjVUMU5IR2ZwaUNKUGFVV1puaWVCNk5LSE5UY0h2MEpXYmZwbzJzbEh5VTF0Y1A?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iUm5vMTZIZ0pOUnduTzVmRHBZUVlCTDZzX2tMTWxSUnBoaW82NHlnU1d6ZXEtYmctaUZtbDM0M2pJdVdRZGZIS2tZS3FmYjVUMU5IR2ZwaUNKUGFVV1puaWVCNk5LSE5UY0h2MEpXYmZwbzJzbEh5VTF0Y1A?oc=5",
+        "title": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday - CNBC",
+        "summary": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday  CNBC",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-11-11T17:53:52Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday - CNBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [
+        "r-sig-022"
+      ],
+      "proposed_at": "2026-11-11T17:53:53Z",
+      "decision": null
+    },
+    {
+      "id": "p-1001de6f65",
+      "raw_item": {
+        "item_id": "1001de6f652309803898d16ed4ee92de441cf50f",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZUJzU0hwZVhtOFhIRWw4QmtxdHotTmxieHdQWkczeVBCb21XSUZFVmNWWnpseXZ1ajQ0WlFuNFRWdk1VeFQ3UDJ6YmJQSzR4c29KT25EZVFxdXFYOHd6THV2d1ZQRXpOQTFCRGVuai1SektlS2tpUDF6MzFtd0NUWVQ0bi1jYURJRl90ekZfWnVQd3hKcnJjV1ppN2Rlb00wamU0RE9OcklVWUgwdUU3Q1p6dS1TajVBUmpRR05laWRQRXZQOVgxT0ktMl9vd9IB1AFBVV95cUxQTDFtVnMzS0hjS1djVGxuOFYybjdJUGJSLVhZR05SR1JFSkcyLXRXdnRNRVpCdXZwZ3BpLXJlbUN3WktqNkZwVnFxT1NOa01ZNVZxekxDb3NRaG9fX2VlUEtheDlqRFFRdXF5SmZ1LTlGSW16U21qRzdDSEJ5R2dHY3ZGLU01a2RHWDhKN3BWNklqZ2pJWGVVUk92NEQ5ekhKS2RFbk1aY25FWGluYk9ITHZUS2NIVWc5c0xxVjE4M0Z2c29EN0dFd2pmekFQUXYwXzBoUQ?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZUJzU0hwZVhtOFhIRWw4QmtxdHotTmxieHdQWkczeVBCb21XSUZFVmNWWnpseXZ1ajQ0WlFuNFRWdk1VeFQ3UDJ6YmJQSzR4c29KT25EZVFxdXFYOHd6THV2d1ZQRXpOQTFCRGVuai1SektlS2tpUDF6MzFtd0NUWVQ0bi1jYURJRl90ekZfWnVQd3hKcnJjV1ppN2Rlb00wamU0RE9OcklVWUgwdUU3Q1p6dS1TajVBUmpRR05laWRQRXZQOVgxT0ktMl9vd9IB1AFBVV95cUxQTDFtVnMzS0hjS1djVGxuOFYybjdJUGJSLVhZR05SR1JFSkcyLXRXdnRNRVpCdXZwZ3BpLXJlbUN3WktqNkZwVnFxT1NOa01ZNVZxekxDb3NRaG9fX2VlUEtheDlqRFFRdXF5SmZ1LTlGSW16U21qRzdDSEJ5R2dHY3ZGLU01a2RHWDhKN3BWNklqZ2pJWGVVUk92NEQ5ekhKS2RFbk1aY25FWGluYk9ITHZUS2NIVWc5c0xxVjE4M0Z2c29EN0dFd2pmekFQUXYwXzBoUQ?oc=5",
+        "title": "Delhi AQI 300-plus: Asthmatic man develops pneumonia, wife and son suffer breathing problems - The Indian Express",
+        "summary": "Delhi AQI 300-plus: Asthmatic man develops pneumonia, wife and son suffer breathing problems  The Indian Express",
+        "published_at": "2026-11-03T08:00:00+00:00",
+        "collected_at": "2026-11-11T17:53:53Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Delhi AQI 300-plus: Asthmatic man develops pneumonia, wife and son suffer breathing problems - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-11T17:53:53Z",
       "decision": null
     }
   ]
