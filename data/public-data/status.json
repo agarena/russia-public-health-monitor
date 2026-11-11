@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T20:49:46Z",
-  "last_successful_collection": "2026-11-10T20:49:45Z",
-  "sources_healthy": 25,
+  "generated_at": "2026-11-11T01:56:58Z",
+  "last_successful_collection": "2026-11-11T01:56:58Z",
+  "sources_healthy": 22,
   "sources_total": 25,
   "source_health": [
     {
       "id": "src-who",
       "name": "世界卫生组织",
-      "status": "healthy"
+      "status": "degraded"
     },
     {
       "id": "src-rospotr",
@@ -22,7 +22,7 @@
     {
       "id": "src-reuters",
       "name": "路透社",
-      "status": "healthy"
+      "status": "degraded"
     },
     {
       "id": "src-ap",
@@ -42,7 +42,7 @@
     {
       "id": "src-bbc",
       "name": "英国广播公司",
-      "status": "healthy"
+      "status": "degraded"
     },
     {
       "id": "src-axios",
