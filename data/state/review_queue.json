@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T09:50:52Z",
+  "updated_at": "2026-11-12T18:20:11Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11275,6 +11275,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-12T09:50:52Z",
+      "decision": null
+    },
+    {
+      "id": "p-2ffbf67a39",
+      "raw_item": {
+        "item_id": "2ffbf67a390520426b1f03758f2c8639241742d8",
+        "source_id": "src-rospotr",
+        "publisher": "Управление Роспотребнадзора по городу Москве",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZmF2ZEF5VnR3Y2QzVEEzek54cDFnc2ttckc0NWdCalc4d0ZxVXBraTBIY2dOTXFJVjhvTmV1ZU56QkpZbGZVN2tkUjRhcW1SYVlOUlpMNGdGWGJDckVud3pYa3E3Y0R4SElXTElFRkhXNmRQZmZRMWF4WnhQbzFNbEdQTS1jRk90RlRjMnk5ZmhkOWI5Ty1mN3N1X2dCMFB2MmZfVWItaHhpeGFzdGV6REhDMjhjVDJ1NHVHS1JybEI3YnNiTDBjSEE2cnpGdFR4X0tyaDc5aWo5QkZOSFp3LWpncC0xdw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZmF2ZEF5VnR3Y2QzVEEzek54cDFnc2ttckc0NWdCalc4d0ZxVXBraTBIY2dOTXFJVjhvTmV1ZU56QkpZbGZVN2tkUjRhcW1SYVlOUlpMNGdGWGJDckVud3pYa3E3Y0R4SElXTElFRkhXNmRQZmZRMWF4WnhQbzFNbEdQTS1jRk90RlRjMnk5ZmhkOWI5Ty1mN3N1X2dCMFB2MmZfVWItaHhpeGFzdGV6REhDMjhjVDJ1NHVHS1JybEI3YnNiTDBjSEE2cnpGdFR4X0tyaDc5aWo5QkZOSFp3LWpncC0xdw?oc=5",
+        "title": "12 ноября — Всемирный день борьбы с пневмонией: о мерах профилактики - Управление Роспотребнадзора по городу Москве",
+        "summary": "12 ноября — Всемирный день борьбы с пневмонией: о мерах профилактики  Управление Роспотребнадзора по городу Москве",
+        "published_at": "2026-11-12T08:12:25+00:00",
+        "collected_at": "2026-11-12T18:20:08Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "12 ноября — Всемирный день борьбы с пневмонией: о мерах профилактики - Управление Роспотребнадзора по городу Москве",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-12T18:20:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-b3e7bf110f",
+      "raw_item": {
+        "item_id": "b3e7bf110f8d81469556121303a5b18df94d03d1",
+        "source_id": "src-mailru-science",
+        "publisher": "Наука Mail",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEJ2LWU3QXRPZGFfUkpSWjJab3pTQ3ZZLUlENW5NT1F4akVNSkNLUjloZDlZQXlISHVpZU5iaF9EWUI3eXBzZkhnbk1IUHcwMDUzbXU1NVZUcl9TSndIU3RiWmg1TG1TLV9vX2pONDBPOEV3NFl5bFh0RlFfTjRKSjVKc2RHR0lDUmNEeg?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEJ2LWU3QXRPZGFfUkpSWjJab3pTQ3ZZLUlENW5NT1F4akVNSkNLUjloZDlZQXlISHVpZU5iaF9EWUI3eXBzZkhnbk1IUHcwMDUzbXU1NVZUcl9TSndIU3RiWmg1TG1TLV9vX2pONDBPOEV3NFl5bFh0RlFfTjRKSjVKc2RHR0lDUmNEeg?oc=5",
+        "title": "Российские ученые выяснили, какие нарушения чаще сохраняются после пневмонии - Наука Mail",
+        "summary": "Российские ученые выяснили, какие нарушения чаще сохраняются после пневмонии  Наука Mail",
+        "published_at": "2026-11-12T15:00:16+00:00",
+        "collected_at": "2026-11-12T18:20:09Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "Российские ученые выяснили, какие нарушения чаще сохраняются после пневмонии - Наука Mail",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-12T18:20:11Z",
       "decision": null
     }
   ]
