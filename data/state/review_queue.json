@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T00:44:20Z",
+  "updated_at": "2026-11-12T09:50:52Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11217,6 +11217,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-11T17:53:53Z",
+      "decision": null
+    },
+    {
+      "id": "p-cd1a24105e",
+      "raw_item": {
+        "item_id": "cd1a24105e75e6955eb0d496a1aeba5470c1c7b2",
+        "source_id": "src-rospotr",
+        "publisher": "Центр гигиенического образования населения",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcFFUTlRoeXhCNzNWU2ktZWE4elFCT1YwcnZPX3VFcXRSamtpb2g2M0xYWFlnaTZrVGU0WnpXZUhGSlBCbmwzaUFBNjdJbW94S01CeDhDeTl5eHJUdEI5LWtFeG5sM0tVdVJRdS1sMjVJWkJpLXoxOWcxbzJKNHFTckFSLWpqblRLdks0?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcFFUTlRoeXhCNzNWU2ktZWE4elFCT1YwcnZPX3VFcXRSamtpb2g2M0xYWFlnaTZrVGU0WnpXZUhGSlBCbmwzaUFBNjdJbW94S01CeDhDeTl5eHJUdEI5LWtFeG5sM0tVdVJRdS1sMjVJWkJpLXoxOWcxbzJKNHFTckFSLWpqblRLdks0?oc=5",
+        "title": "Вебинар «Пневмонии. Устойчивость микробов» - Центр гигиенического образования населения",
+        "summary": "Вебинар «Пневмонии. Устойчивость микробов»  Центр гигиенического образования населения",
+        "published_at": "2026-11-12T04:40:13+00:00",
+        "collected_at": "2026-11-12T09:50:48Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "S",
+      "source_type": "official",
+      "official": true,
+      "title_zh": "Вебинар «Пневмонии. Устойчивость микробов» - Центр гигиенического образования населения",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-12T09:50:52Z",
+      "decision": null
+    },
+    {
+      "id": "p-18409be75d",
+      "raw_item": {
+        "item_id": "18409be75da736bc06ccc147507f67733ca47d0a",
+        "source_id": "src-indianexpress",
+        "publisher": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRThhUmZVZzRJQV96anV1UE84X2FhV2U3MjhaZUFmeHNtMFdtWXFuRF9ERHJldEo0RTJHbVhoaENWNVFpeWgtVFBWQTBSc2YzVHU5QWptSGhKdmJnbS0tZklxWnZEcjVfY29rUzcwelFwWDhFb0UwMlBiU3pfS3pZNG1Qajd5ZjEyYVA3OTdsQThzeXlVbVB3akNhTEF0bHBLd0NDcWh0LUZpNWwzRWk1cFB0dmR4Z3FfUzFFUU40OVVrblB3alZWTEF4VnF0TkVkZzBV0gHaAUFVX3lxTE5aQ2ZWbHBEMFNTaUpCVDBoa1hIQ3M4dGRKWmFnSXQ0UTFZQTM0ai1NOXhkYTNiTlhfQnF3TEllNllBcEE2d1AzcmxhNTJPczZUZWFPQ2tQY3ZveWFxR0dMZzg4X0V5RW9JV0V5Zmo1cHJYWTJobnljMkM2cEFHM0h6MzRpSXNiM1k2bTNJSmtIYU12NEFLc3d1SHgzYWxGVWdvR1BteGhWM1ZRYU16YkRIbE9BWlo3MERSYmZ2UzRTaDRLNVBEbDgwNTdrUVZHMUFsaUhuRklOWkRR?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRThhUmZVZzRJQV96anV1UE84X2FhV2U3MjhaZUFmeHNtMFdtWXFuRF9ERHJldEo0RTJHbVhoaENWNVFpeWgtVFBWQTBSc2YzVHU5QWptSGhKdmJnbS0tZklxWnZEcjVfY29rUzcwelFwWDhFb0UwMlBiU3pfS3pZNG1Qajd5ZjEyYVA3OTdsQThzeXlVbVB3akNhTEF0bHBLd0NDcWh0LUZpNWwzRWk1cFB0dmR4Z3FfUzFFUU40OVVrblB3alZWTEF4VnF0TkVkZzBV0gHaAUFVX3lxTE5aQ2ZWbHBEMFNTaUpCVDBoa1hIQ3M4dGRKWmFnSXQ0UTFZQTM0ai1NOXhkYTNiTlhfQnF3TEllNllBcEE2d1AzcmxhNTJPczZUZWFPQ2tQY3ZveWFxR0dMZzg4X0V5RW9JV0V5Zmo1cHJYWTJobnljMkM2cEFHM0h6MzRpSXNiM1k2bTNJSmtIYU12NEFLc3d1SHgzYWxGVWdvR1BteGhWM1ZRYU16YkRIbE9BWlo3MERSYmZ2UzRTaDRLNVBEbDgwNTdrUVZHMUFsaUhuRklOWkRR?oc=5",
+        "title": "US issues urgent Russia travel alert after lab worker Darya Shipilova dies in suspected plague case - The Indian Express",
+        "summary": "US issues urgent Russia travel alert after lab worker Darya Shipilova dies in suspected plague case  The Indian Express",
+        "published_at": "2026-10-07T07:00:00+00:00",
+        "collected_at": "2026-11-12T09:50:49Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "US issues urgent Russia travel alert after lab worker Darya Shipilova dies in suspected plague case - The Indian Express",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-12T09:50:52Z",
       "decision": null
     }
   ]
