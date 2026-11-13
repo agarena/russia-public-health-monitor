@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T18:20:11Z",
+  "updated_at": "2026-11-13T01:05:43Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11333,6 +11333,64 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-12T18:20:11Z",
+      "decision": null
+    },
+    {
+      "id": "p-4ddfdd6427",
+      "raw_item": {
+        "item_id": "4ddfdd64272e922fa381fbcac5b8f475c65bba8b",
+        "source_id": "src-aljazeera",
+        "publisher": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1Bic1I2aTNQSUNhN1dac1gyN2trcmR3dm9KdFlhUFJvYUpIaUZ4dEpDbXdBd0VxYkdNWHpFblc3VXBERlkwSEFvcmFLZzl0TnZ4azh4Z3hCTDB4Zlpxemo5T3NzSFVMOWpqbC1qRnczekhkaHFnb1dDZWppUlNvSGpQMEFDR2RNMUZHUzBsSVozUzlDYlphVUFqLWdLZE9nYURpNXB6ZUxZN1ZIV09YVU5hSklDUVZsV002SkZ6UzFkdi0wYXNNVw?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1Bic1I2aTNQSUNhN1dac1gyN2trcmR3dm9KdFlhUFJvYUpIaUZ4dEpDbXdBd0VxYkdNWHpFblc3VXBERlkwSEFvcmFLZzl0TnZ4azh4Z3hCTDB4Zlpxemo5T3NzSFVMOWpqbC1qRnczekhkaHFnb1dDZWppUlNvSGpQMEFDR2RNMUZHUzBsSVozUzlDYlphVUFqLWdLZE9nYURpNXB6ZUxZN1ZIV09YVU5hSklDUVZsV002SkZ6UzFkdi0wYXNNVw?oc=5",
+        "title": "Al Jazeera – Russia dismisses reports of second plague case - Al Jazeera",
+        "summary": "Al Jazeera – Russia dismisses reports of second plague case  Al Jazeera",
+        "published_at": "2026-10-08T07:00:00+00:00",
+        "collected_at": "2026-11-13T01:05:38Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Al Jazeera – Russia dismisses reports of second plague case - Al Jazeera",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-13T01:05:43Z",
+      "decision": null
+    },
+    {
+      "id": "p-cee6eb2246",
+      "raw_item": {
+        "item_id": "cee6eb2246d76b750eaef4a5fe0be76c6df20542",
+        "source_id": "src-baikal",
+        "publisher": "Люди Байкала",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzVuWXp0dXE3ZUlkSTNpWnhrUU1KQjNhX05yeWs1d2JfRHZual9fNVFUYkFHc3RmMU85ZDZRdHVkXzF6dlJVUDYtTldBS29WYzV6OE14RFpDNS1FdVNJYXo3Y0NoRTJGaGNuLWV6TzZVak1xT2RvakFNU1hCQ2hqaUo5UG5RVTVMMGc?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzVuWXp0dXE3ZUlkSTNpWnhrUU1KQjNhX05yeWs1d2JfRHZual9fNVFUYkFHc3RmMU85ZDZRdHVkXzF6dlJVUDYtTldBS29WYzV6OE14RFpDNS1FdVNJYXo3Y0NoRTJGaGNuLWV6TzZVak1xT2RvakFNU1hCQ2hqaUo5UG5RVTVMMGc?oc=5",
+        "title": "В Иркутске завершилась конференция о чуме - Люди Байкала",
+        "summary": "В Иркутске завершилась конференция о чуме  Люди Байкала",
+        "published_at": "2026-11-12T21:17:38+00:00",
+        "collected_at": "2026-11-13T01:05:38Z",
+        "language": "ru",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "B",
+      "source_type": "local_media",
+      "official": false,
+      "title_zh": "В Иркутске завершилась конференция о чуме - Люди Байкала",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-13T01:05:43Z",
       "decision": null
     }
   ]
