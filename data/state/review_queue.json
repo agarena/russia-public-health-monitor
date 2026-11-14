@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:23:59Z",
+  "updated_at": "2026-11-14T15:05:33Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11420,6 +11420,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-14T06:23:59Z",
+      "decision": null
+    },
+    {
+      "id": "p-ef55d5a3d6",
+      "raw_item": {
+        "item_id": "ef55d5a3d650c738f84df000f1ed2d0602257e53",
+        "source_id": "src-bbc",
+        "publisher": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vTkdtN1BGWHhGVUZFalZmdUJ5TDNvLUdQdUhmLVdkUnplTjdoNk9CRUhvcGdMbm84SmY0Rk9hRllOcktMT1g2cmtvc3VVamRUazI3TEpUV3JBalk?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vTkdtN1BGWHhGVUZFalZmdUJ5TDNvLUdQdUhmLVdkUnplTjdoNk9CRUhvcGdMbm84SmY0Rk9hRllOcktMT1g2cmtvc3VVamRUazI3TEpUV3JBalk?oc=5",
+        "title": "'Giant rats plague flat' and 'teens cause firework chaos' - BBC",
+        "summary": "'Giant rats plague flat' and 'teens cause firework chaos'  BBC",
+        "published_at": "2026-11-14T07:30:31+00:00",
+        "collected_at": "2026-11-14T15:05:29Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "'Giant rats plague flat' and 'teens cause firework chaos' - BBC",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-14T15:05:33Z",
       "decision": null
     }
   ]
