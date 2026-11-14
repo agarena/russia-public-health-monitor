@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:35:24Z",
+  "updated_at": "2026-11-14T06:23:59Z",
   "proposals": [
     {
       "id": "p-72050f9afa",
@@ -11391,6 +11391,35 @@
       "reason_zh": "未配置 AI，人工审核时翻译与定级",
       "derived_from": [],
       "proposed_at": "2026-11-13T01:05:43Z",
+      "decision": null
+    },
+    {
+      "id": "p-eec579cf28",
+      "raw_item": {
+        "item_id": "eec579cf28f8b5185784441bd64342e0c8c0bb9e",
+        "source_id": "src-cnn",
+        "publisher": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlRWSUJtSXo3cDJ0S01mSXJqOHdwV29IellyNHNUZGdkQng0UjNBNU0weEFFeDZSeWZfa0ppbmFBcGwxWjFEOE42WFA5RnJ6Z3o1NkNVOEVpUkVESlV5Y1lEd2ZlTUNWNTdfRUpNQkFGd2FBc0N6aWJEeW51aEtVVmxNTzJMV251MGZmdzFkbkdxdW00ZE1zdFhvZTZucVo3X1N2bjFuWmNtT2FzTDdv?oc=5",
+        "url_canonical": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlRWSUJtSXo3cDJ0S01mSXJqOHdwV29IellyNHNUZGdkQng0UjNBNU0weEFFeDZSeWZfa0ppbmFBcGwxWjFEOE42WFA5RnJ6Z3o1NkNVOEVpUkVESlV5Y1lEd2ZlTUNWNTdfRUpNQkFGd2FBc0N6aWJEeW51aEtVVmxNTzJMV251MGZmdzFkbkdxdW00ZE1zdFhvZTZucVo3X1N2bjFuWmNtT2FzTDdv?oc=5",
+        "title": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection - CNN",
+        "summary": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection  CNN",
+        "published_at": "2026-10-06T07:00:00+00:00",
+        "collected_at": "2026-11-14T06:23:56Z",
+        "language": "en",
+        "relay": true,
+        "event_relevant": true
+      },
+      "source_tier": "A",
+      "source_type": "international_media",
+      "official": false,
+      "title_zh": "Dozens Quarantined After Researcher at Russian Plague Laboratory Dies of “Unknown” Infection - CNN",
+      "summary_zh": "",
+      "suggested_status": "unconfirmed",
+      "suggested_confidence": "C1",
+      "importance": 0.5,
+      "reason_zh": "未配置 AI，人工审核时翻译与定级",
+      "derived_from": [],
+      "proposed_at": "2026-11-14T06:23:59Z",
       "decision": null
     }
   ]
